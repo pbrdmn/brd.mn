@@ -717,3 +717,7 @@ body {
   opacity: .2;
   float: right;
 }
+.article .date {
+  opacity: .2;
+  font-size: 12pt;
+}
