@@ -644,7 +644,7 @@ body {
 .header__content {
   position: relative;
   margin: 0 auto;
-  max-width: 35em;
+  max-width: 40em;
   padding: 0px 1.0875rem 0px;
 }
 
@@ -701,6 +701,19 @@ body {
 
 .page {
   margin: 0 auto;
-  max-width: 35em;
+  max-width: 40em;
   padding: 0px 1.0875rem 1.45rem;
+}
+
+.article__preview {
+}
+.article__preview h2 a {
+  text-decoration: none;
+}
+.article__preview h2 a:hover {
+  text-decoration: underline;
+}
+.article__preview .date {
+  opacity: .2;
+  float: right;
 }
