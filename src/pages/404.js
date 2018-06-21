@@ -1,10 +1,59 @@
 import React from 'react'
+import Link from 'gatsby-link'
 
-const NotFoundPage = () => (
-  <div>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </div>
-)
+export default function NotFoundPage({ data }) {
+  const { edges: posts } = data.allMarkdownRemark
+  return (
+    <div>
+      <h1>Not Found</h1>
+      <p>There is no page at this address...</p>
+      <p>Here are some other pages</p>
+      <div className="articles">
+        {posts
+          .filter(post => post.node.frontmatter.title.length > 0)
+          .filter((post, index) => index < 5)
+          .map(
+            ({
+              node: {
+                id,
+                excerpt,
+                frontmatter: { title, date, path },
+              },
+            }) => {
+              return (
+                <div className="article__preview" key={id}>
+                  <div className="date">{date}</div>
+                  <h2>
+                    <Link to={path}>{title}</Link>
+                  </h2>
+                  <p className="article__content">{excerpt}</p>
+                </div>
+              )
+            }
+          )}
+      </div>
+    </div>
+  )
+}
 
-export default NotFoundPage
+export const pageQuery = graphql`
+  query missingQuery {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      limit: 5
+    ) {
+      edges {
+        node {
+          excerpt(pruneLength: 140)
+          id
+          html
+          frontmatter {
+            title
+            date(formatString: "MMMM DD, YYYY")
+            path
+          }
+        }
+      }
+    }
+  }
+`
