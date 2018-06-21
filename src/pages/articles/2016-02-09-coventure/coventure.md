@@ -5,7 +5,7 @@ date: 2016-02-09
 path: /articles/coventure
 ---
 
-![CoVenture Homepage](/images/coventure.png)
+![CoVenture Homepage](coventure.png)
 
 CoVenture website was updated and refreshed to provide a fully responsive experience for visitors.
 

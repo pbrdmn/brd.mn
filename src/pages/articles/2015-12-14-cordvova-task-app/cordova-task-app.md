@@ -5,7 +5,7 @@ date: 2015-12-14
 path: /articles/cordvova-task-app
 ---
 
-![Cross-Platform App Development](/images/android-in-app-selfie-in-progress.jpg)
+![Cross-Platform App Development](android-in-app-selfie-in-progress.jpg)
 
 Cross-Platform app development on iOS (iPhone and iPad) and Android (Phone and Tablet) using the Cordova build tool. A Task app was built to allow persistent storage of tasks as well as integration of device hardware. The camera integration allowed users to attach a photo to a task. Completed tasks are moved to a separate list and uncompleted tasks can be shared via email.
 

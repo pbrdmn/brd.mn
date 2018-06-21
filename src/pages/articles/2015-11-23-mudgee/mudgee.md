@@ -5,7 +5,7 @@ date: 2015-11-23
 path: /articles/mudgee
 ---
 
-![Visit Mudgee Region Homepage](/images/mudgee.png)
+![Visit Mudgee Region Homepage](mudgee.png)
 
 Worked with Mudgee Tourism to develop a responsive website to feature attractions and local businesses of the Mudgee region.
 

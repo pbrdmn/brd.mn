@@ -5,7 +5,7 @@ date: 2015-11-01
 path: /articles/mo
 ---
 
-![Mo](/images/mo.png)
+![Mo](mo.png)
 
 I am growing a moustache for Movember.
 

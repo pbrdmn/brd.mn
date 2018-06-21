@@ -5,7 +5,7 @@ date: 2015-10-28
 path: /articles/sydcss
 ---
 
-![SYD.CSS](/images/sydcss.png)
+![SYD.CSS](sydcss.png)
 
 ## Speaker 1 - James Coleman - Macropod 
  

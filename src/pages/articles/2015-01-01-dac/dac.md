@@ -5,7 +5,7 @@ date: 2015-01-01
 path: /articles/dac
 ---
 
-![Dapto Anglican Church Homepage](/images/dac.png)
+![Dapto Anglican Church Homepage](dac.png)
 
 Designed, developed, launched and maintained the Dapto Anglican Church website since 2005.
 

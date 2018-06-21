@@ -5,7 +5,7 @@ date: 2015-07-01
 path: /articles/bmi
 ---
 
-![BMI Calculator](/images/bmi.png)
+![BMI Calculator](bmi.png)
 
 The Healthy BMI Calculator is available in the Windows Phone Store.
 

@@ -5,7 +5,7 @@ date: 2016-07-29
 path: /articles/crudjs
 ---
 
-![Crud Test App](/images/crudjs.png)
+![Crud Test App](crudjs.png)
 
 A simple JavaScript library to manage JSON objects via CRUD api.
 
