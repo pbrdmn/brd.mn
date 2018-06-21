@@ -4,7 +4,12 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: ['gatsby-remark-copy-images'],
+      },
+    },
     'gatsby-plugin-offline',
     `gatsby-plugin-sharp`,
     {
