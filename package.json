@@ -24,7 +24,9 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup-website": "aws s3 website s3://brd.mn/ --index-document index.html --error-document 404.html",
+    "deploy": "aws s3 sync ./public s3://brd.mn/"
   },
   "devDependencies": {
     "prettier": "^1.13.5"
