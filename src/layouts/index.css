@@ -578,12 +578,27 @@ a.header__link {
   display: inline-block;
   text-decoration: none;
   color: var(--light-color);
-  padding: 0.5rem 0 0.5rem 2rem;
+  padding: 0.5rem 0 0.2rem 2rem;
 }
 .header__links a:active,
 .header__links a:focus,
 .header__links a:hover {
   color: #333;
+}
+
+img.icon {
+  background: transparent;
+  border-radius: 0;
+  margin: 0;
+  width: 1.5em;
+  height: 1.5em;
+  box-shadow: none;
+  fill: var(--light-color);
+  rect: var(--light-color);
+  path: var(--light-color);
+}
+.fill {
+  fill: var(--light-color);
 }
 
 .page {
@@ -597,10 +612,8 @@ a.header__link {
   padding: .5em;
   transition: .2s;
   border-radius: .5em;
-  transform: scale(1.00001);
 }
 .article__preview:hover {
-  transform: scale(1.01);
   background: rgba(255, 255, 255, .5);
 }
 .article__preview h2 a {
