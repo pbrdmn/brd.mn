@@ -11,7 +11,7 @@ const Header = () => (
         </Link>
       </h1>
       <Navigation />
-      <Link to="#h" className="header__anchor" />
+      <div className="header__anchor" />
     </div>
   </div>
 )
