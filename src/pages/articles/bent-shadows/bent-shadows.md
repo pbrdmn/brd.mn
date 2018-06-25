@@ -1,5 +1,5 @@
 ---
-title: CSS Bend Shadows
+title: CSS Bent Shadows
 description: Add a bent shadow to an element to give the impression of curled corners.
 date: 2016-02-23
 path: /articles/bent-shadows

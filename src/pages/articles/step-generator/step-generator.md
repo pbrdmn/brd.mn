@@ -9,17 +9,16 @@ Using generator functions to automate producing a sequence of numbers.
 
 Published to [NPM/step-generator](https://www.npmjs.com/package/step-generator)
 
-
 ## Installation
 
 ```
-$> npm install --save step-generator
+npm install --save step-generator
 ```
 
 ## Test
 
 ```
-$> npm test
+npm test
 ```
 
 ## Usage
@@ -42,4 +41,7 @@ console.log(evens)
 ```
 
 Output
-> `[2, 4, 6, 8]`
+
+```
+[2, 4, 6, 8]
+```
