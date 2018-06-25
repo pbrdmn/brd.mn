@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #087;
-  --primary-alt-color: #1d635e;
-  --secondary-color: #F80;
+  --primary-color: #147DCC;
+  --primary-alt-color: #5827cc;
+  --secondary-color: #CE121F;
   --light-color: #EEE;
   --dark-color: #333;
 }
@@ -212,7 +212,7 @@ body {
   color: hsla(0, 0%, 0%, 0.8);
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: normal;
+  font-weight: 100;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
@@ -222,49 +222,46 @@ body {
 }
 img {
   max-width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin: 0 0 1.45rem;
+  padding: 0;
   border-radius: .5em;
   background: white;
   box-shadow: 0 .3em 1em rgba(0, 0, 0, .3);
 }
 h1 {
-  margin: 0 0 1.45rem;
+  margin: 1.45rem 0;
   padding: .5em 0;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: 100;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
-  line-height: 1.1;
+  color: var(--dark-color);
+  font-size: 4rem;
+  line-height: 1;
 }
 h2 {
   padding: 0;
-  margin: 0 0 1.45rem;
+  margin: 1.45rem 0;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: 100;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
-  line-height: 1.1;
+  color: var(--secondary-color);
+  font-size: 3rem;
+  line-height: 1;
 }
 h3 {
   padding: 0;
-  margin: 0 0 1.45rem;
+  margin: 1.45rem 0;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: 100;
   text-rendering: optimizeLegibility;
-  font-size: 1.38316rem;
+  color: var(--primary-color);
+  font-size: 2rem;
   line-height: 1.1;
 }
 h4 {
@@ -520,7 +517,6 @@ body {
 }
 
 #h {
-  background: var(--primary-alt-color);
   margin-bottom: 2.9rem;
 }
 
@@ -546,20 +542,13 @@ body {
 
 a.header__link {
   text-decoration: none;
-  color: var(--light-color);
+  color: black;
+  font-weight: 100;
   padding: 0.5rem 0;
+  opacity: .3;
 }
-
-.header__anchor {
-  display: block;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  width: 0;
-  height: 0;
-  border-left: 1.0875rem solid transparent;
-  border-right: 1.0875em solid transparent;
-  border-top: 1.0875em solid var(--primary-alt-color);
+a.header__link:hover {
+  opacity: .7;
 }
 
 .header__links {
@@ -577,9 +566,10 @@ a.header__link {
 .header__links a {
   display: inline-block;
   text-decoration: none;
-  color: var(--light-color);
+  color: var(--dark-color);
   padding: 0.5rem 0.2rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
+  opacity: .3;
 }
 .header__links a:active,
 .header__links a:focus,
@@ -605,25 +595,22 @@ img.icon {
 }
 
 .article__preview {
-  margin: 0 -.5em 2em;
-  padding: 1em .5em;
+  margin: 0 0 2em;
+  padding: 1em 0;
   transition: .2s;
   border-radius: .5em;
 }
-.article__preview:hover {
-  background: rgba(255, 255, 255, .5);
-}
+
 .article__preview h2 a {
   text-decoration: none;
 }
 .article__preview h2 a:hover {
   text-decoration: underline;
 }
-.article__preview .date {
-  opacity: .2;
-  float: right;
-}
+
+.article__preview .date,
 .article .date {
-  opacity: .2;
   font-size: 12pt;
+  font-weight: 100;
+  color: var(--secondary-color);
 }

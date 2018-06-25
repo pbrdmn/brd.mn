@@ -22,10 +22,10 @@ export default function NotFoundPage({ data }) {
             }) => {
               return (
                 <div className="article__preview" key={id}>
-                  <div className="date">{date}</div>
                   <h2>
                     <Link to={path}>{title}</Link>
                   </h2>
+                  <div className="date">{date}</div>
                   <p className="article__content">{excerpt}</p>
                 </div>
               )
