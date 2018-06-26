@@ -7,6 +7,7 @@ export default function Welcome({ data }) {
     <div>
       <h1>About Me</h1>
       <p>Front-end engineer with extensive experience building responsive web applications using JavaScript, CSS3 and HTML5.</p>
+      <p><Link to="/profile">See my profile</Link></p>
       <hr />
       <div className="articles">
         {posts

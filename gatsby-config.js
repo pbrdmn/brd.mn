@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Philip Boardman',
+    title: 'brd.mn',
+    description: 'Front-end engineer building React and React Native apps with JavaScript, CSS3 and HTML5',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
