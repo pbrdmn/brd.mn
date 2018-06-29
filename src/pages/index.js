@@ -5,7 +5,7 @@ export default function Welcome({ data }) {
   const { edges: posts } = data.allMarkdownRemark
   return (
     <div>
-      <h1>About Me</h1>
+      <h1><Link to="/" rel="permalink">About Me</Link></h1>
       <p>Front-end engineer with extensive experience building responsive web applications using JavaScript, CSS3 and HTML5.</p>
       <p><Link to="/profile">See my profile</Link></p>
       <hr />

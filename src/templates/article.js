@@ -1,13 +1,14 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import Link from 'gatsby-link'
 
 export default function Template({ data }) {
-  const { markdownRemark: { html: __html, frontmatter: { title, date } } } = data
+  const { markdownRemark: { html: __html, frontmatter: { title, date, path } } } = data
   return (
     <div className="article__container">
       <Helmet title={`${title} – Philip Boardman`} />
       <div className="article">
-        <h1>{title}</h1>
+        <h1><Link to={path} rel="permalink">{title}</Link></h1>
         <h2 className="date">{date}</h2>
         <div
           className="article__content"

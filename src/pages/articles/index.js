@@ -5,11 +5,22 @@ export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark
   return (
     <div className="articles">
+      <h1>
+        <Link to="/articles" rel="permalink">
+          Articles
+        </Link>
+      </h1>
       {posts
         .filter(post => post.node.frontmatter.path.startsWith('/articles/'))
         .filter(post => post.node.frontmatter.title.length > 0)
         .map(
-          ({ node: { id, excerpt, frontmatter: { title, date, path } } }) => {
+          ({
+            node: {
+              id,
+              excerpt,
+              frontmatter: { title, date, path },
+            },
+          }) => {
             return (
               <div className="article__preview" key={id}>
                 <h2>
