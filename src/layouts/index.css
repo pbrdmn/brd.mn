@@ -226,15 +226,15 @@ img {
 }
 
 h1 {
-  margin: 1.45rem 0;
-  padding: .5em 0;
+  margin: 0 0 1.45rem;
+  padding: 0;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   text-rendering: optimizeLegibility;
   color: var(--dark-color);
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -246,26 +246,26 @@ h1 a:visited {
 
 h2 {
   padding: 0;
-  margin: 1.45rem 0;
+  margin: 0 0 1.45rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   text-rendering: optimizeLegibility;
   color: var(--secondary-color);
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1;
 }
 h3 {
   padding: 0;
-  margin: 1.45rem 0;
+  margin: 0 0 1.45rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   text-rendering: optimizeLegibility;
   color: var(--primary-color);
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 1.1;
 }
 h4 {
@@ -560,12 +560,6 @@ a.header__link:hover {
   font-size: 1rem;
   line-height: 2rem;
 }
-#h:focus .header__links,
-#h:target .header__links,
-#h:hover .header__links {
-  visibility: visible;
-  opacity: 1;
-}
 
 .header__links a {
   display: inline-block;
@@ -605,10 +599,10 @@ img.icon {
   border-radius: .5em;
 }
 
-.article__preview h2 a {
+a:link {
   text-decoration: none;
 }
-.article__preview h2 a:hover {
+a:hover {
   text-decoration: underline;
 }
 
