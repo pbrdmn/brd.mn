@@ -5,9 +5,18 @@ export default function Welcome({ data }) {
   const { edges: posts } = data.allMarkdownRemark
   return (
     <div>
-      <h1><Link to="/" rel="permalink">About Me</Link></h1>
-      <p>Front-end engineer with extensive experience building responsive web applications using JavaScript, CSS3 and HTML5.</p>
-      <p><Link to="/profile">See my profile</Link></p>
+      <h1>
+        <Link to="/" rel="permalink">
+          brd.mn
+        </Link>
+      </h1>
+      <p>
+        Philip Boardman is a front-end engineer with extensive experience
+        building responsive web applications using JavaScript, CSS3 and HTML5.
+      </p>
+      <p>
+        <Link to="/profile">View profile</Link>
+      </p>
       <hr />
       <div className="articles">
         {posts
@@ -24,15 +33,18 @@ export default function Welcome({ data }) {
             }) => {
               return (
                 <div className="article__preview" key={id}>
-                  <h2>
+                  <h3>
                     <Link to={path}>{title}</Link>
-                  </h2>
+                  </h3>
                   <div className="date">{date}</div>
                   <p className="article__content">{excerpt}</p>
                 </div>
               )
             }
           )}
+        <p>
+          <Link to="/articles">More articles &hellip;</Link>
+        </p>
       </div>
     </div>
   )
