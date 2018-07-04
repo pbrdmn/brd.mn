@@ -6,7 +6,7 @@ export default function Template({ data }) {
   const { markdownRemark: { html: __html, frontmatter: { title, date, path } } } = data
   return (
     <div className="article__container">
-      <Helmet title={`${title} – Philip Boardman`} />
+      <Helmet title={`${title} – brd.mn`} />
       <div className="article">
         <h1><Link to={path} rel="permalink">{title}</Link></h1>
         <h2 className="date">{date}</h2>

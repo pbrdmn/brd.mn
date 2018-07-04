@@ -6,7 +6,7 @@ const Header = ({ siteTitle }) => (
   <div id="h">
     <div className="header__content">
       <h1 className="header__title">
-        <Link to="/" className="header__link">
+        <Link to="/" className="header__link" title="Home">
           {siteTitle}
         </Link>
       </h1>
