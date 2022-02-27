@@ -19,7 +19,6 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <title>brd.mn &rArr; Building a sample application with Svelte</title>
   </head>
-
   <body>
     <header>
       <h1><a href="/">Philip Boardman</a></h1>
@@ -28,51 +27,25 @@
 
     <nav>
       <ul>
+        <li><a href="/">About</a></li>
         <li><a href="/articles">Articles</a></li>
         <li><a href="/cv">CV</a></li>
-        <li><a href="https://twitter.com/pbrdmn" rel="me">Tweets</a></li>
-        <li><a href="https://github.com/dustykeyboard" rel="me">Github</a></li>
-        <li><a href="https://polywork.com/pbrdmn" rel="me">Polywork</a></li>
-        <li>
-          <a href="https://linkedin.com/in/philipboardman/" rel="me"
-            >LinkedIn</a
-          >
+        <li><a href="/links">Links</a>
         </li>
       </ul>
     </nav>
-
     <article>
-      <h2>Building a sample application with Svelte</h2>
-      <p class="meta">
-        <date>2022-02-20</date>. Using Svelte to build a sample data capture and
-        review application
-      </p>
+    
+<h2>Building a sample application with Svelte</h2>
+<p>After reading about <a href="https://github.com/readme/guides/document-success">documenting success</a>, and recently completing a series of annual performance reviews, I wrote a proof of concept web application for capturing achievements and assigning them to work areas, such as key result areas (KRAs).</p>
+<p>Application was written in Svelte, using the Vanilla CSS framework for simple application styling. Application data is written to localStorage for persistence and loaded next time the user opens the application.</p>
+<p>Routing was implemented with pages according to SvelteKit standard implementation.</p>
+<p><a href="https://github.com/dustykeyboard/achievements">github.com/dustykeyboard/achievements</a></p>
 
-      <p>
-        After reading about
-        <a href="https://github.com/readme/guides/document-success"
-          >documenting success</a
-        >, and recently completing a series of annual performance reviews, I
-        wrote a proof of concept web application for capturing achievements and
-        assigning them to work areas, such as key result areas (<abbr
-          title="Key Result Areas"
-          >KRAs</abbr
-        >).
-      </p>
-      <p>
-        Application was written in Svelte, using the Vanilla CSS framework for
-        simple application styling. Application data is written to localStorage
-        for persistence and loaded next time the user opens the application.
-      </p>
-      <p>
-        Routing was implemented with pages according to SvelteKit standard
-        implementation.
-      </p>
-      <p>
-        <a href="https://github.com/dustykeyboard/achievements"
-          >github.com/dustykeyboard/achievements</a
-        >
-      </p>
+
+<footer>
+  <p class="meta">Published on: Sun Feb 20 2022</p>
+</footer>
     </article>
   </body>
 </html>
