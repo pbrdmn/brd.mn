@@ -27,7 +27,6 @@ html {
   -webkit-font-smoothing: antialiased;
   color: var(--foreground);
   background: var(--background);
-  /* background: linear-gradient(var(--background), var(--background2)); */
   min-height: 100vh;
 }
 
