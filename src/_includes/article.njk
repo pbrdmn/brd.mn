@@ -2,8 +2,10 @@
 layout: page.njk
 ---
 
-{{content | safe }}
+<article>
+  {{content | safe }}
 
-<footer>
-  <p class="meta">Published on: {{ page.date.toDateString() }}</p>
-</footer>
+  <footer>
+    <p class="meta">Published on: {{ page.date.toDateString() }}</p>
+  </footer>
+</article>

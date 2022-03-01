@@ -17,7 +17,7 @@
     />
     <link rel="icon" href="/favicon.png" type="image/png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <title>brd.mn &rArr; Rebuilding with Eleventy</title>
+    <title>brd.mn 👉 Rebuilding with Eleventy</title>
   </head>
   <body>
     <header>
@@ -26,17 +26,13 @@
     </header>
 
     <nav>
-      <ul>
-        <li><a href="/">About</a></li>
-        <li><a href="/articles">Articles</a></li>
-        <li><a href="/cv">CV</a></li>
-        <li><a href="/links">Links</a>
-        </li>
+      <ul><li><a href="/">About Me</a></li><li><a href="/articles/">Articles</a></li><li><a href="/cv/">CV</a></li><li><a href="/links/">Links</a></li></li>
       </ul>
     </nav>
-    <article>
+    <main>
     
-<h2>Rebuilding with Eleventy</h2>
+<article>
+  <h2>Rebuilding with Eleventy</h2>
 <p>For a simple site, I've been hosting a minimal PHP <code>markdown</code> to <code>html</code> application to manage this personal site. As my professional software development career has moved on I haven't programmed in PHP for <em>years</em>. So it's time for this site to follow this transition and move away from PHP too.</p>
 <p>While I wanted to move away from PHP, the underlying data for this site is managed in markdown. So ideally I would like to keep this data in markdown and only replace the html generation and also refresh the styling at the same time.</p>
 <hr>
@@ -67,9 +63,10 @@
 <p>After this, there is opportunity to explore integrating the build and publish steps into a CI/CD pipeline to be triggered by changes to a code repository, when adding or editing an article or other page.</p>
 
 
-<footer>
-  <p class="meta">Published on: Mon Feb 28 2022</p>
-</footer>
-    </article>
+  <footer>
+    <p class="meta">Published on: Mon Feb 28 2022</p>
+  </footer>
+</article>
+    </main>
   </body>
 </html>

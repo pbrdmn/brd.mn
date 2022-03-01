@@ -17,7 +17,7 @@
     />
     <link rel="icon" href="/favicon.png" type="image/png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <title>brd.mn &rArr; {{ title }}</title>
+    <title>brd.mn 👉 {{ title }}</title>
   </head>
   <body>
     <header>
@@ -27,15 +27,15 @@
 
     <nav>
       <ul>
-        <li><a href="/">About</a></li>
-        <li><a href="/articles">Articles</a></li>
-        <li><a href="/cv">CV</a></li>
-        <li><a href="/links">Links</a>
+        {%- for link in collections.navAlpha -%}
+  <li><a href="{{link.url}}">{{ link.data.title }}</a></li>
+{%- endfor -%}
+
         </li>
       </ul>
     </nav>
-    <article>
+    <main>
     {{ content | safe }}
-    </article>
+    </main>
   </body>
 </html>

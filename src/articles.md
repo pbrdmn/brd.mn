@@ -1,6 +1,7 @@
 ---
 layout: articles.njk
 title: Articles
+tags: nav
 ---
 ## Articles
 

@@ -1,6 +1,7 @@
 ---
 layout: page.njk
 title: About Me
+tags: nav
 ---
 About Me
 --------

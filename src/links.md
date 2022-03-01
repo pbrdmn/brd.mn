@@ -1,6 +1,7 @@
 ---
 layout: page.njk
 title: Links
+tags: nav
 ---
 * Read my (re)tweets on [Twitter](https://twitter.com/pbrdmn)
 * See some of my activity on [Github](https://github.com/dustykeyboard)

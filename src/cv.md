@@ -1,6 +1,7 @@
 ---
 layout: page.njk
 title: CV
+tags: nav
 ---
 Curriculum Vitae
 ----------------
