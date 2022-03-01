@@ -87,6 +87,10 @@ nav li:not(:first-child)::before {
 nav a {
   text-decoration: none;
 }
+nav a[aria-current] {
+  color: var(--foreground);
+  pointer-events: none;
+}
 
 h2 {
   font-size: 2rem;
