@@ -76,15 +76,17 @@ nav li {
   list-style: none;
   display: inline-block;
 }
-nav li:not(:first-child)::before {
-  content: "/";
-  padding: 0 0.3rem;
-}
-nav a {
+nav a,
+nav a:visited {
+  color: var(--link);
   text-decoration: none;
+  display: inline-block;
+  padding: 0 1rem;
 }
 nav a[aria-current] {
   color: var(--foreground);
+  background-color: var(--background2);
+  border-radius: 0.5rem;
   pointer-events: none;
 }
 
