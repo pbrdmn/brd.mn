@@ -81,7 +81,7 @@ nav a:visited {
   color: var(--link);
   text-decoration: none;
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
 }
 nav a[aria-current] {
   color: var(--foreground);
@@ -97,9 +97,12 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   line-height: 1.1em;
   font-weight: normal;
+}
+h3 a:visited {
+  color: var(--foreground);
 }
 
 .meta {
@@ -120,6 +123,7 @@ pre {
 pre {
   font-size: 16px;
   white-space: pre-wrap;
+  word-break: break-all;
 }
 
 section > :first-child,
