@@ -1,10 +1,10 @@
 ---
 layout: page.njk
 title: CV
+description: The Curriculum Vitae of Philip Boardman
 tags: nav
 ---
-Curriculum Vitae
-----------------
+## Curriculum Vitae
 
 > ### Engineering Manager at Compono
 > 

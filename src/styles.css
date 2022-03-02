@@ -12,8 +12,8 @@
     --foreground: #ddd4df;
     --background: #160d16;
     --background2: #241824;
-    --link: #6262ff;
-    --visited: #a539b9;
+    --link: #8995ff;
+    --visited: #eb7bff;
     --hover: #8080eb;
   }
 }
@@ -69,10 +69,6 @@ header p {
   margin-top: 0;
 }
 
-nav {
-  font-size: 0.8rem;
-  line-height: 1.3rem;
-}
 nav ul,
 nav li {
   margin: 0;

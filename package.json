@@ -1,0 +1,25 @@
+{
+  "name": "brd.mn",
+  "version": "1.0.0",
+  "description": "Static site generator with 11ty",
+  "main": "src/index.md",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dustykeyboard/brd.mn.git"
+  },
+  "keywords": [
+    "11ty",
+    "blog",
+    "static"
+  ],
+  "author": "Philip Boardman <github@brd.mn>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dustykeyboard/brd.mn/issues"
+  },
+  "homepage": "https://github.com/dustykeyboard/brd.mn#readme"
+}
