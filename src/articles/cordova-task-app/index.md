@@ -2,6 +2,7 @@
 title: Cordova Task App
 description: Development and deploy cross-platform Tasks app with camera integration and offline storage
 date: 2015-12-14
+tags: mobile
 ---
 
 ![Cross-Platform App Development](android-in-app-selfie-in-progress.jpg)

@@ -5,7 +5,8 @@ layout: page.njk
 <article>
   {{content | safe }}
 
-  <footer>
-    <p class="meta">Published on: {{ page.date.toDateString() }}</p>
+  <footer class="meta">
+    Tags: {{ tags.join(', ') }}<br />
+    Published on: {{ page.date.toDateString() }}
   </footer>
 </article>

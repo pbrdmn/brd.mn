@@ -2,6 +2,7 @@
 title: crud.js
 description: Simple JavaScript library to manage JSON objects via CRUD api
 date: 2016-07-29
+tags: [api, javascript, php]
 ---
 
 ![Crud Test App](crudjs.png)

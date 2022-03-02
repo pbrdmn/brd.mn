@@ -2,6 +2,7 @@
 title:  One Month of Working Remotely
 description: My first experience of working remotely
 date: 2016-06-24
+tags: remote
 ---
 
 ![Sencha Headquarters](/articles/one-month-of-working-remotely/sencha-hq.png)

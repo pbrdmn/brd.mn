@@ -3,6 +3,7 @@ title: Building a sample application with Svelte
 description: Using Svelte to build a sample data capture and
         review application
 date: 2022-02-20
+tags: [javascript, svelte]
 ---
 ## Building a sample application with Svelte
 

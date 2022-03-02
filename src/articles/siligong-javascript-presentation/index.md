@@ -3,6 +3,7 @@ title: Siligong Javascript presentation
 description: Presenting the other stuff that you need to
         consider when working as a Javascript Developer
 date: 2020-02-06
+tags: [presentation, meetup]
 ---
 ## Siligong Javascript presentation
 

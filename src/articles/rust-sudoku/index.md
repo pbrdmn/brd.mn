@@ -2,6 +2,7 @@
 title: Learning rust, generating and solving sudoku puzzles
 description: Working with Rust to generate and solve sudoku puzzles
 date: 2021-11-21
+tags: rust
 ---
 ## Learning rust, generating and solving sudoku puzzles
 

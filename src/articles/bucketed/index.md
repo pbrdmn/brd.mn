@@ -2,6 +2,7 @@
 title: Xamarin cross platform bucket list application
 description: A cross platform mobile application developed using Xamarin and Parse.com
 date: 2016-02-08
+tags: mobile
 ---
 
 ![Bucketed iOS Screenshots](bucketed.png)

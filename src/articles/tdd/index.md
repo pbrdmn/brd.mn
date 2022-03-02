@@ -1,19 +1,19 @@
 ---
-title: Test Driven Development
+title: Getting started with Test Driven Development
 description: Explore the ideas of Test Driven Development and how it assists testing and code coverage
 date: 2016-07-13
-tags: articles
+tags: [javascript, testing, tdd]
 ---
 
 ## Getting started with Test Driven Development
 
 The *Test Driven Development* pattern instructs that tests are written first. Each test should describe the desired functionality and initially fail. After each test has been written, only the minimum code to pass the test is written.
 
-## Our Environment
+### Our Environment
 
 We will be writing a JavaScript `Users` class using the [Ext JS framework](https://www.sencha.com/products/extjs) and testing with the [Sencha Test Studio](https://www.sencha.com/products/test). These tests are written in Jasmine and usually stored in a `/test` directory alongside the `/app` directory where the application code will be written.
 
-## Our First Test
+### Our First Test
 
 Our first test will simply create a class object and assert that it is *defined* (i.e. not null). 
 
@@ -34,7 +34,7 @@ Ext.create('MyApp.main.Users', {});
 
 We’ve written one line of code, our test passes and we’re done.
 
-## Adding a Second Test
+### Adding a Second Test
 
 Now that we have started our `Users` class, we can add some functionality to it. Our second test will assert that the `Users.getUsers()` method returns an empty array before any users have been added.
 
@@ -61,7 +61,7 @@ Ext.create('MyApp.main.Users', {
 
 Our second test now passes.
 
-## Writing a Third Test
+### Writing a Third Test
 
 Our third test will add a user to our `users` array property. We describe the desired functionality in a test.
 
@@ -87,7 +87,7 @@ addUser: function(user) {
 
 Running the test again and our test user is added to the array and the value returned by `users.getUsers()` is now equal to `['first user']` and our test passes.
 
-## Write More Tests
+### Write More Tests
 
 Proceeding in this way, we write a test to describe the behaviour of each *public* function. We are building up a library of tests which prove that our code meets the requirements. These tests are *Unit Tests*, which help focus our development through *TDD* and provide *Regression Testing*. After each code change, all tests are run and we can quickly identify if the changes have any side-effects introducing bugs in other areas of the application.
  
