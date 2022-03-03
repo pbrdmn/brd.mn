@@ -15,6 +15,8 @@ From BlueScope, I moved onto public facing website and applications, developing 
 
 After several years of agency work with Wisdom, I moved into product development with start-up [AirService](https://www.airservice.com) as a Software Developer, where I had the opportunity to work with the new MEAN stack as well as build and launch a React Native mobile application to support their online ordering solution. During this time I also completed a Graduate Certificate of Mobile Application Development with [Charles Sturt University](https://www.csu.edu.au/).
 
+---
+
 At the end of 2018 I joined [Compono](https://compono.com) as the fourth developer of this small startup, working as a Senior Full Stack Developer building React UIs with GraphQL and Node microservices backends, publicly launching at the start of 2019. As Compono grew, I took a Lead Developer role and formed a team to create a new product. I lead the team extending the existing feature set of the initial smart hiring product with new applicant tracking features including hiring pipeine, messages and interview scheduling.
 
 With continued growth and  acquisitions, Compono's engineering had exceeded 30 developers and I was promoted to a new role of Engineering Manager, keen to share the knowledge of team building, performance and management I had learned and apply it across the several teams I would be managing. Keeping an eye on the developer experience and culture being important to myself as well as Compono, I have been involved in lots of hiring, performance management and planning activities and learning a lot along the way.

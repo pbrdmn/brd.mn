@@ -110,7 +110,6 @@ section,
 blockquote,
 pre {
   background: var(--background2);
-  background: linear-gradient(var(--background2), var(--background));
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   margin: 1rem -1rem;
@@ -122,11 +121,9 @@ pre {
   word-break: break-all;
 }
 
-section > :first-child,
 blockquote > :first-child {
   margin-top: 0.5rem;
 }
-section > :last-child,
 blockquote > :last-child {
   margin-bottom: 0.5rem;
 }
