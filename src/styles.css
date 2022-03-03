@@ -4,7 +4,14 @@
   --background2: #e5dfe6;
   --link: blue;
   --visited: purple;
-  --hover: navy;
+}
+
+@media print, (prefers-contrast: more) {
+  :root {
+    --foreground: #000;
+    --background: #fff;
+    --background2: #ccc;
+  }
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -14,7 +21,24 @@
     --background2: #241824;
     --link: #8995ff;
     --visited: #eb7bff;
-    --hover: #8080eb;
+    --link: #5858ff;
+    --visited: #bb2ebb;
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) and (prefers-contrast: more) {
+  :root {
+    --foreground: #ffffff;
+    --background: #000000;
+    --background2: #413c41;
+    --link: #5858ff;
+    --visited: #bb2ebb;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  * {
+    transition-duration: 0 !important;
   }
 }
 
@@ -43,10 +67,6 @@ a {
 a:visited {
   color: var(--visited);
 }
-a:hover,
-a:active {
-  color: var(--hover);
-}
 
 nav ul,
 nav li {
@@ -61,38 +81,35 @@ nav a:visited {
   text-decoration: none;
   display: inline-block;
   padding: 0.5rem 1rem;
-  transition: 0.5s ease-in;
-  background: linear-gradient(
-      var(--background) 0%,
-      var(--background) 50%,
-      var(--foreground) 50%,
-      var(--foreground) 55%
-    )
-    0% 0%;
-  background-size: 100% 200%;
+  transition: color 0.2s ease-in, background 0.2s ease-in;
+  background: var(--background);
   border-radius: 0.5rem;
 }
 nav a:hover {
-  background-position-y: 100%;
-  transition: 0.1s ease-in;
   color: var(--background);
+  background: var(--foreground);
 }
 nav a[aria-current] {
   color: var(--foreground);
   background: var(--background2);
   pointer-events: none;
 }
+@media print {
+  nav ul {
+    display: none;
+  }
+}
 
-nav header a:before {
-  background: url(/apple-touch-icon.png) center no-repeat var(--background);
-  background-size: cover;
-  content: "";
+nav header a img {
+  background: var(--background);
   display: inline-block;
   vertical-align: middle;
   width: 3em;
   height: 3em;
   margin-right: 0.5rem;
   border-radius: 50%;
+  border: 0;
+  transform: rotateZ(0);
 }
 
 @media screen and (min-width: 768px) {
@@ -130,6 +147,14 @@ pre {
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   margin: 1rem -1rem;
+}
+
+@media print, (prefers-contrast: more) {
+  blockquote,
+  pre {
+    background: var(--background);
+    outline: 2px solid var(--background2);
+  }
 }
 
 pre {

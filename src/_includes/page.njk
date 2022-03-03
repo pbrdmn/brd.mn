@@ -19,8 +19,8 @@
       content="#160d16"
       media="(prefers-color-scheme: dark)"
     />
-    <link rel="icon" href="/apple-touch-icon.png" type="image/png" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" href="/logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
 
     <meta property="og:title" content="{{ title }}" />
     <meta property="og:description" content="{{ description }}">
@@ -33,7 +33,7 @@
   </head>
   <body>
     <nav>
-      <header><a href="/">Philip Boardman</a></header>
+      <header><a href="/"><img src="/logo.png" width="64" height="64" alt="Logo" />Philip Boardman</a></header>
       <ul>
         {%- for link in collections.navAlpha -%}
           <li><a href="{{ link.url }}" {% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.data.title }}</a></li>
