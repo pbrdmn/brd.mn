@@ -55,6 +55,19 @@
   cursor: pointer;
   position: absolute;
   top: 0.5rem;
+  right: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .theme-toggle-dark,
+  .theme-toggle-light {
+    right: 50%;
+  }
+}
+@media print {
+  .theme-toggle-dark,
+  .theme-toggle-light {
+    display: none;
+  }
 }
 body[data-prefers="light"] .theme-toggle-light {
   display: none;
