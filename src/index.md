@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-title: About Me
+title: About
 description: I’m a friendly guy who loves music, coffee, coding and learning
 tags: nav
 ---
