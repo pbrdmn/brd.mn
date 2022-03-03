@@ -21,12 +21,8 @@
     <meta name="description" content="{{ description }}" />
   </head>
   <body>
-    <header>
-      <h1><a href="/">Philip Boardman</a></h1>
-      <p>Engineering Manager</p>
-    </header>
-
     <nav>
+      <header><a href="/"><span>Philip</span> <span>Boardman</span></a></header>
       <ul>
         {%- for link in collections.navAlpha -%}
           <li><a href="{{link.url}}" {% if page.url == link.url %} aria-current="page"{% endif %}>{{link.data.title }}</a></li>
