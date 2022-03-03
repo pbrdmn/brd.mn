@@ -57,24 +57,41 @@ nav li {
 }
 nav a,
 nav a:visited {
-  color: var(--link);
+  color: var(--foreground);
   text-decoration: none;
   display: inline-block;
   padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+nav a:hover {
+  background-color: var(--background2);
 }
 nav a[aria-current] {
   color: var(--foreground);
   background-color: var(--background2);
-  border-radius: 0.5rem;
   pointer-events: none;
 }
 
 nav header a {
-  background: url(/favicon.png) center left no-repeat;
-  background-size: 3rem;
-  padding: 1rem 1rem 1rem 4rem;
   font-size: 1rem;
-  color: var(--foreground) !important;
+  color: var(--foreground);
+}
+nav header a:before {
+  background: url(/apple-touch-icon.png) center center no-repeat
+    var(--background2);
+  background-size: 3rem;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 3em;
+  height: 3em;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+nav header a:hover:before {
+  background-color: var(--hover);
 }
 
 @media screen and (min-width: 768px) {
