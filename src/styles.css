@@ -61,26 +61,33 @@ nav a:visited {
   text-decoration: none;
   display: inline-block;
   padding: 0.5rem 1rem;
+  transition: background-position-y 0.5s ease-in;
+  background: linear-gradient(
+      var(--background) 0%,
+      var(--background) 50%,
+      var(--hover) 50%,
+      var(--hover) 55%
+    )
+    0% 0%;
+  background-size: 100% 200%;
   border-radius: 0.5rem;
-  transition: 0.3s;
 }
 nav a:hover {
-  background-color: var(--background2);
+  background-position-y: 100%;
+  transition: background-position-y 0.1s ease-in;
 }
 nav a[aria-current] {
   color: var(--foreground);
-  background-color: var(--background2);
+  background: var(--background2);
   pointer-events: none;
 }
 
 nav header a {
   font-size: 1rem;
-  color: var(--foreground);
 }
 nav header a:before {
-  background: url(/apple-touch-icon.png) center center no-repeat
-    var(--background2);
-  background-size: 3rem;
+  background: url(/apple-touch-icon.png) center no-repeat var(--background);
+  background-size: cover;
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -88,10 +95,6 @@ nav header a:before {
   height: 3em;
   margin-right: 0.5rem;
   border-radius: 50%;
-  transition: background-color 0.3s;
-}
-nav header a:hover:before {
-  background-color: var(--hover);
 }
 
 @media screen and (min-width: 768px) {
@@ -123,7 +126,6 @@ article footer {
   opacity: 0.7;
 }
 
-section,
 blockquote,
 pre {
   background: var(--background2);
