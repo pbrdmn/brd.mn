@@ -4,6 +4,7 @@
   --background2: #e5dfe6;
   --link: blue;
   --visited: purple;
+  font-size: 16px;
 }
 
 @media print, (prefers-contrast: more) {
@@ -19,8 +20,6 @@
     --foreground: #ddd4df;
     --background: #160d16;
     --background2: #241824;
-    --link: #8995ff;
-    --visited: #eb7bff;
     --link: #5858ff;
     --visited: #bb2ebb;
   }
@@ -36,6 +35,45 @@
   }
 }
 
+@media screen {
+  body[data-prefers="light"] {
+    --foreground: #3c363d;
+    --background: #f4eff5;
+    --background2: #e5dfe6;
+    --link: blue;
+    --visited: purple;
+  }
+  body[data-prefers="dark"] {
+    --foreground: #ddd4df;
+    --background: #160d16;
+    --background2: #241824;
+    --link: #5858ff;
+    --visited: #bb2ebb;
+  }
+}
+.theme-toggle-dark,
+.theme-toggle-light {
+  cursor: pointer;
+  position: absolute;
+  top: 0.5rem;
+}
+body[data-prefers="light"] .theme-toggle-light {
+  display: none;
+}
+body[data-prefers="dark"] .theme-toggle-dark {
+  display: none;
+}
+@media screen and (prefers-color-scheme: light) {
+  body:not([data-prefers="dark"]) .theme-toggle-light {
+    display: none;
+  }
+}
+@media screen and (prefers-color-scheme: dark) {
+  body:not([data-prefers="light"]) .theme-toggle-dark {
+    display: none;
+  }
+}
+
 @media (prefers-reduced-motion) {
   * {
     transition-duration: 0 !important;
@@ -45,20 +83,25 @@
 html {
   margin: 0;
   font-size: 1em;
-  font-size: calc(0.3vw + 1em);
+  font-size: calc(0.5vw + 0.8rem);
   line-height: 1.5rem;
   font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
-  color: var(--foreground);
-  background: var(--background);
-  min-height: 100vh;
 }
 
 body {
+  font-size: calc(0.8vw + 0.8rem);
+  color: var(--foreground);
+  background: var(--background);
+  background: linear-gradient(var(--background), var(--background2));
+  min-height: 100vh;
+}
+
+main {
   box-sizing: border-box;
-  max-width: 36em;
   margin: 0 auto;
   padding: 1em;
+  max-width: 40em;
 }
 
 a {
