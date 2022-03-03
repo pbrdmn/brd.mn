@@ -5,7 +5,7 @@ description: Presenting the other stuff that you need to
 date: 2020-02-06
 tags: [presentation, meetup]
 ---
-## Siligong Javascript presentation
+# Siligong Javascript presentation
 
 Spoke at [Siligong Valley Javascript meetup](https://www.meetup.com/SiligongValley/events/268250896/), presenting on "The Other Stuff" to know when working as a software developer.
 

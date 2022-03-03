@@ -4,8 +4,8 @@ title: About Me
 description: I’m a friendly guy who loves music, coffee, coding and learning
 tags: nav
 ---
-About Me
---------
+
+# About Me
 
 I’m a friendly guy who loves music, coffee, coding and learning.
 

@@ -5,7 +5,8 @@ description: Using Svelte to build a sample data capture and
 date: 2022-02-20
 tags: [javascript, svelte]
 ---
-## Building a sample application with Svelte
+
+# Building a sample application with Svelte
 
 After reading about [documenting success](https://github.com/readme/guides/document-success), and recently completing a series of annual performance reviews, I wrote a proof of concept web application for capturing achievements and assigning them to work areas, such as key result areas (KRAs).
 

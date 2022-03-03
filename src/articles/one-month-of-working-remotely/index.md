@@ -5,6 +5,8 @@ date: 2016-06-24
 tags: remote
 ---
 
+#  One Month of Working Remotely
+
 ![Sencha Headquarters](/articles/one-month-of-working-remotely/sencha-hq.png)
 
 Over the course of several months and several rounds of telephone interviews, including with two technical engineers to access my grasp of JavaScript and one in-person meeting in a Sydney hotel café, I was offered a remote work job.

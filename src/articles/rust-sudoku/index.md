@@ -4,7 +4,7 @@ description: Working with Rust to generate and solve sudoku puzzles
 date: 2021-11-21
 tags: rust
 ---
-## Learning rust, generating and solving sudoku puzzles
+# Learning rust, generating and solving sudoku puzzles
 
 ![Terminal application generating and solving a sudoku puzzle](/articles/rust-sudoku/sudoku-generator-solver.png)
 

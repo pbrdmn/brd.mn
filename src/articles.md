@@ -4,10 +4,10 @@ title: Articles
 description: Recent and not-so recent writing
 tags: nav
 ---
-## Articles
+# Articles
 
 {% for article in collections.articles reversed %}
-> ### [{{article.data.title}}]({{article.url}})
+> ## [{{article.data.title}}]({{article.url}})
 >
 > {{article.data.description}}
 > 

@@ -4,7 +4,7 @@ description: Rebuilding this personal site with a new static site generator
 date: 2022-02-28
 tags: [eleventy, javascript, markdown]
 ---
-## Rebuilding with Eleventy
+# Rebuilding with Eleventy
 
 ![Eleventy theme with dark and light modes](/articles/eleventy/rebuilding-with-eleventy-theme.png)
 

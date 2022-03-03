@@ -5,19 +5,21 @@ date: 2018-01-19
 tags: [javascript, npm]
 ---
 
+# Step Generator
+
 Using generator functions to automate producing a sequence of numbers.
 
 Published to [NPM/step-generator](https://www.npmjs.com/package/step-generator)
 
 ## Installation
 
-```
+```sh
 npm install --save step-generator
 ```
 
 ## Test
 
-```
+```sh
 npm test
 ```
 
@@ -25,7 +27,7 @@ npm test
 
 Generate a sequence of stepping numbers.
 
-```
+```js
 const stepGenerator = require('step-generator')
 
 const evenGenerator = stepGenerator({ start: 2, step: 2 })
@@ -42,6 +44,6 @@ console.log(evens)
 
 Output
 
-```
+```js
 [2, 4, 6, 8]
 ```

@@ -4,9 +4,9 @@ title: CV
 description: The Curriculum Vitae of Philip Boardman
 tags: nav
 ---
-## Curriculum Vitae
+# Curriculum Vitae
 
-> ### Engineering Manager at Compono
+> ## Engineering Manager at Compono
 > 
 > <span class="meta">June 2021 - Current</span>
 >
@@ -16,7 +16,7 @@ tags: nav
 > * Managing the hiring, mentoring and performance reviews across teams of software engineers
 > * Working with product manager to establish and monitor engineering roadmap and OKRs
 
-> ### Lead Full Stack Developer at Compono
+> ## Lead Full Stack Developer at Compono
 > 
 > <span class="meta">January 2020 - June 2021</span>
 > 
@@ -26,7 +26,7 @@ tags: nav
 > * Build and maintain a greenfield SAAS ATS to compliment existing job management application
 > * Integrated with third-party calendar synchrnpxonisation platform to build self-scheduling interview > feature
 
-> ### Senior Full Stack Developer at Compono
+> ## Senior Full Stack Developer at Compono
 > 
 > <span class="meta">November 2018 - January 2020</span>
 > 
@@ -36,7 +36,7 @@ tags: nav
 > 
 > Skills: Javascript, Typescript, React, GraphQL, Styled Components, Express, Node, GraphQL modules, > Docker, Kubernetes, AWS, GCP, Continuous integration with git and Buildkite
 
-> ### Software Engineer at AirService
+> ## Software Engineer at AirService
 > 
 > <span class="meta">August 2016 - October 2018</span>
 > 
@@ -51,7 +51,7 @@ tags: nav
 > Skills: Angular, React, Redux, HTML, CSS, AWS Lambda and S3
 
 
-> ### Senior Web Developer at Wisdom Advertising and Design
+> ## Senior Web Developer at Wisdom Advertising and Design
 > 
 > <span class="meta">September 2012 - April 2016</span>
 > 
@@ -65,7 +65,7 @@ tags: nav
 > * Re-usable email templates coded for EDM software
 
 
-> ### Web Developer at Bicycling Australia
+> ## Web Developer at Bicycling Australia
 > 
 > <span class="meta">September 2008 - June 2015</span>
 > 
@@ -78,7 +78,7 @@ tags: nav
 > * Custom email newsletter generators for EDM software
 
 
-> ### Javascript Developer at Enikos
+> ## Javascript Developer at Enikos
 > 
 > <span class="meta">May 2007 - August 2008</span>
 > 
