@@ -18,7 +18,7 @@ After some research, I decided to work with [Eleventy](https://www.11ty.dev/), w
 
 After reading the documentation and watching a [short ten minute tutorial](https://www.youtube.com/watch?v=p81J7G1qFAM), my final config file looks like this:
 
-```
+```js
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/styles.css");
   eleventyConfig.addWatchTarget("./src/styles.css");
@@ -38,13 +38,13 @@ This configuration sets input and output directories - source files are in `src`
 
 Previewing the website is achieved by running eleventy with the `--serve` parameter, which runs a webserver hosting the output directory and monitors the input files for changes, which will then rebuild the website and refresh the browser.
 
-```
+```bash
 npx @11ty/eleventy --serve
 ```
 
 The website files can also be generated without reloading and previewing with:
 
-```
+```bash
 npx @11ty/eleventy
 ```
 

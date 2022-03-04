@@ -13,13 +13,13 @@ Published to [NPM/step-generator](https://www.npmjs.com/package/step-generator)
 
 ## Installation
 
-```sh
+```bash
 npm install --save step-generator
 ```
 
 ## Test
 
-```sh
+```bash
 npm test
 ```
 
