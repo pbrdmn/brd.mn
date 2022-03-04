@@ -1,4 +1,5 @@
 {
   "name": "brd.mn",
-  "url": "https://fm.brd.mn"
+  "url": "https://fm.brd.mn",
+  "layout": "page.njk"
 }

@@ -1,5 +1,4 @@
 ---
-layout: page.njk
 title: Articles
 description: Recent and not-so recent writing
 tags: nav

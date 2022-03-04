@@ -1,5 +1,4 @@
 ---
-layout: page.njk
 title: CV
 description: The Curriculum Vitae of Philip Boardman
 tags: nav

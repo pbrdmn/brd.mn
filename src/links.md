@@ -1,5 +1,4 @@
 ---
-layout: page.njk
 title: Links
 description: Other places you'll find me online
 tags: nav
