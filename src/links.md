@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 title: Links
-description: Other places online you'll find me
+description: Other places you'll find me online
 tags: nav
 ---
 * Read my (re)tweets on [Twitter](https://twitter.com/pbrdmn)
