@@ -1,12 +1,11 @@
 ---
 layout: default.njk
 ---
-
 <article>
   {{content | safe }}
 
   <footer>
     Tags: {{ tags.join(', ') }}<br />
-    Published on: {{ page.date.toDateString() }}
+    Published on: {{ page.date | postDate }}
   </footer>
 </article>

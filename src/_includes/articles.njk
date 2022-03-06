@@ -1,0 +1,12 @@
+---
+layout: default.njk
+---
+{%- for article in collections.articles | reverse -%}
+<article class="snippet">
+  <h2><a href="{{article.url}}">{{article.data.title}}</a></h2>
+  <p>{{article.data.description}}</p>
+  <footer>Posted on {{ article.date | postDate }}</footer>
+</article>
+{%- else -%}
+<p>There are no articles available.</p>
+{%- endfor %}

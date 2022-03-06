@@ -163,6 +163,7 @@ article footer {
   opacity: 0.7;
 }
 
+article.snippet,
 blockquote,
 pre {
   background: var(--background2);
@@ -173,6 +174,7 @@ pre {
 }
 
 @media print, (prefers-contrast: more) {
+  article.snippet,
   blockquote,
   pre {
     background: var(--background);
@@ -185,9 +187,11 @@ pre {
   word-break: break-all;
 }
 
+article.snippet > :first-child,
 blockquote > :first-child {
   margin-top: 0.5rem;
 }
+article.snippet > :last-child,
 blockquote > :last-child {
   margin-bottom: 0.5rem;
 }

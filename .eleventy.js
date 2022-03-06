@@ -15,6 +15,11 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  eleventyConfig.addFilter('postDate', (dateObj) => {
+    var isoDate = dateObj.toISOString()
+    return isoDate.substring(0, 10);
+  })
+
   eleventyConfig.addPlugin(syntaxHighlight);
 
   return {
