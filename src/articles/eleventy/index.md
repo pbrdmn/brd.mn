@@ -8,9 +8,7 @@ tags: [eleventy, javascript, markdown]
 
 ![Eleventy theme with dark and light modes](/articles/eleventy/rebuilding-with-eleventy-theme.png)
 
-For a simple site, I've been hosting a minimal PHP `markdown` to `html` application to manage this personal site. As my professional software development career has moved on I haven't programmed in PHP for _years_. So it's time for this site to follow this transition and move away from PHP too.
-
-While I wanted to move away from PHP, the underlying data for this site is managed in markdown. So ideally I would like to keep this data in markdown and only replace the html generation and also refresh the styling at the same time.
+For this simple site, I've been hosting a minimal `markdown` to `html` application to manage this personal site. As my professional software development career has moved on I haven't programmed in PHP for _years_ so it was time for this site to follow this transition and move away from PHP too. While I wanted to rebuild the site code, the underlying data for this site is managed in markdown. So ideally I would like to keep this data in markdown and only replace the html generation and also refresh the styling at the same time.
 
 ---
 

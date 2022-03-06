@@ -23,7 +23,7 @@ tags: nav
 > * Product planning, scheduling, task breakdown and backlog management
 > * Lead engineering team in agile practices, including establishment of best practices across teams
 > * Build and maintain a greenfield SAAS ATS to compliment existing job management application
-> * Integrated with third-party calendar synchrnpxonisation platform to build self-scheduling interview > feature
+> * Integrated with third-party calendar synchronisation platform to build self-scheduling interview feature
 
 > ## Senior Full Stack Developer at Compono
 > 
@@ -56,9 +56,9 @@ tags: nav
 > 
 > Wisdom is a marketing, advertising, design and web development studio.
 > 
-> * Technical responsibility for Custom PHP/Jquery CMS administration tool
+> * Technical responsibility for Custom administration tool
 > * Migration of websites from hosted LAMP servers to AWS cloud
-> * Liased with clients to establish scope and requirement documentation
+> * Liaised with clients to establish scope and requirement documentation
 > * Produced CMS and E-commerce sites to client specifications
 > * Manage mobile application projects for iOS, Android and Windows
 > * Re-usable email templates coded for EDM software
