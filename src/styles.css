@@ -62,7 +62,7 @@ html {
   padding: 0.5rem;
   -webkit-font-smoothing: antialiased;
   font-family: sans-serif;
-  font-size: calc(0.5vw + 0.8rem);
+  font-size: calc(0.5vw + 1rem);
 }
 
 body {
