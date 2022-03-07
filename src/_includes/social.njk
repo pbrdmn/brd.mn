@@ -4,7 +4,11 @@
 <meta property="og:description" content="{{ description }}">
 <meta property="og:type" content="article" />
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+{%- if image %}
+<meta property="og:image" content="{{ site.url }}{{ page.url }}{{ image }}" />
+{%- else %}
 <meta property="og:image" content="{{ site.url }}/favicon.png" />
+{%- endif %}
 <meta property="og:site_name" content="{{ site.name }}">
 <meta name="twitter:creator" content="@pbrdmn">
 <meta name="twitter:card" content="summary">
