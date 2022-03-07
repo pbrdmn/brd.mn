@@ -3,11 +3,9 @@ title: Xamarin cross platform bucket list application
 description: A cross platform mobile application developed using Xamarin and Parse.com
 date: 2016-02-08
 tags: mobile
+image: bucketed.png
+imageAlt: Bucketed iOS Screenshots
 ---
-
-# Xamarin cross platform bucket list application
-
-![Bucketed iOS Screenshots](bucketed.png)
 
 A cross platform mobile application titled Bucketed to track items and check them off your bucket list. This application is tightly focused on one task – to manage a bucket list with one additional feature – a global activities list which users can search, select from and contribute toward. 
 

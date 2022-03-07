@@ -5,8 +5,6 @@ date: 2016-07-13
 tags: [javascript, testing, tdd]
 ---
 
-# Getting started with Test Driven Development
-
 The *Test Driven Development* pattern instructs that tests are written first. Each test should describe the desired functionality and initially fail. After each test has been written, only the minimum code to pass the test is written.
 
 ## Our Environment

@@ -3,11 +3,9 @@ title: Rebuilding with Eleventy
 description: Rebuilding this personal site with a new static site generator
 date: 2022-02-28
 tags: [eleventy, javascript, markdown]
+image: rebuilding-with-eleventy-theme.png
+imageAlt: Eleventy theme with dark and light modes
 ---
-# Rebuilding with Eleventy
-
-![Eleventy theme with dark and light modes](/articles/eleventy/rebuilding-with-eleventy-theme.png)
-
 For this simple site, I've been hosting a minimal `markdown` to `html` application to manage this personal site. As my professional software development career has moved on I haven't programmed in PHP for _years_ so it was time for this site to follow this transition and move away from PHP too. While I wanted to rebuild the site code, the underlying data for this site is managed in markdown. So ideally I would like to keep this data in markdown and only replace the html generation and also refresh the styling at the same time.
 
 ---

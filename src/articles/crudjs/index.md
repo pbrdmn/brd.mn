@@ -1,13 +1,11 @@
 ---
-title: crud.js
+title: Create, Read, Update, Delete
 description: Simple JavaScript library to manage JSON objects via CRUD api
 date: 2016-07-29
 tags: [api, javascript]
+image: crudjs.png
+imageAlt: Table displaying editable rows of content
 ---
-
-# Crud.js
-
-![Crud Test App](crudjs.png)
 
 A simple JavaScript library to manage JSON objects via CRUD api.
 
