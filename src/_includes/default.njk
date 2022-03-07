@@ -1,50 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="/styles.css" />
-    <link rel="stylesheet" type="text/css" href="/prism.css" />
-
-    <title>{{ title }} / {{ site.name }}</title>
-    <meta name="description" content="{{ description }}" />
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-
-    <meta
-      name="theme-color"
-      content="#f4eff5"
-      media="(prefers-color-scheme: light)"
-    />
-    <meta
-      name="theme-color"
-      content="#160d16"
-      media="(prefers-color-scheme: dark)"
-    />
-    <link rel="icon" href="/logo.png" type="image/png" />
-    <link rel="apple-touch-icon" href="/logo.png" />
-
-    <meta property="og:title" content="{{ title }}" />
-    <meta property="og:description" content="{{ description }}">
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-    <meta property="og:image" content="{{ site.url }}/favicon.png" />
-    <meta property="og:site_name" content="{{ site.name }}">
-    <meta name="twitter:creator" content="@pbrdmn">
-    <meta name="twitter:card" content="summary">
-  </head>
+  {%- include 'header.njk' %}
   <body>
-    <nav>
-      <header><a href="/"><img src="/logo.png" width="64" height="64" alt="Logo" />Philip Boardman</a></header>
-      <ul>
-        {%- for link in collections.navAlpha -%}
-          <li><a
-            href="{{link.url}}"
-            title = {{link.data.title}}
-            {% if page.url == link.url %} aria-current="page"{% endif %}
-          >{{ link.data.icon }}</a></li>
-        {%- endfor -%}
-      </ul>
-    </nav>
+    {%- include 'nav.njk' %}
 
     <main>
     {{ content | safe }}

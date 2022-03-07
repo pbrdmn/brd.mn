@@ -1,0 +1,22 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="/styles.css" />
+  <link rel="stylesheet" type="text/css" href="/prism.css" />
+
+  <title>{{icon}} {{title}} / {{ site.name }}</title>
+  <meta name="description" content="{{ description }}" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  <meta
+    name="theme-color"
+    content="#f4eff5"
+    media="(prefers-color-scheme: light)"
+  />
+  <meta
+    name="theme-color"
+    content="#160d16"
+    media="(prefers-color-scheme: dark)"
+  />
+  <link rel="icon" href="/logo.png" type="image/png" />
+  {%- include 'social.njk' %}
+</head>
