@@ -93,18 +93,24 @@ a:visited {
   color: var(--visited);
 }
 
+nav ul {
+  text-align: center;
+  display: flex;
+  justify-content: stretch;
+}
 nav ul,
 nav li {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: inline-block;
 }
 nav a,
 nav a:visited {
   color: var(--foreground);
   text-decoration: none;
-  display: inline-block;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
   padding: 0.5rem 1rem;
   transition: color 0.2s ease-in, background 0.2s ease-in;
   background: transparent;
@@ -137,7 +143,7 @@ nav header a img {
   transform: rotateZ(0);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   nav {
     display: flex;
     justify-content: space-between;

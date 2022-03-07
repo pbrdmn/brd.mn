@@ -1,5 +1,6 @@
 ---
 title: Links
+icon: 🔗
 description: Other places you'll find me online
 tags: nav
 ---

@@ -1,5 +1,6 @@
 ---
 title: About
+icon: 👨🏽‍💻
 description: I’m a friendly guy who loves music, coffee, coding and learning
 tags: nav
 ---
