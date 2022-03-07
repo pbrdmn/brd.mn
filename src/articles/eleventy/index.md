@@ -21,13 +21,13 @@ module.exports = function (cfg) {
   return {
     dir: {
       input: "src",
-      output: "www"
+      output: "build"
     }
   }
 };
 ```
 
-This configuration sets input and output directories - source files are in `src` and the finished website is output at `www`, as well as identifying that we want the styles and images `*.{css,jpg,png,gif}` copied to the website too.
+This configuration sets input and output directories - source files are in `src` and the finished website is output at `build`, as well as identifying that we want the styles and images `*.{css,jpg,png,gif}` copied to the website too.
 
 ---
 
