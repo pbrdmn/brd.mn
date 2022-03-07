@@ -132,7 +132,6 @@ nav a[aria-current] {
 }
 
 nav header a img {
-  background: var(--background);
   display: inline-block;
   vertical-align: middle;
   width: 3em;
@@ -222,4 +221,14 @@ hr {
   width: 80%;
   background: var(--foreground);
   border: 0;
+}
+
+figure {
+  background: var(--background2);
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  text-align: center;
+}
+figure img {
+  border-radius: 0.2rem;
 }
