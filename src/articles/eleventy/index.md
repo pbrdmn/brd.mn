@@ -15,10 +15,9 @@ After some research, I decided to work with [Eleventy](https://www.11ty.dev/), w
 After reading the documentation and watching a [short ten minute tutorial](https://www.youtube.com/watch?v=p81J7G1qFAM), my final config file looks like this:
 
 ```js
-module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("./src/styles.css");
-  eleventyConfig.addWatchTarget("./src/styles.css");
-  eleventyConfig.addPassthroughCopy("src/**/*.{jpg,jpeg,png,gif}");
+module.exports = function (cfg) {
+  cfg.addWatchTarget("./src/**/*.css");
+  cfg.addPassthroughCopy("src/**/*.{css,jpg,png,gif}");
   return {
     dir: {
       input: "src",
@@ -28,11 +27,11 @@ module.exports = function (eleventyConfig) {
 };
 ```
 
-This configuration sets input and output directories - source files are in `src` and the finished website is output at `www`, as well as identifying that we want the `./src/styles.css` file and images `*.{jpg,jpeg,png,gif}` copied to the website too.
+This configuration sets input and output directories - source files are in `src` and the finished website is output at `www`, as well as identifying that we want the styles and images `*.{css,jpg,png,gif}` copied to the website too.
 
 ---
 
-Previewing the website is achieved by running eleventy with the `--serve` parameter, which runs a webserver hosting the output directory and monitors the input files for changes, which will then rebuild the website and refresh the browser.
+Previewing the website is achieved by running eleventy with the `--serve` parameter, which runs a webserver hosting the output directory and monitors the input files for changes, which will then rebuild the website and refresh the browser. Both of these can be added to `package.json` too.
 
 ```bash
 npx @11ty/eleventy --serve
@@ -49,3 +48,24 @@ Once the website is ready to be released, the static files can be copied from th
 ---
 
 After this, there is opportunity to explore integrating the build and publish steps into a CI/CD pipeline to be triggered by changes to a code repository, when adding or editing an article or other page.
+
+This turned out to be extremely simple with [Netlify]([n](https://www.netlify.com/))'s Wizard for GitHub integration and deployment for static sites. It detected my use of `Eleventy` and the only adjustment required for my setup was to specify that I'd changed the output directory to `/build`.
+
+---
+
+## Formatting dates
+
+After the initial rebuild I have explored some additional configuration options to improve the experiences of managing and reading the articles. Firstly was adding a custom formatting filter for dates to truncate the time from the ISO date format.
+
+```js
+  cfg.addFilter('postDate', (dateObj) => {
+    var isoDate = dateObj.toISOString()
+    return isoDate.substring(0, 10);
+  })
+```
+
+With this filter added to the configuration, displaying the dates in my preferred `YYYY-mm-dd` format can be achieved by applying the filter within the `liquid` template
+
+```liquid
+Published on: {{ '{{' }} page.date | postDate }}
+```

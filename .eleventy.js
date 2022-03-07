@@ -1,11 +1,11 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
-module.exports = function (eleventyConfig) {
-  eleventyConfig.addWatchTarget("./src/*.css");
+module.exports = function (cfg) {
+  cfg.addWatchTarget("./src/*.css");
 
-  eleventyConfig.addPassthroughCopy("src/**/*.{css,jpg,jpeg,png,gif}");
+  cfg.addPassthroughCopy("src/**/*.{css,jpg,png,gif}");
 
-  eleventyConfig.addCollection("navAlpha", function(collection) {
+  cfg.addCollection("navAlpha", function(collection) {
     return collection.getFilteredByTags('nav').sort(function(a, b) {
         let nameA = a.data.title.toUpperCase();
         let nameB = b.data.title.toUpperCase();
@@ -15,12 +15,12 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  eleventyConfig.addFilter('postDate', (dateObj) => {
+  cfg.addFilter('postDate', (dateObj) => {
     var isoDate = dateObj.toISOString()
     return isoDate.substring(0, 10);
   })
 
-  eleventyConfig.addPlugin(syntaxHighlight);
+  cfg.addPlugin(syntaxHighlight);
 
   return {
     dir: {
