@@ -1,5 +1,6 @@
 ---
 title: Quitting RSS
+description: Remember when every site had an RSS feed?
 date: 2012-02-06
 updated: 2012-02-10
 ---

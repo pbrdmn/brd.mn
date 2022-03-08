@@ -1,5 +1,6 @@
 ---
 title: Arduino
+description: Failing to build anything useful with the Arduino
 date: 2012-05-30
 ---
 
