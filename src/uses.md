@@ -21,6 +21,7 @@ Make sure to check out [uses.tech](https://uses.tech/) for a list of everyone's 
   - [Foam](https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode): VS Code + Markdown + Wikilinks for your note taking and knowledge base
   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more
 
+## Hardware
 
 - Monitor: [Samsung 34" CH89 LED Monitor](https://www.samsung.com/au/business/monitors/curved/c34h89-lc34h892wgexxy/)
 - Split Keyboard: [ZSA Moonlander Mark I](https://www.zsa.io/moonlander/) - Great for ergonomics to open up the shoulders with a nice ortholinear key layout. Programmable with QMK or their [online configuration tool, Oryx](https://configure.zsa.io/) and an easy to use firmware flashing tool [Wally](https://www.zsa.io/wally/).
