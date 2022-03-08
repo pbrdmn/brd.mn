@@ -16,6 +16,9 @@ layout: default.njk
 
   <footer>
     Tags: {{ tags.join(', ') }}<br />
-    Published on: {{ page.date | postDate }}
+    Published on: <time datetime="{{page.date}}">{{ page.date | postDate }}</time>
+    {%- if updated %}<br />
+    Updated on: <time datetime="{{ updated }}">{{ updated | postDate }}</time>
+    {%- endif %}
   </footer>
 </article>
