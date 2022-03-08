@@ -8,3 +8,5 @@ tags: nav
 * See some of my activity on [Github](https://github.com/dustykeyboard)
 * Join me on [Polywork](https://polywork.com/pbrdmn)
 * Connect with me on [LinkedIn](https://linkedin.com/in/philipboardman/)
+* Work with me! [Open jobs at Compono](https://www.compono.com/careers)
+* Wollongong locals, join the [Siligong Valley community](https://www.siligongvalley.com/)
