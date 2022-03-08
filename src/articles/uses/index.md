@@ -1,5 +1,5 @@
 ---
-title: Tools and Software Philip Uses
+title: Tools and Software I Use
 description: A list of software and hardware that I use everyday
 date: 2022-03-08
 image: vscode-screenshot.png
