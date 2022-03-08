@@ -3,7 +3,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 module.exports = function (cfg) {
   cfg.addWatchTarget("./src/*.css");
 
-  cfg.addPassthroughCopy("src/**/*.{css,jpg,png,gif}");
+  cfg.addPassthroughCopy("src/**/*.{css,gif,ico,jpg,png}");
 
   cfg.addCollection("navAlpha", function(collection) {
     return collection.getFilteredByTags('nav').sort(function(a, b) {
