@@ -10,3 +10,4 @@ tags: nav
 * Connect with me on [LinkedIn](https://linkedin.com/in/philipboardman/)
 * Work with me! [Open jobs at Compono](https://www.compono.com/careers)
 * Wollongong locals, join the [Siligong Valley community](https://www.siligongvalley.com/)
+* See what the [tools and software I use](/uses)
