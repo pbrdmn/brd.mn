@@ -2,6 +2,7 @@
   --foreground: #3c363d;
   --background: #f4eff5;
   --background2: #e5dfe6;
+  --code-background: #0e050e;
   --link: blue;
   --visited: purple;
 }
@@ -251,7 +252,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-  background: #0e050e;
+  background: var(--code-background);
 }
 
 /* Inline code */
