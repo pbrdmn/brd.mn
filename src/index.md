@@ -1,13 +1,13 @@
 ---
 title: About
 icon: 👨🏽‍💻
-description: I’m a friendly guy who loves music, coffee, coding and learning
+description: Interested in how things work; breaking things and fixing things
 tags: nav
 ---
 
 # About Me
 
-I’m a friendly guy who loves music, coffee, coding and learning.
+> He/him. Interested in how things work; breaking things and fixing things. Hobbies include cooking, coffee, coding, music, and learning to surf.
 
 I began working with websites at school in the late 1990s, pulling apart the HTML, CSS and JavaScript to understand how it all worked. During a Computer Engineering cadetship with [BlueScope](http://www.bluescopesteel.com.au/) I commenced studying at the [University of Wollongong](https://www.uow.edu.au/) in 2001. I began working with backend systems and databases to build internal monitoring and reporting applications for several internal departments.
 
