@@ -1,4 +1,5 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (cfg) {
   cfg.addWatchTarget("./src/*.css");
@@ -20,7 +21,10 @@ module.exports = function (cfg) {
     return isoDate.substring(0, 10);
   })
 
+  cfg.addNunjucksFilter("limit", (arr, limit) => arr.slice(0, limit));
+
   cfg.addPlugin(syntaxHighlight);
+  cfg.addPlugin(pluginRss);
 
   return {
     dir: {

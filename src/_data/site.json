@@ -1,4 +1,6 @@
 {
   "name": "brd.mn",
-  "url": "https://brd.mn"
+  "subtitle": "Interested in how things work; breaking things and fixing things",
+  "url": "https://brd.mn",
+  "feed": "/rss.xml"
 }

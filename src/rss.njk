@@ -1,0 +1,35 @@
+---json
+{
+  "layout": "",
+  "permalink": "rss.xml",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
+    "author": {
+      "name": "Philip Boardman",
+      "email": "rss@brd.mn"
+    }
+  }
+}
+---
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.name }}</title>
+  <subtitle>{{ site.subtitle }}</subtitle>
+  <link href="{{ site.url }}/{{ permalink }}" rel="self" />
+  <link href="{{ site.url }}/" />
+  <updated>{{ collections.articles | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ site.url }}/</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+    <email>{{ metadata.author.email }}</email>
+  </author>
+  {%- for post in collections.articles | reverse | limit(10) %}
+    {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(site.url) }}{% endset %}
+    <entry>
+      <title>{{ post.data.title }}</title>
+      <link href="{{ absolutePostUrl }}" />
+      <updated>{{ post.date | dateToRfc3339 }}</updated>
+      <id>{{ absolutePostUrl }}</id>
+      <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    </entry>
+  {%- endfor %}
+</feed>
