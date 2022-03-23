@@ -167,6 +167,10 @@ article.snippet img {
   margin: 0 0 1rem 1rem;
 }
 
+code {
+    background: var(--background2);
+}
+
 @media print, (prefers-contrast: more) {
   article.snippet,
   blockquote,
