@@ -17,4 +17,4 @@ tags: nav
 
 > [Wollongong](https://www.visitwollongong.com.au/) locals, join the [Siligong Valley community](https://www.siligongvalley.com/)
 
-> See what the [tools and software I use](/uses)
+> See the [tools and software I use](/uses)
