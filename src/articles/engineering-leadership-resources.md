@@ -15,5 +15,3 @@ tags: [engineering,leadership]
   > [Manager Basics - (The Trinity)](https://www.manager-tools.com/map-universe/manager-basics-trinity "Manager Tools Podcast - The Trinity")
 
 - [Irrational Exuberance](https://lethain.com/) by [Will Larson](https://lethain.com/about/)
-
-- [Scott Hanselman](https://www.hanselman.com/)
