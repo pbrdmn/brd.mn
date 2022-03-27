@@ -2,6 +2,7 @@
 title: Eleventy social sharing cards
 description: Adding meta tags to eleventy theme to provide open graph social sharing cards functionality
 image: social-card.png
+imageAlt: Rich contenct previewing with open graph tags
 date: 2022-03-23
 tags: [eleventy,html,meta,social]
 ---
