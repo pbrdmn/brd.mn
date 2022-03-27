@@ -31,7 +31,7 @@
       <id>{{ absolutePostUrl }}</id>
       <content type="html">
         {%- if post.data.image %}
-        <img src="{{ absolutePostUrl }}{{ post.data.image }}" alt="{{ post.data.imageAlt }}" />
+        &lt;p&gt;&lt;img src=&quot;{{ absolutePostUrl }}{{ post.data.image }}&quot; alt=&quot;{{ post.data.imageAlt }}&quot; /&gt;&lt;/p&gt;
         {%- endif %}
         {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
         </content>
