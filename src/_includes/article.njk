@@ -4,13 +4,14 @@ layout: default.njk
 <article>
   <header>
     <h1>{{ title }}</h1>
-    {%- if image %}
-    <figure class="article__figure">
-      <img src="{{ image }}" alt="{{ imageAlt }}" />
-      <figcaption>{{ imageAlt }}</figcaption>
-    </figure>
-    {%- endif %}
   </header>
+
+  {%- if image %}
+  <figure class="article__figure">
+    <img src="{{ image }}" alt="{{ imageAlt }}" />
+    <figcaption>{{ imageAlt }}</figcaption>
+  </figure>
+  {%- endif %}
 
   {{content | safe }}
 
