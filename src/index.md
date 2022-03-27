@@ -21,4 +21,4 @@ At the end of 2018 I joined [Compono](https://compono.com) as the fourth develop
 
 With continued growth and  acquisitions, Compono's engineering had exceeded 30 developers and I was promoted to a new role of Engineering Manager, keen to share the knowledge of team building, performance and management I had learned and apply it across the several teams I would be managing. Keeping an eye on the developer experience and culture being important to myself as well as Compono, I have been involved in lots of hiring, performance management and planning activities and learning a lot along the way.
 
-Compono is a great place to work with a great culture, distributed engineering team, and plenty of career development opportunities - [come and join us](https://www.compono.com/careers).
+> Compono is a great place to work with a great culture, distributed engineering team, and plenty of career development opportunities - [come and join us](https://www.compono.com/careers).
