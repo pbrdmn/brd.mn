@@ -29,7 +29,12 @@
       <link href="{{ absolutePostUrl }}" />
       <updated>{{ post.date | dateToRfc3339 }}</updated>
       <id>{{ absolutePostUrl }}</id>
-      <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+      <content type="html">
+        {%- if post.data.image %}
+        <img src="{{ absolutePostUrl }}{{ post.data.image }}" alt="{{ post.data.imageAlt }}" />
+        {%- endif %}
+        {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+        </content>
     </entry>
   {%- endfor %}
 </feed>
