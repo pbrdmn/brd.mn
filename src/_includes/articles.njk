@@ -3,6 +3,8 @@ layout: default.njk
 ---
 <h1>{{ title }}</h1>
 
+{{content | safe }}
+
 {%- for article in collections.articles | reverse -%}
 <article class="snippet">
   {%- if article.data.image %}
