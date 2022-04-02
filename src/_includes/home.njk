@@ -5,7 +5,7 @@ layout: default.njk
 
 {{content | safe }}
 
-{%- for article in collections.articles | reverse -%}
+{%- for article in collections.featured | reverse -%}
 <article class="snippet">
   {%- if article.data.image %}
   <img src="{{article.url}}{{article.data.image}}" />
@@ -15,5 +15,5 @@ layout: default.njk
   <footer>Posted on {{ article.date | postDate }}</footer>
 </article>
 {%- else -%}
-<p>There are no articles available.</p>
+<p>There are no featured articles at the moment</p>
 {%- endfor %}

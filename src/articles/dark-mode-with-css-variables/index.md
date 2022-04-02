@@ -4,7 +4,7 @@ description: Implementing dark mode in a website using css variables and prefers
 date: 2022-03-27
 image: dark-mode.png
 imageAlt: Experimenting with CSS Variables and prefers-color-scheme media query
-tags: [css, media query]
+tags: [featured, css, media query]
 ---
 
 CSS variables have become mainstream, but I was too busy with CSS-in-JS solutions for React that I hadn't previously had an opportunity to learn the details or implement them in any environments.

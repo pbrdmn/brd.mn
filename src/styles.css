@@ -140,7 +140,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   line-height: 1.1em;
   font-weight: normal;
 }
@@ -187,6 +187,8 @@ pre {
 
 article.snippet > h2:first-of-type,
 blockquote > h2:first-of-type,
+article.snippet > h3:first-of-type,
+blockquote > h3:first-of-type,
 article.snippet > p:first-of-type,
 blockquote > p:first-of-type {
   margin-top: 0;
