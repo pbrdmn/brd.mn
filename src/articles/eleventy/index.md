@@ -2,7 +2,7 @@
 title: Rebuilding with Eleventy
 description: Rebuilding this personal site with a new static site generator
 date: 2022-02-28
-tags: [eleventy, javascript, markdown, featured]
+tags: [eleventy, javascript, markdown]
 image: rebuilding-with-eleventy-theme.png
 imageAlt: Eleventy theme with dark and light modes
 ---
