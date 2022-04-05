@@ -6,4 +6,6 @@ layout: articles
 tags: nav
 ---
 
-This is where you'll find my long-form writing. You can also subscribe [via the RSS feed](/rss.xml "Subscribe to the RSS feed")
+This is where you'll find my long-form writing.
+
+You can also subscribe [via the RSS feed](/rss.xml "Subscribe to the RSS feed")
