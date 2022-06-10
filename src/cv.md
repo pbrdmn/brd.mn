@@ -7,7 +7,7 @@ tags: nav
 # Curriculum Vitae
 
 
-Philip is an Engineering Manager at [Compono](https://compono.com), with experience leading distributed cross functional software development teams building HR SAAS products.
+Philip is an Engineering Manager at [Compono](https://compono.com) with experience leading distributed cross functional software development teams building HR SAAS products.
 
 * Supporting several cross functional engineering teams including many permanent remote workers
 * Sharing the knowledge of team building, personal development, process and performance improvement and product planning.
