@@ -6,11 +6,8 @@ tags: nav
 ---
 # Curriculum Vitae
 
-> He/him. Interested in how things work; breaking things and fixing things. Hobbies include cooking, coffee, coding, music, and learning to surf.
 
-## About Me
-
-Philip is an Engineering Manager at [Compono](https://compono.com), with 3 years of experience leading cross functional software development teams build HR SAAS products.
+Philip is an Engineering Manager at [Compono](https://compono.com), with experience leading distributed cross functional software development teams building HR SAAS products.
 
 * Supporting several cross functional engineering teams including many permanent remote workers
 * Sharing the knowledge of team building, personal development, process and performance improvement and product planning.
@@ -28,7 +25,7 @@ I moved into product development at [AirService](https://www.airservice.com), wh
 
 ---
 
-## Previous Experience
+## Experience
 
 > ### Engineering Manager at Compono
 > 
