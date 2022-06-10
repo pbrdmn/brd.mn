@@ -10,21 +10,21 @@ tags: nav
 
 ## About Me
 
-I began working with websites at school in the late 1990s, pulling apart the HTML, CSS and JavaScript to understand how it all worked. During a Computer Engineering cadetship with [BlueScope](http://www.bluescopesteel.com.au/) I commenced studying at the [University of Wollongong](https://www.uow.edu.au/) in 2001. I began working with backend systems and databases to build internal monitoring and reporting applications for several internal departments.
+Philip is an Engineering Manager at [Compono](https://compono.com), with 3 years of experience leading cross functional software development teams build HR SAAS products.
 
-From BlueScope, I moved onto public facing website and applications, developing primarily in the LAMP stack, implementing solutions using WordPress, Drupal, and other frameworks for CMS and e-commerce applications with [Bicycling Australia](https://bicyclingaustralia.com.au/). I worked with the team at [Wisdom Advertising and Design](https://www.wisdom.com.au/) as a Web Developer in September 2012, which brought a number of technical challenges, but also great opportunities to work with clients, understand requirements, scope and deliverables.
+* Supporting several cross functional engineering teams including many permanent remote workers
+* Sharing the knowledge of team building, personal development, process and performance improvement and product planning.
+* Ensuring inclusive culture and aligning teams with company goals and customer value.
+* Making significant impact in the areas of hiring, process improvement, performance management, and planning activities and have learning a lot along the way.
 
-After several years of agency work with Wisdom, I moved into product development with start-up [AirService](https://www.airservice.com) as a Software Developer, where I had the opportunity to work with the new MEAN stack as well as build and launch a React Native mobile application to support their online ordering solution. During this time I also completed a Graduate Certificate of Mobile Application Development with [Charles Sturt University](https://www.csu.edu.au/).
+I joined Compono in 2018 as the fourth developer of this small startup, working as a Senior Full Stack Developer building React UIs with GraphQL and Node micro-services backends, publicly launching at the start of 2019. As Compono grew, I took a Lead Developer role and create a team to build a new set of product features. I formed and lead the team, extending the existing feature set of the initial smart hiring product with new features and implementing agile processes. In 2021 and I was promoted to a new role of Engineering Manager, overseeing three distributed cross-functional product teams. I was involved in all aspects of hiring, mentoring, career development, strategic roadmaps, and other activities. In 2022 I formed a fourth team to tackle a significant strategic software re-architecture of a core business function, at the time leading 15 direct reports across these teams.
 
----
+Prior to Compono, I began my career with a Computer Engineering cadetship at [BlueScope](http://www.bluescopesteel.com.au/) and studying at the [University of Wollongong](https://www.uow.edu.au/) in 2001. I worked with database backed web applications in ASP/MSSQL to build internal monitoring and reporting applications for several departments at BlueScope.
 
-## Working with Compono
+I spent several years building CMS and e-commerce applications with the LAMP stack at [Bicycling Australia](https://bicyclingaustralia.com.au/) and [Wisdom Advertising and Design](https://www.wisdom.com.au/). Working in these different industries (publishing and marketing) brought a number of new perspectives and technical challenges, and great opportunities to work with clients, understand requirements, scope and deliverables.
 
-At the end of 2018 I joined [Compono](https://compono.com) as the fourth developer of this small startup, working as a Senior Full Stack Developer building React UIs with GraphQL and Node microservices backends, publicly launching at the start of 2019. As Compono grew, I took a Lead Developer role and formed a team to create a new product. I lead the team extending the existing feature set of the initial smart hiring product with new applicant tracking features including hiring pipeline, messages and interview scheduling.
+I moved into product development at [AirService](https://www.airservice.com), where I had the opportunity to work with the MEAN stack, CI/CD pipelines, as well as build and launch a React Native mobile application to support their online ordering solution. During this time I also completed a Graduate Certificate of Mobile Application Development with [Charles Sturt University](https://www.csu.edu.au/).
 
-With continued growth and  acquisitions, Compono's engineering had exceeded 30 developers and I was promoted to a new role of Engineering Manager, keen to share the knowledge of team building, performance and management I had learned and apply it across the several teams I would be managing. Keeping an eye on the developer experience and culture being important to myself as well as Compono, I have been involved in lots of hiring, performance management and planning activities and learning a lot along the way.
-
-> Compono is a great place to work with a great culture, distributed engineering team, and plenty of career development opportunities - [come and join us](https://www.compono.com/careers "View open roles on the Compono careers page").
 
 ---
 
