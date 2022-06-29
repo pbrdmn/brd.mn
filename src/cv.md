@@ -4,26 +4,39 @@ icon: 📜
 description: The Curriculum Vitae of Philip Boardman
 tags: nav
 ---
-# Curriculum Vitae
+# Philip Boardman
 
+Engineering Manager leading distributed cross-functional software engineering teams
 
-Philip is an Engineering Manager at [Compono](https://compono.com) with experience leading distributed cross functional software development teams building HR SAAS products.
+## Highlights
 
-* Supporting several cross functional engineering teams including many permanent remote workers.
-* Sharing the knowledge of team building, personal development, process and performance improvement and product planning.
-* Ensuring inclusive culture and aligning teams with company goals and customer value.
-* Making significant impact in the areas of hiring, process improvement, performance management, and planning activities and have learning a lot along the way.
+* Leading distributed cross-functional software engineering teams
+* Implemented agile, lean delivery processes and improvements
+* Building teams, mentoring, and personal development
+* Aligning teams with company objectives and customer value
+* Hiring, performance management, and process improvement activities in collaboration with HR and hiring teams
 
-I joined Compono in 2018 as the fourth developer of this small startup, working as a Senior Full Stack Developer building React UIs with GraphQL and Node micro-services backends, publicly launching at the start of 2019. In 2020 I took a Lead Developer role and formed a new team, extending the existing feature set of the initial smart hiring product and implementing an agile processes.
+## Summary
 
-In 2021 and I was promoted to a new role of Engineering Manager, overseeing three distributed cross-functional product teams. I was involved in all aspects of hiring, mentoring, career development, strategic roadmaps, and other activities. In 2022 I formed a fourth team to tackle a significant strategic software re-architecture of a core business function, at the time leading 15 direct reports across these teams.
+Joined [Compono](https://compono.com) in 2018 as the fourth developer working as a Senior Full Stack Developer, building job posting and candidate hiring web application with React, GraphQL, TypeScript and Node micro-services running in Kubernetes on AWS.
 
-Prior to Compono, I began my career with a Computer Engineering cadetship at [BlueScope](http://www.bluescopesteel.com.au/) and studying at the [University of Wollongong](https://www.uow.edu.au/) in 2001. I worked with database backed web applications in ASP/MSSQL to build internal monitoring and reporting applications for several departments at BlueScope.
+Took a Lead Full Stack Developer role in 2020 and formed a new team to create an Applicant Tracking System (ATS) to extend the feature set of the intelligent hiring product. Introduced agile methodologies to the product team and implement a shift-left approach to quality.
 
-I spent several years building CMS and e-commerce applications with the LAMP stack at [Bicycling Australia](https://bicyclingaustralia.com.au/) and [Wisdom Advertising and Design](https://www.wisdom.com.au/). Working in these different industries (publishing and marketing) brought a number of new perspectives and technical challenges, and great opportunities to work with clients, understand requirements, scope and deliverables.
+Promoted to Engineering Manager in 2021, I trained a replacement lead developer for my team and began overseeing three product teams. I was involved in all aspects of hiring, mentoring, career development, and engineering process improvements. Lead the formation of a new team to tackle a significant strategic software re-architecture of a core business function.
 
-I moved into product development at [AirService](https://www.airservice.com), where I had the opportunity to work with the MEAN stack, CI/CD pipelines, as well as build and launch a React Native mobile application to support their online ordering solution. During this time I also completed a Graduate Certificate of Mobile Application Development with [Charles Sturt University](https://www.csu.edu.au/).
+I began product development at [AirService](https://www.airservice.com) in 2016, working with a product focused team on a modern technology stack, continuous integration and deployment pipelines and lead the development and launch of a React Native mobile application to support an online ordering solution. During this time I also completed a Graduate Certificate of Mobile Application Development with [Charles Sturt University](https://www.csu.edu.au/).
 
+Between 2008 and 2016, I built CMS and e-commerce web applications at [Bicycling Australia](https://bicyclingaustralia.com.au/) and [Wisdom Advertising and Design](https://www.wisdom.com.au/). Working across different industries with a variety of different clients brought new perspectives, technical challenges, and great opportunities to work closely with clients, account managers, and designers to understand requirements, scope, and deliverables.
+
+---
+
+## Skills
+
+Leadership, Team building Mentoring, Career development Hiring, Performance management, Agile coaching, Code review, Continuous delivery, Technical decision making, Process improvement, Documentation, Software development
+
+## Technologies
+
+React, Typescript, GraphQL, Node, MongoDB, AWS
 
 ---
 
@@ -35,9 +48,10 @@ I moved into product development at [AirService](https://www.airservice.com), wh
 >
 > Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights.
 > 
-> * Responsible for building and maintaining engineering teams across a suite of software products
-> * Managing the hiring, mentoring and performance reviews across teams of software engineers
-> * Working with product manager to establish and monitor engineering roadmap and OKRs
+> * Building and managing engineering teams across a suite of software products
+> * Hiring, mentoring and performance reviews across teams of software engineers
+> * Working with product manager to establish and tracking roadmap and OKRs
+> * Establish and improve engineering processes, agile methodologies and performance of the software development lifecycle.
 
 > ### Lead Full Stack Developer at Compono
 > 
@@ -53,9 +67,10 @@ I moved into product development at [AirService](https://www.airservice.com), wh
 > 
 > <span class="meta">November 2018 - January 2020</span>
 > 
-> * Build and maintain features in web applications with micro services
+> * Build and maintain features in React web applications with Kubernetes micro services
 > * Launched new ATS product for managing candidates in hiring pipeline
 > * Build internal messaging feature with external email notifications
+> * Delivered product features including Stripe billing system and internal UI component library
 > 
 > Skills: Javascript, Typescript, React, GraphQL, Styled Components, Express, Node, GraphQL modules, > Docker, Kubernetes, AWS, GCP, Continuous integration with git and Buildkite
 
@@ -65,10 +80,9 @@ I moved into product development at [AirService](https://www.airservice.com), wh
 > 
 > AirService combines mobile commerce services to deliver an “out of the box” experience, fully branded as > our client’s own.
 > 
-> * Built UI features and components with Angular and React interfacing with RESTful API server
-> * Application state management with Redux
-> * AWS Lambda client/server integration
-> * D3 charting with React SVG components
+> * Built Angular and React applications backed by Ruby on Rails API server
+> * Application state management with Redux, AWS Lambda client/server integration
+> * Custom dashboards with D3 charting and React SVG components
 > * iOS/Android applications built with React Native
 > 
 > Skills: Angular, React, Redux, HTML, CSS, AWS Lambda and S3
@@ -80,12 +94,10 @@ I moved into product development at [AirService](https://www.airservice.com), wh
 > 
 > Wisdom is a marketing, advertising, design and web development studio.
 > 
-> * Technical responsibility for Custom administration tool
-> * Migration of websites from hosted LAMP servers to AWS cloud
-> * Liaised with clients to establish scope and requirement documentation
-> * Produced CMS and E-commerce sites to client specifications
+> * Worked with client managers to define customer scope and project specifications
+> * Delivered custom websites with CMS and ecommerce functionality to design brief
 > * Manage mobile application projects for iOS, Android and Windows
-> * Re-usable email templates coded for EDM software
+> * Developed client branded email templates for EDM software
 
 
 > ### Web Developer at Bicycling Australia
@@ -94,19 +106,8 @@ I moved into product development at [AirService](https://www.airservice.com), wh
 > 
 > Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an online classifieds site.
 > 
-> * Designed and build Drupal CMS website
+> * Designed and built Drupal CMS, integrated into multiple branded ecommerce applications
 > * Implemented Ad platform software to manage online advertising inventory
-> * Rewrote Classifieds site to integrate with CMS and advertising platform
+> * Rebuilt Classifieds site to integrate with CMS and advertising platform
 > * Developed and published 11 iOS apps to App Store
-> * Custom email newsletter generators for EDM software
-
-
-> ### Javascript Developer at Enikos
-> 
-> <span class="meta">May 2007 - August 2008</span>
-> 
-> Enikos was a startup building an online interactive multi-media presentation tool.
-> 
-> * JavaScript and HTML interface development using the Ext.JS framework
-> * Performance enhancements to front-end loading of greater than 80%
-> * Enhanced device support for multiple platforms
+> * Custom email newsletter generators for EDM software built as extension to ecommerce stores
