@@ -1,17 +1,16 @@
 :root {
   --foreground: #3c363d;
-  --background: #f4eff5;
-  --background2: #e5dfe6;
+  --background: #fff;
+  --background2: #f4eff5;
   --code-background: #0e050e;
-  --link: blue;
+  --link: #004D80;
   --visited: purple;
 }
 
 @media print, (prefers-contrast: more) {
   :root {
     --foreground: #000;
-    --background: #fff;
-    --background2: #ccc;
+    --background2: #fff;
   }
 }
 
