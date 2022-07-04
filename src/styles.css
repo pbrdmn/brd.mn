@@ -1,7 +1,7 @@
 :root {
   --foreground: #3c363d;
   --background: #fff;
-  --background2: #f4eff5;
+  --background2: #f3f2f4;
   --code-background: #0e050e;
   --link: #004D80;
   --visited: purple;
@@ -53,7 +53,6 @@ body {
   line-height: 1.5rem;
   color: var(--foreground);
   background: var(--background);
-  background: linear-gradient(var(--background), var(--background2));
   background-attachment: fixed;
   box-sizing: border-box;
   min-height: 100vh;
@@ -154,7 +153,6 @@ article.snippet,
 blockquote,
 pre {
   background: var(--background2);
-  box-shadow: var(--background) 0.25rem 0.25rem 1rem;
   padding: 1rem;
   border-radius: 0.2rem;
   margin: 1rem -1rem;
