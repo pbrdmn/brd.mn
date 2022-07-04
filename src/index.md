@@ -4,7 +4,7 @@ description: Interested in how things work; breaking things and fixing things
 layout: home.njk
 ---
 
-I’m Philip Boardman and is where you'll find my [CV](/cv/ "CV for Philip Boardman") and [long-form writing](/articles/).
+I’m Philip Boardman and is where you'll find my [CV](/cv/ "CV for Philip Boardman") and [writing](/articles/).
 
 <p>I'm interested in how things work; breaking things and fixing things. My current hobbies include cooking, coffee, coding, cocktails, music, and learning to surf.</p>
 
