@@ -6,8 +6,7 @@ tags: nav
 ---
 # Philip Boardman
 
-> Engineering Manager leading distributed  
-> cross-functional software engineering teams
+> Engineering Manager leading distributed cross-functional software engineering teams
 
 ## Highlights
 
