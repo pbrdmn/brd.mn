@@ -29,7 +29,7 @@ imageAlt: Visual Studio Code editor with a markdown file open
 
 - I keep an [iPhone 13](https://www.apple.com/au/iphone-13/) in my pocket, upgrading from a 2018 iPhone XR after three years of use.
 
-- For general computing duties I switch between two devices, a work-issued 2011 M1 Mac Book Pro 14" and my personal [Microsoft Windows 11](https://www.microsoft.com/en-au/windows/windows-11) on my [Lenovo Thinkpad E14 gen 2](https://www.lenovo.com/au/en/laptops/thinkpad/thinkpad-e-series/E14-G2/p/22TPE14E4N2).
+- For general computing duties I switch between two devices, a work-issued 2021 M1 Mac Book Pro 14" and my personal [Microsoft Windows 11](https://www.microsoft.com/en-au/windows/windows-11) on my [Lenovo Thinkpad E14 gen 2](https://www.lenovo.com/au/en/laptops/thinkpad/thinkpad-e-series/E14-G2/p/22TPE14E4N2).
 
 - A [Samsung 34" CH89 LED Monitor](https://www.samsung.com/au/business/monitors/curved/c34h89-lc34h892wgexxy/) stands on an articulated arm and provides an _ultrawide_ view on my activities, often arranged in three column layout.
 - [ZSA Moonlander](https://www.zsa.io/moonlander/) is a split keyboard with great for ergonomics to open up the shoulders with a nice ortholinear key layout. Programmable with QMK or their [online configuration tool, Oryx](https://configure.zsa.io/) and an easy to use firmware flashing tool [Wally](https://www.zsa.io/wally/).
