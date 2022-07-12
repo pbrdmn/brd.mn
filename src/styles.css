@@ -74,10 +74,13 @@ a:visited {
   color: var(--visited);
 }
 
+nav {
+  text-align: center;
+}
 nav ul {
   text-align: center;
   display: flex;
-  justify-content: stretch;
+  justify-content: center;
 }
 nav ul,
 nav li {
