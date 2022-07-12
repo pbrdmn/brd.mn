@@ -3,7 +3,7 @@
   --background: #fff;
   --background2: #f3f2f4;
   --code-background: #0e050e;
-  --link: #004D80;
+  --link: #004d80;
   --visited: purple;
 }
 
@@ -222,6 +222,24 @@ figure {
 }
 figure img {
   border-radius: 0.2rem;
+}
+
+/* Homepage links block */
+.links {
+}
+.links ul {
+  margin: 0;
+  padding: 0;
+}
+.links li {
+  list-style: none;
+  padding: 0.5rem 1rem;
+  background-color: var(--background2);
+  border-radius: 1rem;
+  margin: 0 0 0.5rem;
+}
+.links ul li a {
+  color: var(--link);
 }
 
 /* prism code styles */
