@@ -4,9 +4,8 @@
     {%- for link in collections.navAlpha -%}
       <li><a
         href="{{link.url}}"
-        title="{{link.data.title}}"
         {% if page.url == link.url %} aria-current="page"{% endif %}
-      >{{ link.data.icon }} {{ link.data.title }}</a></li>
+      >{{ link.data.title }}</a></li>
     {%- endfor -%}
   </ul>
 </nav>
