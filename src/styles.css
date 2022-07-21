@@ -241,8 +241,12 @@ figure img {
   border-radius: 1rem;
   margin: 0 0 0.5rem;
 }
+
 .links ul li a {
   color: var(--link);
+}
+.links ul li > *:only-child {
+  display: block;
 }
 
 /* prism code styles */
