@@ -10,11 +10,16 @@ tags: nav
 
 ## Highlights
 
+<div class="links">
+
 * Leading distributed cross-functional software engineering teams
 * Implemented agile, lean delivery processes and improvements
 * Building teams, mentoring, and personal development
 * Aligning teams with company objectives and customer value
 * Hiring, performance management, and process improvement activities in collaboration with HR and hiring teams
+* [Connect with me on LinkedIn](https://linkedin.com/in/philipboardman/)
+
+</div>
 
 ## Summary
 
