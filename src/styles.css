@@ -2,7 +2,7 @@
   --foreground: #3c363d;
   --background: #fff;
   --background2: #f3f2f4;
-  --code-background: #0e050e;
+  --code-background: #3b3b3b;
   --link: #004d80;
   --visited: purple;
 }
@@ -21,6 +21,7 @@
     --background2: #241824;
     --link: #8989ff;
     --visited: #e934e9;
+    --code-background: #0e050e;
   }
 }
 
@@ -284,6 +285,8 @@ pre[class*="language-"] {
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
   background: var(--code-background);
+  box-shadow: 36em 0 1px 0 var(--code-background),
+    -36em 0 1px 0 var(--code-background);
 }
 
 /* Inline code */
