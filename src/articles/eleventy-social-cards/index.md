@@ -4,7 +4,7 @@ description: Adding meta tags to eleventy theme to provide open graph social sha
 image: social-card.png
 imageAlt: Rich contenct previewing with open graph tags
 date: 2022-03-23
-tags: [eleventy,html,meta,social, featured]
+tags: [eleventy,html,meta,social]
 ---
 
 One of the things I wanted to add when rebuilding this site was rich content sharing, primarily for twitter.
