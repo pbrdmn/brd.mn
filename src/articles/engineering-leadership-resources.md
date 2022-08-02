@@ -1,6 +1,7 @@
 ---
 title: Engineering Leadership Resources
 description: Links to resources and writing by others on the engineering leadership journey
+date: 2022-03-27
 tags: [engineering,leadership]
 ---
 
