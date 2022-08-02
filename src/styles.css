@@ -3,11 +3,11 @@
   --background: #fff;
   --background2: #f3f2f4;
   --code-background: #3b3b3b;
-  --link: #004d80;
-  --visited: purple;
+  --link: #0063a5;
+  --visited: #70007c;
 }
 
-@media print, (prefers-contrast: more) {
+@media print {
   :root {
     --foreground: #000;
     --background2: #fff;
@@ -19,19 +19,9 @@
     --foreground: #ddd4df;
     --background: #160d16;
     --background2: #241824;
-    --link: #8989ff;
-    --visited: #e934e9;
+    --link: #7fb2ff;
+    --visited: #c375ff;
     --code-background: #0e050e;
-  }
-}
-
-@media screen and (prefers-color-scheme: dark) and (prefers-contrast: more) {
-  :root {
-    --foreground: #ffffff;
-    --background: #000000;
-    --background2: #413c41;
-    --link: #5858ff;
-    --visited: #bb2ebb;
   }
 }
 
