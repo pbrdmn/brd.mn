@@ -247,6 +247,8 @@ figure img {
 }
 .links ul li > *:only-child {
   display: block;
+  margin: -0.5rem -1rem;
+  padding: 0.5rem 1rem;
 }
 
 /* prism code styles */
