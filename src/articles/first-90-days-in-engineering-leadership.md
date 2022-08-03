@@ -9,7 +9,7 @@ author: Philip Boardman
 
 > Reflecting on my transition from an individual contributor into an Engineering Manager role, this article is a letter to my past self with some ideas that, with hindsight, would have been appreciated at that time. I've compiled this outline from my personal experience as well as article I've read by others on the topic, which are linked at the bottom of the page.
 
-## First week
+## First week – meeting people and learning the business at a high level
 
 ### Introduce yourself and your style
 
@@ -33,37 +33,43 @@ A regular weekly update in the form of a [5-15 Report](https://co2partners.com/5
 
 ---
 
-## Your First month
+## First month – learning the details of the engineering function
 
-Learning about the details of the engineering function.
+### Review processes and ways of working
 
-1. Identify, document, and prioritise tasks
+Is there a clear onboarding process for new employees joining the team? Have systems in place to ensure access, tools, and knowledge is available to quickly have new started become familiar with the product and begin contributing to development with the team.
 
-    Understanding how to assign priorities to different tasks will be key to knowing where to spend your time.
+An onboarding process can also assist with internal training, development, and knowledge sharing tools. Each new employee can help identify gaps and suggest improvements, improving the experience for the next new starter.
 
-   - P0: This core piece is on fire 🔥
+Understand the existing systems and processes of teams. Are there systems in place and how well are those systems working? Do the teams have a balance of work between features, technical debt, and bug fixes? Or are they spending a disproportionate amount of time in one of these areas at the exclusion of others. Spending 100% of time shipping features could indicate a growing backlog of technical debt leading to a fragile infrastructure or expensive changes in the future. At the same time, spending too much time addressing bug fixes may be a lagging indicator that the overall code quality has not been maintained sufficiently and will require an investment in testing to resolve.
+
+### Identify, document, and prioritise tasks
+
+Understanding how to the company assigns priorities to different tasks will be key to knowing where to spend your time. 
+
+   - P0: This core piece is on fire 🔥 fix this first
    - P1: High stakes tasks critical to strategy
    - P2: Tasks aligned with product strategy
    - P3: Low stakes tasks adjacent to strategy
    - P4: Nice to have tasks
 
-2. Review processes and ways of working
+ Each task should have an associated document outlining the problem, proposed solution, success metrics and alignment to the strategy. Once each tasks has been assigned a priority within the framework, teams will find more freedom in selecting the next piece of work.
 
-    Understanding the existing systems and process of teams. Are there systems in place and how well are those systems working?
+### Find your business analytics and how to query them
 
-   - Balance of work ⚖️ features, tech debt, fixes
-   - Capacity planning (team growth and alignment)
-   - Onboarding and off-boarding processes
-   - Training, development, and knowledge sharing
+A business analytics tool captures the behaviour of users in the system. Data from such an analytics tool can be used to measure and track the performance of changes within the product, to validate progress toward objectives and to steer decisions. 
 
-4. Find your business analytics and how to query them
-5. Shadow support tickets and customer meetings
-6. Technology review
+### Reviewing the technology
 
-   - Architectural review
-   - What's good/painful for the current tools and platforms
-   - Documented processes
-   - What needs urgent attention
+Having a high level understanding the technology in place will be important for any engineering leader, whether or not their role involves the day-to-day programming. Becoming familiar with the experience of the engineers will highlight opportunities for improvement and bring alignment across the business.
+
+Several approaches that can help quickly provide an overview are:
+- Reviewing architectural documentation and any processes around code review and deployments.
+- Asking the engineering team directly for feedback about what's working well and what are the pain points with the current tools and platforms.
+- Pairing with engineers to observe the processes that in place.
+- Shadowing and assisting with customer support tickets
+
+---
 
 ## Second month
 
