@@ -43,7 +43,7 @@ An onboarding process can also assist with internal training, development, and k
 
 Understand the existing systems and processes of teams. Are there systems in place and how well are those systems working? Do the teams have a balance of work between features, technical debt, and bug fixes? Or are they spending a disproportionate amount of time in one of these areas at the exclusion of others. Spending 100% of time shipping features could indicate a growing backlog of technical debt leading to a fragile infrastructure or expensive changes in the future. At the same time, spending too much time addressing bug fixes may be a lagging indicator that the overall code quality has not been maintained sufficiently and will require an investment in testing to resolve.
 
-### Identify, document, and prioritise tasks
+### Identify and document task priorities
 
 Understanding how to the company assigns priorities to different tasks will be key to knowing where to spend your time. 
 
