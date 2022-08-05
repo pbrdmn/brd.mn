@@ -1,7 +1,7 @@
 ---
 title: Your first 90 days in Engineering Leadership
 date: 2022-07-29
-updated: 2022-08-03
+updated: 2022-08-05
 description: What to focus on during the first few months as an Engineering Manager when joining a new team or organisation
 tags: [onboarding, leadership, featured]
 author: Philip Boardman
@@ -71,21 +71,39 @@ Several approaches that can help quickly provide an overview are:
 
 ---
 
-## Second month
+## Second month – building an event loop and setup communication patterns
 
-Building an "event loop" and setup communication patterns
+### Managing in three directions
 
-1. Managing in three directions
-   - Up: Your manager - giving clear reports of current state and progress
-   - Horizontally: Your peers - collaborating and communicating effectively
-   - Down: Your team - understanding the work, taking responsibility and leading
-2. OKRs aligned with strategy
-   - Specific, measurable and time-bound
-   - Measure results and iterate
-3. Engage and develop engineering
-   - Hiring strategy
-   - [Career development ladder](https://docs.google.com/spreadsheets/d/1k4sO6pyCl_YYnf0PAXSBcX776rNcTjSOqDxZ5SDty-4/edit#gid=0)
-   - Documented Employee Value Proposition
+1. Know your team. Stepping away from being an individual means "your team" is no longer software engineers, but your fellow management staff – the other engineering managers and product managers. These will be your peers and you'd be working closely with them on aligning teams, processes and strategies.
+
+2. Supporting your engineers. Now that you're no longer contributing code the relationship you have with the engineers has shifted. Your role is now to trust, support, and enable these engineers to do their best work. From your experience as an individual contributor you will have some idea what you would like from your manager. Hold onto this and continue to develop yourself.
+
+3. Finally there is managing up - managing your manager. This means being proactive and making your manager's job easier by giving clear reports of current state and progress, on changing situations, and be presenting solutions to problems.
+
+### Objectives and strategy
+
+After understanding the organisation's strategy and equipped with the knowledge of the business analytics, work with teams and departments to establish objectives. These objectives should be [SMART](https://en.wikipedia.org/wiki/SMART_criteria), should clearly identify their relationship with the organisational strategy and demonstrate the reason the objective should be completed now.
+
+Preferably using an automated dashboard, but manually checking otherwise, measure the metrics of the key results after each initiative or project and feed this back to the teams. Iterate on the process of setting objectives and measuring key results, taking consideration of the time expected to see these results change in response to changes to the system. Some changes might have a fast response, but others might not lead to a significant impact straight away.
+
+### Engage and develop engineering
+
+Along with communication, management, and strategy is the task of hiring, mentoring, and developing the engineers within the organisation. During periods of growth, hiring alone can consume a large portion of your time in reviewing resumes, scheduling and conducting interviews and other tasks in this process. Having a clear hiring strategy will provide a framework for speeding up the time to hire as well as allow the hiring team to scale up when demand is high.
+
+This hiring process can cover many different areas, each with an impact on the speed and quality of hiring
+
+- Position descriptions
+- Job ad copy
+- Resume selection criteria
+- Structured interview guides
+- Technical assessments with evaluation criteria
+
+A smooth hiring process is also supported by a refined onboarding process.
+
+The other side of hiring is employee retention or churn rate. There are many [factors why employees will be looking for other opportunities](https://www.roberthalf.com/blog/management-tips/effective-employee-retention-strategies). While many may be outside your control, there are some that can help keep your engineers happy and engaged. A clearly defined and documented Employee Value Proposition can track these internally and will help not only with selling the company in job ads but also identify opportunities to increase retention. In addition, a public or transparent [career development ladder](https://docs.google.com/spreadsheets/d/1k4sO6pyCl_YYnf0PAXSBcX776rNcTjSOqDxZ5SDty-4/edit#gid=0) can provide a tool for identifying opportunities for engineers to grow and develop while remaining with the company.
+
+---
 
 ## Third month
 
@@ -111,5 +129,6 @@ Integrating, monitoring, and accelerating
 - [This 90-Day Plan Turns Engineers into Remarkable Managers – First Round Review](https://review.firstround.com/this-90-day-plan-turns-engineers-into-remarkable-managers)
 - [VP Engineering vs CTO](https://avc.com/2011/10/vp-engineering-vs-cto/)
 - [How to build a startup engineering team – Increment](https://increment.com/teams/how-to-build-a-startup-engineering-team/)
+- [14 Effective Employee Retention Strategies – Robert Half](https://www.roberthalf.com/blog/management-tips/effective-employee-retention-strategies)
 
 </div>
