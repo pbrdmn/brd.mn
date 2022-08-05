@@ -16,7 +16,12 @@ layout: default.njk
   {{content | safe }}
 
   <footer>
-    Tags: {{ tags.join(', ') }}<br />
+    Tags:
+    {% for tag in tags | filterTagList %}
+      <a href="/tags/{{ tag }}/">{{ tag }}</a>
+    {% endfor %}
+    <br />
+  
     Published on: <time datetime="{{page.date}}">{{ page.date | postDate }}</time>
     {%- if updated %}<br />
     Updated on: <time datetime="{{ updated }}">{{ updated | postDate }}</time>

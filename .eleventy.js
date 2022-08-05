@@ -7,35 +7,40 @@ module.exports = function (cfg) {
 
   cfg.addPassthroughCopy("src/**/*.{css,gif,ico,jpg,png}");
 
-  cfg.addCollection("navAlpha", function(collection) {
-    return collection.getFilteredByTags('nav').sort(function(a, b) {
-        let nameA = a.data.title.toUpperCase();
-        let nameB = b.data.title.toUpperCase();
-        if (nameA < nameB) return -1;
-        else if (nameA > nameB) return 1;
-        else return 0;
+  cfg.addCollection("navAlpha", function (collection) {
+    return collection.getFilteredByTags("nav").sort(function (a, b) {
+      let nameA = a.data.title.toUpperCase();
+      let nameB = b.data.title.toUpperCase();
+      if (nameA < nameB) return -1;
+      else if (nameA > nameB) return 1;
+      else return 0;
     });
   });
 
-  cfg.addFilter('postDate', (dateObj) => {
-    var isoDate = dateObj.toISOString()
+  cfg.addFilter("filterTagList", (tags) => {
+    return (tags || []).filter(
+      (tag) => ["all", "nav", "articles", "featured"].indexOf(tag) === -1
+    );
+  });
+
+  cfg.addFilter("postDate", (dateObj) => {
+    var isoDate = dateObj.toISOString();
     return isoDate.substring(0, 10);
-  })
+  });
 
   cfg.addNunjucksFilter("limit", (arr, limit) => arr.slice(0, limit));
 
   cfg.addPlugin(syntaxHighlight);
   cfg.addPlugin(pluginRss);
 
-  
-  cfg.addFilter("cssmin", function(code) {
+  cfg.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
   });
 
   return {
     dir: {
       input: "src",
-      output: "build"
-    }
-  }
+      output: "build",
+    },
+  };
 };
