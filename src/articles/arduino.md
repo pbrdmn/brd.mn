@@ -2,6 +2,7 @@
 title: Arduino
 description: Failing to build anything useful with the Arduino
 date: 2012-05-30
+tags: [arduino, hardware]
 ---
 
 I picked up some arduino boards a few months ago and built a simple digital thermometer with a 4 digit 7-segment LED display. This worked reasonably, aside from some poor connections caused by prototyping on a breadboard.

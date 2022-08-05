@@ -4,6 +4,7 @@ description: Where I visit Canva headquarters and hear talks from smart people
 date: 2015-10-28
 image: sydcss.png
 imageAlt: SydCSS Logo
+tags: [meetup, css]
 ---
 
 ## Speaker 1 - James Coleman - Macropod 
