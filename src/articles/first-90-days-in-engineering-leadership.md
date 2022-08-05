@@ -7,7 +7,7 @@ tags: [onboarding, leadership, featured]
 author: Philip Boardman
 ---
 
-> Reflecting on my transition from an individual contributor into an Engineering Manager role, this article is a letter to my past self with some ideas that, with hindsight, would have been appreciated at that time. I've compiled this outline from my personal experience as well as article I've read by others on the topic, which are linked at the bottom of the page.
+> Reflecting on my transition from an individual contributor into an Engineering Manager role in the past year, this article is a letter to my past self with some ideas I would have appreciated at that time – compiled from both personal experience and research on the topics.
 
 ## Your first week – meeting people and learning the business
 
