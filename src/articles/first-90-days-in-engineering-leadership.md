@@ -9,7 +9,7 @@ author: Philip Boardman
 
 > Reflecting on my transition from an individual contributor into an Engineering Manager role, this article is a letter to my past self with some ideas that, with hindsight, would have been appreciated at that time. I've compiled this outline from my personal experience as well as article I've read by others on the topic, which are linked at the bottom of the page.
 
-## First week – meeting people and learning the business at a high level
+## Your first week – meeting people and learning the business
 
 ### Introduce yourself and your style
 
@@ -71,7 +71,7 @@ Several approaches that can help quickly provide an overview are:
 
 ---
 
-## Second month – building an event loop and setup communication patterns
+## Second month – scaling up communications and strategies
 
 ### Managing in three directions
 
