@@ -105,13 +105,13 @@ The other side of hiring is employee retention or churn rate. There are many [fa
 
 ---
 
-## Third month and beyond – monitoring and accelerating
-
-### Team strengths and dynamics
+## Third month and beyond
 
 With core systems and processes in place, take opportunities to review the teams and individuals. Look at asking what the strengths and weakness of the team are. What can you to do adjust the workload to suit the team's strengths and what development activities can you run with the team to strengthen areas that may be not as strong. This might be providing mentoring, internal training, pairing sessions or external courses.
 
 When reviewing the team's performance, consider qualitative as well as quantitative measures. Is the team shipping regularly, is the product quality improving with each iteration, and how is the team's morale and engagement.
+
+Keep teams motived, growing, high performing and aligned with the company's vision. Never stop learning and good luck on your journey into engineering leadership.
 
 ---
 
