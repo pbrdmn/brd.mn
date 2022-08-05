@@ -105,15 +105,13 @@ The other side of hiring is employee retention or churn rate. There are many [fa
 
 ---
 
-## Third month
+## Third month and beyond – monitoring and accelerating
 
-Integrating, monitoring, and accelerating
+### Team strengths and dynamics
 
-1. What are the strengths and weakness of our team?
-2. How is the team morale and engagement?
-3. Is the quality of the product improving?
-4. Are we achieving our milestones and objectives?
-5. How can we increase our release cadence?
+With core systems and processes in place, take opportunities to review the teams and individuals. Look at asking what the strengths and weakness of the team are. What can you to do adjust the workload to suit the team's strengths and what development activities can you run with the team to strengthen areas that may be not as strong. This might be providing mentoring, internal training, pairing sessions or external courses.
+
+When reviewing the team's performance, consider qualitative as well as quantitative measures. Is the team shipping regularly, is the product quality improving with each iteration, and how is the team's morale and engagement.
 
 ---
 
