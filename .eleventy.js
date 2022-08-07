@@ -19,7 +19,7 @@ module.exports = function (cfg) {
 
   cfg.addFilter("filterTagList", (tags) => {
     return (tags || []).filter(
-      (tag) => ["all", "nav", "articles", "featured"].indexOf(tag) === -1
+      (tag) => ["all", "nav", "articles"].indexOf(tag) === -1
     );
   });
 
