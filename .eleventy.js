@@ -7,19 +7,9 @@ module.exports = function (cfg) {
 
   cfg.addPassthroughCopy("src/**/*.{css,gif,ico,jpg,png}");
 
-  cfg.addCollection("navAlpha", function (collection) {
-    return collection.getFilteredByTags("nav").sort(function (a, b) {
-      let nameA = a.data.title.toUpperCase();
-      let nameB = b.data.title.toUpperCase();
-      if (nameA < nameB) return -1;
-      else if (nameA > nameB) return 1;
-      else return 0;
-    });
-  });
-
   cfg.addFilter("filterTagList", (tags) => {
     return (tags || []).filter(
-      (tag) => ["all", "nav", "articles"].indexOf(tag) === -1
+      (tag) => ["all", "articles"].indexOf(tag) === -1
     );
   });
 

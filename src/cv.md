@@ -1,8 +1,6 @@
 ---
 title: CV
-icon: 📜
 description: The Curriculum Vitae of Philip Boardman
-tags: nav
 ---
 # Philip Boardman
 

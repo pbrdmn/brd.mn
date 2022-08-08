@@ -1,11 +1,13 @@
 <nav>
   <header><a href="/"><img src="/logo.png" width="64" height="64" alt="Logo" />brd.mn</a></header>
   <ul>
-    {%- for link in collections.navAlpha -%}
-      <li><a
-        href="{{link.url}}"
-        {% if page.url == link.url %} aria-current="page"{% endif %}
-      >{{ link.data.title }}</a></li>
-    {%- endfor -%}
+    <li><a
+      href="/articles/"
+      {% if page.url == "/articles/" %} aria-current="page"{% endif %}
+    >Articles</a></li>
+    <li><a
+      href="/cv/"
+      {% if page.url == "/cv/" %} aria-current="page"{% endif %}
+    >CV</a></li>
   </ul>
 </nav>
