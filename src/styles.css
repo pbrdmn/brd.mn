@@ -109,8 +109,8 @@ nav a[aria-current] {
 nav header a img {
   display: inline-block;
   vertical-align: middle;
-  width: 3em;
-  height: 3em;
+  width: 64px;
+  height: 64px;
   margin-right: 0.5rem;
   border-radius: 50%;
   border: 0;
