@@ -19,20 +19,7 @@ permalink: /tags/{{ tag | slugify }}/
 {% set postslist = collections[ tag ] %}
 
 {%- for article in postslist | reverse -%}
-<article class="snippet">
-  {%- if article.data.image %}
-  <img src="{{article.url}}{{article.data.image}}" alt="{{article.data.imageAlt}}" />
-  {%- endif %}
-  <h2><a href="{{article.url}}">{{article.data.title}}</a></h2>
-  <p>{{article.data.description}}</p>
-  <footer>
-    {%- if article.data.updated %}
-    Updated on <time datetime="{{ article.data.updated }}">{{ article.data.updated | postDate }}</time>
-    {%- else %}
-    Posted on {{ article.data.date | postDate }}
-    {%- endif %}
-  </footer>
-</article>
+  {%- include 'snippet.njk' %}
 {%- else -%}
 <p>There are no articles available.</p>
 {%- endfor %}

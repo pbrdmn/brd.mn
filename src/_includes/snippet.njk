@@ -1,0 +1,14 @@
+<article class="snippet">
+  {%- if article.data.image %}
+  <img src="{{article.url}}{{article.data.image}}" alt="{{article.data.imageAlt}}" width="120" loading="lazy" />
+  {%- endif %}
+  <h2><a href="{{article.url}}">{{article.data.title}}</a></h2>
+  <p>{{article.data.description}}</p>
+  <footer>
+    {%- if article.data.updated %}
+    Updated on {{ article.data.updated | postDate }}
+    {%- else %}
+    Posted on {{ article.data.date | postDate }}
+    {%- endif %}
+  </footer>
+</article>
