@@ -10,11 +10,10 @@ description: The Curriculum Vitae of Philip Boardman
 
 <div class="links">
 
-* Leading distributed cross-functional software engineering teams
-* Implemented agile, lean delivery processes and improvements
 * Building teams, mentoring, and personal development
 * Aligning teams with company objectives and customer value
 * Hiring, performance management, and process improvement activities in collaboration with HR and hiring teams
+* Implemented agile, lean delivery processes and improvements
 * [Connect with me on LinkedIn](https://linkedin.com/in/philipboardman/)
 
 </div>
@@ -26,10 +25,6 @@ Joined [Compono](https://compono.com) in 2018 as the fourth developer working as
 Took a Lead Full Stack Developer role in 2020 and formed a new team to create an Applicant Tracking System (ATS) to extend the feature set of the intelligent hiring product. Introduced agile methodologies to the product team and implement a shift-left approach to quality.
 
 Promoted to Engineering Manager in 2021, I trained a replacement lead developer for my team and began overseeing three product teams. I was involved in all aspects of hiring, mentoring, career development, and engineering process improvements. Lead the formation of a new team to tackle a significant strategic software re-architecture of a core business function.
-
-I began product development at [AirService](https://www.airservice.com) in 2016, working with a product focused team on a modern technology stack, continuous integration and deployment pipelines and lead the development and launch of a React Native mobile application to support an online ordering solution. During this time I also completed a Graduate Certificate of Mobile Application Development with [Charles Sturt University](https://www.csu.edu.au/).
-
-Between 2008 and 2016, I built CMS and e-commerce web applications at [Bicycling Australia](https://bicyclingaustralia.com.au/) and [Wisdom Advertising and Design](https://www.wisdom.com.au/). Working across different industries with a variety of different clients brought new perspectives, technical challenges, and great opportunities to work closely with clients, account managers, and designers to understand requirements, scope, and deliverables.
 
 ---
 
