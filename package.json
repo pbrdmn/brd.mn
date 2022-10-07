@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dustykeyboard/brd.mn.git"
+    "url": "git+https://github.com/pbrdmn/brd.mn.git"
   },
   "keywords": [
     "11ty",
@@ -19,9 +19,9 @@
   "author": "Philip Boardman <github@brd.mn>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dustykeyboard/brd.mn/issues"
+    "url": "https://github.com/pbrdmn/brd.mn/issues"
   },
-  "homepage": "https://github.com/dustykeyboard/brd.mn#readme",
+  "homepage": "https://github.com/pbrdmn/brd.mn#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.2",

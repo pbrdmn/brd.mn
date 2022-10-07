@@ -13,8 +13,8 @@ Modals are used for Create, Edit and Delete interactions with a simple validatio
 
 After changes are send to the API, the data table is refreshed. During the refresh, the content is dimmed and clicks are ignored to prevent users interacting with stale data.
 
-Test app is available on [Github](https://github.com/dustykeyboard/apitest) and includes a simple PHP CRUD API in the `/api` directory. Objects of a type can be created, read, updated and deleted. The objects are stored in a flat file database named `type.json`.
+Test app is available on [Github](https://github.com/pbrdmn/apitest) and includes a simple PHP CRUD API in the `/api` directory. Objects of a type can be created, read, updated and deleted. The objects are stored in a flat file database named `type.json`.
 
-Source code at [github/dustykeyboard/crud.js](https://github.com/dustykeyboard/crud.js)
+Source code at [github/pbrdmn/crud.js](https://github.com/pbrdmn/crud.js)
 
 Demo app at [brd.mn/apitest](https://brd.mn/apitest)

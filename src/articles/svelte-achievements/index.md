@@ -18,4 +18,4 @@ The application was written in Svelte, using the Vanilla CSS framework for simpl
 
 Routing was implemented with pages according to SvelteKit standard implementation.
 
-[github.com/dustykeyboard/achievements](https://github.com/dustykeyboard/achievements)
+[github.com/pbrdmn/achievements](https://github.com/pbrdmn/achievements)
