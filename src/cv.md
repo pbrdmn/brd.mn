@@ -40,9 +40,15 @@ React, Typescript, GraphQL, Node, MongoDB, AWS
 
 ## Experience
 
+> ### Engineering Manager at Redbubble
+> 
+> <span class="meta">October 2022 - Current</span>
+> 
+> Redbubble is creating the world's largest marketplace for iondependent artists, bringing more creativity into the world.
+
 > ### Engineering Manager at Compono
 > 
-> <span class="meta">June 2021 - Current</span>
+> <span class="meta">June 2021 - October 2022</span>
 >
 > Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights.
 > 
