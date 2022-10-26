@@ -40,7 +40,8 @@ imageAlt: Visual Studio Code editor with a markdown file open
 
 ### Audio / Video
 
-- [Canon m200](https://www.canon.com.au/cameras/eos-m200) - A compact mirror-less camera sends clean 1080p output via micro HDMI, routed through a cheap HDMI USB capture card to provide webcam input. Powered with a battery replacement kit for always-on power .
+- [Canon m200](https://www.canon.com.au/cameras/eos-m200) - A compact mirror-less camera sends clean 1080p output via micro HDMI, routed through a cheap HDMI USB capture card to provide webcam input. Powered with a battery replacement kit for always-on power.
+- A 2022 audio upgrade with the [Rode VideoMic Go II](https://rode.com/en/microphones/on-camera/videomic-go-ii) and the [Rode Connect](https://rode.com/en/software/rodeconnect) companion app for more audio routing flexibility with a bit less bulk as this connects directly via USB and doesn't require an additional audio interface.
 - The [Rode M2](https://www.rode.com/microphones/m2) microphone has a super-cardioid condenser pattern which means it does a great job of rejecting background noise, including my keyboard typing sounds. The [Rode PSA1](https://www.rode.com/accessories/stands/psa1) was the best reviewed at the time of purchase and does a great job holding the microphone exactly where I want it.
 - [Focusrite Solo V3](https://focusrite.com/en/audio-interface/scarlett/scarlett-solo) connects the microphone with 48v phantom power and occasionally a secondary audio source. Headphone jack on the front with convenient volume control and USB-C power and connection to the computer.
 - [Audio Technica ATH-M50x](https://audio-technica.com.au/products/ath-m50x/) are a great, comfortable pair of headphones with a neat curly cable.
