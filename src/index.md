@@ -8,6 +8,7 @@ layout: home.njk
 <div class="links">
 
 * [Tweeting as @pbrdmn](https://twitter.com/pbrdmn)
+* <a rel="me" href="https://mastodon.online/@pbrdmn">@pbrdmn on Mastodon.online</a>
 * [Coding on Github](https://github.com/pbrdmn)
 * [Networking on LinkedIn](https://linkedin.com/in/philipboardman/)
 * [Member of Siligong Valley community](https://www.siligongvalley.com/)
