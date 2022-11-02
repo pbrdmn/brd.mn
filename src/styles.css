@@ -93,7 +93,7 @@ nav a:visited {
 }
 nav a:hover {
   color: var(--background);
-  background: var(--link);
+  background-color: var(--link);
 }
 nav a[aria-current] {
   color: var(--foreground);
@@ -106,15 +106,16 @@ nav a[aria-current] {
   }
 }
 
-nav header a img {
+nav header a::before {
+  content: "";
+  background: yellow;
+  background-image: url(/logo.png);
   display: inline-block;
-  vertical-align: middle;
   width: 64px;
   height: 64px;
+  border-radius: 32px;
   margin-right: 0.5rem;
-  border-radius: 50%;
-  border: 0;
-  transform: rotateZ(0);
+  vertical-align: middle;
 }
 
 @media screen and (min-width: 800px) {
