@@ -108,7 +108,7 @@ nav a[aria-current] {
 
 nav header a::before {
   content: "";
-  background: yellow;
+  background: var(--visited);
   background-image: url(/logo.png);
   display: inline-block;
   width: 64px;
