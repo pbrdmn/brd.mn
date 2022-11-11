@@ -7,7 +7,6 @@ layout: home.njk
 
 <div class="links">
 
-* [Tweeting as @pbrdmn](https://twitter.com/pbrdmn)
 * <a rel="me" href="https://aus.social/@pbrdmn">Tooting on Mastodon</a>
 * [Coding on Github](https://github.com/pbrdmn)
 * [Networking on LinkedIn](https://linkedin.com/in/philipboardman/)
