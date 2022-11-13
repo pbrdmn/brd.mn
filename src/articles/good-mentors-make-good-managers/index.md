@@ -96,3 +96,11 @@ When everyone in the team was working in this open way, we could all learn from 
 ---
 
 ## Preparing for the next step
+
+Over the following months, Nikolay and I spoke about a variety of topics from project management principals, team leadership skills, motivation, and alignment.
+
+We talked about the aspects involved in project and people management roles that differ greatly from the day to day tasks faced by most software engineers. I was discovering a new set of skills that weren't purely about writing and shipping code.
+
+Together we ran through a skills gap analysis between myself and a new tech lead role that he had planned.
+
+## New areas of knowledge
