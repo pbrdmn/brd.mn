@@ -103,4 +103,27 @@ We talked about the aspects involved in project and people management roles that
 
 Together we ran through a skills gap analysis between myself and a new tech lead role that he had planned.
 
+---
+
 ## New areas of knowledge
+
+After identifying these gaps in my skills, Nikolay and I worked to cover these new areas.
+
+I was given opportunity to step up and assist further with planning and facilitation, working with stakeholders, leadership, and discussing the engineering strategy within Compono.
+
+And of course there were books. Lots of books to read covering these topics and more.
+
+---
+
+## Recommended reading
+
+A few of the books added to my reading list at this time
+
+- Simple Habits for Complex Times
+- Thinking in Systems
+- The Long-Distance Leader
+- Thinking, Fast and Slow
+- Dare to Lead
+- The Lean Startup
+
+---
