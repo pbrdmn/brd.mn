@@ -49,7 +49,9 @@ I didn't know what was next for me but I knew that I wanted to find someone who 
 
 I'm sure there are many ways to do this, finding mentors, professional career coaches, and the like, but I wasn't happy in my current job and decided to look for a new role where I could understand how to better navigate the career journey of a Software Engineer.
 
-For me, I had begun considering engineering management, but I had no idea what I needed to do to get there.
+About this time the "10x Engineer" memes were circulating and I thought that the best way I could think of to become a 10x engineer would be to support 10 other engineers in their work.
+
+This lead me to begin considering engineering management, but I had no idea what I needed to do to get there.
 
 ---
 
