@@ -25,6 +25,8 @@ University courses for IT and software engineering teach how software works, how
 
 ---
 
+## Many roles have had no mentorship
+
 In in the beginning of my career, I worked with several small companies. There was often little thought put toward career development, mentorship, or any training beyond what was required to get the day to day work completed.
 
 It appeared to be an industry norm that the people building the web are responsible for their own self learning and keeping their skills up to date and relevant.
@@ -32,6 +34,8 @@ It appeared to be an industry norm that the people building the web are responsi
 This tends to steer people toward learning new technical skills but possibly missing out on critical career development they might be looking for.
 
 ---
+
+## 10 years of experience vs 1 year of experience, ten times
 
 Without a structured career development plan, many software engineers end up spending several years repeating the same experience.
 
@@ -69,3 +73,26 @@ This was great news for me, a company where I could join and use my existing ski
 
 ## Finding a mentor
 
+This company was [Compono](https://compono.com) and that interviewer who was interested in my career was the CTO, [Nikolay Nemshilov](https://www.linkedin.com/in/nikolay-nemshilov-07878b14/).
+
+I joined Compono a few weeks later and began working closely with Nikolay on the delivery of several projects. I spoke up and did my best to support during planning activities. But most valuable to me was the feedback in our regular one on one sessions.
+
+## Getting great feedback from mentorship
+
+I still remember the feedback I got in that first session after a few weeks. I needed to connect more with the team, share what I was working on and call out when I needed help.
+
+But the feedback also came with reasons, why I should change how I was working and how this would benefit the team I was working with.
+
+---
+
+## Working out loud
+
+For me, the most unexpected feedback was about "working out loud". It as always seemed to me that getting your work done quickly and quietly was the sign of being good at your job, something to respect and strive for.
+
+However, I was learning that working with a team is about more than just how much code you can write. Sharing the work I was doing would share what I was learning, as well as encourage others to work in this way as well.
+
+When everyone in the team was working in this open way, we could all learn from each other, and have a chance to share our individual experience with the rest of the team.
+
+---
+
+## Preparing for the next step
