@@ -7,7 +7,7 @@ image: sudoku-generator-solver.png
 imageAlt: Terminal application generating and solving a sudoku puzzle
 ---
 
-Wrote a sample program in Rust to generate and solve sudoku puzzles.
+Wrote a sample program in Rust to [generate and solve sudoku puzzles](https://github.com/pbrdmn/katas.rs/tree/main/sudoku).
 
 Understanding the type system, references, and ownership model in Rust to manage the application's state. Reading from and writing to the filesystem to allow persistence between application executions.
 
