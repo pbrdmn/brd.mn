@@ -126,4 +126,38 @@ A few of the books added to my reading list at this time
 - Dare to Lead
 - The Lean Startup
 
+![Covers of the books recommended above](books.png)
+
+---
+
+## Taking the lead
+
+At the beginning of 2020, the engineering department was growing and we began to form some formal teams. This provided me with an opportunity to step up as team lead for a new team that was being created to build a new product to integrate and extend the functionality of the business.
+
+There was had a strong vision laid out for this new product, but it would be up to the team to chart the roadmap and be responsible for delivery.
+
+---
+
+## Leading the team
+
+Personally this team lead role meant a big change in my responsibilities. I was working with a Product Owner who was new to the company and working with his first product team.
+
+We were also shifting from our previous project-base approach to work management to take a more agile approach to our engineering development and delivery practices.
+
+I began spending more time pairing and holding one on ones with the engineers and QA in the team, making sure people had what they needed for work and to talk through any issues they were facing.
+
+All through this change I continued to meet with my mentor and discuss my questions and identify any areas I would need to focus on learning.
+
+---
+
+## Permission to fail
+
+> You'll probably fail a few times, you're skill learning
+
+I wasn't sure how to take this at first. As the new team was forming we were quickly finding our feet, establishing strong relationships and building good process for our work.
+
+I was wondering at his lack of confidence, and struggling with my anxiety of perfectionism and fear of failure.
+
+We spent a bit of time working through psychological safety after that.
+
 ---
