@@ -161,3 +161,38 @@ I was wondering at his lack of confidence, and struggling with my anxiety of per
 We spent a bit of time working through psychological safety after that.
 
 ---
+
+## New responsibilities
+
+---
+
+## Repeating the same lessons
+
+---
+
+## Achievement Unlocked: Engineering Manager
+
+---
+
+## What has changed
+
+---
+
+## New skills
+
+---
+
+## What's the same?
+
+---
+
+## Conclusion
+
+---
+
+## Questions for reflection
+
+- How can we ensure we are providing the mentorship needed to build leaders within our organisations?
+- How different is the management career from an individual contributor?
+- How to discussing career and development aspirations regularly?
+- How to best help build a learning pathway toward an individual's goals?
