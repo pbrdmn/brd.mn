@@ -166,9 +166,23 @@ We spent a bit of time working through psychological safety after that.
 
 ## New responsibilities
 
+With the new tech lead role came new responsibilities.
+
+In working with the Product Owner to build our product roadmap, it was my responsibility that the features we planned were feasible with our tech stack and the skills and resources of the team.
+
+Together we had to communicate to the stakeholders across the company, which thankfully for my part was mostly writing planning and reporting documents. The Product Owner would be the one attending the meetings.
+
+I was also responsible for maintaining the quality of our code base and delivery metrics. Ensuring that we have enough tests to give us confidence when making changes and a robust continuous integration environment that would allow us to quickly and reliably deploy to production as frequently as we needed.
+
 ---
 
 ## Repeating the same lessons
+
+Now as I was working with and mentoring these engineers on the team, I found myself repeating the lessons I had first been the recipient of. Encouraging the team to work out loud, sharing their work and asking for help when it was required.
+
+We worked together to build a safe environment for sharing ideas and I was very aware to be inclusive of the whole team, encouraging everyone to participate in the team's planning and estimation activities.
+
+One of the best improvements we made at this time was a suggestion from our QA to bring shift left into our engineering process. After we experimented with the process within the team, it quickly spread to other teams in the business.
 
 ---
 
