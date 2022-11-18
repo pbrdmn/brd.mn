@@ -77,6 +77,8 @@ This company was [Compono](https://compono.com) and that interviewer who was int
 
 I joined Compono a few weeks later and began working closely with Nikolay on the delivery of several projects. I spoke up and did my best to support during planning activities. But most valuable to me was the feedback in our regular one on one sessions.
 
+---
+
 ## Getting great feedback from mentorship
 
 I still remember the feedback I got in that first session after a few weeks. I needed to connect more with the team, share what I was working on and call out when I needed help.
