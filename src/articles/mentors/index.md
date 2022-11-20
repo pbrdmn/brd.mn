@@ -125,7 +125,7 @@ A few of the books added to my reading list at this time
 
 - [Simple Habits for Complex Times](https://www.amazon.com.au/Simple-Habits-Complex-Times-Practices/dp/0804799431) - Jennifer Garvey Berger and Keith Johnston
 - [Thinking in Systems](https://www.amazon.com.au/Thinking-Systems-Donella-H-Meadows/dp/1603580557) - Donna Meadows
-- [The Long-Distance Leader](https://www.amazon.com.au/Long-Distance-Leader-Remarkable-Remote-Leadership/dp/1523094613) - Kevin Eikenberry
+- [The Long-Distance Leader](https://www.amazon.com.au/Long-Distance-Leader-Remarkable-Remote-Leadership/dp/1523094613) - Kevin Eikenberry and Wayne Turmel
 - [Thinking, Fast and Slow](https://www.amazon.com.au/Thinking-Fast-Slow-Daniel-Kahneman/dp/0141033576) - Daniel Kahneman
 - [Dare to Lead](https://www.amazon.com.au/Dare-Lead-Brave-Conversations-Hearts/dp/1785042149) - Brené Brown
 - [The Lean Startup](https://www.amazon.com.au/Lean-Startup-Innovation-Successful-Businesses/dp/0670921602) - Eric Ries
