@@ -2,7 +2,7 @@
 title: Good mentors make good managers
 description: Good mentors make good managers; a journey from IC to management
 image: slide.png
-imageAlt: Title slide from presentation
+imageAlt: Title slide. Good mentors make good managers; a journey from IC to management
 date: 2022-11-30
 tags: [engineering,leadership,mentoring,presentation]
 
@@ -206,9 +206,26 @@ I was now responsible for supporting 15 engineers and QA across the three teams.
 
 ---
 
-## New skills
+### People challenges
+
+Moving out of my tech lead role, the first hire was to be my replacement. However, this was quickly followed by another. Soon hiring has become a significant proportion of my time in writing business case documents, reviewing position descriptions and interviews.
+
+Another challenge I faced shortly after taking the management role was around team dynamics and psychological safety.
 
 
+---
+
+## Strategy skills
+
+I was also required to assist the Product Manager in building development roadmaps for these teams to keep them aligned with the company's goals and the Product and Engineering OKRs.
+
+Working with the <abbr title="Chief Product Officer">CPO</abbr> and the Product Manager to understand how the teams within our tribe could be best aligned with the company's strategy took some time, as this processes with OKRs was new to most of us, myself included.
+
+After a few false starts, we were able to define some objectives and key results that would allow our teams to identify the work in their domains that would have an impact in the appropriate areas of the business.
+
+This change in process required some careful management as it was a significant departure from the ways of working our teams has been following previously.
+
+From these new <abbr title="Objectives and Key Results">OKRs</abbr> the Product Manager and I worked with each team to build out roadmaps. This highlighted how the expected outcome for each initiative for the team and how was aligned with the company strategy.
 
 ---
 
