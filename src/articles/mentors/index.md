@@ -186,19 +186,33 @@ One of the best improvements we made at this time was a suggestion from our QA t
 
 ---
 
-## Achievement Unlocked: Engineering Manager
+## A new challenge
+
+The engineering department was continuing to grow, now up to ten teams and a new position was made for an Engineering Manager to support this growing organisational structure.
+
+Taking inspiration from [The Spotify Model](https://www.atlassian.com/agile/agile-at-scale/spotify), our Product and Engineering department was divided into three tribes, each with three or four squads or teams, aligned on similar areas within the business.
+
+I was promoted to Engineering Manager and given responsibility for managing the engineers and delivery within the previous team I had been leading along with two others.
 
 ---
 
-## What has changed
+## What changed
+
+This move to Engineering Manager was a significant departure from my role as a tech lead.
+
+The scope of work I was across had tripled and I had new product domains to understand. I needed to move away from the day to day coding and trust this responsibility to my former team mates.
+
+I was now responsible for supporting 15 engineers and QA across the three teams. I needed to work closely with these people to understand their situations and help them define their own paths.
 
 ---
 
 ## New skills
 
+
+
 ---
 
-## What's the same?
+## What continued
 
 ---
 
