@@ -2,7 +2,7 @@
 title: Good mentors make good managers
 description: Good mentors make good managers; a journey from IC to management
 image: slide.png
-imageAlt: Good mentors make good managers; a journey from IC to management
+imageAlt: Presentation outlining my career change into management
 date: 2022-11-30
 tags: [engineering,leadership,mentoring,presentation]
 
