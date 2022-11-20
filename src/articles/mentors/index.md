@@ -9,7 +9,9 @@ tags: [engineering,leadership,mentoring,presentation]
 eleventyExcludeFromCollections: true
 ---
 
-A journey from IC to management.
+> A journey from IC to management.
+
+This talk was originally written for presention at [Web Directions Code Leaders](https://webdirections.org/leaders/) 2022.
 
 ---
 
