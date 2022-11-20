@@ -4,7 +4,7 @@ description: The Curriculum Vitae of Philip Boardman
 ---
 # Philip Boardman
 
-> Engineering Manager leading distributed cross-functional software engineering teams
+> Engineering Manager leading cross-functional software engineering teams
 
 ## Highlights
 
