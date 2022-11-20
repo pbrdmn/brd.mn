@@ -15,23 +15,21 @@ A journey from IC to management.
 
 ## To be a Software Engineering is to be Continually learning
 
-I imagine for lot of people, a career in technology wasn’t something you began with a clear path mapped out.
+I imagine for lot of people, a career in software wasn’t something you began with a clear path mapped out.
 
-Many have started by programming a VCR or successfully connecting a printer and been told they’ll be a computer whiz.
+In my experience, a natural affinity for computers and technology led to learning about programming while at school and continued studying computer engineering at university.
 
-That was my experience, a natural affinity for computers and technology to study Computer Engineering. There was 
-
-University courses for IT and software engineering teach how software works, how to run a waterfall project and maybe how to put a business case together, but have nothing to say on building a career roadmap for continued learning.
+University courses for IT and software engineering teach how to write code, how software works, maybe how to run a software project and possibly how to put together a business. But I found nothing there that would help be build a career roadmap beyond the point I had become an senior software engineer.
 
 ---
 
-## Many roles have had no mentorship
+## Aimless career
 
-In in the beginning of my career, I worked with several small companies. There was often little thought put toward career development, mentorship, or any training beyond what was required to get the day to day work completed.
+In in the beginning of my career, I worked as a web programmer with several small companies. There was often little thought put toward career development, mentorship, or any training beyond what was required to get the day to day work completed.
 
-It appeared to be an industry norm that the people building the web are responsible for their own self learning and keeping their skills up to date and relevant.
+This appeared to be an industry norm to me, that the people building the web are responsible for their own self learning and keeping their skills up to date and relevant. Myself and those I knew would spend time outside of work for learning and development activities.
 
-This tends to steer people toward learning new technical skills but possibly missing out on critical career development they might be looking for.
+This tended to steer people toward learning new technical skills, those that are commonly discussed and easy to demonstrate for job applications, but lead to missing out on critical career development knowledge or structured pathways for learning.
 
 ---
 
@@ -73,7 +71,7 @@ This was great news for me, a company where I could join and use my existing ski
 
 ## Finding a mentor
 
-This company was [Compono](https://compono.com) and that interviewer who was interested in my career was the CTO, [Nikolay Nemshilov](https://www.linkedin.com/in/nikolay-nemshilov-07878b14/).
+This company was [Compono](https://compono.com) and that interviewer who was interested in my career was the CTO, [Nikolay](https://www.linkedin.com/in/nikolay-nemshilov-07878b14/).
 
 I joined Compono a few weeks later and began working closely with Nikolay on the delivery of several projects. I spoke up and did my best to support during planning activities. But most valuable to me was the feedback in our regular one on one sessions.
 
@@ -121,14 +119,14 @@ And of course there were books. Lots of books to read covering these topics and 
 
 A few of the books added to my reading list at this time
 
+![Covers of the recommended books](books.png)
+
 - Simple Habits for Complex Times
 - Thinking in Systems
 - The Long-Distance Leader
 - Thinking, Fast and Slow
 - Dare to Lead
 - The Lean Startup
-
-![Covers of the books recommended above](books.png)
 
 ---
 
@@ -160,7 +158,7 @@ I wasn't sure how to take this at first. As the new team was forming we were qui
 
 I was wondering at his lack of confidence, and struggling with my anxiety of perfectionism and fear of failure.
 
-We spent a bit of time working through psychological safety after that.
+We spent a bit of time working through psychological safety after that. Describing some of the behaviours he's used to encourage people to share their ideas within team settings, such as ensuring everyone had an opportunity to contribute and being the last to speak.
 
 ---
 
@@ -186,7 +184,7 @@ One of the best improvements we made at this time was a suggestion from our QA t
 
 ---
 
-## A new challenge
+## A new chapter
 
 The engineering department was continuing to grow, now up to ten teams and a new position was made for an Engineering Manager to support this growing organisational structure.
 
@@ -206,11 +204,11 @@ I was now responsible for supporting 15 engineers and QA across the three teams.
 
 ---
 
-### People challenges
+### The challenges
 
-Moving out of my tech lead role, the first hire was to be my replacement. However, this was quickly followed by another. Soon hiring has become a significant proportion of my time in writing business case documents, reviewing position descriptions and interviews.
+Moving out of my tech lead role, the first hire was to be my replacement. However, this was quickly followed by one of the other tech leads leaving and I quickly found that hiring had become a significant proportion of my time. I was writing business case documents, reviewing position descriptions and spending several hours each week with interviews. I was supported by a great HR team and was soon able to fill these positions and support the onboarding of the new tech leads into their teams and products.
 
-Another challenge I faced shortly after taking the management role was around team dynamics and psychological safety.
+Another challenge I faced shortly after taking the management role was around team dynamics and psychological safety. 
 
 
 ---
@@ -227,9 +225,6 @@ This change in process required some careful management as it was a significant 
 
 From these new <abbr title="Objectives and Key Results">OKRs</abbr> the Product Manager and I worked with each team to build out roadmaps. This highlighted how the expected outcome for each initiative for the team and how was aligned with the company strategy.
 
----
-
-## What continued
 
 ---
 
