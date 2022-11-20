@@ -121,12 +121,12 @@ A few of the books added to my reading list at this time
 
 ![Covers of the recommended books](books.png)
 
-- Simple Habits for Complex Times
-- Thinking in Systems
-- The Long-Distance Leader
-- Thinking, Fast and Slow
-- Dare to Lead
-- The Lean Startup
+- [Simple Habits for Complex Times](https://www.amazon.com.au/Simple-Habits-Complex-Times-Practices/dp/0804799431) - Jennifer Garvey Berger and Keith Johnston
+- [Thinking in Systems](https://www.amazon.com.au/Thinking-Systems-Donella-H-Meadows/dp/1603580557) - Donna Meadows
+- [The Long-Distance Leader](https://www.amazon.com.au/Long-Distance-Leader-Remarkable-Remote-Leadership/dp/1523094613) - Kevin Eikenberry
+- [Thinking, Fast and Slow](https://www.amazon.com.au/Thinking-Fast-Slow-Daniel-Kahneman/dp/0141033576) - Daniel Kahneman
+- [Dare to Lead](https://www.amazon.com.au/Dare-Lead-Brave-Conversations-Hearts/dp/1785042149) - Brené Brown
+- [The Lean Startup](https://www.amazon.com.au/Lean-Startup-Innovation-Successful-Businesses/dp/0670921602) - Eric Ries
 
 ---
 
@@ -140,9 +140,7 @@ There was had a strong vision laid out for this new product, but it would be up 
 
 ## Leading the team
 
-Personally this team lead role meant a big change in my responsibilities. I was working with a Product Owner who was new to the company and working with his first product team.
-
-We were also shifting from our previous project-base approach to work management to take a more agile approach to our engineering development and delivery practices.
+Personally this team lead role meant a big change in my responsibilities. I began working with a Product Owner who was new to the company and was working with his first product team. We were shifting from our previous project-base work management approach to take more agile engineering development and delivery practices.
 
 I began spending more time pairing and holding one on ones with the engineers and QA in the team, making sure people had what they needed for work and to talk through any issues they were facing.
 
@@ -219,7 +217,7 @@ I was also required to assist the Product Manager in building development roadma
 
 Working with the <abbr title="Chief Product Officer">CPO</abbr> and the Product Manager to understand how the teams within our tribe could be best aligned with the company's strategy took some time, as this processes with OKRs was new to most of us, myself included.
 
-After a few false starts, we were able to define some objectives and key results that would allow our teams to identify the work in their domains that would have an impact in the appropriate areas of the business.
+After a few false starts, we were able to define the objectives and key results that would allow our teams to identify the work in their domains that would have an impact in the appropriate areas of the business.
 
 This change in process required some careful management as it was a significant departure from the ways of working our teams has been following previously.
 
