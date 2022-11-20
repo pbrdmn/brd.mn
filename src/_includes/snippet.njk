@@ -6,9 +6,9 @@
   <p>{{article.data.description}}</p>
   <footer>
     {%- if article.data.updated %}
-    Updated on {{ article.data.updated | postDate }}
+    Updated: {{ article.data.updated | postDate }}
     {%- else %}
-    Posted on {{ article.data.date | postDate }}
+    Posted: {{ article.data.date | postDate }}
     {%- endif %}
   </footer>
 </article>
