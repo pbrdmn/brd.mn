@@ -23,9 +23,9 @@ module.exports = function (cfg) {
   cfg.addPlugin(syntaxHighlight);
   cfg.addPlugin(pluginRss);
 
-  cfg.addFilter("cssmin", function (code) {
-    return new CleanCSS({}).minify(code).styles;
-  });
+  // cfg.addFilter("cssmin", function (code) {
+  //   return new CleanCSS({}).minify(code).styles;
+  // });
 
   return {
     dir: {

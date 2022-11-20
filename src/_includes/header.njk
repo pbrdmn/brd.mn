@@ -21,10 +21,8 @@
     content="#160d16"
     media="(prefers-color-scheme: dark)"
   />
-  <link rel="icon" href="/logo.jpg" type="image/jpeg" />
+  <link rel="icon" href="{{ site.url }}/logo.jpg" type="image/jpeg" />
   {%- include 'social.njk' %}
-
-<style>
-{{ css | cssmin | safe }}
-</style>
+  
+  <link rel="stylesheet" type="text/css" href="/styles.css" />
 </head>
