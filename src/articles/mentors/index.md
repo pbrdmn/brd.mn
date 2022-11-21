@@ -1,6 +1,6 @@
 ---
-title: Good mentors make good managers
-description: Good mentors make good managers; a journey from IC to management
+title: Good mentors make good managers; a journey from IC to management
+description: A presentation outlining my career change into management, for Web Directions Code Leaders 2022
 image: slide.png
 imageAlt: Presentation outlining my career change into management
 date: 2022-11-30
