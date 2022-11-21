@@ -9,7 +9,7 @@ tags: [engineering,leadership,mentoring,presentation]
 eleventyExcludeFromCollections: true
 ---
 
-> A journey from IC to management.
+> A presentation outlining my career change into management, for Web Directions Code Leaders 2022
 
 This talk was originally written for presention at [Web Directions Code Leaders](https://webdirections.org/leaders/) 2022.
 
