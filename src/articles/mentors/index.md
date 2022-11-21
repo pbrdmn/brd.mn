@@ -11,7 +11,19 @@ eleventyExcludeFromCollections: true
 
 > A presentation outlining my career change into management, for [Web Directions Code Leaders](https://webdirections.org/leaders/) 2022.
 
-## To be a software engineer is to be continually learning
+## Continually learning
+
+In in the beginning of my career I worked as a web developer with several small companies.  There was often little thought put toward career development, mentorship, or any training beyond what was required to get the day to day work completed.
+
+I would learn new programming languages and tools on my own time that seemed interesting and they would unlock the skills to build websites or applications in a new way.
+
+Independent and self-directed learning appeared to be the industry norm to me. The people building the web are responsible for their own self education and keeping their skills up to date, and knowing which tools would be relevant. Myself and those I knew would spend time outside of work for learning and development activities.
+
+Without a clear path for development, people tended to prefer learning new technical skills, those that are commonly discussed and easy to demonstrate for job applications, but might have been missing out on critical career development knowledge and structured learning pathways.
+
+---
+
+## Unstructured career path
 
 I imagine for many people, a career in software development wasn’t something you began with a clear path mapped out of where you would end up.
 
@@ -23,35 +35,27 @@ University courses for IT and software engineering taught how to write code, how
 
 ---
 
-## Aimless career
+## Years of experience
 
-In in the beginning of my career I worked as a web developer with several small companies. There was often little thought put toward career development, mentorship, or any training beyond what was required to get the day to day work completed.
+With no structured development plan, fresh learning opportunities can be difficult to identify. Without a plan you can spend several years repeating the same experience. Doing the same work. You might get better at doing the work, but without being challenged it is difficult to grow.
 
-I would learn new programming languages and tools on my own time that seemed interesting and they would unlock the skills to build websites or applications in a new way.
+One question I wish I would have asked myself more deliberately through this time is “What do I need to learn next?”
 
-Independent and self-directed learning appeared to be the industry norm to me. The people building the web are responsible for their own self education and keeping their skills up to date, and knowing which tools would be relevant. Myself and those I knew would spend time outside of work for learning and development activities.
+Without having an understanding of the career path, the opportunities I took were the ones that came to me. Some of these were excellent and enjoyable, like building and releasing iPhone apps for a cycling magazine. Some were more tedeous, like rebuilding a cycling classified ads site, or implementing an in-house advertising inventory managment system.
 
-Without a clear path for development, people tended to prefer learning new technical skills, those that are commonly discussed and easy to demonstrate for job applications, but might have been missing out on critical career development knowledge and structured learning pathways.
+On the whole, I was learning and developing my skills, but not deliberately and not strategically. I was collecting a lot of broad knowledge, but lacking depth and didn't have a framework in place to make continued progress in any one area.
 
----
-
-## 10 years of experience vs 1 year of experience, ten times
-
-Without a structured career development plan, many software engineers end up spending several years repeating the same experience.
-
-Often a question asked is “What do I need to learn next?”
-
-At this time, this saying rang very true for me: "10 years of experience vs 1 year of experience, ten times".
-
-It was difficult to find learning opportunities in the workplace.
+Looking back at this time, this saying rang very true for me: "10 years of experience vs 1 year of experience, ten times".
 
 ---
 
-## Becoming deliberate and thinking about career and development goals
+## Becoming deliberate
+
+I was reaching my third year working at [Wisdom](https://wisdom.com.au), a design and advertising agency. I had been working with account managers and designers, learned about working with clients and managing stakeholders.
 
 I didn't know what was next for me but I knew that I wanted to find someone who could help me consider my career and development goals.
 
-I'm sure there are many ways to do this, finding mentors, professional career coaches, and the like, but I wasn't happy in my current job and decided to look for a new role where I could understand how to better navigate the career journey of a Software Engineer.
+I'm sure there are many ways to do this, finding mentors, professional career coaches, and the like, but I felt wasn't growing in my current job and decided to look for a new role where I could understand how to better navigate the career journey of a Software Engineer.
 
 About this time the "10x Engineer" memes were circulating and I thought that the best way I could think of to become a 10x engineer would be to support 10 other engineers in their work.
 
@@ -75,13 +79,21 @@ This was great news for me, a company where I could join and use my existing ski
 
 This company was [Compono](https://compono.com) and that interviewer who was interested in my career was the CTO, [Nikolay](https://www.linkedin.com/in/nikolay-nemshilov-07878b14/).
 
-I joined Compono a few weeks later and began working closely with Nikolay on the delivery of several projects. I spoke up and did my best to support during planning activities. But most valuable to me was the feedback in our regular one on one sessions.
+I joined Compono a few weeks later and began working closely with Nikolay on the delivery of several projects, as I was learning how the company, product, and technology worked.
+
+I spoke up and did my best to support during planning activities. But most valuable to me was the feedback in our regular one on one sessions.
 
 ---
 
-## Getting great feedback from mentorship
+## Getting feedback
 
 I still remember the feedback I got in that first session after a few weeks. I needed to connect more with the team, share what I was working on and call out when I needed help.
+
+> Getting up to speed with docker, Buildkite​  
+> My input in communication is helping clarify discussions​  
+> Slow starting careful but sometimes optimistic with estimations​  
+> Ask more questions - don't try to solve everything myself​  
+> Asking for help helps build the culture of asking for help
 
 But the feedback also came with reasons, why I should change how I was working and how this would benefit the team I was working with.
 
@@ -103,7 +115,7 @@ Over the following months, Nikolay and I spoke about a variety of topics from pr
 
 We talked about the aspects involved in project and people management roles that differ greatly from the day to day tasks faced by most software engineers. I was discovering a new set of skills that weren't purely about writing and shipping code.
 
-Together we ran through a skills gap analysis between myself and a new tech lead role that he had planned.
+Together we ran through a skills gap analysis between myself and a new tech lead role that he had planned. Looking at the experience I had and the work I had demonstrated, finding areas I should continue to focus on improving.
 
 ---
 
@@ -133,9 +145,13 @@ And of course there were books. Lots of books to read covering these topics and 
 
 ## Taking the lead
 
-At the beginning of 2020, the engineering department was growing and we began to form some formal teams. This provided me with an opportunity to step up as team lead for a new team that was being created to build a new product to integrate and extend the functionality of the business.
+At the beginning of 2020, the engineering department was growing and we began to form some fixed, independent teams.
 
-There was had a strong vision laid out for this new product, but it would be up to the team to chart the roadmap and be responsible for delivery.
+This provided me with an opportunity to step up as team lead for a new team that was being created to build a new product to integrate and extend the functionality of the business.
+
+There was a strong vision laid out for this new product, but it would be up to the team to chart the roadmap and be responsible for delivery.
+
+2020 became quite the interesting year, with a shift to fully remote operations.
 
 ---
 
@@ -157,7 +173,11 @@ I wasn't sure how to take this at first. As the new team was forming we were qui
 
 I was wondering at his lack of confidence, and struggling with my anxiety of perfectionism and fear of failure.
 
-We spent a bit of time working through psychological safety after that. Describing some of the behaviours he's used to encourage people to share their ideas within team settings, such as ensuring everyone had an opportunity to contribute and being the last to speak.
+We spent a bit of time working through psychological safety after that.
+
+He describe some of the behaviours he's used to encourage people to share their ideas within team settings. He would ensure everyone had an opportunity to contribute to a discussion. He would give each person room to speak and be heard. He would be the last to speak.
+
+This gave room for everyone's opinion to be heard and discussed, rather than have people holding back if they thought they might be disagreeing with what the boss had said.
 
 ---
 
