@@ -12,6 +12,7 @@ layout: home.njk
 * [🕴🏽 Networking on LinkedIn](https://linkedin.com/in/philipboardman/)
 * [🦆 Member of Siligong Valley community](https://www.siligongvalley.com/)
 * [🖥️ Tools and software I use](/uses)
+* [📜 CV / résumé](/cv)
 
 </div>
 
