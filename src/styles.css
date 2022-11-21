@@ -227,7 +227,7 @@ figure img {
 .links li {
   list-style: none;
   padding: 0.5rem 1rem;
-  background-color: var(--background2);
+  background: var(--background2);
   border-radius: 1rem;
   margin: 0 0 0.5rem;
 }
@@ -240,7 +240,7 @@ figure img {
   margin: -0.5rem -1rem;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
-  transition: 0.2s;
+  transition: color 0.2s ease-in, background 0.2s ease-in;
 }
 .links ul li > *:only-child:hover {
   color: var(--background);
