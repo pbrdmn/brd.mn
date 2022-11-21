@@ -131,7 +131,7 @@ And of course there were books. Lots of books to read covering these topics and 
 
 ## Recommended reading
 
-> ![Covers of the recommended books](books.png)
+> ![Covers of the recommended books](books.png)  
 > A few of the books added to my reading list at this time
 
 - [Simple Habits for Complex Times](https://www.amazon.com.au/Simple-Habits-Complex-Times-Practices/dp/0804799431) - Jennifer Garvey Berger and Keith Johnston
