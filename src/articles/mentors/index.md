@@ -229,6 +229,10 @@ From these new <abbr title="Objectives and Key Results">OKRs</abbr> the Product 
 
 ## Conclusion
 
+For me, the opportunity to work with a knowledgable and experience mentor meant I had the tools to understand my skills and gaps in my current role and could quickly adjust my behaviour to better support the team I was in.
+
+I was also able to see further ahead in my career and begin gaining knowledge and developing on skills which would support my transition from one role to the next.
+
 ---
 
 ## Questions for reflection
