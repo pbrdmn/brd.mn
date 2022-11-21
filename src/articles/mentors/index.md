@@ -9,27 +9,27 @@ tags: [engineering,leadership,mentoring,presentation]
 eleventyExcludeFromCollections: true
 ---
 
-> A presentation outlining my career change into management, for Web Directions Code Leaders 2022
+> A presentation outlining my career change into management, for [Web Directions Code Leaders](https://webdirections.org/leaders/) 2022.
 
-This talk was originally written for presention at [Web Directions Code Leaders](https://webdirections.org/leaders/) 2022.
+## To be a software engineer is to be continually learning
 
----
+I imagine for many people, a career in software development wasn’t something you began with a clear path mapped out of where you would end up.
 
-## To be a Software Engineering is to be Continually learning
+You knew you liked playing with computers, maybe you got a programming book or you might have taught yourself to code by pulling apart websites in your free time after school - this was my experience.
 
-I imagine for lot of people, a career in software wasn’t something you began with a clear path mapped out.
+An interest in computers and technology led to learning about programming after school and continued to studying computer engineering at university. Here I learned of unix, microcontrollers, and many programming fundamentals, principals and patterns.
 
-In my experience, a natural affinity for computers and technology led to learning about programming while at school and continued studying computer engineering at university.
-
-University courses for IT and software engineering teach how to write code, how software works, maybe how to run a software project and possibly how to put together a business. But I found nothing there that would help be build a career roadmap beyond the point I had become an senior software engineer.
+University courses for IT and software engineering taught how to write code, how software works, the basics how to run a software project, and possibly how to put together a business case. But I found little there that would help be build a career roadmap beyond what it meant to write software.
 
 ---
 
 ## Aimless career
 
-In in the beginning of my career, I worked as a web programmer with several small companies. There was often little thought put toward career development, mentorship, or any training beyond what was required to get the day to day work completed.
+In in the beginning of my career I worked as a web developer with several small companies. There was often little thought put toward career development, mentorship, or any training beyond what was required to get the day to day work completed.
 
-This appeared to be an industry norm to me, that the people building the web are responsible for their own self learning and keeping their skills up to date and relevant. Myself and those I knew would spend time outside of work for learning and development activities.
+I would learn new programming languages and tools on my own time that seemed interesting and they would unlock the skills to build websites or applications in a new way.
+
+Independent and self-directed learning appeared to be the industry norm to me. The people building the web are responsible for their own self education and keeping their skills up to date, and knowing which tools would be relevant. Myself and those I knew would spend time outside of work for learning and development activities.
 
 This tended to steer people toward learning new technical skills, those that are commonly discussed and easy to demonstrate for job applications, but lead to missing out on critical career development knowledge or structured pathways for learning.
 
