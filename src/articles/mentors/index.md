@@ -31,7 +31,7 @@ I would learn new programming languages and tools on my own time that seemed int
 
 Independent and self-directed learning appeared to be the industry norm to me. The people building the web are responsible for their own self education and keeping their skills up to date, and knowing which tools would be relevant. Myself and those I knew would spend time outside of work for learning and development activities.
 
-This tended to steer people toward learning new technical skills, those that are commonly discussed and easy to demonstrate for job applications, but lead to missing out on critical career development knowledge or structured pathways for learning.
+Without a clear path for development, people tended to prefer learning new technical skills, those that are commonly discussed and easy to demonstrate for job applications, but might have been missing out on critical career development knowledge and structured learning pathways.
 
 ---
 
