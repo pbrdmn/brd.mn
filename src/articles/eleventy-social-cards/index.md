@@ -72,6 +72,4 @@ For a full open graph implementation, we add each of the above meta tags to our 
 <meta property="og:image" content="{{'{{'}} site.url }}/logo.png" />
 {%- endif %}
 <meta property="og:site_name" content="{{'{{'}} site.name }}">
-<meta name="twitter:creator" content="{{'{{'}} site.twitter }}">
-<meta name="twitter:card" content="summary">
 ```

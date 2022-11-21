@@ -11,4 +11,4 @@ Wrote a sample program in Rust to [generate and solve sudoku puzzles](https://gi
 
 Understanding the type system, references, and ownership model in Rust to manage the application's state. Reading from and writing to the filesystem to allow persistence between application executions.
 
-The book [Rust in Action](https://www.rustinaction.com/) by [Tim McNamara](https://twitter.com/timClicks) has been a helpful resource in learning Rust.
+The book [Rust in Action](https://www.rustinaction.com/) by [Tim McNamara](https://tim.mcnamara.nz) has been a helpful resource in learning Rust.
