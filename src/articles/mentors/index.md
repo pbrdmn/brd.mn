@@ -25,13 +25,13 @@ Without a clear path for development, people tended to prefer learning new techn
 
 ## Unstructured career path
 
-I imagine for many people, a career in software development wasn’t something you began with a clear path mapped out of where you would end up.
+Like me, I imagine for many people a career in software development wasn’t something you started with a clear path mapped out of where you would end up.
 
-You knew you liked playing with computers, maybe you got a programming book or you might have taught yourself to code by pulling apart websites in your free time after school - this was my experience.
+You liked playing with computers, maybe you got a programming book, or you might have taught yourself to code by pulling apart websites in your free time - this was my experience.
 
-An interest in computers and technology led to learning about programming after school and continued to studying computer engineering at university. Here I learned of unix, microcontrollers, and many programming fundamentals, principals and patterns.
+This interest in computers and technology and learning about programming after school continued as I studying computer engineering at university. Here I learned of unix, microcontrollers, and many programming fundamentals, principals and patterns.
 
-University courses for IT and software engineering taught how to write code, how software works, the basics how to run a software project, and possibly how to put together a business case. But I found little there that would help be build a career roadmap beyond what it meant to write software.
+I found the university courses for IT and software engineering taught me how to write code, how software works, and the basics how to run a software project. But I found little there that would help be build a career roadmap beyond what it meant to write software.
 
 ---
 
@@ -167,7 +167,7 @@ All through this change I continued to meet with my mentor and discuss my questi
 
 ## Permission to fail
 
-> You'll probably fail a few times, you're skill learning
+> You'll probably fail a few times, you're still learning
 
 I wasn't sure how to take this at first. As the new team was forming we were quickly finding our feet, establishing strong relationships and building good process for our work.
 
@@ -225,10 +225,11 @@ I was now responsible for supporting 15 engineers and QA across the three teams.
 
 ### The challenges
 
-Moving out of my tech lead role, the first hire was to be my replacement. However, this was quickly followed by one of the other tech leads leaving and I quickly found that hiring had become a significant proportion of my time. I was writing business case documents, reviewing position descriptions and spending several hours each week with interviews. I was supported by a great HR team and was soon able to fill these positions and support the onboarding of the new tech leads into their teams and products.
+Hiring had now become my responsibility. As I was moving out of my tech lead role, the first hire was to be my replacement.
 
-Another challenge I faced shortly after taking the management role was around team dynamics and psychological safety. 
+However, this was quickly followed by one of the other tech leads leaving and I quickly found that hiring had become a significant proportion of my time. I was writing business case documents, reviewing position descriptions and spending several hours each week with interviews. I was supported by a great HR team and was soon able to fill these positions and support the onboarding of the new tech leads into their teams and products.
 
+Another challenge I faced shortly after taking the management role was around team dynamics and psychological safety. Just as I had to learn this, I also needed to explain and demonstrate this to my teams.
 
 ---
 
