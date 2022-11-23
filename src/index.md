@@ -4,13 +4,12 @@ description: Interested in how things work; breaking things and fixing things
 layout: home.njk
 ---
 
-
 <div class="links">
 
-* <a rel="me" href="https://aus.social/@pbrdmn">🐘 Tooting on Mastodon</a>
-* [👨🏽‍💻 Coding on Github](https://github.com/pbrdmn)
-* [🕴🏽 Networking on LinkedIn](https://linkedin.com/in/philipboardman/)
-* [🦆 Member of Siligong Valley community](https://www.siligongvalley.com/)
+* <a rel="me nofollow" href="https://aus.social/@pbrdmn">🐘 Tooting on Mastodon</a>
+* <a rel="me nofollow" href="https://github.com/pbrdmn">👨🏽‍💻 Coding on Github</a>
+* <a rel="me nofollow" href="https://linkedin.com/in/philipboardman/">🕴🏽 Networking on LinkedIn</a>
+* <a rel="nofollow" href="https://www.siligongvalley.com/">🦆 Member of Siligong Valley community</a>
 * [🖥️ Tools and software I use](/uses)
 
 </div>
