@@ -259,7 +259,7 @@ A few weeks later when I was checking in, this established engineer told me that
 
 ## Strategy skills
 
-I was also required to assist the Product Manager in building development roadmaps for these teams to keep them aligned with the company's goals and the Product and Engineering <abbr title="Objectives and Key Results">OKRs</abbr>s.
+I was also required to assist the Product Manager in building development roadmaps for these teams to keep them aligned with the company's goals and the Product and Engineering <abbr title="Objectives and Key Results">OKR</abbr>s.
 
 Working with the <abbr title="Chief Product Officer">CPO</abbr> and the Product Manager to understand how the teams within our tribe could be best aligned with the company's strategy took some time, as this processes with OKRs was new to most of us, myself included.
 
@@ -267,7 +267,7 @@ After a few false starts, we were able to define the objectives and key results 
 
 This change in process required some careful management as it was a significant departure from the ways of working our teams has been following previously.
 
-From these new OKR the Product Manager and I worked with each team to build out roadmaps that highlighted the expected outcome for each initiative for the team and how it was aligned with the company strategy.
+From these new OKRs, the Product Manager and I worked with each team to build out roadmaps that highlighted the expected outcome for each initiative for the team and how it was aligned with the company strategy.
 
 ---
 
