@@ -76,13 +76,13 @@ React, Typescript, GraphQL, Node, MongoDB, AWS
 > * Build internal messaging feature with external email notifications
 > * Delivered product features including Stripe billing system and internal UI component library
 > 
-> Skills: Javascript, Typescript, React, GraphQL, Styled Components, Express, Node, GraphQL modules, > Docker, Kubernetes, AWS, GCP, Continuous integration with git and Buildkite
+> Skills: Javascript, Typescript, React, GraphQL, Styled Components, Express, Node, GraphQL modules, Docker, Kubernetes, AWS, GCP, Continuous integration with git and Buildkite
 
 > ### Software Engineer at AirService
 > 
 > <span class="meta">August 2016 - October 2018</span>
 > 
-> AirService combines mobile commerce services to deliver an “out of the box” experience, fully branded as > our client’s own.
+> AirService combines mobile commerce services to deliver an “out of the box” experience, fully branded as our client’s own.
 > 
 > * Built Angular and React applications backed by Ruby on Rails API server
 > * Application state management with Redux, AWS Lambda client/server integration
