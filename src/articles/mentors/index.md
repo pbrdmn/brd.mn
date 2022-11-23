@@ -13,7 +13,7 @@ eleventyExcludeFromCollections: true
 
 ## Continually learning
 
-In in the beginning of my career I worked as a web developer with several small companies.  There was often little thought put toward career development, mentor-ship, or any training beyond what was required to get the day to day work completed.
+In in the beginning of my career I worked as a web developer with several small companies.  There was often little thought put toward career development, mentorship, or any training beyond what was required to get the day to day work completed.
 
 I would learn new programming languages and tools on my own time that seemed interesting and they would unlock the skills to build websites or applications in a new way.
 
@@ -81,7 +81,7 @@ This company was [Compono](https://compono.com) and that interviewer who was int
 
 I joined Compono a few weeks later and began working closely with Nikolay on the delivery of several projects, as I was learning how the company, product, and technology worked.
 
-In those first weeks with the small team of four engineers, I focussed my efforts on learning and contributed where I could to support the development planning activities.
+In those first weeks with the small team of four engineers, I focused my efforts on learning and contributed where I could to support the development planning activities.
 
 But for me the most valuable time was the feedback in our regular one on one sessions.
 
@@ -238,7 +238,9 @@ I was now responsible for supporting 15 software and QA engineers across the thr
 
 Hiring had now become my responsibility. As I was moving out of my tech lead role, the first hire was to be my replacement.
 
-However, this was quickly followed by one of the other tech leads leaving and I quickly found that hiring had become a significant proportion of my time. I was writing business case documents, reviewing position descriptions and spending several hours each week with interviews. I was supported by a great HR team and was soon able to fill these positions and support the on-boarding of the new tech leads into their teams and products.
+However, this was quickly followed by one of the other tech leads leaving and I quickly found that hiring had become a significant proportion of my time.
+
+I was writing business case documents, reviewing position descriptions and spending several hours each week with interviews. I was supported by a great HR team and was soon able to fill these positions and support the on-boarding of the new tech leads into their teams and products.
 
 ---
 
@@ -283,7 +285,7 @@ With a mentor to meet with I could ask that question.
 
 ## Questions for reflection
 
-- How can we ensure we are providing the mentor-ship needed to build leaders within our organisations?
+- How can we ensure we are providing the mentorship needed to build leaders within our organisations?
 - How different is the management career from an individual contributor?
 - How to discussing career and development aspirations regularly?
 - How to best help build a learning pathway toward an individual's goals?
