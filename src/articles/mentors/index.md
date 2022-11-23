@@ -159,7 +159,7 @@ This provided me with an opportunity to step up as team lead for a new team that
 
 There was a strong vision laid out for this new product, but it would be up to the team to chart the roadmap and be responsible for delivery.
 
-2020 became quite the interesting year, with a shift to fully remote operations.
+And 2020 became quite the interesting year with the company shifting to fully remote operations, along with the rest of the world.
 
 ---
 
