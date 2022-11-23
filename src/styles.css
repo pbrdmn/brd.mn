@@ -7,13 +7,6 @@
   --visited: #70007c;
 }
 
-@media print {
-  :root {
-    --foreground: #000;
-    --background2: #fff;
-  }
-}
-
 @media screen and (prefers-color-scheme: dark) {
   :root {
     --foreground: #ddd4df;
@@ -109,7 +102,7 @@ nav a[aria-current] {
 
 nav header a::before {
   content: "";
-  background: linear-gradient(45deg, #e85f40, #b71dc4);;
+  background: linear-gradient(45deg, #e85f40, #b71dc4);
   background-image: url(/logo.jpg);
   background-size: cover;
   display: inline-block;
@@ -364,4 +357,23 @@ pre[class*="language-"] {
 
 .token.entity {
   cursor: help;
+}
+
+@media print {
+  :root {
+    --foreground: #000;
+    --background2: #fff;
+  }
+
+  html {
+    font-size: 14px;
+  }
+
+  body {
+    line-height: 1.2rem;
+  }
+
+  main {
+    max-width: 100%;
+  }
 }
