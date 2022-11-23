@@ -23,7 +23,7 @@ Without a clear path for development, people tended to prefer learning new techn
 
 ---
 
-## Unstructured career path
+## Unstructured career
 
 Like me, I imagine for many people a career in software development wasn’t something you started with a clear path mapped out of where you would end up.
 
@@ -135,6 +135,12 @@ And of course there were books. Lots of books to read covering these topics and 
 
 > ![Covers of the recommended books](books.png)  
 > A few of the books added to my reading list at this time
+
+Nikolay supplied me with lists of books to read.
+
+We had books which covering the general topic of managing people as well as the more specific topic of managing people remotely. Books about the engineering process and how to apply lean methodology to startups. And  lots of books about systems and thinking.
+
+As an avid reader, these books were a good way to spend my time on the train in those days when we used to commute to the office.
 
 - [Simple Habits for Complex Times](https://www.amazon.com.au/Simple-Habits-Complex-Times-Practices/dp/0804799431) - Jennifer Garvey Berger and Keith Johnston
 - [Thinking in Systems](https://www.amazon.com.au/Thinking-Systems-Donella-H-Meadows/dp/1603580557) - Donna Meadows
