@@ -165,9 +165,12 @@ And 2020 became quite the interesting year with the company shifting to fully re
 
 ## Leading the team
 
-Personally this team lead role meant a big change in my responsibilities. I began working with a Product Owner who was new to the company and was working with his first product team. We were shifting from our previous project-base work management approach to take more agile engineering development and delivery practices.
+Personally this team lead role meant a big change in my responsibilities.
 
-I began spending more time pairing and holding one on ones with the engineers and QA in the team, making sure people had what they needed for work and to talk through any issues they were facing.
+I began working with a Product Owner who was new to the company and was working with his first product team. We were shifting from our previous project-base work management approach to take more agile engineering development and delivery practices.
+
+I began spending more time pairing and holding one on ones with the software and QA engineers in the team, making sure people had what they needed for work and to talk through any issues they were facing, and that everyone in the team had a common understanding of the work we were doing.
+
 
 All through this change I continued to meet with my mentor and discuss my questions and identify any areas I would need to focus on learning.
 
