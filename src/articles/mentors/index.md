@@ -13,7 +13,7 @@ eleventyExcludeFromCollections: true
 
 ## Continually learning
 
-In in the beginning of my career I worked as a web developer with several small companies.  There was often little thought put toward career development, mentorship, or any training beyond what was required to get the day to day work completed.
+In in the beginning of my career I worked as a web developer with several small companies.  There was often little thought put toward career development, mentor-ship, or any training beyond what was required to get the day to day work completed.
 
 I would learn new programming languages and tools on my own time that seemed interesting and they would unlock the skills to build websites or applications in a new way.
 
@@ -29,7 +29,7 @@ Like me, I imagine for many people a career in software development wasn’t som
 
 You liked playing with computers, maybe you got a programming book, or you might have taught yourself to code by pulling apart websites in your free time - this was my experience.
 
-This interest in computers and technology and learning about programming after school continued as I studying computer engineering at university. Here I learned of unix, microcontrollers, and many programming fundamentals, principals and patterns.
+This interest in computers and technology and learning about programming after school continued as I studying computer engineering at university. Here I learned of Unix, micro controllers, and many programming fundamentals, principals and patterns.
 
 I found the university courses for IT and software engineering taught me how to write code, how software works, and the basics how to run a software project. But I found little there that would help be build a career roadmap beyond what it meant to write software.
 
@@ -41,7 +41,7 @@ With no structured development plan, fresh learning opportunities can be difficu
 
 One question I wish I would have asked myself more deliberately through this time is “What do I need to learn next?”
 
-Without having an understanding of the career path, the opportunities I took were the ones that came to me. Some of these were excellent and enjoyable, like building and releasing iPhone apps for a cycling magazine. Some were more tedeous, like rebuilding a cycling classified ads site, or implementing an in-house advertising inventory managment system.
+Without having an understanding of the career path, the opportunities I took were the ones that came to me. Some of these were excellent and enjoyable, like building and releasing iPhone apps for a cycling magazine. Some were more tedious, like rebuilding a cycling classified ads site, or implementing an in-house advertising inventory management system.
 
 On the whole, I was learning and developing my skills, but not deliberately and not strategically. I was collecting a lot of broad knowledge, but lacking depth and didn't have a framework in place to make continued progress in any one area.
 
@@ -238,7 +238,7 @@ I was now responsible for supporting 15 software and QA engineers across the thr
 
 Hiring had now become my responsibility. As I was moving out of my tech lead role, the first hire was to be my replacement.
 
-However, this was quickly followed by one of the other tech leads leaving and I quickly found that hiring had become a significant proportion of my time. I was writing business case documents, reviewing position descriptions and spending several hours each week with interviews. I was supported by a great HR team and was soon able to fill these positions and support the onboarding of the new tech leads into their teams and products.
+However, this was quickly followed by one of the other tech leads leaving and I quickly found that hiring had become a significant proportion of my time. I was writing business case documents, reviewing position descriptions and spending several hours each week with interviews. I was supported by a great HR team and was soon able to fill these positions and support the on-boarding of the new tech leads into their teams and products.
 
 ---
 
@@ -267,12 +267,11 @@ This change in process required some careful management as it was a significant 
 
 From these new <abbr title="Objectives and Key Results">OKRs</abbr> the Product Manager and I worked with each team to build out roadmaps. This highlighted how the expected outcome for each initiative for the team and how was aligned with the company strategy.
 
-
 ---
 
 ## Conclusion
 
-For me, the opportunity to work with a knowledgable and experience mentor meant I had the tools to understand the limits of my skills and the gaps in my current role. I could see how to quickly adjust my behaviour to better support the team I was in.
+For me, the opportunity to work with a knowledgeable and experience mentor meant I had the tools to understand the limits of my skills and the gaps in my current role. I could see how to quickly adjust my behaviour to better support the team I was in.
 
 I was also able to see further ahead in my career and begin gaining knowledge and developing the skills which would support my transition from one role to the next. In preparing myself for those next steps, the challenges I faced did not seem so insurmountable as they once would have.
 
@@ -284,7 +283,7 @@ With a mentor to meet with I could ask that question.
 
 ## Questions for reflection
 
-- How can we ensure we are providing the mentorship needed to build leaders within our organisations?
+- How can we ensure we are providing the mentor-ship needed to build leaders within our organisations?
 - How different is the management career from an individual contributor?
 - How to discussing career and development aspirations regularly?
 - How to best help build a learning pathway toward an individual's goals?
