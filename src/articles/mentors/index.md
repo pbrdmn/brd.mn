@@ -51,7 +51,7 @@ Looking back at this time, this saying rang very true for me: "10 years of exper
 
 ## Becoming deliberate
 
-I was reaching my third year working at [Wisdom](https://wisdom.com.au), a design and advertising agency. I had been working with account managers and designers, learned about working with clients and managing stakeholders.
+I was reaching my third year working at a web design and advertising agency. I had been working with account managers and designers, learned about working with clients and managing stakeholders.
 
 I didn't know what was next for me but I knew that I wanted to find someone who could help me consider my career and development goals.
 
@@ -65,7 +65,7 @@ This lead me to begin considering engineering management, but I had no idea what
 
 ## New role, new purpose
 
-I began looking for a new role with this in mind. I wanted to bring my existing technical skills to the table and look at what development opportunities the prospective company would have for me too.
+A few years later I was looking for a new role with this in mind. I wanted to bring my existing technical skills to the table and look at what development opportunities the prospective company would have for me too.
 
 After several interviews, I found one person who wanted to take the time and speak about what I was looking for in the future and to see if that was aligned with where the company was heading.
 
@@ -81,7 +81,9 @@ This company was [Compono](https://compono.com) and that interviewer who was int
 
 I joined Compono a few weeks later and began working closely with Nikolay on the delivery of several projects, as I was learning how the company, product, and technology worked.
 
-I spoke up and did my best to support during planning activities. But most valuable to me was the feedback in our regular one on one sessions.
+In those first weeks with the small team of four engineers, I focussed my efforts on learning and contributed where I could to support the development planning activities.
+
+But for me the most valuable time was the feedback in our regular one on one sessions.
 
 ---
 
@@ -215,11 +217,11 @@ I was promoted to Engineering Manager and given responsibility for managing the 
 
 ## What changed
 
-This move to Engineering Manager was a significant departure from my role as a tech lead.
+This move to Engineering Manager was a as much a departure from my role as a tech lead as the tech lead was from a software engineer.
 
-The scope of work I was across had tripled and I had new product domains to understand. I needed to move away from the day to day coding and trust this responsibility to my former team mates.
+The scope of work I was across had tripled and I had new product domains to understand. I needed to step away from the day to day coding I had spent my career learning and trust this responsibility to my former teammates.
 
-I was now responsible for supporting 15 engineers and QA across the three teams. I needed to work closely with these people to understand their situations and help them define their own paths.
+I was now responsible for supporting 15 software and QA engineers across the three teams. I needed to work closely with these people to understand their situations and help them define their own development paths.
 
 ---
 
@@ -257,9 +259,13 @@ From these new <abbr title="Objectives and Key Results">OKRs</abbr> the Product 
 
 ## Conclusion
 
-For me, the opportunity to work with a knowledgable and experience mentor meant I had the tools to understand my skills and gaps in my current role and could quickly adjust my behaviour to better support the team I was in.
+For me, the opportunity to work with a knowledgable and experience mentor meant I had the tools to understand the limits of my skills and the gaps in my current role. I could see how to quickly adjust my behaviour to better support the team I was in.
 
-I was also able to see further ahead in my career and begin gaining knowledge and developing on skills which would support my transition from one role to the next.
+I was also able to see further ahead in my career and begin gaining knowledge and developing the skills which would support my transition from one role to the next. In preparing myself for those next steps, the challenges I faced did not seem so insurmountable as they once would have.
+
+With a mentor to meet with I could ask that question.
+
+> "What do I need to learn next?"
 
 ---
 
