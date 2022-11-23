@@ -231,6 +231,13 @@ However, this was quickly followed by one of the other tech leads leaving and I 
 
 Another challenge I faced shortly after taking the management role was around team dynamics and psychological safety. Just as I had to learn this, I also needed to explain and demonstrate this to my teams.
 
+In the team where the tech lead was soon departing, a new senior engineer wasn't listening to another engineer who had been with us for several years, with deep knowledge of our systems, was ignoring code review suggestions and didn't seem to value her opinions. This was causing the established engineer enough anxiety to be missing work and was hurting the team.
+
+It took some time to gather what was happening in the situation, speaking with each member of the team to understand their perspective. My approach to this situation was to ask the departing tech lead to defer to the established engineer when asked questions and to explain technical details and to ask them to step in and facilitate the team's planning sessions.
+My hope was that these steps would alter the team's dynamic where the new engineer would see the experience and knowledge the established engineer had and bring more respect to the relationship.
+
+A few weeks later when I was checking in, this established engineer told me that they no longer dreaded work and would wake up each day excited to be working with their team.
+
 ---
 
 ## Strategy skills
