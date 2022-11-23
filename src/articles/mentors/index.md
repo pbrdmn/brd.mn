@@ -231,6 +231,10 @@ Hiring had now become my responsibility. As I was moving out of my tech lead rol
 
 However, this was quickly followed by one of the other tech leads leaving and I quickly found that hiring had become a significant proportion of my time. I was writing business case documents, reviewing position descriptions and spending several hours each week with interviews. I was supported by a great HR team and was soon able to fill these positions and support the onboarding of the new tech leads into their teams and products.
 
+---
+
+### The people challenges
+
 Another challenge I faced shortly after taking the management role was around team dynamics and psychological safety. Just as I had to learn this, I also needed to explain and demonstrate this to my teams.
 
 In the team where the tech lead was soon departing, a new senior engineer wasn't listening to another engineer who had been with us for several years, with deep knowledge of our systems, was ignoring code review suggestions and didn't seem to value her opinions. This was causing the established engineer enough anxiety to be missing work and was hurting the team.
