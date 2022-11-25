@@ -218,7 +218,7 @@ One of the best improvements we made at this time was a suggestion from our QA e
 
 The engineering department was expanding, and there were now ten teams. A new position was created for an engineering manager to support this growing organisational structure.
 
-Using [the Spotify model] (https://www.atlassian.com/agile/agile-at-scale/spotify), we divided our Product and Engineering department into three tribes, each with three or four squads or teams focused on similar areas of the business.
+Using [the Spotify model](https://www.atlassian.com/agile/agile-at-scale/spotify), we divided our Product and Engineering department into three tribes, each with three or four squads or teams focused on similar areas of the business.
 
 I was promoted to Engineering Manager and given responsibility for managing the engineers and delivery within the previous team I had been leading along with two others.
 
