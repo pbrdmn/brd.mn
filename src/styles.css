@@ -84,7 +84,6 @@ nav a:visited {
   width: 100%;
   box-sizing: border-box;
   padding: 0.5rem 1rem;
-  transition: color 0.2s ease-in, background 0.2s ease-in;
   background: transparent;
   border-radius: 0.25rem;
 }
