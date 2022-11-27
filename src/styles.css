@@ -211,31 +211,8 @@ figure img {
 }
 
 /* Homepage links block */
-.links ul {
-  margin: 0;
-  padding: 0;
-}
 .links li {
   list-style: none;
-  padding: 0.5rem 1rem;
-  background: var(--background2);
-  border-radius: 1rem;
-  margin: 0 0 0.5rem;
-}
-
-.links ul li a {
-  color: var(--link);
-}
-.links ul li > *:only-child {
-  display: block;
-  margin: -0.5rem -1rem;
-  padding: 0.5rem 1rem;
-  border-radius: 1rem;
-  transition: color 0.2s ease-in, background 0.2s ease-in;
-}
-.links ul li > *:only-child:hover {
-  color: var(--background);
-  background-color: var(--link);
 }
 
 /* prism code styles */
