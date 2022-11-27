@@ -211,6 +211,10 @@ figure img {
 }
 
 /* Homepage links block */
+.links ul {
+  margin: 0;
+  padding: 0;
+}
 .links li {
   list-style: none;
 }
