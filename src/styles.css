@@ -88,10 +88,6 @@ nav a:visited {
   background: transparent;
   border-radius: 0.25rem;
 }
-nav a:hover {
-  color: var(--background);
-  background-color: var(--link);
-}
 nav a[aria-current] {
   color: var(--foreground);
   background: var(--background2);
