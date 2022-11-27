@@ -13,11 +13,11 @@ eleventyExcludeFromCollections: true
 
 ## Continually learning
 
-In the beginning of my career, I worked as a web developer for several small companies. There was often little thought put toward career development, mentorship, or any training beyond what was required to get the day-to-day work completed.
+In the beginning of my career, I worked as a web developer for several small companies. There was often little thought put toward career development, mentorship, or any training beyond what was required to get the day-to-day work completed, though sometimes not even that.
 
 I would learn new programming languages and tools on my own time that seemed interesting and would unlock the skills to build websites or applications in a new way.
 
-To me, self-directed and independent learning appeared to be the industry norm.The people building the web were responsible for their own education, keeping their skills up to date, and knowing which tools would be relevant. Myself and those I knew would spend time outside of work for learning and development activities.
+To me, self-directed and independent learning appeared to be the industry norm. The people building the web were responsible for their own education, keeping their skills up to date, and knowing which tools would be relevant. Myself and those I knew would spend time outside of work for learning and development activities.
 
 Without a clear path for development, people tended to learn technical skills—those that are commonly discussed and easy to demonstrate for job applications. But we might have been missing out on critical career development knowledge from structured learning pathways.
 
@@ -27,9 +27,9 @@ Without a clear path for development, people tended to learn technical skills—
 
 Like me, I imagine for many people a career in software development wasn’t started with a clear path mapped out to where you would end up.
 
-You liked playing with computers, you got a programming book, or you taught yourself to code by pulling apart websites in your free time—this was my experience.
+You liked playing with computers, you got a programming book, took a course, or taught yourself to code by pulling apart websites in your free time - which was my experience.
 
-This interest in computers, technology, and learning about programming after school continued as I studied computer engineering at university. Here I learned of Unix, microcontrollers, and many of the programming fundamentals, principles, and patterns.
+This interest in computers, technology, and learning about programming after school continued as I studied computer engineering at university. Here I learned of Unix, microcontrollers, and many of the programming fundamentals, principles, and patterns I still use today.
 
 I found the university courses in IT and software engineering taught me how to write code, how software works, and the basics of how to run a software project. But I found little there that would help build a career roadmap beyond what it meant to write software.
 
@@ -51,7 +51,7 @@ Looking back at this time, this saying rang very true for me: "10 years of exper
 
 ## Becoming deliberate
 
-I was reaching my third year working at a web design and advertising agency. I had been working with account managers and designers, learning about working with clients and managing stakeholders.
+I was reaching my third year working at a web design agency. I had been working with account managers and designers, learning about working with clients and managing stakeholders.
 
 I didn't know what was next for me, but I knew that I wanted to find someone who could help me consider my career and development goals.
 
@@ -77,7 +77,9 @@ This was great news for me: a company where I could join and use my existing ski
 
 ## Finding a mentor
 
-This company was [Compono](https://compono.com) and the interviewer who was interested in my career was the CTO, [Nikolay](https://www.linkedin.com/in/nikolay-nemshilov-07878b14/).
+This company was [Compono](https://compono.com) and the interviewer who was interested in my career was [Nikolay](https://www.linkedin.com/in/nikolay-nemshilov-07878b14/), the CTO.
+
+![Philip and Nikolay](nikolay.jpg)
 
 I joined Compono a few weeks later and began working closely with Nikolay on the delivery of several projects, as I was learning how the company, the product, and the technology worked.
 
@@ -103,7 +105,9 @@ But the feedback also came with reasons, why I should change how I was working a
 
 ## Working out loud
 
-For me, the most unexpected feedback was about "working out loud." It has always seemed to me that getting your work done quickly and quietly was a sign of being good at your job. Something to respect and strive for.
+For me, the most unexpected feedback was about "working out loud."
+
+It has always seemed to me that getting your work done quickly and quietly was a sign of being good at your job. Something to respect and strive for.
 
 However, I was learning that working with a team is about more than just how much code you can write. Sharing the work I was doing would share what I was learning as well as encourage others to work in this way as well.
 
@@ -127,20 +131,21 @@ After identifying the gaps in my skills, Nikolay and I worked to cover these new
 
 I was given opportunities to step up and assist further with planning and facilitation, working with stakeholders and leadership, and discussing the engineering strategy within Compono.
 
-And, of course, there were books. Lots of books to read covering these topics and more.
+And, of course, there were books.
 
 ---
 
 ## Recommended reading
-
-> ![Covers of the recommended books](books.png)
-> A few of the books added to my reading list at this time
 
 Nikolay supplied me with lists of books to read.
 
 We had books covering the general topic of managing people as well as the more specific topic of managing people remotely. Books about the engineering process and how to apply lean methodology to startups and several of books about systems and thinking.
 
 As an avid reader, these books were a good way to spend my time on the train; in those days when we used to commute to the office.
+
+> ![Covers of the recommended books](books.png)
+>
+> A few of the books added to my reading list at this time
 
 - [Simple Habits for Complex Times](https://www.amazon.com.au/Simple-Habits-Complex-Times-Practices/dp/0804799431) - Jennifer Garvey Berger and Keith Johnston
 - [Thinking in Systems](https://www.amazon.com.au/Thinking-Systems-Donella-H-Meadows/dp/1603580557) - Donna Meadows
@@ -153,9 +158,9 @@ As an avid reader, these books were a good way to spend my time on the train; in
 
 ## Taking the lead
 
-At the beginning of 2020, the engineering department was growing beyond 30 engineers, and we began to form several stream-aligned teams.
+At the beginning of 2020, the engineering department was growing beyond 30 engineers, and we began to form several cross-functional stream-aligned teams.
 
-This provided me with an opportunity to step up as team lead for a new team that was being created to build a new product to integrate and extend the functionality of the business.
+This provided me with an opportunity to step up and lead a new team that was being created to build a new product to integrate and extend the functionality of the business.
 
 There was a strong vision laid out for this new product, but it would be up to the team to chart the roadmap and be responsible for delivery.
 
@@ -165,12 +170,11 @@ And 2020 became quite an interesting year with the company shifting to fully rem
 
 ## Leading the team
 
-Personally, this team lead role meant a big change in my responsibilities.
+This team lead role meant a big change in my responsibilities.
 
 I began working with a Product Owner who was new to the company and was working with his first product team. We were shifting from our previous project-based work management approach to more agile engineering development and delivery practices.
 
 I began spending more time pairing and holding one-on-ones with the software and QA engineers in the team, making sure people had what they needed for work, talking through any issues they were facing, and ensuring everyone in the team had a common understanding of the work we were doing.
-
 
 All through this change, I continued to meet with my mentor to discuss my questions and identify any areas on which I would need to focus my learning.
 
@@ -198,7 +202,7 @@ With the new role of tech lead came new responsibilities.
 
 In working with the Product Owner to build our product roadmap, it was my responsibility to ensure that the features we planned were feasible with our tech stack and the skills and resources of the team.
 
-We had to work together to communicate with the company's stakeholders, which thankfully consisted mostly of writing planning and reporting documents. The Product Owner would be the one attending the meetings.
+We had to work together to communicate with the company's stakeholders, writing planning and reporting documents, though thankfully the Product Owner would be the one attending most of those meetings.
 
 I was also responsible for maintaining the quality of our code base and delivery metrics, ensuring that we have enough tests to give us confidence when making changes, and a robust continuous integration environment that would allow us to quickly and reliably deploy to production as frequently as we needed.
 
@@ -216,9 +220,9 @@ One of the best improvements we made at this time was a suggestion from our QA e
 
 ## A new chapter
 
-The engineering department was expanding, and there were now ten teams. A new position was created for an engineering manager to support this growing organisational structure.
+The engineering department continued expanding, and there were now ten teams. A new position was created for an engineering manager to support this growing organisational structure.
 
-Using [the Spotify model](https://www.atlassian.com/agile/agile-at-scale/spotify), we divided our Product and Engineering department into three tribes, each with three or four squads or teams focused on similar areas of the business.
+Using [the Spotify model](https://www.atlassian.com/agile/agile-at-scale/spotify), we divided our Product and Engineering department into three tribes, each with three or four squads focused on similar areas of the business.
 
 I was promoted to Engineering Manager and given responsibility for managing the engineers and delivery within the previous team I had been leading along with two others.
 
@@ -236,17 +240,17 @@ I was now responsible for supporting 15 software and QA engineers across the thr
 
 ### The challenges
 
-Hiring had now become my responsibility. As I was moving out of my tech lead role, the first hire was to be my replacement.
+Hiring had now become my responsibility. As I was transitioning out of my tech lead role, the first hire was to be my replacement for the team.
 
-However, in my first week as engineering manager, one of the other tech leads resigned and needed to be replaced more urgently. I soon found that hiring had become a significant proportion of my time.
+However, in my first week as engineering manager, the tech lead in another team resigned and needed to be replaced more urgently. I soon found that hiring had become a significant proportion of my time.
 
-I was writing business case documents, reviewing position descriptions, and spending several hours each week with interviews. I was supported by a great HR team and was soon able to fill these positions and support the onboarding of the new tech leads into their teams and their products.
+I was writing business case documents, reviewing position descriptions and resumes, and spending several hours each week with interviews. I was supported by a great HR team and was soon able to fill these positions and support the onboarding of the new tech leads into their teams and their products.
 
 ---
 
 ### The people challenges
 
-Another challenge I faced shortly after taking the management role was around team dynamics and psychological safety. Just as I had to learn this, I also needed to explain and demonstrate it to my teams.
+The second challenge I faced shortly after taking the management role was around team dynamics and psychological safety. Just as I had to learn this, I also needed to explain and demonstrate it to my teams.
 
 In the team where the tech lead was soon departing, a new senior engineer wasn't listening to an established engineer who had been with us for several years and had deep knowledge of our systems. He was ignoring their code review suggestions and didn't seem to value her opinions. This was causing the established engineer enough anxiety to miss work and was hurting the team.
 
@@ -257,23 +261,9 @@ A few weeks later, when I was checking in, this established engineer told me tha
 
 ---
 
-## Strategy skills
-
-I was also required to assist the Product Manager in building development roadmaps for these teams to keep them aligned with the company's goals and the Product and Engineering <abbr title="Objectives and Key Results">OKR</abbr>s.
-
-Working with the <abbr title="Chief Product Officer">CPO</abbr> and the Product Manager to understand how the teams within our tribe could be best aligned with the company's strategy took some time, as this process with OKRs was new to most of us, myself included.
-
-After a few false starts, we were able to define the objectives and key results that would allow our teams to identify the work in their domains that would have the greatest impact in the appropriate areas of the business.
-
-This process change required careful management because it represented a significant departure from the methods of operation that our teams had previously used.
-
-From these new OKRs, the Product Manager and I worked with each team to build out roadmaps that highlighted the expected outcome for each initiative for the team and how it was aligned with the company strategy.
-
----
-
 ## Conclusion
 
-For me, the opportunity to work with a knowledgeable and experienced mentor meant I had the tools to understand the limits of my skills and the gaps in my current role. I could see how to quickly adjust my behaviour to better support the team I was on.
+Looking back now I can see that the opportunity to work with a knowledgeable and experienced mentor meant I had the tools to understand the limits of my skills and the gaps in my current role. I could see how to quickly adjust my behaviour to better support the team I was on.
 
 I was also able to see further ahead in my career and begin gaining knowledge and developing the skills that would support my transition from one role to the next. In preparing myself for those next steps, the challenges I faced did not seem as insurmountable as they once would have.
 
