@@ -98,6 +98,10 @@ nav a[aria-current] {
   pointer-events: none;
 }
 
+li {
+  margin-bottom: 0.3rem;
+}
+
 @media print {
   nav ul {
     display: none;

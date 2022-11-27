@@ -8,15 +8,11 @@ description: The Curriculum Vitae of Philip Boardman
 
 ## Highlights
 
-<div class="links">
-
 * Building teams, mentoring, and personal development
 * Aligning teams with company objectives and customer value
 * Hiring, performance management, and process improvement activities in collaboration with HR and hiring teams
 * Implemented agile, lean delivery processes and improvements
 * [Connect with me on LinkedIn](https://linkedin.com/in/philipboardman/)
-
-</div>
 
 ## Summary
 
@@ -30,11 +26,11 @@ Promoted to Engineering Manager in 2021, I trained a replacement lead developer 
 
 ## Skills
 
-Leadership, Team building Mentoring, Career development Hiring, Performance management, Agile coaching, Code review, Continuous delivery, Technical decision making, Process improvement, Documentation, Software development
+Leadership, Team building, Mentoring, Career development, Hiring, Performance management, Agile coaching, Code review, Continuous delivery, Technical decision making, Process improvement, Documentation, Software development
 
 ## Technologies
 
-React, Typescript, GraphQL, Node, MongoDB, AWS
+React, Typescript, GraphQL, Node, MongoDB, SQL, AWS
 
 ---
 
