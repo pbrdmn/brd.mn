@@ -61,6 +61,9 @@ a:visited {
 nav {
   text-align: center;
   margin: 0 -0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 nav ul {
   text-align: center;
@@ -94,6 +97,7 @@ nav a[aria-current] {
   background: var(--background2);
   pointer-events: none;
 }
+
 @media print {
   nav ul {
     display: none;
@@ -111,14 +115,6 @@ nav header a::before {
   border-radius: 50%;
   margin-right: 0.5rem;
   vertical-align: middle;
-}
-
-@media screen and (min-width: 800px) {
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
 }
 
 h1 {
