@@ -80,6 +80,8 @@ This was great news for me: a company where I could join and use my existing ski
 This company was [Compono](https://compono.com) and the interviewer who was interested in my career was [Nikolay](https://www.linkedin.com/in/nikolay-nemshilov-07878b14/), the CTO.
 
 > ![Philip and Nikolay](nikolay.jpg)
+>
+> Philip and Nikolay meeting for coffee
 
 I joined Compono a few weeks later and began working closely with Nikolay on the delivery of several projects, as I was learning how the company, the product, and the technology worked.
 
