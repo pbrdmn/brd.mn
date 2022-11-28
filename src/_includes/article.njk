@@ -18,8 +18,9 @@ layout: default.njk
     {%- if updated %} 
     <time datetime="{{ updated }}" title="Edited on {{ updated | postDate }}">📝 {{ updated | postDate }}</time>
     {%- endif %}
+    🏷 
     {% for tag in tags | filterTagList %}
-      🏷 <a href="/tags/{{ tag }}/">{{ tag }}</a>
+      <a href="/tags/{{ tag }}/">{{ tag }}</a>
     {% endfor %}
   
   </div>
