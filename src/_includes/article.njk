@@ -13,7 +13,7 @@ layout: default.njk
   </figure>
   {%- endif %}
 
-  <div class="meta">
+  <footer>
     <time datetime="{{page.date}}" title="Published on {{ page.date | postDate }}">🗓 {{ page.date | postDate }}</time>
     {%- if updated %} 
     <time datetime="{{ updated }}" title="Edited on {{ updated | postDate }}">📝 {{ updated | postDate }}</time>
@@ -22,8 +22,7 @@ layout: default.njk
     {% for tag in tags | filterTagList %}
       <a href="/tags/{{ tag }}/">{{ tag }}</a>
     {% endfor %}
-  
-  </div>
+  </footer>
 
   {{content | safe }}
 </article>
