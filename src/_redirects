@@ -1,2 +1,3 @@
 /m  /articles/mentors/ 301
 /rss  /rss.xml  301
+/page/* https://web.brd.mn/page/:splat 200
