@@ -13,17 +13,19 @@ layout: default.njk
   </figure>
   {%- endif %}
 
+  {{content | safe }}
+
+  <hr />
+
   <footer>
-    {%- if updated %} 
-    <time datetime="{{ updated }}" title="Updated on {{ updated | postDate }}">Updated on {{ updated | postDate }}</time>
-    {%- else %}
     <time datetime="{{page.date}}" title="Published on {{ page.date | postDate }}">Published on {{ page.date | postDate }}</time>
+    {%- if updated %} 
+    <br />
+    <time datetime="{{ updated }}" title="Updated on {{ updated | postDate }}">Updated on {{ updated | postDate }}</time>
     {%- endif %}
-   <br/> 🏷 
-    {% for tag in tags | filterTagList %}
+   <br/>Tags 
+   {% for tag in tags | filterTagList %}
       <a href="/tags/{{ tag }}/">{{ tag }}</a>
     {% endfor %}
   </footer>
-
-  {{content | safe }}
 </article>
