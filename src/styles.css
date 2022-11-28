@@ -203,6 +203,7 @@ figure {
   background: var(--background2);
   padding: 0.3rem;
   text-align: center;
+  border-radius: 0.5rem;
 }
 figure img {
   border-radius: 0.2rem;
@@ -339,8 +340,7 @@ pre[class*="language-"] {
 
   article.snippet,
   blockquote,
-  pre,
-  figure {
+  pre {
     border-radius: 0.5rem;
   }
   pre[class*="language-"] {
