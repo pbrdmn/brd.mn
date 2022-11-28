@@ -4,7 +4,7 @@ description: A quick dive into the process of building a web application from sc
 date: 2016-07-19
 image: building-modern-web-apps.jpg
 imageAlt: Building Modern Web Apps
-tags: [presentation]
+tags: [javascript, presentation]
 ---
 
 Presenting a quick dive into the process of building a web application from scratch using Sencha’s EXT JS 6 SDK.
