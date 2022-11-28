@@ -6,9 +6,9 @@
   <p>{{article.data.description}}</p>
   <footer>
     {%- if article.data.updated %}
-    <time datetime="{{ article.data.updated }}" title="Edited on {{ article.data.updated | postDate }}">📝 {{ article.data.updated | postDate }}</time>
+    <time datetime="{{ article.data.updated }}" title="Updated on {{ article.data.updated | postDate }}">Updated on {{ article.data.updated | postDate }}</time>
     {%- else %}
-    <time datetime="{{article.data.date}}" title="Published on {{ article.data.date | postDate }}">🗓 {{ article.data.date | postDate }}</time>
+    <time datetime="{{article.data.date}}" title="Published on {{ article.data.date | postDate }}">Published on {{ article.data.date | postDate }}</time>
     {%- endif %}
   </footer>
 </article>
