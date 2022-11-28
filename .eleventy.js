@@ -4,7 +4,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 module.exports = function (cfg) {
   cfg.addWatchTarget("./src/*.css");
 
-  cfg.addPassthroughCopy("src/**/*.{htaccess,css,gif,ico,jpg,png,txt}");
+  cfg.addPassthroughCopy("src/**/*.{htaccess,css,gif,ico,jpg,png,txt,webp}");
   cfg.addPassthroughCopy("src/_redirects");
 
   cfg.addFilter("filterTagList", (tags) => {
