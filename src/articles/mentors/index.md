@@ -143,7 +143,7 @@ We had books covering the general topic of managing people as well as the more s
 
 As an avid reader, these books were a good way to spend my time on the train; in those days when we used to commute to the office.
 
-> ![Covers of the recommended books](books.png)
+> ![Covers of the recommended books](books.webp)
 >
 > A few of the books added to my reading list at this time
 
