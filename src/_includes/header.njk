@@ -24,5 +24,7 @@
   <link rel="icon" href="/logo.jpg" type="image/jpeg" />
   {%- include 'social.njk' %}
   
-  <link rel="stylesheet" type="text/css" href="/styles.css" />
+  <style>
+  {{ css | cssmin | safe }}
+  </style>
 </head>
