@@ -14,16 +14,16 @@ layout: default.njk
   {%- endif %}
 
   <div class="meta">
-    Tags:
+    <time datetime="{{page.date}}" title="Published on {{ page.date | postDate }}">🗓 {{ page.date | postDate }}</time>
+    {%- if updated %}<br />
+    <time datetime="{{ updated }}" title="Edited on {{ updated | postDate }}">📝 {{ updated | postDate }}</time>
+    {%- endif %}
+    <br />
+    🏷
     {% for tag in tags | filterTagList %}
       <a href="/tags/{{ tag }}/">{{ tag }}</a>
     {% endfor %}
-    <br />
   
-    Published: <time datetime="{{page.date}}">{{ page.date | postDate }}</time>
-    {%- if updated %}<br />
-    Updated: <time datetime="{{ updated }}">{{ updated | postDate }}</time>
-    {%- endif %}
   </div>
 
   {{content | safe }}
