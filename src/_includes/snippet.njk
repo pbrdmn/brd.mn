@@ -1,6 +1,6 @@
 <article class="snippet">
   {%- if article.data.image %}
-  <a href="{{article.url}}"><img src="{{article.url}}{{article.data.image}}" alt="{{article.data.imageAlt}}" width="120" height="80" loading="lazy" /></a>
+  <a href="{{article.url}}"><img src="{{article.url}}{{article.data.image}}" alt="{{article.data.imageAlt}}" width="120" height="80" loading="lazy" decoding="async" /></a>
   {%- endif %}
 
   <h2><a href="{{article.url}}">{{article.data.title}}</a></h2>
