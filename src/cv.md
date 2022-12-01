@@ -40,7 +40,7 @@ React, Typescript, GraphQL, Node, MongoDB, SQL, AWS
 > 
 > <span class="meta">October 2022 - Current</span>
 > 
-> Redbubble is creating the world's largest marketplace for iondependent artists, bringing more creativity into the world.
+> Redbubble is creating the world's largest marketplace for independent artists, bringing more creativity into the world.
 
 > ### Engineering Manager at Compono
 > 
