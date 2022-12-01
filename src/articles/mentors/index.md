@@ -7,7 +7,7 @@ date: 2022-11-28
 tags: [engineering,leadership,mentoring,presentation]
 ---
 
-> A presentation outlining my career change into management, for [Web Directions Code Leaders](https://webdirections.org/leaders/) 2022.
+> A [presentation (PDF, 3.8mb)](mentors.pdf) outlining my career change into management, for [Web Directions Code Leaders](https://webdirections.org/leaders/) 2022.
 
 ## Continually learning
 
