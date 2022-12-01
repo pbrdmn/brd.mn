@@ -5,7 +5,7 @@ const CleanCSS = require("clean-css");
 module.exports = function (cfg) {
   cfg.addWatchTarget("./src/*.css");
 
-  cfg.addPassthroughCopy("src/**/*.{htaccess,css,gif,ico,jpg,png,txt,webp}");
+  cfg.addPassthroughCopy("src/**/*.{htaccess,css,gif,ico,jpg,png,pdf,txt,webp}");
   cfg.addPassthroughCopy("src/_redirects");
 
   cfg.addFilter("filterTagList", (tags) => {
