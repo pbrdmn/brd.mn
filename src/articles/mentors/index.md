@@ -279,3 +279,9 @@ With a mentor to meet with, I could ask that question.
 - How different is the management career from an individual contributor?
 - How to discussing career and development aspirations regularly?
 - How to best help build a learning pathway toward an individual's goals?
+
+---
+
+### Slides
+
+[Download the slides for this presentation (PDF, 3.8mb)](mentors.pdf)
