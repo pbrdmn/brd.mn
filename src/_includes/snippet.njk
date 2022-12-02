@@ -1,8 +1,8 @@
 <article class="snippet">
   {%- if article.data.thumb %}
-  <a href="{{article.url}}"><img src="{{article.url}}{{article.data.thumb}}" alt="{{article.data.imageAlt}}" width="100" height="56" /></a>
+  <a href="{{article.url}}"><img src="{{article.url}}{{article.data.thumb}}" alt="{{article.data.imageAlt}}" width="200" height="112" /></a>
   {%- elif article.data.image %}
-  <a href="{{article.url}}"><img src="{{article.url}}{{article.data.image}}" alt="{{article.data.imageAlt}}" width="100" height="56" loading="lazy" decoding="async" /></a>
+  <a href="{{article.url}}"><img src="{{article.url}}{{article.data.image}}" alt="{{article.data.imageAlt}}" width="200" height="112" loading="lazy" decoding="async" /></a>
   {%- endif %}
 
   <h2><a href="{{article.url}}">{{article.data.title}}</a></h2>

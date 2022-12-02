@@ -30,7 +30,7 @@ html {
   -webkit-font-smoothing: antialiased;
   font-family: sans-serif;
   font-size: calc(0.5vw + 1rem);
-  font-size: clamp(10px, calc(0.5vw + .9rem), 2rem);
+  font-size: clamp(10px, calc(0.5vw + 0.9rem), 2rem);
   background: var(--background);
 }
 
@@ -143,6 +143,7 @@ pre {
   background: var(--background2);
   padding: 1rem;
   margin: 1rem -1rem;
+  overflow: hidden;
 }
 
 article.snippet img {
@@ -181,7 +182,6 @@ blockquote > p:first-of-type {
 article.snippet > :last-child,
 blockquote > :last-child {
   margin-bottom: 0;
-  clear: both;
 }
 
 img {
@@ -340,7 +340,6 @@ pre[class*="language-"] {
 }
 
 @media (min-width: 660px) {
-
   article.snippet,
   blockquote,
   pre {
