@@ -12,7 +12,7 @@ pagination:
 <p>This is where you'll find my writing.</p>
 <p>You can also subscribe <a href="{{ site.url }}{{ site.feed }}" title="Subscribe to the RSS feed">via the RSS feed</a></p>
 
-{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer articles</a>{% endif %}
+{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">&laquo; Newer articles</a>{% endif %}
 
 {%- for article in pagination.items -%}
   <h3>{{article.title}}</h3>
@@ -21,4 +21,4 @@ pagination:
 <p>There are no articles available.</p>
 {%- endfor %}
 
-{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older articles</a>{% endif %}
+{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older articles &raquo;</a>{% endif %}
