@@ -181,6 +181,7 @@ blockquote > p:first-of-type {
 article.snippet > :last-child,
 blockquote > :last-child {
   margin-bottom: 0;
+  clear: both;
 }
 
 img {
