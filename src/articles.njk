@@ -3,14 +3,9 @@ title: Articles
 description: Recent and not-so recent writing
 pagination:
   data: collections.articles
+  reverse: true
   size: 10
-  alias: article
-  filter:
-    - all
-    - post
-    - posts
-    - tagList
-  addAllPagesToCollections: true
+  generatePageOnEmptyData: true
 ---
 <h1>{{ title }}</h1>
 
