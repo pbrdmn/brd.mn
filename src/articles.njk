@@ -15,7 +15,6 @@ pagination:
 {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">&laquo; Newer articles</a>{% endif %}
 
 {%- for article in pagination.items -%}
-  <h3>{{article.title}}</h3>
   {%- include 'snippet.njk' %}
 {%- else -%}
 <p>There are no articles available.</p>
