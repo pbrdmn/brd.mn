@@ -1,0 +1,26 @@
+---
+title: Articles
+description: Recent and not-so recent writing
+pagination:
+  data: collections[articles]
+  size: 10
+  alias: article
+  filter:
+    - all
+    - post
+    - posts
+    - tagList
+  addAllPagesToCollections: true
+permalink: /articles/
+---
+<h1>{{ title }}</h1>
+
+<p>This is where you'll find my writing.</p>
+<p>You can also subscribe <a href="{{ site.url }}{{ site.feed }}" title="Subscribe to the RSS feed">via the RSS feed</a></p>
+
+{%- for article in pagination.items -%}
+  <h3>{{article.title}}</h3>
+  {%- include 'snippet.njk' %}
+{%- else -%}
+<p>There are no articles available.</p>
+{%- endfor %}
