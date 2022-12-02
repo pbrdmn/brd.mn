@@ -338,7 +338,7 @@ pre[class*="language-"] {
   cursor: help;
 }
 
-@media (min-width: 730px) {
+@media (min-width: 660px) {
 
   article.snippet,
   blockquote,
