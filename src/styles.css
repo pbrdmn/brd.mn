@@ -67,7 +67,7 @@ nav a:hover {
 nav a::before {
   content: "";
   background: linear-gradient(45deg, #e85f40, #b71dc4);
-  /* background-image: url(/logo.jpg); */
+  background-image: url(/logo.png);
   background-size: cover;
   display: inline-block;
   width: 32px;
