@@ -2,10 +2,11 @@
 <html lang="en">
   {%- include 'header.njk' %}
   <body>
+    <nav>
+      <header><a href="/" title="Home">brd.mn</a></header>
+    </nav>
     <main>
-    {%- include 'nav.njk' %}
-
-    {{ content | safe }}
+      {{ content | safe }}
     </main>
   </body>
 </html>

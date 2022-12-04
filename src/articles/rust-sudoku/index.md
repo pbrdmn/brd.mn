@@ -2,9 +2,11 @@
 title: Learning rust, generating and solving sudoku puzzles
 description: Working with Rust to generate and solve sudoku puzzles
 date: 2021-11-21
-tags: rust
 image: sudoku-generator-solver.png
 imageAlt: Terminal application generating and solving a sudoku puzzle
+tags:
+  - rust
+  - programming
 ---
 
 Wrote a sample program in Rust to [generate and solve sudoku puzzles](https://github.com/pbrdmn/katas.rs/tree/main/sudoku).

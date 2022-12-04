@@ -2,7 +2,11 @@
 title: Step Generator NPM Package
 description: Generating a sequence of numbers
 date: 2018-01-19
-tags: [javascript, npm]
+tags:
+  - javascript
+  - npm
+  - programming
+  - code
 ---
 
 Using generator functions to automate producing a sequence of numbers.

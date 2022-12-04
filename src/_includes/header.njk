@@ -11,20 +11,13 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   <link rel="alternate" type="application/rss+xml" title="RSS"
       href="{{ site.url }}{{ site.feed }}">
-  <meta
-    name="theme-color"
-    content="#fff"
-    media="(prefers-color-scheme: light)"
-  />
-  <meta
-    name="theme-color"
-    content="#160d16"
-    media="(prefers-color-scheme: dark)"
-  />
-  <link rel="icon" href="/logo.jpg" type="image/jpeg" />
+
   {%- include 'social.njk' %}
   
-  <style>
-  {{ css | cssmin | safe }}
-  </style>
+  <style>{{ css | cssmin | safe }}</style>
+  {%- if tags %}
+  {%- if "code" in tags %}
+    <link rel="stylesheet" type="text/css" href="/code.css" />
+  {%- endif %}
+  {%- endif %}
 </head>

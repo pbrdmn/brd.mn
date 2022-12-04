@@ -5,7 +5,13 @@ image: mentors.webp
 thumb: thumb.webp
 imageAlt: Presentation outlining my career change into management
 date: 2022-11-28
-tags: [engineering,leadership,mentoring,presentation]
+tags:
+  - engineering
+  - leadership
+  - mentoring
+  - presentation
+  - conference
+  - meetup
 ---
 
 > A presentation outlining my career change into management, for Web Directions [Code Leaders](https://webdirections.org/leaders/) and [Summit](https://webdirections.org/summit/) 2022.

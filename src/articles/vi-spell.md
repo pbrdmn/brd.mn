@@ -2,6 +2,10 @@
 title: Spelling in Vi
 description: Adding spelling support to my vi configuration
 date: 2012-01-27
+tags:
+  - vi
+  - programming
+  - code
 ---
 
 After discovering a number of typos in my `.txt` files, a quick search found this [Vim documentation file on spelling](http://vimdoc.sourceforge.net/htmldoc/spell.html "Vim documentation: spell"). I'll repeat the basics here, see the article for all the details.

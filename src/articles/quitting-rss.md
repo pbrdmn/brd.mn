@@ -3,6 +3,8 @@ title: Quitting RSS
 description: Remember when every site had an RSS feed?
 date: 2012-02-06
 updated: 2012-02-10
+tags:
+  - rss
 ---
 
 > [Google Reader](http://google.com/reader/ "Google's RSS Reader") I love you, but you're bringing me down.

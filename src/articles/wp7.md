@@ -3,6 +3,9 @@ title: Windows Phone 7
 description: Exploring the Windows Phone in 2012
 date: 2012-01-25
 updated: 2012-02-20
+tags:
+  - windows phone
+  - reviews
 ---
 ## The Beginning
 

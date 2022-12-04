@@ -1,18 +1,18 @@
 ---
 title: Articles
 description: Recent and not-so recent writing
+layout: default.njk
 pagination:
   data: collections.articles
   reverse: true
-  size: 10
+  size: 12
   generatePageOnEmptyData: true
 ---
 <h1>{{ title }}</h1>
 
-<p>This is where you'll find my writing.</p>
-<p>You can also subscribe <a href="{{ site.url }}{{ site.feed }}" title="Subscribe to the RSS feed">via the RSS feed</a></p>
+{{content | safe }}
 
-{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">&laquo; Newer articles</a>{% endif %}
+{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">&laquo; Newer articles</a>{%- else %}<a href="/">&laquo; Back to home</a>{% endif %}
 
 {%- for article in pagination.items -%}
   {%- include 'snippet.njk' %}

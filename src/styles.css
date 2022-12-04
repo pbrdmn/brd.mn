@@ -9,40 +9,27 @@
 
 @media screen and (prefers-color-scheme: dark) {
   :root {
-    --foreground: #ddd4df;
-    --background: #160d16;
-    --background2: #241824;
-    --link: #7fb2ff;
-    --visited: #c375ff;
-    --code-background: #0e050e;
+    --foreground: #a099a1;
+    --background: #0c070c;
+    --background2: #160d16;
+    --link: #6489c0;
+    --visited: #8b56b4;
+    --code-background: #030203;
   }
-}
 
-@media (prefers-reduced-motion) {
-  * {
-    transition-duration: 0 !important;
+  img {
+    opacity: 0.7;
   }
 }
 
 html {
-  margin: 0;
-  padding: 0;
   -webkit-font-smoothing: antialiased;
   font-family: sans-serif;
-  font-size: calc(0.5vw + 1rem);
+  font-size: calc(0.5vw + 0.9rem);
   font-size: clamp(10px, calc(0.5vw + 0.9rem), 2rem);
-  background: var(--background);
-}
-
-body {
   line-height: 1.5rem;
   color: var(--foreground);
   background: var(--background);
-  background-attachment: fixed;
-  box-sizing: border-box;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0.5rem 0.5rem 5rem;
 }
 
 main {
@@ -61,53 +48,23 @@ a:visited {
 
 nav {
   text-align: center;
-  margin: 0 -0.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-nav ul {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-nav ul,
-nav li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 nav a,
 nav a:visited {
   color: var(--foreground);
   text-decoration: none;
-  display: block;
-  width: 100%;
   box-sizing: border-box;
   padding: 0.5rem 1rem;
+  display: inline-block;
   background: transparent;
   border-radius: 0.25rem;
 }
 nav a:hover {
-  text-decoration: underline;
-}
-nav a[aria-current] {
   color: var(--foreground);
   background: var(--background2);
-  pointer-events: none;
 }
 
-li {
-  margin-bottom: 0.3rem;
-}
-
-@media print {
-  nav ul {
-    display: none;
-  }
-}
-
-nav header a::before {
+nav a::before {
   content: "";
   background: linear-gradient(45deg, #e85f40, #b71dc4);
   background-image: url(/logo.jpg);
@@ -132,6 +89,10 @@ h2 {
   font-weight: normal;
 }
 
+li {
+  margin-bottom: 0.3rem;
+}
+
 .meta,
 article footer {
   font-size: 0.8rem;
@@ -151,6 +112,7 @@ article.snippet img {
   width: 200px;
   max-width: 30%;
   margin: 0 0 1rem 1rem;
+  border-radius: 0.2rem;
 }
 
 code {
@@ -220,123 +182,8 @@ figure img {
 .links li {
   list-style: none;
 }
-
-/* prism code styles */
-code[class*="language-"],
-pre[class*="language-"] {
-  color: #f8f8f2;
-  background: none;
-  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-  font-size: 1em;
-  text-align: left;
-  white-space: pre;
-  word-spacing: normal;
-  word-break: normal;
-  word-wrap: normal;
-  line-height: 1.5;
-
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
-
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none;
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-  margin: 1em -1rem;
-  padding: 1rem;
-  overflow: auto;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-  background: var(--code-background);
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-  padding: 0.1em;
-  border-radius: 0.3em;
-  white-space: normal;
-}
-
-.token.comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-  color: slategray;
-}
-
-.token.punctuation {
-  color: #f8f8f2;
-}
-
-.token.namespace {
-  opacity: 0.7;
-}
-
-.token.property,
-.token.tag,
-.token.constant,
-.token.symbol,
-.token.deleted {
-  color: #f92672;
-}
-
-.token.boolean,
-.token.number {
-  color: #ae81ff;
-}
-
-.token.selector,
-.token.attr-name,
-.token.string,
-.token.char,
-.token.builtin,
-.token.inserted {
-  color: #a6e22e;
-}
-
-.token.operator,
-.token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string,
-.token.variable {
-  color: #f8f8f2;
-}
-
-.token.atrule,
-.token.attr-value,
-.token.function,
-.token.class-name {
-  color: #e6db74;
-}
-
-.token.keyword {
-  color: #66d9ef;
-}
-
-.token.regex,
-.token.important {
-  color: #fd971f;
-}
-
-.token.important,
-.token.bold {
-  font-weight: bold;
-}
-.token.italic {
-  font-style: italic;
-}
-
-.token.entity {
-  cursor: help;
+.links li a {
+  color: var(--link);
 }
 
 @media (min-width: 660px) {
