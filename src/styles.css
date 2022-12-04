@@ -17,6 +17,7 @@
     --code-background: #030203;
   }
 
+  header a::before,
   img {
     opacity: 0.7;
   }
