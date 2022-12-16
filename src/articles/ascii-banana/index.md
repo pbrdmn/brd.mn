@@ -8,8 +8,6 @@ tags:
   - arduino
   - keyboard
   - code
-
-eleventyExcludeFromCollections: true
 ---
 
 This [banana keyboard](https://www.etsy.com/au/listing/1232068534/8-key-banana-macropad) project is bit of a joke keyboard which started when someone shared a link to some novelty keyboards / macro pads in an [Etsy Store](https://www.etsy.com/au/shop/Steboards).
