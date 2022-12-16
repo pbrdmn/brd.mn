@@ -1,7 +1,7 @@
 ---
 title: Ascii Banana
 description: Programming a macro pad as a chorded keyboard for typing ascii characters
-image: banana_keyboard.png
+image: banana_keyboard.webp
 imageAlt: A bright yellow keyboard shaped like a banana with hellow, pink, and purple keycaps
 date: 2022-12-16
 tags:
