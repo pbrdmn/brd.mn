@@ -16,7 +16,7 @@ The banana keyboard arrived a few weeks after I ordered it and looked great. The
 
 > ![Keyboard Shortcuts](keyboard-shortcuts-settings.webp "Image of macOS Keyboard Shortcuts settings with F13 mapped")
 
-However the eigth key, mapped to `F20`, wasn't registering in macOS. This led me down a bit of a rabbit hole of searches. The primary takeaway being that macOS doesn't handle function keys above 19 the same way as the rest of the keyboard.
+However the eighth key, mapped to `F20`, wasn't registering in macOS. This led me down a bit of a rabbit hole of searches. The primary takeaway being that macOS doesn't handle function keys above 19 the same way as the rest of the keyboard.
 
 Not content with an unusable key on my banana, I messaged the seller on Etsy, who quickly replied with the source code they'd used to program the banana.
 
