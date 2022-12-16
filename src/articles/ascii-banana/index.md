@@ -1,6 +1,8 @@
 ---
 title: Ascii Banana
 description: Programming a macro pad as a chorded keyboard for typing ascii characters
+image: banana_keyboard.png
+imageAlt: A bright yellow keyboard shaped like a banana with hellow, pink, and purple keycaps
 date: 2022-12-16
 tags:
   - arduino
@@ -12,7 +14,9 @@ eleventyExcludeFromCollections: true
 
 This [banana keyboard](https://www.etsy.com/au/listing/1232068534/8-key-banana-macropad) project is bit of a joke keyboard which started when someone shared a link to some novelty keyboards / macro pads in an [Etsy Store](https://www.etsy.com/au/shop/Steboards).
 
-The banana keyboard arrived a few weeks after I ordered it and looked great. The eight keys were mapped to the `F13` - `F20` range. I could use the macOS [Keyboard Shortcuts](#keyboard-shortcuts-settings.webp "Image of macOS Keyboard Shortcuts settings with F13 mapped") settings to map these keys to almost any individual action I might want.
+The banana keyboard arrived a few weeks after I ordered it and looked great. The eight keys were mapped to the `F13` - `F20` range. I could use the macOS Keyboard Shortcuts settings to map these keys to almost any individual action I might want.
+
+> ![Keyboard Shortcuts](keyboard-shortcuts-settings.webp "Image of macOS Keyboard Shortcuts settings with F13 mapped")
 
 However the eigth key, mapped to `F20`, wasn't registering in macOS. This led me down a bit of a rabbit hole of searches. The primary takeaway being that macOS doesn't handle function keys above 19 the same way as the rest of the keyboard.
 
