@@ -22,7 +22,7 @@ Not content with an unusable key on my banana, I messaged the seller on Etsy, wh
 
 The `arduino` code was reasonably straight forward and didn't take much effort to make some changes. With the [Arduino Cloud Editor](https://create.arduino.cc) (and the companion firmware) I managed to reprogram my banana keyboard from the internet!
 
-The first goal I had was to remove the `F20` and replace it with something that would register in macOS. A bit of code refactor to group all the output keys together and I had something working ([banana.c](https://gist.github.com/pbrdmn/5a44e6726664d8411423e7133ea8912d)).
+Referencing the [Arduino Keyboard library](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/), the first goal I had was to remove the `F20` and replace it with something that would register in macOS. A bit of code refactor to group all the output keys together and I had something working ([banana.c](https://gist.github.com/pbrdmn/5a44e6726664d8411423e7133ea8912d)).
 
 ---
 
@@ -30,12 +30,12 @@ After playing around with the code, I first began looking at adjusting when keys
 
 ```c
 // handle button press for duration
-if (duraion < DEBOUNCE_TIME) {
+if (duration < DEBOUNCE_TIME) {
   // ignore noise
-} else if (duraion < HOLD_TIME) {
+} else if (duration < HOLD_TIME) {
   // handle tap
   Keyboard.write(taps[i]);
-} else if (duraion < TIMEOUT) {
+} else if (duration < TIMEOUT) {
   // handle hold
   Keyboard.write(holds[i]);
 } else {
@@ -90,3 +90,5 @@ The code for different banana keyboard functions:
 - [banana.c](https://gist.github.com/pbrdmn/5a44e6726664d8411423e7133ea8912d)
 - [hex_banana.c](https://gist.github.com/pbrdmn/ad6a53a064057658a2a4f19d895c0077)
 - [ascii_banana.c](https://gist.github.com/pbrdmn/646eedc374ec37e680a70c88dc4bfcc3)
+
+After contacting the seller on Etsy, this code has now been contributed to the public [SteBoards/BananaKeyboardCode repo on GitHub](https://github.com/SteBoards/BananaKeyboardCode) where others can use these as examples.
