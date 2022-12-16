@@ -49,7 +49,7 @@ This allowed the eight key banana to reliably emit 16 different events. The full
 
 Thinking about other opportunities for an eight key macro pad, I had the idea of using each of the eight keys to control individual character bits and allow the typing of ascii characters by inputting the binary values directly, treating the whole macro pad as a chorded keyboard, similar to a [stenotype](https://en.wikipedia.org/wiki/Stenotype) keyboard. I had been thinking about this recently and put together a ["Hello World." binary sticker](https://www.redbubble.com/i/sticker/Hello-world-binary-by-philip-boardman/134772669.EJUG5 "Sticker design with binary representation of each letter in the string 'Hello world.'").
 
-The keyboard captures each of the keys being pressed and store this intput in an internal buffer. Once all the keys have been released, the recorded input is then processed and output as an ascii character.
+The keyboard captures each of the keys being pressed and store this into an internal buffer. Once all the keys have been released, the recorded input is then processed and output as an ascii character.
 
 Another quick rabbit hole, some bit setting functions and a relatively clean solution appeared for the [ascii_banana.c](https://gist.github.com/pbrdmn/646eedc374ec37e680a70c88dc4bfcc3) keyboard.
 
