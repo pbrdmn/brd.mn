@@ -1,0 +1,145 @@
+{
+  "basics": {
+    "name": "Phlip Boardman",
+    "label": "Engineering Manager",
+    "image": "https://brd.mn/logo.png",
+    "url": "https://brd.mn",
+    "email": "jobs@brd.mn",
+    "location": {
+      "city": "Wollongong",
+      "region": "NSW",
+      "countryCode": "AU"
+    },
+    "summary": "Engineering Manager leading cross-functional software engineering teams. \nJoined Compono in 2018 as the fourth developer working as a Senior Full Stack Developer, building job posting and candidate hiring web application with React, GraphQL, TypeScript and Node micro-services running in Kubernetes on AWS. \nTook a Lead Full Stack Developer role in 2020 and formed a new team to create an Applicant Tracking System (ATS) to extend the feature set of the intelligent hiring product. Introduced agile methodologies to the product team and implement a shift-left approach to quality.\nPromoted to Engineering Manager in 2021, I trained a replacement lead developer for my team and began overseeing three product teams. I was involved in all aspects of hiring, mentoring, career development, and engineering process improvements. Lead the formation of a new team to tackle a significant strategic software re-architecture of a core business function.",
+    "hightlights": [
+      "Building teams, mentoring, and personal development",
+      "Aligning teams with company objectives and customer value",
+      "Hiring, performance management, and process improvement activities in collaboration with HR and hiring teams",
+      "Implemented agile, lean delivery processes and improvements"
+    ]
+  },
+  "skills": [
+    {
+      "name": "Leadership",
+      "level": "Master",
+      "keywords": [
+        "Leadership",
+        "Team building",
+        "Mentoring",
+        "Career development",
+        "Hiring",
+        "Performance management",
+        "Agile coaching",
+        "Code review",
+        "Continuous delivery",
+        "Technical decision making",
+        "Process improvement",
+        "Documentation",
+        "Software development"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "level": "Master",
+      "keywords": [
+        "React",
+        "Typescript",
+        "GraphQL",
+        "Node",
+        "MongoDB",
+        "SQL",
+        "AWS"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "role": "Engineering Manager",
+      "company": "Redbubble",
+      "date": "October 2022 - Current",
+      "summary": "Redbubble is creating the world's largest marketplace for independent artists, bringing more creativity into the world."
+    },
+
+    {
+      "role": "Engineering Manager",
+      "company": "Compono",
+      "date": "June 2021 - October 2022",
+      "summary": "Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights.",
+      "highlights": [
+        "Building and managing engineering teams across a suite of software products",
+        "Hiring, mentoring and performance reviews across teams of software engineers",
+        "Working with product manager to establish and tracking roadmap and OKRs",
+        "Establish and improve engineering processes, agile methodologies and performance of the software development lifecycle."
+      ]
+    },
+
+    {
+      "role": "Lead Full Stack Developer",
+      "company": "Compono",
+      "date": "January 2020 - June 2021",
+      "summary": "Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights.",
+      "highlights": [
+        "Lead an agile transform of a cross-functional project team",
+        "Product planning, scheduling, task breakdown and backlog management",
+        "Lead engineering team in agile practices, including establishment of best practices across teams",
+        "Build and maintain a greenfield SAAS ATS to compliment existing job management application",
+        "Integrated with third-party calendar synchronisation platform to build self-scheduling interview feature"
+      ]
+    },
+
+    {
+      "role": "Senior Full Stack Developer",
+      "company": "Compono",
+      "date": "November 2018 - January 2020",
+      "summary": "Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights.",
+      "highlights": [
+        "Build and maintain features in React web applications with Kubernetes micro services",
+        "Launched new ATS product for managing candidates in hiring pipeline",
+        "Build internal messaging feature with external email notifications",
+        "Delivered product features including Stripe billing system and internal UI component library"
+      ],
+      "skills": "Javascript, Typescript, React, GraphQL, Styled Components, Express, Node, GraphQL modules, Docker, Kubernetes, AWS, GCP, Continuous integration with git and Buildkite"
+    },
+
+    {
+      "role": "Software Engineer",
+      "company": "AirService",
+      "date": "August 2016 - October 2018",
+      "summary": "AirService combines mobile commerce services to deliver an “out of the box” experience, fully branded as our client’s own.",
+      "highlights": [
+        "Built Angular and React applications backed by Ruby on Rails API server",
+        "Application state management with Redux, AWS Lambda client/server integration",
+        "Custom dashboards with D3 charting and React SVG components",
+        "iOS/Android applications built with React Native"
+      ],
+      "skills": "Angular, React, Redux, HTML, CSS, AWS Lambda and S3"
+    },
+
+    {
+      "role": "Senior Web Developer",
+      "company": "Wisdom Advertising and Design",
+      "date": "September 2012 - April 2016",
+      "summary": "Wisdom is a marketing, advertising, design and web development studio.",
+      "highlights": [
+        "Worked with client managers to define customer scope and project specifications",
+        "Delivered custom websites with CMS and ecommerce functionality to design brief",
+        "Manage mobile application projects for iOS, Android and Windows",
+        "Developed client branded email templates for EDM software"
+      ]
+    },
+
+    {
+      "role": "Web Developer",
+      "company": "Bicycling Australia",
+      "date": "September 2008 - June 2015",
+      "summary": "Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an online classifieds site.",
+      "highlights": [
+        "Designed and built Drupal CMS, integrated into multiple branded ecommerce applications",
+        "Implemented Ad platform software to manage online advertising inventory",
+        "Rebuilt Classifieds site to integrate with CMS and advertising platform",
+        "Developed and published 11 iOS apps to App Store",
+        "Custom email newsletter generators for EDM software built as extension to ecommerce stores"
+      ]
+    }
+  ]
+}
