@@ -49,6 +49,8 @@ a:visited {
 
 nav {
   text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 nav a,
 nav a:visited {
@@ -71,8 +73,8 @@ nav a::before {
   background-image: url(/logo.png);
   background-size: cover;
   display: inline-block;
-  width: 32px;
-  height: 32px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   margin-right: 0.5rem;
   vertical-align: middle;
@@ -187,7 +189,7 @@ figure img {
   color: var(--link);
   display: block;
   background: var(--background2);
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 1rem;
   text-decoration: none;
 }
