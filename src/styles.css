@@ -103,6 +103,7 @@ article footer {
 
 article.snippet {
   padding: 1rem 0;
+  clear: right;
 }
 article.snippet a:has(img) {
   float: right;
