@@ -72,7 +72,7 @@ In 2021, the DORA team added a fifth metric — reliability — to the list of t
 
 ## Summary Chart
 
-> ![Chart outlining the DORA metrics](dora-metrics.jpg)
+> ![Chart outlining the DORA metrics](dora-metrics.webp)
 
 ## References
 
