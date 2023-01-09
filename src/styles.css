@@ -103,7 +103,6 @@ article footer {
 
 article.snippet {
   padding: 1rem 0;
-  overflow: hidden;
 }
 
 blockquote,
@@ -112,14 +111,6 @@ pre {
   padding: 1rem;
   margin: 1rem -1rem;
   overflow: hidden;
-}
-
-article.snippet img {
-  float: right;
-  width: 200px;
-  max-width: 30%;
-  margin: 0 0 1rem 1rem;
-  border-radius: 0.2rem;
 }
 
 code {
@@ -156,6 +147,7 @@ blockquote > :last-child {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 0.2rem;
 }
 img.block {
   display: block;
