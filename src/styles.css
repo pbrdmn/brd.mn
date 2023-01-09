@@ -104,6 +104,10 @@ article footer {
 article.snippet {
   padding: 1rem 0;
 }
+article.snippet a:has(img) {
+  float: right;
+  margin: 1rem 0 1rem 1rem;
+}
 
 blockquote,
 pre {
@@ -129,19 +133,6 @@ code {
 pre {
   white-space: pre-wrap;
   word-break: break-all;
-}
-
-article.snippet > h2:first-of-type,
-blockquote > h2:first-of-type,
-article.snippet > h3:first-of-type,
-blockquote > h3:first-of-type,
-article.snippet > p:first-of-type,
-blockquote > p:first-of-type {
-  margin-top: 0;
-}
-article.snippet > :last-child,
-blockquote > :last-child {
-  margin-bottom: 0;
 }
 
 img {
