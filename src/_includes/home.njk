@@ -5,8 +5,6 @@ layout: default.njk
 
 {{content | safe }}
 
-<h2>Recent Articles</h2>
-
 {%- for article in collections.articles | reverse | limit(3) -%}
   {%- include 'snippet.njk' %}
 {%- endfor %}
