@@ -92,3 +92,9 @@ The code for different banana keyboard functions:
 - [ascii_banana.c](https://gist.github.com/pbrdmn/646eedc374ec37e680a70c88dc4bfcc3)
 
 After contacting the seller on Etsy, this code has now been contributed to the public [SteBoards/BananaKeyboardCode repo on GitHub](https://github.com/SteBoards/BananaKeyboardCode) where others can use these as examples.
+
+---
+
+Order a [Hello World binary sticker](https://www.redbubble.com/i/sticker/Hello-world-binary-ascii-dark-mode-by-philip-boardman/134772927.EJUG5?asc=u) from my Redbubble store.
+
+[!["Hello world." binary, ascii, dark mode](work-134772927-sticker-bottle.jpg "Order a 'Hello World' binary sticker")](https://www.redbubble.com/i/sticker/Hello-world-binary-ascii-dark-mode-by-philip-boardman/134772927.EJUG5?asc=u)
