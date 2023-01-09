@@ -80,4 +80,4 @@ In 2021, the DORA team added a fifth metric — reliability — to the list of t
 DORA Metrics](https://www.leanix.net/en/wiki/vsm/dora-metrics)
 - [Are you an Elite DevOps performer? Find out with the Four Keys Project](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance)
 - [Announcing DORA 2021 Accelerate State of DevOps report | Google Cloud Blog](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report)
-- [Photo by Mitchel Boot][https://unsplash.com/photos/hOf9BaYUN88?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink]  
+- [Photo by Mitchel Boot](https://unsplash.com/photos/hOf9BaYUN88?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)  
