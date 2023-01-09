@@ -12,7 +12,7 @@ pagination:
 
 {{content | safe }}
 
-{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">&laquo; Newer articles</a>{%- else %}<a href="/">&laquo; Back to home</a>{% endif %}
+<div class="links"><li>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">&laquo; Newer articles</a>{%- else %}<a href="/">&laquo; Back to home</a>{% endif %}</li></div>
 
 {%- for article in pagination.items -%}
   {%- include 'snippet.njk' %}
@@ -20,4 +20,4 @@ pagination:
 <p>There are no articles available.</p>
 {%- endfor %}
 
-{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older articles &raquo;</a>{% endif %}
+{% if pagination.href.next %}<div class="links"><li><a href="{{ pagination.href.next }}">Older articles &raquo;</a></li></div>{% endif %}

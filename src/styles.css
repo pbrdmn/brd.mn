@@ -101,7 +101,11 @@ article footer {
   font-size: 0.8rem;
 }
 
-article.snippet,
+article.snippet {
+  padding: 1rem 0;
+  overflow: hidden;
+}
+
 blockquote,
 pre {
   background: var(--background2);
