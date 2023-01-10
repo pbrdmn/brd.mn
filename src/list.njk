@@ -1,0 +1,16 @@
+---
+title: Articles
+description: Recent and not-so recent writing
+layout: default.njk
+---
+<h1>Articles</h1>
+
+<p><a href="{{ site.url }}{{ site.feed }}" title="Subscribe to the RSS feed">Subscribe with RSS</a></p>
+
+<ul>
+{%- for article in collections.articles | reverse -%}
+  <li><a href="{{article.url}}" title="{{article.data.title}} - posted {{article.data.date | postDate}}">{{article.data.title}}</a></li>
+{%- else -%}
+<p>There are no articles available.</p>
+{%- endfor %}
+</ul>
