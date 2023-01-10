@@ -100,12 +100,11 @@ li {
 article footer {
   font-size: 0.8rem;
 }
-
-article.snippet {
+.snippet {
   padding: 1rem 0;
   clear: right;
 }
-article.snippet a:has(img) {
+.snippet > a {
   display: block;
   float: right;
   margin: 1rem 0 1rem 1rem;
@@ -125,7 +124,7 @@ code {
 }
 
 @media print, (prefers-contrast: more) {
-  article.snippet,
+  .snippet,
   blockquote,
   pre {
     background: var(--background);
@@ -188,7 +187,7 @@ figure img {
 }
 
 @media (min-width: 660px) {
-  article.snippet,
+  .snippet,
   blockquote,
   pre {
     border-radius: 0.5rem;
