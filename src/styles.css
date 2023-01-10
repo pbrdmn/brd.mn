@@ -96,6 +96,7 @@ li {
 .meta,
 article footer {
   font-size: 0.8rem;
+  opacity: .5;
 }
 .snippet {
   padding: 1rem 0;
@@ -176,7 +177,7 @@ figure img {
   display: block;
   background: var(--background2);
   padding: 0.5rem 1rem;
-  border-radius: 1rem;
+  border-radius: 0.3rem;
   text-decoration: none;
 }
 .links li a:hover {
