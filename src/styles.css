@@ -110,7 +110,7 @@ article footer {
 .snippet footer {
   opacity: 0.5;
 }
-.snippet::hover footer {
+.snippet footer:hover {
   opacity: 1;
 }
 
