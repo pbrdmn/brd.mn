@@ -96,7 +96,6 @@ li {
 .meta,
 article footer {
   font-size: 0.8rem;
-  opacity: .5;
 }
 .snippet {
   padding: 1rem 0;
@@ -107,6 +106,12 @@ article footer {
   float: right;
   margin: 1rem 0 1rem 1rem;
   max-width: 45%;
+}
+.snippet footer {
+  opacity: 0.5;
+}
+.snipper::hover footer {
+  opacity: 1;
 }
 
 blockquote,
