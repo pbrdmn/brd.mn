@@ -1,5 +1,5 @@
 ---
-title: DORA metrics
+title: What are DORA metrics?
 description: Assessing the health and performance of a product engineering team
 date: 2023-01-10
 image: mitchel-boot-hOf9BaYUN88-unsplash.webp
