@@ -110,6 +110,10 @@ article.snippet a:has(img) {
   margin: 1rem 0 1rem 1rem;
 }
 
+article.snippet a img {
+  max-width: 45%;
+}
+
 blockquote,
 pre {
   background: var(--background2);
