@@ -6,7 +6,7 @@ image: vscode-screenshot.png
 imageAlt: Visual Studio Code editor with a markdown file open
 ---
 
-# Uses
+# Philip Uses...
 
 > Inspired by [Wes Bos's Uses page](https://wesbos.com/uses), here's a list of the tools and software I use regularly. Check out [uses.tech](https://uses.tech/) to see what everyone else */uses*
 

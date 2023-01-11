@@ -42,14 +42,11 @@ a:visited {
   color: var(--visited);
 }
 
-nav {
-  text-align: center;
-  font-size: 1.4rem;
-  font-weight: bold;
-}
 nav a,
 nav a:visited {
   color: var(--foreground);
+  font-size: 1.4rem;
+  font-weight: bold;
   text-decoration: none;
   box-sizing: border-box;
   padding: 0.5rem 1rem;
@@ -110,6 +107,15 @@ article footer {
 }
 .snippet footer:hover {
   opacity: 1;
+}
+
+@media screen and (max-width: 799px) {
+  header > img,
+  img.hero {
+    margin: 0 -1rem;
+    max-width: calc(100% + 2rem);
+    border-radius: 0;
+  }
 }
 
 blockquote,
@@ -196,6 +202,7 @@ figure img {
   html {
     font-size: 1.25rem;
   }
+  nav,
   main {
     box-sizing: border-box;
     margin: 0 auto;
