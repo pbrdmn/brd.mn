@@ -31,8 +31,13 @@ html {
   background: var(--background);
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 main {
-  padding: 0.5em;
+  margin: 1rem;
 }
 
 a {
@@ -42,24 +47,23 @@ a:visited {
   color: var(--visited);
 }
 
-nav a,
-nav a:visited {
+/* LOGO NAV LINK */
+a.logo,
+a.logo:visited {
   color: var(--foreground);
   font-size: 1.4rem;
   font-weight: bold;
   text-decoration: none;
   box-sizing: border-box;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   display: inline-block;
   background: transparent;
   border-radius: 0.25rem;
 }
-nav a:hover {
-  color: var(--foreground);
+a.logo:hover {
   background: var(--background2);
 }
-
-nav a::before {
+a.logo::before {
   content: "";
   background: linear-gradient(45deg, #e85f40, #b71dc4);
   background-image: url(/logo.png);
@@ -72,26 +76,11 @@ nav a::before {
   vertical-align: middle;
 }
 
-h1 {
-  font-size: 2rem;
-  line-height: 1.1em;
-  font-weight: normal;
-}
-
+h1,
 h2 {
-  font-size: 1.3rem;
-  line-height: 1.1em;
   font-weight: normal;
 }
 
-li {
-  margin-bottom: 0.3rem;
-}
-
-.meta,
-article footer {
-  font-size: 0.8rem;
-}
 .snippet {
   padding: 1rem 0;
   clear: right;
@@ -102,28 +91,36 @@ article footer {
   margin: 1rem 0 1rem 1rem;
   max-width: 45%;
 }
-.snippet footer {
+footer {
+  font-size: 0.8rem;
   opacity: 0.5;
 }
-.snippet footer:hover {
+footer:hover {
   opacity: 1;
 }
 
+/* hero images */
 @media screen and (max-width: 799px) {
-  header > img,
-  img.hero {
+  header > img {
     margin: 0 -1rem;
     max-width: calc(100% + 2rem);
     border-radius: 0;
   }
 }
 
+/* blockquotes */
 blockquote,
 pre {
   background: var(--background2);
   padding: 1rem;
   margin: 1rem -1rem;
   overflow: hidden;
+}
+blockquote > :first-child {
+  margin-top: 0;
+}
+blockquote > :last-child {
+  margin-bottom: 0;
 }
 
 code {
@@ -163,16 +160,6 @@ hr {
   margin-bottom: 2rem;
 }
 
-figure {
-  background: var(--background2);
-  padding: 0.3rem;
-  text-align: center;
-  border-radius: 0.5rem;
-}
-figure img {
-  border-radius: 0.2rem;
-}
-
 /* Homepage links block */
 .links ul {
   margin: 0;
@@ -180,6 +167,7 @@ figure img {
 }
 .links li {
   list-style: none;
+  margin-bottom: 0.3rem;
 }
 .links li a {
   color: var(--link);
@@ -202,11 +190,10 @@ figure img {
   html {
     font-size: 1.25rem;
   }
-  nav,
   main {
     box-sizing: border-box;
-    margin: 0 auto;
-    max-width: calc(800px);
+    max-width: calc(800px - 2rem);
+    margin: 1rem auto;
   }
 
   .snippet,

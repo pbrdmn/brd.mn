@@ -38,13 +38,13 @@ React, Typescript, GraphQL, Node, MongoDB, SQL, AWS
 
 > ### Engineering Manager at Redbubble
 > 
-> <span class="meta">October 2022 - Current</span>
+> <footer>October 2022 - Current</footer>
 > 
 > Redbubble is creating the world's largest marketplace for independent artists, bringing more creativity into the world.
 
 > ### Engineering Manager at Compono
 > 
-> <span class="meta">June 2021 - October 2022</span>
+> <footer>June 2021 - October 2022</footer>
 >
 > Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights.
 > 
@@ -55,7 +55,7 @@ React, Typescript, GraphQL, Node, MongoDB, SQL, AWS
 
 > ### Lead Full Stack Developer at Compono
 > 
-> <span class="meta">January 2020 - June 2021</span>
+> <footer>January 2020 - June 2021</footer>
 > 
 > * Lead an agile transform of a cross-functional project team
 > * Product planning, scheduling, task breakdown and backlog management
@@ -65,7 +65,7 @@ React, Typescript, GraphQL, Node, MongoDB, SQL, AWS
 
 > ### Senior Full Stack Developer at Compono
 > 
-> <span class="meta">November 2018 - January 2020</span>
+> <footer>November 2018 - January 2020</footer>
 > 
 > * Build and maintain features in React web applications with Kubernetes micro services
 > * Launched new ATS product for managing candidates in hiring pipeline
@@ -76,7 +76,7 @@ React, Typescript, GraphQL, Node, MongoDB, SQL, AWS
 
 > ### Software Engineer at AirService
 > 
-> <span class="meta">August 2016 - October 2018</span>
+> <footer>August 2016 - October 2018</footer>
 > 
 > AirService combines mobile commerce services to deliver an “out of the box” experience, fully branded as our client’s own.
 > 
@@ -90,7 +90,7 @@ React, Typescript, GraphQL, Node, MongoDB, SQL, AWS
 
 > ### Senior Web Developer at Wisdom Advertising and Design
 > 
-> <span class="meta">September 2012 - April 2016</span>
+> <footer>September 2012 - April 2016</footer>
 > 
 > Wisdom is a marketing, advertising, design and web development studio.
 > 
@@ -102,7 +102,7 @@ React, Typescript, GraphQL, Node, MongoDB, SQL, AWS
 
 > ### Web Developer at Bicycling Australia
 > 
-> <span class="meta">September 2008 - June 2015</span>
+> <footer>September 2008 - June 2015</footer>
 > 
 > Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an online classifieds site.
 > 
