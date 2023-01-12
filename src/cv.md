@@ -27,88 +27,90 @@ Promoted to Engineering Manager in 2021, I trained a replacement lead developer 
 
 ## Skills
 
-Leadership, Team building, Mentoring, Career development, Hiring, Performance management, Agile coaching, Code review, Continuous delivery, Technical decision making, Process improvement, Documentation, Software development
+Leadership, team building, mentoring, career development, hiring, performance management, agile coaching, code review, continuous delivery, technical decision making, process improvement, documentation, software development
 
 ## Technologies
 
-React, Typescript, GraphQL, Node, MongoDB, SQL, AWS
+Javascript, React, Node, Typescript, GraphQL, MongoDB, SQL, AWS
 
 ---
 
 ## Experience
 
-> ### Engineering Manager at Redbubble
-> 
-> <footer>October 2022 - Current</footer>
-> 
-> Redbubble is creating the world's largest marketplace for independent artists, bringing more creativity into the world.
+### Engineering Manager at Redbubble
 
-> ### Engineering Manager at Compono
-> 
-> <footer>June 2021 - October 2022</footer>
->
-> Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights.
-> 
-> * Building and managing engineering teams across a suite of software products
-> * Hiring, mentoring and performance reviews across teams of software engineers
-> * Working with product manager to establish and tracking roadmap and OKRs
-> * Establish and improve engineering processes, agile methodologies and performance of the software development lifecycle.
+<footer>October 2022 - Current</footer>
 
-> ### Lead Full Stack Developer at Compono
-> 
-> <footer>January 2020 - June 2021</footer>
-> 
-> * Lead an agile transform of a cross-functional project team
-> * Product planning, scheduling, task breakdown and backlog management
-> * Lead engineering team in agile practices, including establishment of best practices across teams
-> * Build and maintain a greenfield SAAS ATS to compliment existing job management application
-> * Integrated with third-party calendar synchronisation platform to build self-scheduling interview feature
+Redbubble is creating the world's largest marketplace for independent artists, bringing more creativity into the world.
 
-> ### Senior Full Stack Developer at Compono
-> 
-> <footer>November 2018 - January 2020</footer>
-> 
-> * Build and maintain features in React web applications with Kubernetes micro services
-> * Launched new ATS product for managing candidates in hiring pipeline
-> * Build internal messaging feature with external email notifications
-> * Delivered product features including Stripe billing system and internal UI component library
-> 
-> Skills: Javascript, Typescript, React, GraphQL, Styled Components, Express, Node, GraphQL modules, Docker, Kubernetes, AWS, GCP, Continuous integration with git and Buildkite
+> [Presented at Web Directions 2022](https://brd.mn/articles/mentors/)
 
-> ### Software Engineer at AirService
-> 
-> <footer>August 2016 - October 2018</footer>
-> 
-> AirService combines mobile commerce services to deliver an “out of the box” experience, fully branded as our client’s own.
-> 
-> * Built Angular and React applications backed by Ruby on Rails API server
-> * Application state management with Redux, AWS Lambda client/server integration
-> * Custom dashboards with D3 charting and React SVG components
-> * iOS/Android applications built with React Native
-> 
-> Skills: Angular, React, Redux, HTML, CSS, AWS Lambda and S3
+### Engineering Manager at Compono
 
+<footer>June 2021 - October 2022</footer>
 
-> ### Senior Web Developer at Wisdom Advertising and Design
-> 
-> <footer>September 2012 - April 2016</footer>
-> 
-> Wisdom is a marketing, advertising, design and web development studio.
-> 
-> * Worked with client managers to define customer scope and project specifications
-> * Delivered custom websites with CMS and ecommerce functionality to design brief
-> * Manage mobile application projects for iOS, Android and Windows
-> * Developed client branded email templates for EDM software
+Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights.
 
+* Building and managing engineering teams across a suite of software products
+* Hiring, mentoring and performance reviews across teams of software engineers
+* Working with product manager to establish and tracking roadmap and OKRs
+* Establish and improve engineering processes, agile methodologies and performance of the software development lifecycle.
 
-> ### Web Developer at Bicycling Australia
-> 
-> <footer>September 2008 - June 2015</footer>
-> 
-> Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an online classifieds site.
-> 
-> * Designed and built Drupal CMS, integrated into multiple branded ecommerce applications
-> * Implemented Ad platform software to manage online advertising inventory
-> * Rebuilt Classifieds site to integrate with CMS and advertising platform
-> * Developed and published 11 iOS apps to App Store
-> * Custom email newsletter generators for EDM software built as extension to ecommerce stores
+### Lead Full Stack Developer at Compono
+
+<footer>January 2020 - June 2021</footer>
+
+* Lead an agile transform of a cross-functional project team
+* Product planning, scheduling, task breakdown and backlog management
+* Lead engineering team in agile practices, including establishment of best practices across teams
+* Build and maintain a greenfield SAAS ATS to compliment existing job management application
+* Integrated with third-party calendar synchronisation platform to build self-scheduling interview feature
+
+### Senior Full Stack Developer at Compono
+
+<footer>November 2018 - January 2020</footer>
+
+* Build and maintain features in React web applications with Kubernetes micro services
+* Launched new ATS product for managing candidates in hiring pipeline
+* Build internal messaging feature with external email notifications
+* Delivered product features including Stripe billing system and internal UI component library
+
+---
+
+### Software Engineer at AirService
+
+<footer>August 2016 - October 2018</footer>
+
+AirService combines mobile commerce services to deliver an “out of the box” experience, fully branded as our client’s own.
+
+* Built Angular and React applications backed by Ruby on Rails API server
+* Application state management with Redux, AWS Lambda client/server integration
+* Custom dashboards with D3 charting and React SVG components
+* iOS/Android applications built with React Native
+
+---
+
+### Senior Web Developer at Wisdom Advertising and Design
+
+<footer>September 2012 - April 2016</footer>
+
+Wisdom is a marketing, advertising, design and web development studio.
+
+* Worked with client managers to define customer scope and project specifications
+* Delivered custom websites with CMS and ecommerce functionality to design brief
+* Manage mobile application projects for iOS, Android and Windows
+* Developed client branded email templates for EDM software
+
+---
+
+### Web Developer at Bicycling Australia
+
+<footer>September 2008 - June 2015</footer>
+
+Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an online classifieds site.
+
+* Designed and built Drupal CMS, integrated into multiple branded ecommerce applications
+* Implemented Ad platform software to manage online advertising inventory
+* Rebuilt Classifieds site to integrate with CMS and advertising platform
+* Developed and published 11 iOS apps to App Store
+* Custom email newsletter generators for EDM software built as extension to ecommerce stores
