@@ -4,15 +4,16 @@ description: The Curriculum Vitae of Philip Boardman
 ---
 # The CV of Philip Boardman
 
-> Engineering Manager leading cross-functional software engineering teams
+Engineering Manager leading cross-functional software engineering teams
 
-## Highlights
+> ## Highlights
+> 
+> * Building teams, mentoring and personal development
+> * Aligning team delivery planning with delivering value for company objectives
+> * Hiring, performance management, and process improvement activities in collaboration with HR and hiring teams
+> * Implemented agile, lean delivery processes and improvements
 
-* Building teams, mentoring, and personal development
-* Aligning teams with company objectives and customer value
-* Hiring, performance management, and process improvement activities in collaboration with HR and hiring teams
-* Implemented agile, lean delivery processes and improvements
-* [Connect with me on LinkedIn](https://linkedin.com/in/philipboardman/)
+[Connect with me on LinkedIn](https://linkedin.com/in/philipboardman/)
 
 ## Summary
 
