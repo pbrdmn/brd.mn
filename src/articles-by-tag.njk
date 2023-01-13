@@ -11,7 +11,7 @@ pagination:
   addAllPagesToCollections: true
 layout: default.njk
 eleventyComputed:
-  title: Articles tagged “{{ tag }}”
+  title: #{{ tag }} articles
 permalink: /tags/{{ tag | slugify }}/
 ---
 <h1>{{title}}</h1>
