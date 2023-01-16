@@ -81,11 +81,11 @@ h2 {
   font-weight: normal;
 }
 
-.snippet {
+article {
   padding: 1rem 0;
   clear: right;
 }
-.snippet > a {
+article > a {
   display: block;
   float: right;
   margin: 1rem 0 1rem 1rem;
@@ -197,7 +197,6 @@ hr {
     margin: 1rem auto;
   }
 
-  .snippet,
   blockquote,
   pre {
     border-radius: 0.5rem;
