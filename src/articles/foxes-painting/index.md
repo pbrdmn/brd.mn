@@ -4,6 +4,7 @@ description: Mindfully painting of a pair of foxes during my holidays
 image: numbered_paints_with_brushes.webp
 imageAlt: Painting
 thumb: foxes_thumb.webp
+date: 2023-01-16
 tags:
   - art
   - mindfulness
