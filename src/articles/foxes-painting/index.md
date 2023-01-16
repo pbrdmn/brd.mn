@@ -1,5 +1,5 @@
 ---
-title: Foxes Painting
+title: Painting a Pair of Foxes
 description: Mindfully painting of a pair of foxes during my holidays
 image: numbered_paints_with_brushes.webp
 imageAlt: Painting
