@@ -3,7 +3,7 @@ title: Foxes Painting
 description: Mindfully painting of a pair of foxes during my holidays
 image: numbered_paints_with_brushes.webp
 imageAlt: Painting
-image: foxes_thumb.webp
+thumb: foxes_thumb.webp
 tags:
   - art
   - mindfulness
