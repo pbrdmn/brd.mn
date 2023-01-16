@@ -130,7 +130,6 @@ code {
 }
 
 @media print, (prefers-contrast: more) {
-  .snippet,
   blockquote,
   pre {
     background: var(--background);
