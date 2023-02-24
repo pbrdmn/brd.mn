@@ -9,11 +9,6 @@ layout: default.njk
     {%- endif %}
   </header>
 
-
-  {{content | safe }}
-
-  <hr />
-
   <footer>
     <p>
       {% for tag in tags | filterTagList %}
@@ -27,4 +22,8 @@ layout: default.njk
       {%- endif %}
     </p>
   </footer>
+
+  <hr />
+
+  {{content | safe }}
 </article>

@@ -35,11 +35,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
 main {
   margin: 1rem;
 }
-
 a {
   color: var(--link);
 }
@@ -47,33 +45,15 @@ a:visited {
   color: var(--visited);
 }
 
-/* LOGO NAV LINK */
-a.logo,
-a.logo:visited {
-  color: var(--foreground);
-  font-size: 1.4rem;
-  font-weight: bold;
+a.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
   text-decoration: none;
-  box-sizing: border-box;
-  padding: 0.5rem;
-  display: inline-block;
-  background: transparent;
-  border-radius: 0.25rem;
+  color: var(--foreground);
 }
-a.logo:hover {
-  background: var(--background2);
-}
-a.logo::before {
-  content: "";
-  background: linear-gradient(45deg, #e85f40, #b71dc4);
-  background-image: url(/logo.png);
-  background-size: cover;
-  display: inline-block;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
+a.logo img {
   margin-right: 0.5rem;
-  vertical-align: middle;
 }
 
 h1,
@@ -85,6 +65,10 @@ article {
   padding: 1rem 0;
   clear: right;
 }
+article > header > h1,
+article > h2 {
+  margin-bottom: 0;
+}
 article > a {
   display: block;
   float: right;
@@ -93,10 +77,9 @@ article > a {
 }
 footer {
   font-size: 0.8rem;
-  opacity: 0.5;
 }
-footer:hover {
-  opacity: 1;
+footer > p {
+  margin: 0.5rem 0;
 }
 
 /* hero images */

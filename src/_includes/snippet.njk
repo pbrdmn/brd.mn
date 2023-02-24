@@ -6,8 +6,6 @@
   {%- endif %}
 
   <h2><a href="{{article.url}}">{{article.data.title}}</a></h2>
-  <p>{{article.data.description}}</p>
-
   <footer>
     <p>
       {% for tag in article.data.tags | filterTagList %}
@@ -21,4 +19,6 @@
       {%- endif %}
     </p>
   </footer>
+
+  <p>{{article.data.description}}</p>
 </article>
