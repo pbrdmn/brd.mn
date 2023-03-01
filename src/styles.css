@@ -65,7 +65,6 @@ article {
   padding: 1rem 0;
   clear: right;
 }
-article > header > h1,
 article > h2 {
   margin-bottom: 0;
 }
