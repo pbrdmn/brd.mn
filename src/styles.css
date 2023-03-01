@@ -36,7 +36,8 @@ body {
   padding: 0;
 }
 main {
-  margin: 1rem;
+  max-width: 34rem;
+  margin: 1rem auto;
 }
 a {
   color: var(--link);
@@ -147,6 +148,8 @@ hr {
 .links ul {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 .links li {
   list-style: none;
@@ -171,11 +174,6 @@ hr {
 @media (min-width: 800px) {
   html {
     font-size: 1.25rem;
-  }
-  main {
-    box-sizing: border-box;
-    max-width: calc(800px - 2rem);
-    margin: 1rem auto;
   }
 
   blockquote,
