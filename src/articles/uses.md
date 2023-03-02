@@ -2,8 +2,12 @@
 title: Tools and Software I Use
 description: A list of software and hardware that I use everyday
 date: 2022-03-08
-image: vscode-screenshot.png
-imageAlt: Visual Studio Code editor with a markdown file open
+permalink: /uses/
+layout: default.njk
+tags:
+  - programming
+  - hardware
+  - software
 ---
 
 # Philip Uses...
