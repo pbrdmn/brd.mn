@@ -5,7 +5,9 @@ const CleanCSS = require("clean-css");
 module.exports = function (cfg) {
   cfg.addWatchTarget("./src/*.css");
 
-  cfg.addPassthroughCopy("src/**/*.{htaccess,css,gif,ico,jpg,png,pdf,txt,webp}");
+  cfg.addPassthroughCopy(
+    "src/**/*.{htaccess,css,gif,ico,jpg,png,pdf,txt,webp}"
+  );
   cfg.addPassthroughCopy("src/_redirects");
 
   cfg.addFilter("filterTagList", (tags) => {
@@ -19,7 +21,19 @@ module.exports = function (cfg) {
     return isoDate.substring(0, 10);
   });
 
-  cfg.addNunjucksFilter("limit", (arr, limit) => arr.slice(0, limit));
+  cfg.addFilter("timeAgo", (dateObj) => {
+    var now = new Date();
+    const days = Math.ceil((now - dateObj) / 86400000);
+    const months = Math.floor(days / 30);
+    const years = Math.floor(months / 12);
+    if (years > 1) return `${years} years ago`;
+    if (months > 1) return `${months} months ago`;
+    return `${days} days ago`;
+  });
+
+  cfg.addNunjucksFilter("limit", (arr, limit, offset) => {
+    return arr.slice(offset || 0, limit);
+  });
 
   cfg.addPlugin(syntaxHighlight);
   cfg.addPlugin(pluginRss);
