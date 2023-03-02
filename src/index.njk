@@ -10,14 +10,18 @@ layout: default.njk
 <div class="links">
   <ul>
     <li><a href="/cv/">📃 About / CV</a></li>
-    <li><a rel="me nofollow" href="https://linkedin.com/in/philipboardman/">🫱🏽‍🫲 LinkedIn</a></li>
-    <li><a href="/uses">⚙️ Tools</a></li>
-    <li><a rel="me nofollow" href="https://theblower.au/@pbrdmn">💬 Toots</a></li>
-    <li><a rel="me nofollow" href="https://github.com/pbrdmn">👨🏽‍💻 Code</a></li>
-    <li><a href="/articles/">🗞️ Articles</a></li>
+    <li><a rel="me nofollow" href="https://linkedin.com/in/philipboardman/" title="Connections on LinkedIn">🫱🏽‍🫲 LinkedIn</a></li>
+    <li><a rel="me nofollow" href="https://theblower.au/@pbrdmn" title="Social networking on Mastodon">💬 Toots</a></li>
+    <li><a rel="me nofollow" href="https://github.com/pbrdmn" title="Code repositories on GitHub">👨🏽‍💻 Code</a></li>
+    <li><a href="/articles/" title="All articles">🗞️ Articles</a></li>
   </ul>
 </div>
 
-{%- for article in collections.articles | reverse | limit(10) -%}
+{%- for article in collections.articles | reverse | limit(1) -%}
   {%- include 'snippet.njk' %}
 {%- endfor %}
+<ul>
+{%- for article in collections.articles | reverse | limit(5, 1) -%}
+  {%- include 'link.njk' %}
+{%- endfor %}
+</ul>
