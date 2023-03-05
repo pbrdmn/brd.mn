@@ -24,5 +24,7 @@ layout: default.njk
   {%- for article in collections.articles | reverse | limit(5, 1) -%}
     {%- include 'link.njk' %}
   {%- endfor %}
-  <li><a href="/articles/" title="All articles">All articles</a></li>
+  <li>
+    <a href="/articles/" title="All articles">All articles</a><br />
+    Recent and not-so recent writing. <a href="{{ site.url }}{{ site.feed }}" title="Subscribe to the RSS feed">Subscribe with RSS</a></p></li>
 </ul>
