@@ -1,6 +1,7 @@
 ---
 title: CV
 description: The Curriculum Vitae of Philip Boardman
+permalink: cv/
 ---
 # The CV of Philip Boardman
 
