@@ -1,3 +1,8 @@
+const MS_IN_HOURS = 360000;
+const MS_IN_DAYS = 86400000;
+const MS_IN_MONTHS = MS_IN_DAYS * 30;
+const MS_IN_YEARS = MS_IN_DAYS * 365;
+
 document.onload = liveUpDates();
 
 function liveUpDates() {
@@ -12,10 +17,16 @@ function timeAgo(time, now) {
   if (!time) return "";
   if (!now) now = new Date();
 
-  const days = Math.ceil((now - time) / 86400000);
-  const months = Math.floor(days / 30);
-  const years = Math.floor(months / 12);
-  if (years > 1) return `${years} year${years > 1 ? "s" : ""} ago`;
-  if (months > 1) return `${months} month${months > 1 ? "s" : ""} ago`;
-  return `${days} day${days > 1 ? "s" : ""} ago`;
+  const timeDiff = now - time;
+
+  const years = Math.ceil(timeDiff / MS_IN_YEARS);
+  if (years > 1) return `${years} years ago`;
+
+  const months = Math.ceil(timeDiff / MS_IN_MONTHS);
+  if (months > 1) return `${months} months ago`;
+
+  const days = Math.ceil(timeDiff / MS_IN_DAYS);
+  if (days > 1) return `${days} days ago`;
+
+  return `a few hours ago`;
 }
