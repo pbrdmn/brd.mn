@@ -9,9 +9,9 @@
   <footer>
     <p>
       {%- if article.data.updated %}
-        <time datetime="{{ article.data.updated }}" title="Updated {{ article.data.updated | timeAgo }}">Updated {{ article.data.updated | timeAgo }}</time>
+        Updated <time datetime="{{article.data.updated}}" title="Updated on {{ article.data.updated | postDate }}">on {{ article.data.updated | postDate }}</time>
       {%- else %}
-        <time datetime="{{article.data.date}}" title="Published {{ article.data.date | timeAgo }}">Published {{ article.data.date | timeAgo }}</time>
+        Published <time datetime="{{article.data.date}}" title="Published on {{ article.data.date | postDate }}">on {{ article.data.date | postDate }}</time>
       {%- endif %}
       in
       {% for tag in article.data.tags | filterTagList %}
