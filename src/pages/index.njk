@@ -19,12 +19,6 @@ permalink: /
 
 <hr />
 
-<!--
-{%- for article in collections.articles | reverse | limit(1) -%}
-  {%- include 'snippet.njk' %}
-{%- endfor %}
--->
-
 <ul class="snippets">
   {%- for article in collections.articles | reverse | limit(5, 0) -%}
     {%- include 'link.njk' %}
