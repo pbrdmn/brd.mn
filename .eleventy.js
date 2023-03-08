@@ -18,16 +18,6 @@ module.exports = function (cfg) {
     return isoDate.substring(0, 10);
   });
 
-  cfg.addFilter("timeAgo", (dateObj) => {
-    var now = new Date();
-    const days = Math.ceil((now - dateObj) / 86400000);
-    const months = Math.floor(days / 30);
-    const years = Math.floor(months / 12);
-    if (years > 1) return `${years} years ago`;
-    if (months > 1) return `${months} months ago`;
-    return `${days} days ago`;
-  });
-
   cfg.addNunjucksFilter("limit", (arr, limit, offset) => {
     return arr.slice(offset || 0, limit);
   });
