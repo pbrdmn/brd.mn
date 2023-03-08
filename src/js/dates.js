@@ -15,7 +15,7 @@ function timeAgo(time, now) {
   const days = Math.ceil((now - time) / 86400000);
   const months = Math.floor(days / 30);
   const years = Math.floor(months / 12);
-  if (years > 1) return `${years} years ago`;
-  if (months > 1) return `${months} months ago`;
-  return `${days} days ago`;
+  if (years > 1) return `${years} year${years > 1 ? "s" : ""} ago`;
+  if (months > 1) return `${months} month${months > 1 ? "s" : ""} ago`;
+  return `${days} day${days > 1 ? "s" : ""} ago`;
 }
