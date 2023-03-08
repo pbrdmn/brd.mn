@@ -28,5 +28,5 @@ function timeAgo(time, now) {
   const days = Math.ceil(timeDiff / MS_IN_DAYS);
   if (days > 1) return `${days} days ago`;
 
-  return `a few hours ago`;
+  return `1 day ago`;
 }
