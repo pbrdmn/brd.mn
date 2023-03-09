@@ -1,6 +1,6 @@
 ---
 title: Displaying Relative Time for a Static Site
-description: Calculating relative dates in JS to display on statically generated sites, like eleventy
+description: Calculating relative dates in JS to display on statically generated sites, including those built with Eleventy - like this one
 image: age-barros-rBPOfVqROzY-unsplash.jpg
 thumb: thumb.jpg
 imageAlt: Watch face with complications showing the time
