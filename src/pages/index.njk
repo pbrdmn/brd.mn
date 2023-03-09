@@ -20,10 +20,8 @@ permalink: /
 
 <hr />
 
-<ul class="snippets">
-  {%- for article in collections.articles | reverse | limit(5, 0) -%}
-    {%- include 'snippet.njk' %}
-  {%- endfor %}
-  <li>
-    <a href="/articles/" title="All articles">More articles...</a></li>
-</ul>
+{%- for article in collections.articles | reverse | limit(5, 0) -%}
+  {%- include 'snippet.njk' %}
+{%- endfor %}
+
+<p><a href="/articles/" title="All articles">More articles...</a></p>
