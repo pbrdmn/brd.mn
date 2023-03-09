@@ -63,18 +63,24 @@ h2 {
   font-weight: normal;
 }
 
-article {
-  padding: 1rem 0;
-  clear: right;
+article.snippet {
+  display: flex;
+  margin: 1rem 0 2rem;
 }
-article > h2 {
-  margin-bottom: 0;
+.snippet .thumb {
+  margin-left: 1rem;
+  flex: 1;
 }
-article > a {
-  display: block;
-  float: right;
-  margin: 1rem 0 1rem 1rem;
-  max-width: 33%;
+.snippet .summary {
+  flex: 3;
+}
+.snippet .summary h2 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+.snippet .summary p {
+  margin: 0.5rem 0;
 }
 footer {
   font-size: 0.8rem;
