@@ -27,5 +27,5 @@ function timeAgo(time, now) {
 
   if (years > 1) return `${years} years ago`;
   if (months > 1) return `${months} months ago`;
-  return `${days} days ago`;
+  return `${days} day${days > 1 ? "s" : ""} ago`;
 }
