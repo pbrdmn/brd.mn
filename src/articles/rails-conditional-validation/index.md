@@ -2,7 +2,8 @@
 title: Ruby-on-Rails Conditional Validation
 description: How to apply validation in a Ruby-on-Rails model when you don't always want it
 date: 2023-02-10
-image: invalid.webp
+image: invalid.jpg
+thumb: thumb.jpg
 imageAlt: Orange diamond sign featuring a black exclamation point
 tags:
   - ruby-on-rails

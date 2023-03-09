@@ -1,8 +1,8 @@
 ---
 title: Getting Started with AI
 description: Tips and Resources for AI Beginners
-image: conny-schneider-xuTJZ7uD7PI-unsplash.webp
-thumb: thumb.webp
+image: conny-schneider-xuTJZ7uD7PI-unsplash.jpg
+thumb: thumb.jpg
 imageAlt: A graphic depicting a network of blue dots connected by lines
 date: 2023-03-08
 tags:

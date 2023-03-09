@@ -1,9 +1,9 @@
 ---
 title: Painting a Pair of Foxes
 description: Mindfully painting of a pair of foxes during my holidays
-image: numbered_paints_with_brushes.webp
+image: numbered_paints_with_brushes.jpg
 imageAlt: Painting
-thumb: foxes_thumb.webp
+thumb: thumb.jpg
 date: 2023-01-16
 tags:
   - art
