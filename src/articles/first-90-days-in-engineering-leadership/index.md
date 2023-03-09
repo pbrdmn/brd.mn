@@ -1,9 +1,15 @@
 ---
 title: Your first 90 days in Engineering Leadership
-date: 2022-08-04
-updated: 2022-08-05
 description: What to focus on during the first few months as an Engineering Manager when joining a new team or organisation
-tags: [onboarding, engineering, leadership]
+image: cathryn-lavery-fMD_Cru6OTk-unsplash.jpg
+thumb: thumb.jpg
+imageAlt: Photograph of writing in a journal, with a coffee and croissant
+updated: 2022-08-05
+date: 2022-08-04
+tags:
+  - onboarding
+  - engineering
+  - leadership
 author: Philip Boardman
 ---
 
