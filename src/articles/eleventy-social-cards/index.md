@@ -1,9 +1,11 @@
 ---
 title: Eleventy social sharing cards
 description: Adding meta tags to eleventy theme to provide open graph social sharing cards functionality
-image: social-card.png
-imageAlt: Rich contenct previewing with open graph tags
+image: social-card.jpg
+thumb: thumb.jpg
+imageAlt: Rich content previewing with open graph tags
 date: 2022-03-23
+updated: 2023-03-10
 tags:
   - eleventy
   - html
@@ -12,6 +14,8 @@ tags:
   - programming
   - code
 ---
+
+> Update: I've discovered that while technically supported, in practice using `.webp` images are often not supported across many sites. For best compatibility, use `.png` or `.jpg` images with open graph.
 
 One of the things I wanted to add when rebuilding this site was rich content sharing, primarily for twitter.
 It turns out this is relatively simple, especially when you consider setting up the article metadata in the markdown front matter of each article/page as eleventy makes this information globally available to the template engine.
