@@ -2,7 +2,8 @@
 title: What are DORA metrics?
 description: Assessing the health and performance of a product engineering team
 date: 2023-01-10
-image: mitchel-boot-hOf9BaYUN88-unsplash.webp
+image: mitchel-boot-hOf9BaYUN88-unsplash.jpg
+thumb: thumb.jpg
 imageAlt: Dials, gauges, and controls from an aircraft cockpit 
 tags:
   - engineering
