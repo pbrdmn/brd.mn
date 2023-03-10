@@ -1,22 +1,19 @@
 :root {
-  --foreground: #3c363d;
+  --foreground: #564b57;
   --background: #fff;
   --background2: #f3f2f4;
   --code-background: #3b3b3b;
-  --link: #0063a5;
-  --visited: #70007c;
-
-  --mobileWidth: 600px;
-  --tabletWidth: 900px;
+  --link: #015fb6;
+  --visited: #6c0b77;
 }
 
 @media screen and (prefers-color-scheme: dark) {
   :root {
-    --foreground: #a099a1;
-    --background: #0c070c;
+    --foreground: #888488;
+    --background: #050305;
     --background2: #160d16;
-    --link: #6489c0;
-    --visited: #8b56b4;
+    --link: #5282c9;
+    --visited: #8d71a3;
     --code-background: #030203;
   }
 
