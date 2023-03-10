@@ -38,7 +38,7 @@ html {
 }
 @media (min-width: 900px) {
   html {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
   }
 }
 
@@ -113,7 +113,10 @@ footer > p {
     flex-direction: column-reverse;
   }
   .snippet .thumb {
-    margin: 0;
+    margin: 0 0 0.5rem;
+  }
+  .snippet .thumb img {
+    width: 100%;
   }
 }
 
