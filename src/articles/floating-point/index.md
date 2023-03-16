@@ -11,7 +11,6 @@ tags:
   - code
   - ruby
   - math
-  - bugs
 ---
 With the current headlines being dominated by the collapse of the Silicon Valley Bank, it seems apt to share this recent coding mistake I made with floating point numbers. My mistake did not cause and was not caused by the SVB collapse, but it occurred due to some work being done as a result of needing to modify systems that were previously built to use SVB.
 
