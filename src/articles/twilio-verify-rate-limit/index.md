@@ -77,7 +77,7 @@ verification = @client.verify
   .services(service_sid)
   .verifications
   .create(
-    to: formatted_mobile,
+    to: user.mobile,
     channel: 'sms',
     rate_limits: {
       unique_name: rate_limit_key
@@ -91,12 +91,13 @@ The `rate limit key` should be a unique identifier on which the rate limit bucke
 
 ```ruby
 .create(
-  to: formatted_mobile,
+  to: user.mobile,
   channel: 'sms',
   rate_limits: {
     account_rate_limit: user.id,
     country_rate_limit: user.country,
-    phone_group: number_group(formatted_mobile),
+    # trim last 3 digits to get a block of phone numbers
+    number_group: number_group(user.mobile)
   }
 )
 ```
