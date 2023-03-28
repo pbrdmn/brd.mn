@@ -55,7 +55,10 @@ bucket = @client.verify
   .services(service_sid)
   .rate_limits(rate_limit.sid)
   .buckets
-  .create(max: 2, interval: 600)
+  .create(
+    max: 2,
+    interval: 600 # 10 minutes
+  )
 puts "Created Rate Limit Bucket"
 puts bucket.sid
 ```
@@ -73,8 +76,10 @@ verification = @client.verify
   .v2
   .services(service_sid)
   .verifications
-  .create(to: formatted_mobile, channel: 'sms', rate_limits:
-    {
+  .create(
+    to: formatted_mobile,
+    channel: 'sms',
+    rate_limits: {
       unique_name: rate_limit_key
     }
   )
@@ -85,8 +90,10 @@ The `rate limit key` should be a unique identifier on which the rate limit bucke
 > Multiple rate limits could also be applied to a request, such as per account, per country, or per group of digits within the recipient's mobile number.
 
 ```ruby
-.create(to: formatted_mobile, channel: 'sms', rate_limits:
-  {
+.create(
+  to: formatted_mobile,
+  channel: 'sms',
+  rate_limits: {
     account_rate_limit: user.id,
     country_rate_limit: user.country,
     phone_group: number_group(formatted_mobile),
