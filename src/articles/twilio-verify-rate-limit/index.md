@@ -1,6 +1,6 @@
 ---
 title: Twilio Verify Rate Limiting
-description: Rate limiting mobile verification requests with the Twilio Verify API is Buckets of fun
+description: Buckets of fun with Twilio Verify API  rate limiting for mobile verification requests
 date: 2023-03-29
 image: joshua-hoehne-TsdelDFTP6Y-unsplash.jpg
 thumb: thumb.jpg
