@@ -73,7 +73,11 @@ verification = @client.verify
   .v2
   .services(service_sid)
   .verifications
-  .create(to: formatted_mobile, channel: 'sms', rate_limits: { unique_name: rate_limit_key })
+  .create(to: formatted_mobile, channel: 'sms', rate_limits:
+    {
+      unique_name: rate_limit_key
+    }
+  )
 ```
 
 The `rate limit key` should be a unique identifier on which the rate limit bucket rules should apply.
