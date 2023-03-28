@@ -90,7 +90,8 @@ The `rate limit key` should be a unique identifier on which the rate limit bucke
     account_rate_limit: user.id,
     country_rate_limit: user.country,
     phone_group: number_group(formatted_mobile),
-  })
+  }
+)
 ```
 
 ## Rate Limit Error Codes
