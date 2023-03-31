@@ -124,7 +124,7 @@ This function will take a `Date()` object as the first argument (and an optional
 
 There is a piece of setup required here. In our template file, we want to generate some HTML code that gives a clean way to find where in the page to render the relative times, but we also need the dates available as input for function.
 
-We can use `<time />` HTML tags as our placeholder and we can use the `datetime` attribute to hold the source dates. Inside the tag, we can display the static article date, which will be overwritten with the string returned from the `timeAgo` function.
+We can use `<time>` HTML tags as our placeholder and we can use the `datetime` attribute to hold the source dates. Inside the tag, we can display the static article date, which will be overwritten with the string returned from the `timeAgo` function.
 
 ```mustache
 {% raw %}<time datetime="{{ article.data.date | postDate }}">{{ article.data.date | postDate }}</time>{% endraw %}

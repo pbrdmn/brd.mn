@@ -14,8 +14,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ site.name }}</title>
   <subtitle>{{ site.subtitle }}</subtitle>
-  <link href="{{ site.url }}/{{ permalink }}" rel="self" />
-  <link href="{{ site.url }}/" />
+  <link href="{{ site.url }}/{{ permalink }}" rel="self">
+  <link href="{{ site.url }}/">
   <updated>{{ collections.articles | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ site.url }}/</id>
   <author>
@@ -26,7 +26,7 @@
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(site.url) }}{% endset %}
     <entry>
       <title>{{ post.data.title }}</title>
-      <link href="{{ absolutePostUrl }}" />
+      <link href="{{ absolutePostUrl }}">
       <updated>{{ post.date | dateToRfc3339 }}</updated>
       <id>{{ absolutePostUrl }}</id>
       <content type="html">

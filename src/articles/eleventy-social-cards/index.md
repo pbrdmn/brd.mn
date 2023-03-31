@@ -27,7 +27,7 @@ The standard set of meta tags for the [open graph protocol](https://ogp.me/) inc
 Using the standard front matter configuration for `title` and `description` are straight forward to add to a template by adding `<meta>` tags for `og:title` and `og:description`.
 
 ```html
-<meta property="og:title" content="{{'{{'}} title }}" />
+<meta property="og:title" content="{{'{{'}} title }}">
 <meta property="og:description" content="{{'{{'}} description }}">
 ```
 
@@ -46,7 +46,7 @@ An open graph URL should be a fully qualified canonical url, such as `https://br
 After adding this `_data/site.json` file, we can now access the properties in our template using the `site` variable, such as `{{'{{'}} site.url }}`. Combining this global site url with the page url will generate a fully qualified URI suitable for open graph `url` tag.
 
 ```html
-<meta property="og:url" content="{{'{{'}} site.url }}{{'{{'}} page.url }}" />
+<meta property="og:url" content="{{'{{'}} site.url }}{{'{{'}} page.url }}">
 ```
 
 ## Image
@@ -64,7 +64,7 @@ image: social-card.png
 By appending this `image` property to the same pattern used for `url`, we can add the meta tag to our template.
 
 ```html
-<meta property="og:image" content="{{'{{'}} site.url }}{{'{{'}} page.url }}{{'{{'}} image }}" />
+<meta property="og:image" content="{{'{{'}} site.url }}{{'{{'}} page.url }}{{'{{'}} image }}">
 ```
 
 ## Complete social sharing cards example
@@ -72,14 +72,14 @@ By appending this `image` property to the same pattern used for `url`, we can ad
 For a full open graph implementation, we add each of the above meta tags to our template, along with some additional information as suits your particular needs. In the example below, I have added a generic fallback image to display if a particular page does not have an image set as well as adding `site_name`, `creator` and `card` type meta tags.
 
 ```html
-<meta property="og:title" content="{{'{{'}} title }}" />
+<meta property="og:title" content="{{'{{'}} title }}">
 <meta property="og:description" content="{{'{{'}} description }}">
-<meta property="og:type" content="article" />
-<meta property="og:url" content="{{'{{'}} site.url }}{{'{{'}} page.url }}" />
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{'{{'}} site.url }}{{'{{'}} page.url }}">
 {%- if image %}
-<meta property="og:image" content="{{'{{'}} site.url }}{{'{{'}} page.url }}{{'{{'}} image }}" />
+<meta property="og:image" content="{{'{{'}} site.url }}{{'{{'}} page.url }}{{'{{'}} image }}">
 {%- else %}
-<meta property="og:image" content="{{'{{'}} site.url }}/images/logo@10x.webp" />
+<meta property="og:image" content="{{'{{'}} site.url }}/images/logo@10x.webp">
 {%- endif %}
 <meta property="og:site_name" content="{{'{{'}} site.name }}">
 ```

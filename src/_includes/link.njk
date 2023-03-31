@@ -1,6 +1,6 @@
 <li>
   <p>
-    <a href="{{article.url}}">{{ article.data.title }}</a><br />
+    <a href="{{article.url}}">{{ article.data.title }}</a><br>
     {{article.data.description}}. <time datetime="{{ article.data.date | postDate }}" title="Published on {{ article.data.date | postDate }}">{{ article.data.date | postDate }}</time>
   </p>
 </li>

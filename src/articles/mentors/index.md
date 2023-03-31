@@ -84,7 +84,7 @@ This was great news for me: a company where I could join and use my existing ski
 
 This company was [Compono](https://compono.com) and the interviewer who was interested in my career was [Nikolay](https://www.linkedin.com/in/nikolay-nemshilov-07878b14/), the CTO.
 
-<img src="nikolay.webp" alt="Philip and Nikolay" width="800" height="450" loading="lazy" decoding="async" title="Philip and Nikolay meeting for coffee" />
+<img src="nikolay.webp" alt="Philip and Nikolay" width="800" height="450" loading="lazy" decoding="async" title="Philip and Nikolay meeting for coffee">
 
 I joined Compono a few weeks later and began working closely with Nikolay on the delivery of several projects, as I was learning how the company, the product, and the technology worked.
 
@@ -149,7 +149,7 @@ We had books covering the general topic of managing people as well as the more s
 As an avid reader, these books were a good way to spend my time on the train; in those days when we used to commute to the office.
 
 
-<img src="books.webp" alt="Covers of the recommended books listed below" width="800" height="200" loading="lazy" decoding="async" title="A few of the books added to my reading list at this time" />
+<img src="books.webp" alt="Covers of the recommended books listed below" width="800" height="200" loading="lazy" decoding="async" title="A few of the books added to my reading list at this time">
 
 - [Simple Habits for Complex Times](https://www.amazon.com.au/Simple-Habits-Complex-Times-Practices/dp/0804799431) - Jennifer Garvey Berger and Keith Johnston
 - [Thinking in Systems](https://www.amazon.com.au/Thinking-Systems-Donella-H-Meadows/dp/1603580557) - Donna Meadows

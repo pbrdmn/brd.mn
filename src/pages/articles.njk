@@ -6,7 +6,7 @@ permalink: /articles/
 ---
 <h1>{{ title }}</h1>
 
-<p>{{ description}}.<br /><a href="{{ site.url }}{{ site.feed }}" title="Subscribe to the RSS feed">Subscribe with RSS</a></p>
+<p>{{ description}}.<br><a href="{{ site.url }}{{ site.feed }}" title="Subscribe to the RSS feed">Subscribe with RSS</a></p>
 
 {%- for article in collections.articles | reverse -%}
   {%- include 'snippet.njk' %}
