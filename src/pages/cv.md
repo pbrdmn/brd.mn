@@ -3,7 +3,7 @@ title: CV
 description: The Curriculum Vitae of Philip Boardman
 permalink: cv/
 ---
-# CV for Philip Boardman
+## Resume for 
 
 Engineering Manager leading cross-functional software engineering teams
 
@@ -19,17 +19,7 @@ Engineering Manager leading cross-functional software engineering teams
 >
 > Implemented agile, lean delivery processes and improvements
 
----
 
-## Skills
-
-Leadership, team building, mentoring, career development, hiring, performance management, agile coaching, code review, delivery planning, continuous delivery, technical decision making, process improvement, documentation, software development
-
-## Technologies
-
-Javascript, React, Node, Typescript, GraphQL, Ruby, Rails, MongoDB, SQL, AWS
-
----
 
 ## Experience
 
@@ -39,12 +29,18 @@ Javascript, React, Node, Typescript, GraphQL, Ruby, Rails, MongoDB, SQL, AWS
 
 Redbubble is creating the world's largest marketplace for independent artists, bringing more creativity into the world.
 
+Joined the Artist Experience team as Engineering Manager to lead the development of artist-facing features and experiences across the marketplace.
+
 * Team alignment of corporate strategic initiatives
 * Delivery planning for technical solutions with engineering best practices
 * Mentoring, coaching, and development of software engineers
 * Delivering impact to artist marketplace through high value initiatives
 
-> [Presented at Web Directions 2022](https://brd.mn/articles/mentors/)
+---
+
+> [![Philip is on stage beside a large slide titled "Finding a mentor"](/articles/mentors/mentors.webp) Presented at Web Directions 2022](https://brd.mn/articles/mentors/)
+
+---
 
 ### Engineering Manager at Compono
 
@@ -121,3 +117,13 @@ Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an onlin
 * Rebuilt Classifieds site to integrate with CMS and advertising platform
 * Developed and published 11 iOS apps to App Store
 * Custom email newsletter generators for EDM software built as extension to ecommerce stores
+
+---
+
+## Skills
+
+Leadership, team building, mentoring, career development, hiring, performance management, agile coaching, code review, delivery planning, continuous delivery, technical decision making, process improvement, documentation, software development
+
+## Technologies
+
+Javascript, React, Node, Typescript, GraphQL, Ruby, Rails, MongoDB, SQL, AWS
