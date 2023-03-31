@@ -3,7 +3,7 @@ title: CV
 description: The Curriculum Vitae of Philip Boardman
 permalink: cv/
 ---
-## Resume for 
+## Resume for Philip Boardman
 
 Engineering Manager leading cross-functional software engineering teams
 
