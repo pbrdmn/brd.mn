@@ -37,6 +37,11 @@ Javascript, React, Node, Typescript, GraphQL, Ruby, Rails, MongoDB, SQL, AWS
 
 Redbubble is creating the world's largest marketplace for independent artists, bringing more creativity into the world.
 
+* Team alignment of corporate strategic initiatives
+* Delivery planning for technical solutions with engineering best practices
+* Mentoring, coaching, and development of software engineers
+* Delivering impact to artist marketplace through high value initiatives
+
 > [Presented at Web Directions 2022](https://brd.mn/articles/mentors/)
 
 ### Engineering Manager at Compono
