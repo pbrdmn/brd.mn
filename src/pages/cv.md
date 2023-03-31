@@ -7,32 +7,25 @@ permalink: cv/
 
 Engineering Manager leading cross-functional software engineering teams
 
+[Connect with me on LinkedIn](https://linkedin.com/in/philipboardman/)
+
 > ## Highlights
 > 
 > * Building teams, mentoring and personal development
-> * Aligning team delivery planning with delivering value for company objectives
+>
+> * Aligning team delivery planning with delivering value for company objectives and strategic initiatives
 > * Hiring, performance management, and process improvement activities in collaboration with HR and hiring teams
 > * Implemented agile, lean delivery processes and improvements
-
-[Connect with me on LinkedIn](https://linkedin.com/in/philipboardman/)
-
-## Summary
-
-Joined [Compono](https://compono.com) in 2018 as the fourth developer working as a Senior Full Stack Developer, building job posting and candidate hiring web application with React, GraphQL, TypeScript and Node micro-services running in Kubernetes on AWS.
-
-Took a Lead Full Stack Developer role in 2020 and formed a new team to create an Applicant Tracking System (ATS) to extend the feature set of the intelligent hiring product. Introduced agile methodologies to the product team and implement a shift-left approach to quality.
-
-Promoted to Engineering Manager in 2021, I trained a replacement lead developer for my team and began overseeing three product teams. I was involved in all aspects of hiring, mentoring, career development, and engineering process improvements. Lead the formation of a new team to tackle a significant strategic software re-architecture of a core business function.
 
 ---
 
 ## Skills
 
-Leadership, team building, mentoring, career development, hiring, performance management, agile coaching, code review, continuous delivery, technical decision making, process improvement, documentation, software development
+Leadership, team building, mentoring, career development, hiring, performance management, agile coaching, code review, delivery planning, continuous delivery, technical decision making, process improvement, documentation, software development
 
 ## Technologies
 
-Javascript, React, Node, Typescript, GraphQL, MongoDB, SQL, AWS
+Javascript, React, Node, Typescript, GraphQL, Ruby, Rails, MongoDB, SQL, AWS
 
 ---
 
@@ -51,6 +44,12 @@ Redbubble is creating the world's largest marketplace for independent artists, b
 <footer>June 2021 - October 2022</footer>
 
 Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights.
+
+Joined [Compono](https://compono.com) in 2018 as the fourth developer working as a Senior Full Stack Developer, building job posting and candidate hiring web application with React, GraphQL, TypeScript and Node micro-services running in Kubernetes on AWS.
+
+Took a Lead Full Stack Developer role in 2020 and formed a new team to create an Applicant Tracking System (ATS) to extend the feature set of the intelligent hiring product. Introduced agile methodologies to the product team and implement a shift-left approach to quality.
+
+Promoted to Engineering Manager in 2021, I trained a replacement lead developer for my team and began overseeing three product teams. I was involved in all aspects of hiring, mentoring, career development, and engineering process improvements. Lead the formation of a new team to tackle a significant strategic software re-architecture of a core business function.
 
 * Building and managing engineering teams across a suite of software products
 * Hiring, mentoring and performance reviews across teams of software engineers
