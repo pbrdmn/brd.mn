@@ -11,11 +11,13 @@ Engineering Manager leading cross-functional software engineering teams
 
 > ## Highlights
 > 
-> * Building teams, mentoring and personal development
+> Aligning team delivery planning with delivering value for company objectives and strategic initiatives
 >
-> * Aligning team delivery planning with delivering value for company objectives and strategic initiatives
-> * Hiring, performance management, and process improvement activities in collaboration with HR and hiring teams
-> * Implemented agile, lean delivery processes and improvements
+> Hiring, performance management, and process improvement activities in collaboration with HR and hiring teams
+>
+> Building teams, mentoring, coaching, and professional development
+>
+> Implemented agile, lean delivery processes and improvements
 
 ---
 
