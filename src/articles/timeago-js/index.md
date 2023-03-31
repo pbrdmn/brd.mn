@@ -127,7 +127,7 @@ There is a piece of setup required here. In our template file, we want to genera
 We can use `<time />` HTML tags as our placeholder and we can use the `datetime` attribute to hold the source dates. Inside the tag, we can display the static article date, which will be overwritten with the string returned from the `timeAgo` function.
 
 ```mustache
-{% raw %}<time datetime="{{article.data.date}}">{{ article.data.date | postDate }}</time>{% endraw %}
+{% raw %}<time datetime="{{ article.data.date | postDate }}">{{ article.data.date | postDate }}</time>{% endraw %}
 ```
 
 With these dates now well structured, the code to find and replace each on the page is covered in this `relativeDates` function. We first query for all `time` elements which have the `datetime` attribute, then for each of these we parse the date and replace the contents of the element with the formatted `timeAgo` string.
@@ -163,7 +163,7 @@ With our change to the template including our script
 And marking up our templates with a structured `time` tag.
 
 ```mustache
-{% raw %}<time datetime="{{article.data.date}}">{{ article.data.date | postDate }}</time>{% endraw %}
+{% raw %}<time datetime="{{ article.data.date | postDate }}">{{ article.data.date | postDate }}</time>{% endraw %}
 ```
 
 And the full `timeAgo.js` file now contains the three requirements listed above

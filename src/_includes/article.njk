@@ -10,8 +10,8 @@ layout: default.njk
   </header>
 
   <footer>
-    Published <time datetime="{{page.date}}" title="Published on {{ page.date | postDate }}">on {{ page.date | postDate }}</time>{%- if updated %},
-      updated <time datetime="{{ updated }}" title="Updated on {{ updated | postDate }}">on {{ updated | postDate }}</time>
+    Published <time datetime="{{ page.date  | postDate }}" title="Published on {{ page.date | postDate }}">on {{ page.date | postDate }}</time>{%- if updated %},
+      updated <time datetime="{{ updated | postDate }}" title="Updated on {{ updated | postDate }}">on {{ updated | postDate }}</time>
     {%- endif %}
     in {% for tag in tags | filterTagList %}
       <a href="/tags/{{ tag }}/">#{{ tag }}</a>
