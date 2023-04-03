@@ -1,5 +1,5 @@
 :root {
-  --foreground: #564b57;
+  --foreground: #383238;
   --background: #fff;
   --background2: #f3f2f4;
   --code-background: #3b3b3b;
@@ -9,7 +9,7 @@
 
 @media screen and (prefers-color-scheme: dark) {
   :root {
-    --foreground: #888488;
+    --foreground: #a8a5a8;
     --background: #050305;
     --background2: #160d16;
     --link: #5282c9;
