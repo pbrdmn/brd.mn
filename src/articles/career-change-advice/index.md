@@ -9,6 +9,7 @@ tags:
   - resume
   - cv
   - portfolio
+  - career
 ---
 
 I was recently asked for some advice and for some feedback on a portfolio and thought I'd share some general advice here for presenting your portfolio and resume as you make the transition into a software engineering career.
