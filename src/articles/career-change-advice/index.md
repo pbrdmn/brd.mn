@@ -10,9 +10,12 @@ tags:
   - cv
   - portfolio
 ---
-If you're looking to make a career change into software engineering, you're in luck. Software engineering is one of the most in-demand professions, and the demand is expected to continue to grow in the coming years. However, competition for entry-level software engineering jobs can be tough, and that's why having a well-presented portfolio and resume can make all the difference.
 
 I was recently asked for some advice and for some feedback on a portfolio and thought I'd share some general advice here for presenting your portfolio and resume as you make the transition into a software engineering career.
+
+---
+
+If you're looking to make a career change into software engineering, you're in luck. Software engineering is one of the most in-demand professions, and the demand is expected to continue to grow in the coming years. However, competition for entry-level software engineering jobs can be tough, and that's why having a well-presented portfolio and resume can make all the difference.
 
 ## Portfolio to highlight your problem solving
 
@@ -30,6 +33,6 @@ While a standard resume is great, customizing your resume for each employer is e
 
 Finally, don't be afraid to seek feedback from others. Reach out to software engineers in your network and ask them to review your portfolio and resume. Their feedback can help you identify areas for improvement and give you a better chance of landing your dream job. Consider joining online communities, such as LinkedIn or Reddit, where you can connect with other software engineers and receive valuable feedback on your work. Remember to take the feedback constructively and use it to improve your portfolio and resume.
 
-## Summary
+---
 
 Transitioning into software engineering can be challenging, but with a well-presented portfolio and resume, you can increase your chances of landing your first job in the field. Focus on highlighting your project examples, emphasizing your soft skills, customizing your resume, showcasing your work on GitHub, and seeking feedback. Good luck in your new career!
