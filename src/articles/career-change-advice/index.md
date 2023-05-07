@@ -32,8 +32,8 @@ As a beginner in software engineering, it's essential to emphasize your soft ski
 
 While a standard resume is great, customizing your resume for each employer is even better. Take the time to review the job postings of the companies you're interested in and highlight where your skills align with their values and requirements. By doing so, you'll have a much higher chance of getting a call back. Make sure to tailor your resume to each job posting and emphasize the skills and experiences that are most relevant to the role.
 
-Finally, don't be afraid to seek feedback from others. Reach out to software engineers in your network and ask them to review your portfolio and resume. Their feedback can help you identify areas for improvement and give you a better chance of landing your dream job. Consider joining online communities, such as LinkedIn or Reddit, where you can connect with other software engineers and receive valuable feedback on your work. Remember to take the feedback constructively and use it to improve your portfolio and resume.
-
 ---
+
+Finally, don't be afraid to seek feedback from others. Reach out to software engineers in your network and ask them to review your portfolio and resume. Their feedback can help you identify areas for improvement and give you a better chance of landing your dream job. Consider joining online communities, such as LinkedIn or Reddit, where you can connect with other software engineers and receive valuable feedback on your work. Remember to take the feedback constructively and use it to improve your portfolio and resume.
 
 Transitioning into software engineering can be challenging, but with a well-presented portfolio and resume, you can increase your chances of landing your first job in the field. Focus on highlighting your project examples, emphasizing your soft skills, customizing your resume, showcasing your work on GitHub, and seeking feedback. Good luck in your new career!
