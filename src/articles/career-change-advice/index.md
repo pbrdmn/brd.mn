@@ -1,6 +1,6 @@
 ---
 title: Career Change to Software Engineering
-description: how to present your portfolio and resume when transitioning into a software engineering career
+description: Presenting your portfolio and resume when transitioning into a software engineering career
 date: 2023-05-08
 image: javier-allegue-barros-C7B-ExXpOIE-unsplash.jpg
 thumb: thumb.jpg
