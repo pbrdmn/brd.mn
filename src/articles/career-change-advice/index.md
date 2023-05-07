@@ -20,7 +20,7 @@ When it comes to your portfolio, your projects are the main event. It's importan
 
 GitHub is a popular platform to showcase your work. Uploading your projects to GitHub can help potential employers easily review your code and see the work you've done. It's important to maintain good coding practices and to keep your repositories up to date. Be sure to include a link to your GitHub profile on your resume and portfolio so that potential employers can easily access and review your work.
 
-Emphasise your transferrable skills
+Emphasise your transferable skills
 
 As a beginner in software engineering, it's essential to emphasize your soft skills. These include your ability to learn, determine project requirements, communicate effectively, and collaborate with others. These skills are just as important as technical skills when it comes to working in a team. Be sure to highlight how you have applied these skills in your past experiences, including any team projects or extracurricular activities.
 
