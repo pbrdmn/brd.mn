@@ -35,4 +35,6 @@ Regularly review project scope and delivery time lines and adjust them if necess
 
 Regularly checking in with your team members is crucial for understanding the state of their well-being and beginning to identify any individual or common potential stressors. Scheduling regular one-on-one meetings to discuss their workload, challenges, and overall satisfaction is my highest priority when working with a new team. Actively listening to their concerns with the aim of first understanding their position and desires, then seeking to provide the necessary support or resources. Being heard is important for team morale.
 
+---
+
 Building a resilient engineering team requires a proactive approach from software engineering managers. By implementing strategies such as career and development plans, setting time and communication expectations, and regularly checking in with the team, you can create an environment that promotes well-being, reduces the chance of burnout, and enhances team resilience. Prioritising work-life balance and fostering open communication will contribute to a healthier and more productive team, which will not only be more successful in the long run but also be more satisfied and engaged in their work.
