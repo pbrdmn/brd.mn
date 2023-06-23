@@ -6,9 +6,12 @@ image: pedro-sanz-5viuCBIXywA-unsplash.jpg
 thumb: thumb.jpg
 imageAlt: Against wind and tide - Pedro Sanz
 tags:
-  - ruby-on-rails
-  - validation
-  - code
+  - engineering
+  - leadership
+  - people
+  - management
+  - mentoring
+  - career
 ---
 
 In software engineering, stress and burnout are increasingly challenges that both individuals and teams face.
