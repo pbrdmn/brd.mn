@@ -97,8 +97,8 @@ footer > p {
   margin: 0.5rem 0;
 }
 
-/* hero images */
-@media screen and (max-width: 599px) {
+/* hero images on mobile */
+@media screen and (max-width: 499px) {
   header > img,
   article > img {
     margin: 0 -1rem;
