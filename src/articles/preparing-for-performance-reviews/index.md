@@ -1,5 +1,5 @@
 ---
-title: Navigating Performance Reviews in Software Engineering
+title: Preparing for Performance Reviews
 description: Key steps to showcase skills and achievements for career advancement in software engineering
 date: 2023-06-28
 image: charlesdeluvio-Lks7vei-eAg-unsplash.jpg
