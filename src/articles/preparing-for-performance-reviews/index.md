@@ -7,9 +7,9 @@ imageAlt: Photo by charlesdeluvio on Unsplash
 
 thumb: thumb.jpg
 tags:
-  - engineering
-  - career
-  - development
+- engineering
+- career
+- development
 ---
 
 As a software engineer, performance reviews play a crucial role in assessing your professional growth and determining future opportunities within your organisation. To ensure a successful review process, it is essential to proactively identify key areas of focus, seek out opportunities to showcase your skills, and document your accomplishments.
@@ -51,9 +51,9 @@ Setting aside time at the end of each week, month, or sprint to regularly check 
 
 During your performance review, you will likely be evaluated based on the specific requirements and responsibilities of the role you have nominated for your promotion.
 
-To effectively demonstrate your readiness for the additional responsibilities, you can present your evidence which demonstrates how you have been working across the key areas and have been able to fulfil each of the requirements of the role, using one or more examples of recent work that showcase your capabilities.
+To effectively demonstrate your readiness for the additional responsibilities, you can present evidence that demonstrates how you have been working across the key areas and have been able to fulfil each of the requirements of the role, using one or more examples of recent work that showcase your capabilities.
 
-By following this pattern for each of the requirements for your desired role, you will place yourself in the best position for the performance review.
+Following this pattern for each of the requirements for your desired role, you will place yourself in the best position for the performance review.
 
 ---
 
