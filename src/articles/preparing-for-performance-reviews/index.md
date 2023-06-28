@@ -43,9 +43,9 @@ Actively seek out opportunities within your team to gain experience and expertis
 
 While working on projects and assignments that are aligned with your key development areas, it is crucial to document your contributions and the impact they have had on the organisation. Keep a record of the tasks you have undertaken, the challenges you have overcome, and the outcomes you have achieved. This documentation will serve as evidence of your ability to deliver results and showcase your value to the company. Quantifiable metrics, such as improved efficiency, cost savings, or customer satisfaction ratings, can significantly strengthen your case during the performance review.
 
-Setting aside time at the end of each week, month, or sprint to regularly check in and document your work will make it easy to keep this information up to date and comprehensive.
-
 > Example: Key area - Project leadership. Demonstrated project leadership by facilitating delivery planning session and developed a roadmap including delivery milestones, dates, and dependencies. Documented this plan and communicated the decisions with the project stakeholders.
+
+Setting aside time at the end of each week, month, or sprint to regularly check in and document your work will make it easy to keep this information up to date and comprehensive.
 
 ## Demonstrating your impact in each key area
 
