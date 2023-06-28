@@ -17,9 +17,9 @@ As a software engineer, performance reviews play a crucial role in assessing you
 ## Preparing for the review
 
 1. Identify key performance criteria
-2. Look for opportunities to take on work covering these areas
-3. Document this work as evidence of delivering impact in these key areas
-4. Present each requirement of the desired role with one or more examples of recent work
+2. Seek opportunities work in the key areas
+3. Document your impact in the key areas
+4. Demonstrating your impact in each key area
 
 ## Identify key performance criteria
 
@@ -29,13 +29,13 @@ Examine the position description for the role at your current level and your des
 
 If your workplace uses [KPIs](https://www.atlassian.com/blog/productivity/okr-vs-kpi "Key Performance Indicators") or [OKRs](https://www.atlassian.com/blog/productivity/okr-vs-kpi "Objectives and Key Results"), use these key areas to help define goals that will track your progress. This will help you double-down on your documentation and provide even more evidence for your impact during the review process.
 
-## Look for opportunities to take on work covering these areas
+## Seek opportunities work in the key areas
 
 Having identified the key areas required for your next role, take the opportunity to discuss with your manager any opportunities that may be available to work on projects that align with these development goals.
 
 Actively seek out opportunities within your team to gain experience and expertise in these domains. Volunteer for projects or tasks that allow you to demonstrate your skills and contribute to the success of your team. Collaborating on cross-functional teams, taking the lead on challenging tasks, writing documentation, or participating in professional development programmes can also help you broaden your skill set and make an impact in the identified areas.
 
-## Document this work as evidence of delivering impact in these areas
+## Document your impact in the key areas
 
 While working on projects and assignments that are aligned with your key development areas, it is crucial to document your contributions and the impact they have had on the organisation. Keep a record of the tasks you have undertaken, the challenges you have overcome, and the outcomes you have achieved. This documentation will serve as evidence of your ability to deliver results and showcase your value to the company. Quantifiable metrics, such as improved efficiency, cost savings, or customer satisfaction ratings, can significantly strengthen your case during the performance review.
 
