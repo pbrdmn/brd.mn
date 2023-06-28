@@ -37,6 +37,8 @@ Having identified the key areas required for your next role, take the opportunit
 
 Actively seek out opportunities within your team to gain experience and expertise in these domains. Volunteer for projects or tasks that allow you to demonstrate your skills and contribute to the success of your team. Collaborating on cross-functional teams, taking the lead on challenging tasks, writing documentation, or participating in professional development programmes can also help you broaden your skill set and make an impact in the identified areas.
 
+> Example: Offering to pair with junior team members to demonstrate having an impact towards a key area of "mentoring junior team members".
+
 ## Document your impact in the key areas
 
 While working on projects and assignments that are aligned with your key development areas, it is crucial to document your contributions and the impact they have had on the organisation. Keep a record of the tasks you have undertaken, the challenges you have overcome, and the outcomes you have achieved. This documentation will serve as evidence of your ability to deliver results and showcase your value to the company. Quantifiable metrics, such as improved efficiency, cost savings, or customer satisfaction ratings, can significantly strengthen your case during the performance review.
