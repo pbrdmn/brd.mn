@@ -1,6 +1,6 @@
 ---
 title: Preparing for Performance Reviews in Software Engineering
-description: Links to resources and writing by others on the engineering leadership journey
+description: Key steps to showcase skills and achievements for career advancement in software engineering
 date: 2023-06-28
 tags:
   - engineering
