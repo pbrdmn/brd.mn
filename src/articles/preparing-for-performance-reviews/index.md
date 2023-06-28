@@ -27,7 +27,7 @@ Before entering the review process, it is important to set yourself up for succe
 
 Examine the position description for the role at your current level and the position description of your desired level to identify the different responsibilities, behaviours, and impacts required of the next role. These will become the key areas to focus on as you look to develop your skills and demonstrate them as you work towards your next performance review.
 
-> Some examples of these key areas may be: "Demonstrates knowledge of event-driven serverless architecture", "Demonstrates ability to delivery cross functional software projects", "Provides mentoring for junior team members".
+> Some examples: "Demonstrates knowledge of event-driven serverless architecture", "Demonstrates ability to delivery cross functional software projects", or "Provides mentoring for junior team members".
 
 If your workplace uses [KPIs](https://www.atlassian.com/blog/productivity/okr-vs-kpi "Key Performance Indicators") or [OKRs](https://www.atlassian.com/blog/productivity/okr-vs-kpi "Objectives and Key Results"), use these key areas to help define goals that will track your progress. This will help you double-down on your documentation and provide even more evidence for your impact during the review process.
 
