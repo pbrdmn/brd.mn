@@ -45,4 +45,6 @@ During your performance review, you will likely have the opportunity to be evalu
 
 To effectively demonstrate your readiness for advancement or additional responsibilities, you can present evidence demonstrating your capability to fulfil each requirement of the role with one or more examples of recent work that showcase your capabilities. For instance, if mentoring or leadership is a desired attribute, highlight instances where you successfully led a project or mentored junior team members. If problem-solving is a crucial aspect, provide examples of complex issues you resolved or innovative solutions you implemented.
 
+---
+
 By delivering work aligned with the key areas of your desired role, actively seeking opportunities to develop your skills, and documenting these achievements, you can effectively showcase your impact with the organisation as a software engineer and position yourself as the perfect example of a candidate for your desired role.
