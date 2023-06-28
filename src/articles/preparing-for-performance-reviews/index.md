@@ -2,6 +2,10 @@
 title: Preparing for Performance Reviews in Software Engineering
 description: Key steps to showcase skills and achievements for career advancement in software engineering
 date: 2023-06-28
+image: charlesdeluvio-Lks7vei-eAg-unsplash.jpg
+imageAlt: Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a> on <a href="https://unsplash.com/s/photos/software-review?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+thumb: thumb.jpg
 tags:
   - engineering
   - career
