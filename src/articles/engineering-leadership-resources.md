@@ -6,6 +6,7 @@ updated: 2023-06-28
 tags:
   - engineering
   - leadership
+  - management
 ---
 
 ## Management
