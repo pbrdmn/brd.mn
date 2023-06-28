@@ -8,7 +8,9 @@ tags:
   - development
 ---
 
-## Outline
+As a software engineer, performance reviews play a crucial role in assessing your professional growth and determining future opportunities within your organization. To ensure a successful review process, it is essential to proactively identify key areas of focus, seek out opportunities to showcase your skills, and document your accomplishments.
+
+## Preparation Outline
 
 1. Identify key performance criteria
 2. Look for opportunities to take on work covering these areas
