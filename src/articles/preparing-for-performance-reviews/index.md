@@ -49,9 +49,11 @@ Setting aside time at the end of each week, month, or sprint to regularly check 
 
 ## Demonstrating your impact in each key area of your next role
 
-During your performance review, you will likely have the opportunity to be evaluated based on the specific requirements and responsibilities of the role you have previously discussed with your manager.
+During your performance review, you will likely be evaluated based on the specific requirements and responsibilities of the role you have nominated for your promotion.
 
-To effectively demonstrate your readiness for advancement or additional responsibilities, you can present evidence demonstrating your capability to fulfil each requirement of the role with one or more examples of recent work that showcase your capabilities. For instance, if mentoring or leadership is a desired attribute, highlight instances where you successfully led a project or mentored junior team members. If problem-solving is a crucial aspect, provide examples of complex issues you resolved or innovative solutions you implemented.
+To effectively demonstrate your readiness for the additional responsibilities, you can present your evidence which demonstrates how you have been working across the key areas and have been able to fulfil each of the requirements of the role, using one or more examples of recent work that showcase your capabilities.
+
+By following this pattern for each of the requirements for your desired role, you will place yourself in the best position for the performance review.
 
 ---
 
