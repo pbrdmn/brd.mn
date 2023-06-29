@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ruby-on-Rails Conditional Validation / brd.mn</title>
+  <meta name="description" content="How to apply validation in a Ruby-on-Rails model when you don&#39;t always want it">
+  <link rel="canonical" href="https://brd.mn/articles/rails-conditional-validation/">
+  <link rel="alternate" type="application/rss+xml" title="RSS"
+      href="https://brd.mn/rss.xml"><link rel="icon" href="https://brd.mn/images/logo@1x.jpg">
+<meta name="theme-color" content="#fff">
+<meta name="theme-color" content="#888488" media="(prefers-color-scheme: dark)">
+
+<meta property="og:title" content="Ruby-on-Rails Conditional Validation">
+<meta property="og:description" content="How to apply validation in a Ruby-on-Rails model when you don&#39;t always want it">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://brd.mn/articles/rails-conditional-validation/">
+<meta property="og:site_name" content="brd.mn">
+<meta property="article:author" content="Philip Boardman">
+<meta property="article:published_time" content="Fri Feb 10 2023 11:00:00 GMT+1100 (Australian Eastern Daylight Time)">
+<meta property="og:image" content="https://brd.mn/articles/rails-conditional-validation/invalid.jpg">
+  
+  <style>:root{--foreground:#564b57;--background:#fff;--background2:#f3f2f4;--code-background:#3b3b3b;--link:#015fb6;--visited:#6c0b77}@media screen and (prefers-color-scheme:dark){:root{--foreground:#888488;--background:#050305;--background2:#160d16;--link:#5282c9;--visited:#8d71a3;--code-background:#030203}img{opacity:.7}}html{font-family:sans-serif;line-height:1.3;color:var(--foreground);background:var(--background)}@media (min-width:600px){html{font-size:1.125rem}}@media (min-width:900px){html{font-size:1.25rem}}body{margin:0 0 3rem;padding:0}main{padding:0 1rem;max-width:36rem;margin:1rem auto}a{color:var(--link)}a:visited{color:var(--visited)}a.logo{display:flex;align-items:center;flex-direction:row;text-decoration:none;color:var(--foreground)}a.logo img{margin-right:.5rem}h1,h2{font-weight:400}article.snippet{display:flex;margin:1rem 0 2rem}.snippet .thumb{margin-left:1rem;flex:1}.snippet .summary{flex:3}.snippet .summary h2{font-size:inherit;font-weight:inherit;margin:0}.snippet .summary p{margin:.5rem 0}footer{font-size:.8rem}footer>p{margin:.5rem 0}@media screen and (max-width:599px){article>img,header>img{margin:0 -1rem;width:calc(100% + 2rem);max-width:calc(100% + 2rem);border-radius:0}.snippet{flex-direction:column-reverse}.snippet .thumb{margin:0 0 .5rem}.snippet .thumb img{width:100%}}blockquote,pre{background:var(--background2);padding:1rem;margin:1rem -1rem;overflow:hidden}blockquote>:first-child{margin-top:0}blockquote>:last-child{margin-bottom:0}code{background:var(--background2)}@media print,(prefers-contrast:more){blockquote,pre{background:var(--background);outline:2px solid var(--background2)}}pre{white-space:pre-wrap;word-break:break-all}img{max-width:100%;height:auto;border-radius:.2rem}hr{height:.1rem;width:90%;background:var(--background2);border:0;margin:2rem auto}nav ul{margin:1rem 0;padding:0;display:flex;flex-wrap:wrap}nav li{list-style:none}nav li a{margin-right:1rem}@media (min-width:600px){blockquote,pre{border-radius:.5rem}pre[class*=language-]{border-radius:.3em}}@media print{:root{--foreground:#000;--background2:#fff}html{font-size:14px}main{max-width:100%}}</style>
+      <link rel="stylesheet" type="text/css" href="/css/code.css">
+  <script src="/js/timeAgo.js" defer></script>
+</head>
+  <body>
+    <main>
+      <h1><a class="logo" href="/" title="brd.mn"><img
+      src="/images/logo@2x.webp"
+      srcset="/images/logo@1x.webp 1x, /images/logo@2x.webp 2x, /images/logo@3x.webp 3x"
+      width="64"
+      height="64" 
+      alt="Philip Boardman"
+    > Philip Boardman</a></h1>
+
+      <article>
+  <header>
+    <h1>Ruby-on-Rails Conditional Validation</h1>
+      <img src="invalid.jpg" alt="Orange diamond sign featuring a black exclamation point" title="Orange diamond sign featuring a black exclamation point" width="800" height="450">
+  </header>
+
+  <footer>
+    Published <time datetime="2023-02-10" title="Published on 2023-02-10">on 2023-02-10</time>
+    in 
+      <a href="/tags/ruby-on-rails/">#ruby-on-rails</a>
+    
+      <a href="/tags/validation/">#validation</a>
+    
+      <a href="/tags/code/">#code</a>
+    
+  </footer>
+
+  <hr>
+
+  <p>Looking to implement a new feature within our codebase, we were looking at adding some new fields and applying validation for these, which seemed simple enough.</p>
+<p>However when working with legacy codebases there will always be considerations for existing requirements and ensuring that a new change does not cause a regression. Having a reliable set of tests here is great, because they can point out these regressions before your users do.</p>
+<hr>
+<p>In a Ruby-on-Rails model, a validation for the <a href="https://guides.rubyonrails.org/active_record_validations.html#presence">presence</a> of <code>firstname</code> and <code>lastname</code> can be added with:</p>
+<pre class="language-ruby"><code class="language-ruby"><span class="token keyword">class</span> <span class="token class-name">User</span> <span class="token operator">&lt;</span> ApplicationRecord<br>  validates <span class="token symbol">:firstname</span><span class="token punctuation">,</span> <span class="token symbol">presence</span><span class="token operator">:</span> <span class="token boolean">true</span><br>  validates <span class="token symbol">:surname</span><span class="token punctuation">,</span> <span class="token symbol">presence</span><span class="token operator">:</span> <span class="token boolean">true</span><br><span class="token keyword">end</span></code></pre>
+<p>However, if this is being added to an existing model which is already in use and contains records <em>without</em> these fields. The business logic of the application may also require that creating and updating these <code>User</code> models without requiring either of the name fields.</p>
+<p>In this case the validation may only be required if the user of the system has begun adding one of these fields, ensuring that if either one fields has a value, then the validation should be run. This is where <a href="https://guides.rubyonrails.org/active_record_validations.html#conditional-validation">conditional validation</a> would apply.</p>
+<p>With conditional validation, we can define the circumstances in which the validation rules should be applied. E.g. to ensure both <code>firstname</code> and <code>surname</code> are present if one has value, this could be added with:</p>
+<pre class="language-ruby"><code class="language-ruby"><span class="token keyword">class</span> <span class="token class-name">User</span> <span class="token operator">&lt;</span> ApplicationRecord<br>  validates <span class="token symbol">:firstname</span><span class="token punctuation">,</span> <span class="token symbol">presence</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token symbol">if</span><span class="token operator">:</span> <span class="token symbol">:has_name?</span><br>  validates <span class="token symbol">:surname</span><span class="token punctuation">,</span> <span class="token symbol">presence</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token symbol">if</span><span class="token operator">:</span> <span class="token symbol">:has_name?</span><br><br>  <span class="token keyword">def</span> <span class="token method-definition"><span class="token function">has_name</span></span><span class="token operator">?</span><br>    firstname<span class="token punctuation">.</span>present<span class="token operator">?</span> <span class="token operator">||</span> surname<span class="token punctuation">.</span>present<span class="token operator">?</span><br>  <span class="token keyword">end</span><br><span class="token keyword">end</span></code></pre>
+<p>Here, the two validation rules are only conditionally applied if the <code>has_name</code> block is evaluated to <em>true</em>. In this case, the block evaluates to <em>true</em> if either <code>firstname</code> or <code>surname</code> is <em>present</em>.</p>
+<p>Alternately, the validation can be <a href="https://guides.rubyonrails.org/active_record_validations.html#grouping-conditional-validations">handled as a group</a> within a conditional block:</p>
+<pre class="language-ruby"><code class="language-ruby"><span class="token keyword">class</span> <span class="token class-name">User</span> <span class="token operator">&lt;</span> ApplicationRecord<br>  with_options <span class="token keyword">if</span><span class="token operator">:</span> <span class="token symbol">:has_name?</span> <span class="token keyword">do</span> <span class="token operator">|</span>user<span class="token operator">|</span><br>    user<span class="token punctuation">.</span>validates <span class="token symbol">:firstname</span><span class="token punctuation">,</span> <span class="token symbol">presence</span><span class="token operator">:</span> <span class="token boolean">true</span><br>    user<span class="token punctuation">.</span>validates <span class="token symbol">:surname</span><span class="token punctuation">,</span> <span class="token symbol">presence</span><span class="token operator">:</span> <span class="token boolean">true</span><br>  <span class="token keyword">end</span><br><br>  <span class="token keyword">def</span> <span class="token method-definition"><span class="token function">has_name</span></span><span class="token operator">?</span><br>    firstname<span class="token punctuation">.</span>present<span class="token operator">?</span> <span class="token operator">||</span> surname<span class="token punctuation">.</span>present<span class="token operator">?</span><br>  <span class="token keyword">end</span><br><span class="token keyword">end</span></code></pre>
+<p>With these validations in place, a <code>User</code> record will be value with either both fields empty or both fields present, but invalid if only one of the fields is present.</p>
+
+</article>
+    </main>
+  </body>
+</html>

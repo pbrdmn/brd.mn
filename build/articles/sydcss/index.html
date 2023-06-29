@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SydCSS 2015 / brd.mn</title>
+  <meta name="description" content="Where I visit Canva headquarters and hear talks from smart people">
+  <link rel="canonical" href="https://brd.mn/articles/sydcss/">
+  <link rel="alternate" type="application/rss+xml" title="RSS"
+      href="https://brd.mn/rss.xml"><link rel="icon" href="https://brd.mn/images/logo@1x.jpg">
+<meta name="theme-color" content="#fff">
+<meta name="theme-color" content="#888488" media="(prefers-color-scheme: dark)">
+
+<meta property="og:title" content="SydCSS 2015">
+<meta property="og:description" content="Where I visit Canva headquarters and hear talks from smart people">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://brd.mn/articles/sydcss/">
+<meta property="og:site_name" content="brd.mn">
+<meta property="article:author" content="Philip Boardman">
+<meta property="article:published_time" content="Wed Oct 28 2015 11:00:00 GMT+1100 (Australian Eastern Daylight Time)">
+<meta property="og:image" content="https://brd.mn/articles/sydcss/sydcss.png">
+  
+  <style>:root{--foreground:#564b57;--background:#fff;--background2:#f3f2f4;--code-background:#3b3b3b;--link:#015fb6;--visited:#6c0b77}@media screen and (prefers-color-scheme:dark){:root{--foreground:#888488;--background:#050305;--background2:#160d16;--link:#5282c9;--visited:#8d71a3;--code-background:#030203}img{opacity:.7}}html{font-family:sans-serif;line-height:1.3;color:var(--foreground);background:var(--background)}@media (min-width:600px){html{font-size:1.125rem}}@media (min-width:900px){html{font-size:1.25rem}}body{margin:0 0 3rem;padding:0}main{padding:0 1rem;max-width:36rem;margin:1rem auto}a{color:var(--link)}a:visited{color:var(--visited)}a.logo{display:flex;align-items:center;flex-direction:row;text-decoration:none;color:var(--foreground)}a.logo img{margin-right:.5rem}h1,h2{font-weight:400}article.snippet{display:flex;margin:1rem 0 2rem}.snippet .thumb{margin-left:1rem;flex:1}.snippet .summary{flex:3}.snippet .summary h2{font-size:inherit;font-weight:inherit;margin:0}.snippet .summary p{margin:.5rem 0}footer{font-size:.8rem}footer>p{margin:.5rem 0}@media screen and (max-width:599px){article>img,header>img{margin:0 -1rem;width:calc(100% + 2rem);max-width:calc(100% + 2rem);border-radius:0}.snippet{flex-direction:column-reverse}.snippet .thumb{margin:0 0 .5rem}.snippet .thumb img{width:100%}}blockquote,pre{background:var(--background2);padding:1rem;margin:1rem -1rem;overflow:hidden}blockquote>:first-child{margin-top:0}blockquote>:last-child{margin-bottom:0}code{background:var(--background2)}@media print,(prefers-contrast:more){blockquote,pre{background:var(--background);outline:2px solid var(--background2)}}pre{white-space:pre-wrap;word-break:break-all}img{max-width:100%;height:auto;border-radius:.2rem}hr{height:.1rem;width:90%;background:var(--background2);border:0;margin:2rem auto}nav ul{margin:1rem 0;padding:0;display:flex;flex-wrap:wrap}nav li{list-style:none}nav li a{margin-right:1rem}@media (min-width:600px){blockquote,pre{border-radius:.5rem}pre[class*=language-]{border-radius:.3em}}@media print{:root{--foreground:#000;--background2:#fff}html{font-size:14px}main{max-width:100%}}</style>
+  <script src="/js/timeAgo.js" defer></script>
+</head>
+  <body>
+    <main>
+      <h1><a class="logo" href="/" title="brd.mn"><img
+      src="/images/logo@2x.webp"
+      srcset="/images/logo@1x.webp 1x, /images/logo@2x.webp 2x, /images/logo@3x.webp 3x"
+      width="64"
+      height="64" 
+      alt="Philip Boardman"
+    > Philip Boardman</a></h1>
+
+      <article>
+  <header>
+    <h1>SydCSS 2015</h1>
+      <img src="sydcss.png" alt="SydCSS Logo" title="SydCSS Logo" width="800" height="450">
+  </header>
+
+  <footer>
+    Published <time datetime="2015-10-28" title="Published on 2015-10-28">on 2015-10-28</time>
+    in 
+      <a href="/tags/meetup/">#meetup</a>
+    
+      <a href="/tags/css/">#css</a>
+    
+  </footer>
+
+  <hr>
+
+  <h2>Speaker 1 - James Coleman - Macropod</h2>
+<h3>Reasons to change</h3>
+<ul>
+<li>SASS</li>
+<li>Segmentation faults</li>
+<li>Extraneous functions</li>
+<li>Nesting</li>
+</ul>
+<h3>Modularity</h3>
+<ul>
+<li>No independent variables</li>
+</ul>
+<h3>Variables</h3>
+<ul>
+<li>Everything is global</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>Inline CSS (Radium) - hard to debug where inline styles are created</li>
+<li>PostCSS SASS Polyfill - hybrid between CSS and SCSS with less compatability</li>
+<li>CSS Modules - locally scoped class names - compiled with file location specifity</li>
+<li>Composition
+.link{ ... }<br>
+.bookmarkLink{ imports from .link }</li>
+</ul>
+<h2>Speaker 2 - Vitaly Friedman - Smashing Magazine</h2>
+<h3>eCommerce Design Patterns</h3>
+<h3>Checkout UX</h3>
+<p>68.53% cart abandonment</p>
+<ul>
+<li>Additional costs</li>
+<li>Forced account creation</li>
+<li>Credit card trust</li>
+<li>Complicated checkout process</li>
+<li>Payment methods</li>
+</ul>
+<p>Ways to improve</p>
+<ul>
+<li>Estimate shipping costs early on (before payment info)</li>
+<li>Ask for shipping location and currency</li>
+<li>Selecting shipping methods - show price and timing - missing info leads to abandonment</li>
+<li>Show inventory levels</li>
+<li>A few bad ratings validate lots of good ratings</li>
+<li>Asking for coupon codes - people search for one, people abandon if they can’t find one. Hide the coupon entry</li>
+<li>Unique selling points so people come back here</li>
+<li>Free shipping with minimum threshold (39% buy more to get free shipping)</li>
+<li>Expiring discounts</li>
+<li>Best price guarantee</li>
+<li>Simple returns</li>
+<li>Free stuff</li>
+</ul>
+<h2>Speaker 3 - Julia Mitchelmore</h2>
+<h3>UX4FED</h3>
+<h3>UX</h3>
+<p>Test &gt; Research &gt; Prototype &gt; Repeat</p>
+<h3>Research</h3>
+<ul>
+<li>Survey</li>
+<li>Personas -&gt; Primary, secondary, example users</li>
+<li>User Journey -&gt; Flow through the website, highlight key tasks</li>
+<li>Information Architecture -&gt; Site structure</li>
+</ul>
+<h3>Prototype</h3>
+<ul>
+<li>Wireframes</li>
+<li>Paper Prototypes -&gt; Sketch, designs -&gt; touchable</li>
+<li>Lookback -&gt; See the user use the app</li>
+</ul>
+<h3>Heuristics</h3>
+<ul>
+<li>Visibility of system status</li>
+<li>Flexibility of efficiency of use</li>
+<li>Aesthetics and minimalist design</li>
+<li>Help users recognise, diagnose and recover from errors</li>
+<li>Help and documentation</li>
+</ul>
+<h2>Speaker 4 - Chris - Canva</h2>
+<p>Animations, Easter eggs, and sneaky DOM manipulation</p>
+<p>Cursor Trails - two images, stacked. Mask active image and draw on HTML5 canvas and overlay. Canvas render &quot;Destination In&quot;.
+More and Close - animation while loading additional content and draw attention to the close button</p>
+
+</article>
+    </main>
+  </body>
+</html>

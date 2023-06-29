@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  {%- include 'header.njk' %}
+  <body>
+    <main>
+      <h1><a class="logo" href="/" title="brd.mn"><img
+      src="/images/logo@2x.webp"
+      srcset="/images/logo@1x.webp 1x, /images/logo@2x.webp 2x, /images/logo@3x.webp 3x"
+      width="64"
+      height="64" 
+      alt="{{ site.author }}"
+    > {{ site.author }}</a></h1>
+
+      {{ content | safe }}
+    </main>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Eleventy social sharing cards / brd.mn</title>
+  <meta name="description" content="Adding meta tags to eleventy theme to provide open graph social sharing cards functionality">
+  <link rel="canonical" href="https://brd.mn/articles/eleventy-social-cards/">
+  <link rel="alternate" type="application/rss+xml" title="RSS"
+      href="https://brd.mn/rss.xml"><link rel="icon" href="https://brd.mn/images/logo@1x.jpg">
+<meta name="theme-color" content="#fff">
+<meta name="theme-color" content="#888488" media="(prefers-color-scheme: dark)">
+
+<meta property="og:title" content="Eleventy social sharing cards">
+<meta property="og:description" content="Adding meta tags to eleventy theme to provide open graph social sharing cards functionality">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://brd.mn/articles/eleventy-social-cards/">
+<meta property="og:site_name" content="brd.mn">
+<meta property="article:author" content="Philip Boardman">
+<meta property="article:published_time" content="Wed Mar 23 2022 11:00:00 GMT+1100 (Australian Eastern Daylight Time)">
+<meta property="og:image" content="https://brd.mn/articles/eleventy-social-cards/social-card.jpg">
+  
+  <style>:root{--foreground:#564b57;--background:#fff;--background2:#f3f2f4;--code-background:#3b3b3b;--link:#015fb6;--visited:#6c0b77}@media screen and (prefers-color-scheme:dark){:root{--foreground:#888488;--background:#050305;--background2:#160d16;--link:#5282c9;--visited:#8d71a3;--code-background:#030203}img{opacity:.7}}html{font-family:sans-serif;line-height:1.3;color:var(--foreground);background:var(--background)}@media (min-width:600px){html{font-size:1.125rem}}@media (min-width:900px){html{font-size:1.25rem}}body{margin:0 0 3rem;padding:0}main{padding:0 1rem;max-width:36rem;margin:1rem auto}a{color:var(--link)}a:visited{color:var(--visited)}a.logo{display:flex;align-items:center;flex-direction:row;text-decoration:none;color:var(--foreground)}a.logo img{margin-right:.5rem}h1,h2{font-weight:400}article.snippet{display:flex;margin:1rem 0 2rem}.snippet .thumb{margin-left:1rem;flex:1}.snippet .summary{flex:3}.snippet .summary h2{font-size:inherit;font-weight:inherit;margin:0}.snippet .summary p{margin:.5rem 0}footer{font-size:.8rem}footer>p{margin:.5rem 0}@media screen and (max-width:599px){article>img,header>img{margin:0 -1rem;width:calc(100% + 2rem);max-width:calc(100% + 2rem);border-radius:0}.snippet{flex-direction:column-reverse}.snippet .thumb{margin:0 0 .5rem}.snippet .thumb img{width:100%}}blockquote,pre{background:var(--background2);padding:1rem;margin:1rem -1rem;overflow:hidden}blockquote>:first-child{margin-top:0}blockquote>:last-child{margin-bottom:0}code{background:var(--background2)}@media print,(prefers-contrast:more){blockquote,pre{background:var(--background);outline:2px solid var(--background2)}}pre{white-space:pre-wrap;word-break:break-all}img{max-width:100%;height:auto;border-radius:.2rem}hr{height:.1rem;width:90%;background:var(--background2);border:0;margin:2rem auto}nav ul{margin:1rem 0;padding:0;display:flex;flex-wrap:wrap}nav li{list-style:none}nav li a{margin-right:1rem}@media (min-width:600px){blockquote,pre{border-radius:.5rem}pre[class*=language-]{border-radius:.3em}}@media print{:root{--foreground:#000;--background2:#fff}html{font-size:14px}main{max-width:100%}}</style>
+      <link rel="stylesheet" type="text/css" href="/css/code.css">
+  <script src="/js/timeAgo.js" defer></script>
+</head>
+  <body>
+    <main>
+      <h1><a class="logo" href="/" title="brd.mn"><img
+      src="/images/logo@2x.webp"
+      srcset="/images/logo@1x.webp 1x, /images/logo@2x.webp 2x, /images/logo@3x.webp 3x"
+      width="64"
+      height="64" 
+      alt="Philip Boardman"
+    > Philip Boardman</a></h1>
+
+      <article>
+  <header>
+    <h1>Eleventy social sharing cards</h1>
+      <img src="social-card.jpg" alt="Rich content previewing with open graph tags" title="Rich content previewing with open graph tags" width="800" height="450">
+  </header>
+
+  <footer>
+    Published <time datetime="2022-03-23" title="Published on 2022-03-23">on 2022-03-23</time>,
+      updated <time datetime="2023-03-10" title="Updated on 2023-03-10">on 2023-03-10</time>
+    in 
+      <a href="/tags/eleventy/">#eleventy</a>
+    
+      <a href="/tags/html/">#html</a>
+    
+      <a href="/tags/meta/">#meta</a>
+    
+      <a href="/tags/social/">#social</a>
+    
+      <a href="/tags/programming/">#programming</a>
+    
+      <a href="/tags/code/">#code</a>
+    
+  </footer>
+
+  <hr>
+
+  <blockquote>
+<p>Update: I've discovered that while technically supported, in practice using <code>.webp</code> images are often not supported across many sites. For best compatibility, use <code>.png</code> or <code>.jpg</code> images with open graph.</p>
+</blockquote>
+<p>One of the things I wanted to add when rebuilding this site was rich content sharing, primarily for twitter.
+It turns out this is relatively simple, especially when you consider setting up the article metadata in the markdown front matter of each article/page as eleventy makes this information globally available to the template engine.</p>
+<p>The standard set of meta tags for the <a href="https://ogp.me/">open graph protocol</a> include <code>title</code>, <code>description</code> and <code>image</code>, which we'll look at setting up in our template below.</p>
+<h2>Title and Description</h2>
+<p>Using the standard front matter configuration for <code>title</code> and <code>description</code> are straight forward to add to a template by adding <code>&lt;meta&gt;</code> tags for <code>og:title</code> and <code>og:description</code>.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:title<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ title }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:description<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ description }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+<h2>URL</h2>
+<p>An open graph URL should be a fully qualified canonical url, such as <code>https://brd.mn/articles/eleventy-social-cards/</code>. For eleventy to have access to full path to the site at build time we will need to have a way to store this configuration information. Eleventy has a built in method for setting up data to be used in situations just like this with files in the <code>_data</code> directory, called <a href="https://www.11ty.dev/docs/data-global/">Global Data Files</a>. I have created a <code>site.json</code> file in the <code>_data</code> directory with the following contents.</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span><br>  <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"brd.mn"</span><span class="token punctuation">,</span><br>  <span class="token property">"subtitle"</span><span class="token operator">:</span> <span class="token string">"Interested in how things work; breaking things and fixing things"</span><span class="token punctuation">,</span><br>  <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://brd.mn"</span><br><span class="token punctuation">}</span></code></pre>
+<p>After adding this <code>_data/site.json</code> file, we can now access the properties in our template using the <code>site</code> variable, such as <code>{{ site.url }}</code>. Combining this global site url with the page url will generate a fully qualified URI suitable for open graph <code>url</code> tag.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:url<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ site.url }}{{ page.url }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+<h2>Image</h2>
+<p>The last, and most visually engaging, part of the open graph specification is the image. The <code>image</code> meta tag also requires a fully qualified URI similar to the <code>url</code> but depending on how images are managed with your site may require a different approach than I have here. For example, in my site I keep images in the same directory as an article's markdown file and reference the image in the article front matter with only the filename.</p>
+<pre class="language-markdown"><code class="language-markdown"><span class="token front-matter-block"><span class="token punctuation">---</span><br><span class="token front-matter yaml language-yaml">title: Eleventy social sharing cards<br>image: social-card.png<br>...</span><br><span class="token punctuation">---</span></span></code></pre>
+<p>By appending this <code>image</code> property to the same pattern used for <code>url</code>, we can add the meta tag to our template.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ site.url }}{{ page.url }}{{ image }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+<h2>Complete social sharing cards example</h2>
+<p>For a full open graph implementation, we add each of the above meta tags to our template, along with some additional information as suits your particular needs. In the example below, I have added a generic fallback image to display if a particular page does not have an image set as well as adding <code>site_name</code>, <code>creator</code> and <code>card</code> type meta tags.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:title<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ title }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:description<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ description }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:type<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>article<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:url<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ site.url }}{{ page.url }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ site.url }}{{ page.url }}{{ image }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:site_name<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ site.name }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+
+</article>
+    </main>
+  </body>
+</html>

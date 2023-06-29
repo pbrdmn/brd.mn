@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Rebuilding with Eleventy / brd.mn</title>
+  <meta name="description" content="Rebuilding this personal site with a new static site generator">
+  <link rel="canonical" href="https://brd.mn/articles/eleventy/">
+  <link rel="alternate" type="application/rss+xml" title="RSS"
+      href="https://brd.mn/rss.xml"><link rel="icon" href="https://brd.mn/images/logo@1x.jpg">
+<meta name="theme-color" content="#fff">
+<meta name="theme-color" content="#888488" media="(prefers-color-scheme: dark)">
+
+<meta property="og:title" content="Rebuilding with Eleventy">
+<meta property="og:description" content="Rebuilding this personal site with a new static site generator">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://brd.mn/articles/eleventy/">
+<meta property="og:site_name" content="brd.mn">
+<meta property="article:author" content="Philip Boardman">
+<meta property="article:published_time" content="Mon Feb 28 2022 11:00:00 GMT+1100 (Australian Eastern Daylight Time)">
+<meta property="og:image" content="https://brd.mn/articles/eleventy/rebuilding-with-eleventy-theme.png">
+  
+  <style>:root{--foreground:#564b57;--background:#fff;--background2:#f3f2f4;--code-background:#3b3b3b;--link:#015fb6;--visited:#6c0b77}@media screen and (prefers-color-scheme:dark){:root{--foreground:#888488;--background:#050305;--background2:#160d16;--link:#5282c9;--visited:#8d71a3;--code-background:#030203}img{opacity:.7}}html{font-family:sans-serif;line-height:1.3;color:var(--foreground);background:var(--background)}@media (min-width:600px){html{font-size:1.125rem}}@media (min-width:900px){html{font-size:1.25rem}}body{margin:0 0 3rem;padding:0}main{padding:0 1rem;max-width:36rem;margin:1rem auto}a{color:var(--link)}a:visited{color:var(--visited)}a.logo{display:flex;align-items:center;flex-direction:row;text-decoration:none;color:var(--foreground)}a.logo img{margin-right:.5rem}h1,h2{font-weight:400}article.snippet{display:flex;margin:1rem 0 2rem}.snippet .thumb{margin-left:1rem;flex:1}.snippet .summary{flex:3}.snippet .summary h2{font-size:inherit;font-weight:inherit;margin:0}.snippet .summary p{margin:.5rem 0}footer{font-size:.8rem}footer>p{margin:.5rem 0}@media screen and (max-width:599px){article>img,header>img{margin:0 -1rem;width:calc(100% + 2rem);max-width:calc(100% + 2rem);border-radius:0}.snippet{flex-direction:column-reverse}.snippet .thumb{margin:0 0 .5rem}.snippet .thumb img{width:100%}}blockquote,pre{background:var(--background2);padding:1rem;margin:1rem -1rem;overflow:hidden}blockquote>:first-child{margin-top:0}blockquote>:last-child{margin-bottom:0}code{background:var(--background2)}@media print,(prefers-contrast:more){blockquote,pre{background:var(--background);outline:2px solid var(--background2)}}pre{white-space:pre-wrap;word-break:break-all}img{max-width:100%;height:auto;border-radius:.2rem}hr{height:.1rem;width:90%;background:var(--background2);border:0;margin:2rem auto}nav ul{margin:1rem 0;padding:0;display:flex;flex-wrap:wrap}nav li{list-style:none}nav li a{margin-right:1rem}@media (min-width:600px){blockquote,pre{border-radius:.5rem}pre[class*=language-]{border-radius:.3em}}@media print{:root{--foreground:#000;--background2:#fff}html{font-size:14px}main{max-width:100%}}</style>
+      <link rel="stylesheet" type="text/css" href="/css/code.css">
+  <script src="/js/timeAgo.js" defer></script>
+</head>
+  <body>
+    <main>
+      <h1><a class="logo" href="/" title="brd.mn"><img
+      src="/images/logo@2x.webp"
+      srcset="/images/logo@1x.webp 1x, /images/logo@2x.webp 2x, /images/logo@3x.webp 3x"
+      width="64"
+      height="64" 
+      alt="Philip Boardman"
+    > Philip Boardman</a></h1>
+
+      <article>
+  <header>
+    <h1>Rebuilding with Eleventy</h1>
+      <img src="rebuilding-with-eleventy-theme.png" alt="Eleventy theme with dark and light modes" title="Eleventy theme with dark and light modes" width="800" height="450">
+  </header>
+
+  <footer>
+    Published <time datetime="2022-02-28" title="Published on 2022-02-28">on 2022-02-28</time>
+    in 
+      <a href="/tags/eleventy/">#eleventy</a>
+    
+      <a href="/tags/javascript/">#javascript</a>
+    
+      <a href="/tags/markdown/">#markdown</a>
+    
+      <a href="/tags/programming/">#programming</a>
+    
+      <a href="/tags/code/">#code</a>
+    
+  </footer>
+
+  <hr>
+
+  <p>For this simple site, I've been hosting a minimal <code>markdown</code> to <code>html</code> application to manage this personal site. As my professional software development career has moved on I haven't programmed in PHP for <em>years</em> so it was time for this site to follow this transition and move away from PHP too. While I wanted to rebuild the site code, the underlying data for this site is managed in markdown. So ideally I would like to keep this data in markdown and only replace the html generation and also refresh the styling at the same time.</p>
+<hr>
+<p>After some research, I decided to work with <a href="https://www.11ty.dev/">Eleventy</a>, which will be able to build a static site from my markdown files and also provide a quick preview mode when working on the files. With a small <code>.eleventy.js</code> config file in the root directory it can even run without installing the package itself, meaning we don't even need a bloated <code>node_modules</code> directory, by using <code>npx</code>.</p>
+<p>After reading the documentation and watching a <a href="https://www.youtube.com/watch?v=p81J7G1qFAM">short ten minute tutorial</a>, my final config file looks like this:</p>
+<pre class="language-js"><code class="language-js">module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">cfg</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  cfg<span class="token punctuation">.</span><span class="token function">addWatchTarget</span><span class="token punctuation">(</span><span class="token string">"./src/**/*.css"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>  cfg<span class="token punctuation">.</span><span class="token function">addPassthroughCopy</span><span class="token punctuation">(</span><span class="token string">"src/**/*.{css,jpg,png,gif}"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token keyword">return</span> <span class="token punctuation">{</span><br>    <span class="token literal-property property">dir</span><span class="token operator">:</span> <span class="token punctuation">{</span><br>      <span class="token literal-property property">input</span><span class="token operator">:</span> <span class="token string">"src"</span><span class="token punctuation">,</span><br>      <span class="token literal-property property">output</span><span class="token operator">:</span> <span class="token string">"build"</span><br>    <span class="token punctuation">}</span><br>  <span class="token punctuation">}</span><br><span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
+<p>This configuration sets input and output directories - source files are in <code>src</code> and the finished website is output at <code>build</code>, as well as identifying that we want the styles and images <code>*.{css,jpg,png,gif}</code> copied to the website too.</p>
+<hr>
+<p>Previewing the website is achieved by running eleventy with the <code>--serve</code> parameter, which runs a webserver hosting the output directory and monitors the input files for changes, which will then rebuild the website and refresh the browser. Both of these can be added to <code>package.json</code> too.</p>
+<pre class="language-bash"><code class="language-bash">npx @11ty/eleventy <span class="token parameter variable">--serve</span></code></pre>
+<p>The website files can also be generated without reloading and previewing with:</p>
+<pre class="language-bash"><code class="language-bash">npx @11ty/eleventy</code></pre>
+<p>Once the website is ready to be released, the static files can be copied from the output directory to a web server and the hard part is done.</p>
+<hr>
+<p>After this, there is opportunity to explore integrating the build and publish steps into a CI/CD pipeline to be triggered by changes to a code repository, when adding or editing an article or other page.</p>
+<p>This turned out to be extremely simple with <a href="%5Bn%5D(https://www.netlify.com/)">Netlify</a>'s Wizard for GitHub integration and deployment for static sites. It detected my use of <code>Eleventy</code> and the only adjustment required for my setup was to specify that I'd changed the output directory to <code>/build</code>.</p>
+<hr>
+<h2>Formatting dates</h2>
+<p>After the initial rebuild I have explored some additional configuration options to improve the experiences of managing and reading the articles. Firstly was adding a custom formatting filter for dates to truncate the time from the ISO date format.</p>
+<pre class="language-js"><code class="language-js">  cfg<span class="token punctuation">.</span><span class="token function">addFilter</span><span class="token punctuation">(</span><span class="token string">'postDate'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">dateObj</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span><br>    <span class="token keyword">var</span> isoDate <span class="token operator">=</span> dateObj<span class="token punctuation">.</span><span class="token function">toISOString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><br>    <span class="token keyword">return</span> isoDate<span class="token punctuation">.</span><span class="token function">substring</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre>
+<p>With this filter added to the configuration, displaying the dates in my preferred <code>YYYY-mm-dd</code> format can be achieved by applying the filter within the <code>liquid</code> template</p>
+<pre class="language-liquid"><code class="language-liquid">Published on: <span class="token liquid language-liquid"><span class="token delimiter punctuation">{{</span> <span class="token object">page</span><span class="token punctuation">.</span><span class="token object">date</span> <span class="token operator">|</span> <span class="token function filter">postDate</span> <span class="token delimiter punctuation">}}</span></span></code></pre>
+
+</article>
+    </main>
+  </body>
+</html>

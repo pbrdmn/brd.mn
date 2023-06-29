@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ascii Banana / brd.mn</title>
+  <meta name="description" content="Programming a macro pad as a chorded keyboard for typing ascii characters">
+  <link rel="canonical" href="https://brd.mn/articles/ascii-banana/">
+  <link rel="alternate" type="application/rss+xml" title="RSS"
+      href="https://brd.mn/rss.xml"><link rel="icon" href="https://brd.mn/images/logo@1x.jpg">
+<meta name="theme-color" content="#fff">
+<meta name="theme-color" content="#888488" media="(prefers-color-scheme: dark)">
+
+<meta property="og:title" content="Ascii Banana">
+<meta property="og:description" content="Programming a macro pad as a chorded keyboard for typing ascii characters">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://brd.mn/articles/ascii-banana/">
+<meta property="og:site_name" content="brd.mn">
+<meta property="article:author" content="Philip Boardman">
+<meta property="article:published_time" content="Fri Dec 16 2022 11:00:00 GMT+1100 (Australian Eastern Daylight Time)">
+<meta property="og:image" content="https://brd.mn/articles/ascii-banana/banana_keyboard.webp">
+  
+  <style>:root{--foreground:#564b57;--background:#fff;--background2:#f3f2f4;--code-background:#3b3b3b;--link:#015fb6;--visited:#6c0b77}@media screen and (prefers-color-scheme:dark){:root{--foreground:#888488;--background:#050305;--background2:#160d16;--link:#5282c9;--visited:#8d71a3;--code-background:#030203}img{opacity:.7}}html{font-family:sans-serif;line-height:1.3;color:var(--foreground);background:var(--background)}@media (min-width:600px){html{font-size:1.125rem}}@media (min-width:900px){html{font-size:1.25rem}}body{margin:0 0 3rem;padding:0}main{padding:0 1rem;max-width:36rem;margin:1rem auto}a{color:var(--link)}a:visited{color:var(--visited)}a.logo{display:flex;align-items:center;flex-direction:row;text-decoration:none;color:var(--foreground)}a.logo img{margin-right:.5rem}h1,h2{font-weight:400}article.snippet{display:flex;margin:1rem 0 2rem}.snippet .thumb{margin-left:1rem;flex:1}.snippet .summary{flex:3}.snippet .summary h2{font-size:inherit;font-weight:inherit;margin:0}.snippet .summary p{margin:.5rem 0}footer{font-size:.8rem}footer>p{margin:.5rem 0}@media screen and (max-width:599px){article>img,header>img{margin:0 -1rem;width:calc(100% + 2rem);max-width:calc(100% + 2rem);border-radius:0}.snippet{flex-direction:column-reverse}.snippet .thumb{margin:0 0 .5rem}.snippet .thumb img{width:100%}}blockquote,pre{background:var(--background2);padding:1rem;margin:1rem -1rem;overflow:hidden}blockquote>:first-child{margin-top:0}blockquote>:last-child{margin-bottom:0}code{background:var(--background2)}@media print,(prefers-contrast:more){blockquote,pre{background:var(--background);outline:2px solid var(--background2)}}pre{white-space:pre-wrap;word-break:break-all}img{max-width:100%;height:auto;border-radius:.2rem}hr{height:.1rem;width:90%;background:var(--background2);border:0;margin:2rem auto}nav ul{margin:1rem 0;padding:0;display:flex;flex-wrap:wrap}nav li{list-style:none}nav li a{margin-right:1rem}@media (min-width:600px){blockquote,pre{border-radius:.5rem}pre[class*=language-]{border-radius:.3em}}@media print{:root{--foreground:#000;--background2:#fff}html{font-size:14px}main{max-width:100%}}</style>
+      <link rel="stylesheet" type="text/css" href="/css/code.css">
+  <script src="/js/timeAgo.js" defer></script>
+</head>
+  <body>
+    <main>
+      <h1><a class="logo" href="/" title="brd.mn"><img
+      src="/images/logo@2x.webp"
+      srcset="/images/logo@1x.webp 1x, /images/logo@2x.webp 2x, /images/logo@3x.webp 3x"
+      width="64"
+      height="64" 
+      alt="Philip Boardman"
+    > Philip Boardman</a></h1>
+
+      <article>
+  <header>
+    <h1>Ascii Banana</h1>
+      <img src="banana_keyboard.webp" alt="A bright yellow keyboard shaped like a banana with yellow, pink, and purple keycaps" title="A bright yellow keyboard shaped like a banana with yellow, pink, and purple keycaps" width="800" height="450">
+  </header>
+
+  <footer>
+    Published <time datetime="2022-12-16" title="Published on 2022-12-16">on 2022-12-16</time>
+    in 
+      <a href="/tags/arduino/">#arduino</a>
+    
+      <a href="/tags/keyboard/">#keyboard</a>
+    
+      <a href="/tags/code/">#code</a>
+    
+  </footer>
+
+  <hr>
+
+  <p>This <a href="https://www.etsy.com/au/listing/1232068534/8-key-banana-macropad">banana keyboard</a> project is bit of a joke keyboard which started when someone shared a link to some novelty keyboards / macro pads in an <a href="https://www.etsy.com/au/shop/Steboards">Etsy Store</a>.</p>
+<p>The banana keyboard arrived a few weeks after I ordered it and looked great. The eight keys were mapped to the <code>F13</code> - <code>F20</code> range. I could use the macOS Keyboard Shortcuts settings to map these keys to almost any individual action I might want.</p>
+<blockquote>
+<p><img src="keyboard-shortcuts-settings.webp" alt="Keyboard Shortcuts" title="Image of macOS Keyboard Shortcuts settings with F13 mapped"></p>
+</blockquote>
+<p>However the eighth key, mapped to <code>F20</code>, wasn't registering in macOS. This led me down a bit of a rabbit hole of searches. The primary takeaway being that macOS doesn't handle function keys above 19 the same way as the rest of the keyboard.</p>
+<p>Not content with an unusable key on my banana, I messaged the seller on Etsy, who quickly replied with the source code they'd used to program the banana.</p>
+<p>The <code>arduino</code> code was reasonably straight forward and didn't take much effort to make some changes. With the <a href="https://create.arduino.cc">Arduino Cloud Editor</a> (and the companion firmware) I managed to reprogram my banana keyboard from the internet!</p>
+<p>Referencing the <a href="https://www.arduino.cc/reference/en/language/functions/usb/keyboard/">Arduino Keyboard library</a>, the first goal I had was to remove the <code>F20</code> and replace it with something that would register in macOS. A bit of code refactor to group all the output keys together and I had something working (<a href="https://gist.github.com/pbrdmn/5a44e6726664d8411423e7133ea8912d">banana.c</a>).</p>
+<hr>
+<p>After playing around with the code, I first began looking at adjusting when keys sent the press event. By moving this from the initial <em>on</em> change to the <em>off</em> change, I could trigger different actions for short vs long presses (e.g. &quot;tap&quot; vs &quot;hold&quot;) and by holding even longer, expire the event altogether.</p>
+<pre class="language-c"><code class="language-c"><span class="token comment">// handle button press for duration</span><br><span class="token keyword">if</span> <span class="token punctuation">(</span>duration <span class="token operator">&lt;</span> DEBOUNCE_TIME<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// ignore noise</span><br><span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>duration <span class="token operator">&lt;</span> HOLD_TIME<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// handle tap</span><br>  Keyboard<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span>taps<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>duration <span class="token operator">&lt;</span> TIMEOUT<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// handle hold</span><br>  Keyboard<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span>holds<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span><br>  <span class="token comment">// held too long</span><br><span class="token punctuation">}</span></code></pre>
+<p>This allowed the eight key banana to reliably emit 16 different events. The full code for this is available at <a href="https://gist.github.com/pbrdmn/ad6a53a064057658a2a4f19d895c0077">hex_banana.c</a>.</p>
+<hr>
+<p>Thinking about other opportunities for an eight key macro pad, I had the idea of using each of the eight keys to control individual character bits and allow the typing of ascii characters by inputting the binary values directly, treating the whole macro pad as a chorded keyboard, similar to a <a href="https://en.wikipedia.org/wiki/Stenotype">stenotype</a> keyboard. I had been thinking about this recently and put together a <a href="https://www.redbubble.com/i/sticker/Hello-world-binary-by-philip-boardman/134772669.EJUG5" title="Sticker design with binary representation of each letter in the string 'Hello world.'">&quot;Hello World.&quot; binary sticker</a>.</p>
+<p>The keyboard captures each of the keys being pressed and store this into an internal buffer. Once all the keys have been released, the recorded input is then processed and output as an ascii character.</p>
+<p>Another quick rabbit hole, some bit setting functions and a relatively clean solution appeared for the <a href="https://gist.github.com/pbrdmn/646eedc374ec37e680a70c88dc4bfcc3">ascii_banana.c</a> keyboard.</p>
+<p>Not without fault and edge cases, and plenty of other opportunities for improvement, but flashing this code to the banana keyboard (again, from the internet!) and a few rounds of debugging 😅 and the banana began emitting characters!</p>
+<p>Referencing an <a href="https://www.binaryhexconverter.com/binary-ascii-characters-table" title="Table listing ascii characters and their binary representation">ascii table</a> (no, I didn't have these committed to memory), I hold down the keys corresponding to</p>
+<blockquote>
+<p>01001000</p>
+</blockquote>
+<p>and on the screen, the keyboard prints</p>
+<blockquote>
+<p>H</p>
+</blockquote>
+<p>next I enter</p>
+<blockquote>
+<p>01100101</p>
+</blockquote>
+<p>and on the screen</p>
+<blockquote>
+<p>He</p>
+</blockquote>
+<p>continuing with</p>
+<blockquote>
+<p>01101100<br>
+01101100<br>
+01101111</p>
+</blockquote>
+<p>and I have typed</p>
+<blockquote>
+<p>Hello</p>
+</blockquote>
+<hr>
+<p>A bit more tinkering and a few rough edges, but a fun experiement into some different ideas.</p>
+<p>The code for different banana keyboard functions:</p>
+<ul>
+<li><a href="https://gist.github.com/pbrdmn/5a44e6726664d8411423e7133ea8912d">banana.c</a></li>
+<li><a href="https://gist.github.com/pbrdmn/ad6a53a064057658a2a4f19d895c0077">hex_banana.c</a></li>
+<li><a href="https://gist.github.com/pbrdmn/646eedc374ec37e680a70c88dc4bfcc3">ascii_banana.c</a></li>
+</ul>
+<p>After contacting the seller on Etsy, this code has now been contributed to the public <a href="https://github.com/SteBoards/BananaKeyboardCode">SteBoards/BananaKeyboardCode repo on GitHub</a> where others can use these as examples.</p>
+<hr>
+<p>Order a <a href="https://www.redbubble.com/i/sticker/Hello-world-binary-ascii-dark-mode-by-philip-boardman/134772927.EJUG5?asc=u">Hello World binary sticker</a> from my Redbubble store.</p>
+<p><a href="https://www.redbubble.com/i/sticker/Hello-world-binary-ascii-dark-mode-by-philip-boardman/134772927.EJUG5?asc=u"><img src="work-134772927-sticker-bottle.jpg" alt="&quot;Hello world.&quot; binary, ascii, dark mode" title="Order a 'Hello World' binary sticker"></a></p>
+
+</article>
+    </main>
+  </body>
+</html>

@@ -1,4 +1,0 @@
-Sitemap: https://brd.mn/sitemap.xml
-
-User-agent: *
-Disallow:

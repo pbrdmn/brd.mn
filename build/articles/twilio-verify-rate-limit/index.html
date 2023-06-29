@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Twilio Verify Rate Limiting / brd.mn</title>
+  <meta name="description" content="Buckets of fun with Twilio Verify API  rate limiting for mobile verification requests">
+  <link rel="canonical" href="https://brd.mn/articles/twilio-verify-rate-limit/">
+  <link rel="alternate" type="application/rss+xml" title="RSS"
+      href="https://brd.mn/rss.xml"><link rel="icon" href="https://brd.mn/images/logo@1x.jpg">
+<meta name="theme-color" content="#fff">
+<meta name="theme-color" content="#888488" media="(prefers-color-scheme: dark)">
+
+<meta property="og:title" content="Twilio Verify Rate Limiting">
+<meta property="og:description" content="Buckets of fun with Twilio Verify API  rate limiting for mobile verification requests">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://brd.mn/articles/twilio-verify-rate-limit/">
+<meta property="og:site_name" content="brd.mn">
+<meta property="article:author" content="Philip Boardman">
+<meta property="article:published_time" content="Wed Mar 29 2023 11:00:00 GMT+1100 (Australian Eastern Daylight Time)">
+<meta property="og:image" content="https://brd.mn/articles/twilio-verify-rate-limit/joshua-hoehne-TsdelDFTP6Y-unsplash.jpg">
+  
+  <style>:root{--foreground:#564b57;--background:#fff;--background2:#f3f2f4;--code-background:#3b3b3b;--link:#015fb6;--visited:#6c0b77}@media screen and (prefers-color-scheme:dark){:root{--foreground:#888488;--background:#050305;--background2:#160d16;--link:#5282c9;--visited:#8d71a3;--code-background:#030203}img{opacity:.7}}html{font-family:sans-serif;line-height:1.3;color:var(--foreground);background:var(--background)}@media (min-width:600px){html{font-size:1.125rem}}@media (min-width:900px){html{font-size:1.25rem}}body{margin:0 0 3rem;padding:0}main{padding:0 1rem;max-width:36rem;margin:1rem auto}a{color:var(--link)}a:visited{color:var(--visited)}a.logo{display:flex;align-items:center;flex-direction:row;text-decoration:none;color:var(--foreground)}a.logo img{margin-right:.5rem}h1,h2{font-weight:400}article.snippet{display:flex;margin:1rem 0 2rem}.snippet .thumb{margin-left:1rem;flex:1}.snippet .summary{flex:3}.snippet .summary h2{font-size:inherit;font-weight:inherit;margin:0}.snippet .summary p{margin:.5rem 0}footer{font-size:.8rem}footer>p{margin:.5rem 0}@media screen and (max-width:599px){article>img,header>img{margin:0 -1rem;width:calc(100% + 2rem);max-width:calc(100% + 2rem);border-radius:0}.snippet{flex-direction:column-reverse}.snippet .thumb{margin:0 0 .5rem}.snippet .thumb img{width:100%}}blockquote,pre{background:var(--background2);padding:1rem;margin:1rem -1rem;overflow:hidden}blockquote>:first-child{margin-top:0}blockquote>:last-child{margin-bottom:0}code{background:var(--background2)}@media print,(prefers-contrast:more){blockquote,pre{background:var(--background);outline:2px solid var(--background2)}}pre{white-space:pre-wrap;word-break:break-all}img{max-width:100%;height:auto;border-radius:.2rem}hr{height:.1rem;width:90%;background:var(--background2);border:0;margin:2rem auto}nav ul{margin:1rem 0;padding:0;display:flex;flex-wrap:wrap}nav li{list-style:none}nav li a{margin-right:1rem}@media (min-width:600px){blockquote,pre{border-radius:.5rem}pre[class*=language-]{border-radius:.3em}}@media print{:root{--foreground:#000;--background2:#fff}html{font-size:14px}main{max-width:100%}}</style>
+      <link rel="stylesheet" type="text/css" href="/css/code.css">
+  <script src="/js/timeAgo.js" defer></script>
+</head>
+  <body>
+    <main>
+      <h1><a class="logo" href="/" title="brd.mn"><img
+      src="/images/logo@2x.webp"
+      srcset="/images/logo@1x.webp 1x, /images/logo@2x.webp 2x, /images/logo@3x.webp 3x"
+      width="64"
+      height="64" 
+      alt="Philip Boardman"
+    > Philip Boardman</a></h1>
+
+      <article>
+  <header>
+    <h1>Twilio Verify Rate Limiting</h1>
+      <img src="joshua-hoehne-TsdelDFTP6Y-unsplash.jpg" alt="Speed limit sign" title="Speed limit sign" width="800" height="450">
+  </header>
+
+  <footer>
+    Published <time datetime="2023-03-29" title="Published on 2023-03-29">on 2023-03-29</time>
+    in 
+      <a href="/tags/code/">#code</a>
+    
+      <a href="/tags/programming/">#programming</a>
+    
+      <a href="/tags/ruby/">#ruby</a>
+    
+      <a href="/tags/twilio/">#twilio</a>
+    
+      <a href="/tags/api/">#api</a>
+    
+  </footer>
+
+  <hr>
+
+  <p>Twilio <code>rate limits</code> are used to apply limits to a category of requests.</p>
+<h2>Twilio Client Auth</h2>
+<p>Before interacting with the Twilio API, you will need to require the <code>twilio-ruby</code> gem and instantiate a <code>@client</code> using your account credentials.</p>
+<pre class="language-ruby"><code class="language-ruby"><span class="token keyword">require</span> <span class="token string-literal"><span class="token string">'twilio-ruby'</span></span><br>account_sid <span class="token operator">=</span> <span class="token constant">ENV</span><span class="token punctuation">[</span><span class="token string-literal"><span class="token string">'TWILIO_ACCOUNT_SID'</span></span><span class="token punctuation">]</span><br>auth_token <span class="token operator">=</span> <span class="token constant">ENV</span><span class="token punctuation">[</span><span class="token string-literal"><span class="token string">'TWILIO_AUTH_TOKEN'</span></span><span class="token punctuation">]</span><br><span class="token variable">@client</span> <span class="token operator">=</span> Twilio<span class="token double-colon punctuation">::</span><span class="token constant">REST</span><span class="token double-colon punctuation">::</span><span class="token class-name">Client</span><span class="token punctuation">.</span><span class="token keyword">new</span><span class="token punctuation">(</span>account_sid<span class="token punctuation">,</span> auth_token<span class="token punctuation">)</span></code></pre>
+<hr>
+<h2>Creating Rate Limits</h2>
+<p>A rate limit is created with a <code>unique_name</code> (such as <code>&quot;account_rate_limit&quot;</code>) and this unique name is used to reference the <code>rate limit</code> later.</p>
+<pre class="language-ruby"><code class="language-ruby">rate_limit <span class="token operator">=</span> <span class="token variable">@client</span><span class="token punctuation">.</span>verify<br>  <span class="token punctuation">.</span>v2<br>  <span class="token punctuation">.</span>services<span class="token punctuation">(</span>service_sid<span class="token punctuation">)</span><br>  <span class="token punctuation">.</span>rate_limits<br>  <span class="token punctuation">.</span>create<span class="token punctuation">(</span><br>    <span class="token symbol">description</span><span class="token operator">:</span> <span class="token string-literal"><span class="token string">'Account rate limit'</span></span><span class="token punctuation">,</span><br>    <span class="token symbol">unique_name</span><span class="token operator">:</span> <span class="token string-literal"><span class="token string">'account_rate_limit'</span></span><br>  <span class="token punctuation">)</span><br>puts <span class="token string-literal"><span class="token string">"Created Rate Limit"</span></span><br>puts rate_limit<span class="token punctuation">.</span>sid</code></pre>
+<p>Within each <code>rate limit</code> category, limits are applied using <code>buckets</code>.
+A <code>bucket</code> is created to set a maximum number of requests over a period, using the format <code>{ max: N, period: S }</code> for <code>N</code> maximum requests over a period of <code>S</code> seconds.
+Multiple rate limit <code>buckets</code> can be created for a <code>rate limit</code> which would each be applied to the requests within this <code>rate limit</code> group.</p>
+<pre class="language-ruby"><code class="language-ruby">bucket <span class="token operator">=</span> <span class="token variable">@client</span><span class="token punctuation">.</span>verify<br>  <span class="token punctuation">.</span>v2<br>  <span class="token punctuation">.</span>services<span class="token punctuation">(</span>service_sid<span class="token punctuation">)</span><br>  <span class="token punctuation">.</span>rate_limits<span class="token punctuation">(</span>rate_limit<span class="token punctuation">.</span>sid<span class="token punctuation">)</span><br>  <span class="token punctuation">.</span>buckets<br>  <span class="token punctuation">.</span>create<span class="token punctuation">(</span><br>    <span class="token symbol">max</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span><br>    <span class="token symbol">interval</span><span class="token operator">:</span> <span class="token number">600</span> <span class="token comment"># 10 minutes</span><br>  <span class="token punctuation">)</span><br>puts <span class="token string-literal"><span class="token string">"Created Rate Limit Bucket"</span></span><br>puts bucket<span class="token punctuation">.</span>sid</code></pre>
+<blockquote>
+<p>Without creating a <code>bucket</code>, no rate limiting will be applied to the <code>rate limit</code></p>
+</blockquote>
+<hr>
+<h2>Using Rate Limits</h2>
+<p>After a <code>rate limit</code> with zero or more <code>buckets</code> has been configured, requests will need to be associated with this <code>rate limit</code> when they are being created. The <code>rate limit</code> is referenced using the <code>unique_name</code> and a <code>rate limit key</code>.</p>
+<pre class="language-ruby"><code class="language-ruby">verification <span class="token operator">=</span> <span class="token variable">@client</span><span class="token punctuation">.</span>verify<br>  <span class="token punctuation">.</span>v2<br>  <span class="token punctuation">.</span>services<span class="token punctuation">(</span>service_sid<span class="token punctuation">)</span><br>  <span class="token punctuation">.</span>verifications<br>  <span class="token punctuation">.</span>create<span class="token punctuation">(</span><br>    <span class="token symbol">to</span><span class="token operator">:</span> user<span class="token punctuation">.</span>mobile<span class="token punctuation">,</span><br>    <span class="token symbol">channel</span><span class="token operator">:</span> <span class="token string-literal"><span class="token string">'sms'</span></span><span class="token punctuation">,</span><br>    <span class="token symbol">rate_limits</span><span class="token operator">:</span> <span class="token punctuation">{</span><br>      <span class="token symbol">unique_name</span><span class="token operator">:</span> rate_limit_key<br>    <span class="token punctuation">}</span><br>  <span class="token punctuation">)</span></code></pre>
+<p>The <code>rate limit key</code> should be a unique identifier on which the rate limit bucket rules should apply.</p>
+<blockquote>
+<p>Multiple rate limits could also be applied to a request, such as per account, per country, or per group of digits within the recipient's mobile number.</p>
+</blockquote>
+<pre class="language-ruby"><code class="language-ruby"><span class="token punctuation">.</span>create<span class="token punctuation">(</span><br>  <span class="token symbol">to</span><span class="token operator">:</span> user<span class="token punctuation">.</span>mobile<span class="token punctuation">,</span><br>  <span class="token symbol">channel</span><span class="token operator">:</span> <span class="token string-literal"><span class="token string">'sms'</span></span><span class="token punctuation">,</span><br>  <span class="token symbol">rate_limits</span><span class="token operator">:</span> <span class="token punctuation">{</span><br>    <span class="token symbol">account_rate_limit</span><span class="token operator">:</span> user<span class="token punctuation">.</span>id<span class="token punctuation">,</span><br>    <span class="token symbol">country_rate_limit</span><span class="token operator">:</span> user<span class="token punctuation">.</span>country<span class="token punctuation">,</span><br>    <span class="token comment"># trim last 3 digits to get a block of phone numbers</span><br>    <span class="token symbol">number_group</span><span class="token operator">:</span> number_group<span class="token punctuation">(</span>user<span class="token punctuation">.</span>mobile<span class="token punctuation">)</span><br>  <span class="token punctuation">}</span><br><span class="token punctuation">)</span></code></pre>
+<h2>Rate Limit Error Codes</h2>
+<ul>
+<li>If a <code>unique_name</code> rate limit has not been correctly configured, the API will respond with a <strong>60200</strong> error.</li>
+<li>If a request has been blocked by the <code>buckets</code> within a <code>rate limit</code>, the API will respond with a <strong>20429</strong> error.</li>
+</ul>
+<hr>
+<h2>References</h2>
+<p>Check the docs</p>
+<ul>
+<li><a href="https://www.twilio.com/docs/verify/api/service-rate-limits">Service Rate Limits</a></li>
+<li><a href="https://www.twilio.com/docs/verify/api/service-rate-limit-buckets">Service Rate Limit Buckets</a></li>
+<li><a href="https://www.twilio.com/docs/verify/api/verification#start-new-verification">Create a verification</a></li>
+</ul>
+
+</article>
+    </main>
+  </body>
+</html>

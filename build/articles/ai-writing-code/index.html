@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Writing Code with AI Examples / brd.mn</title>
+  <meta name="description" content="Having a conversation with ChatGPT can be fun, but it will quite often tell you confidently something you know to be gibberish">
+  <link rel="canonical" href="https://brd.mn/articles/ai-writing-code/">
+  <link rel="alternate" type="application/rss+xml" title="RSS"
+      href="https://brd.mn/rss.xml"><link rel="icon" href="https://brd.mn/images/logo@1x.jpg">
+<meta name="theme-color" content="#fff">
+<meta name="theme-color" content="#888488" media="(prefers-color-scheme: dark)">
+
+<meta property="og:title" content="Writing Code with AI Examples">
+<meta property="og:description" content="Having a conversation with ChatGPT can be fun, but it will quite often tell you confidently something you know to be gibberish">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://brd.mn/articles/ai-writing-code/">
+<meta property="og:site_name" content="brd.mn">
+<meta property="article:author" content="Philip Boardman">
+<meta property="article:published_time" content="Fri Mar 10 2023 11:00:00 GMT+1100 (Australian Eastern Daylight Time)">
+<meta property="og:image" content="https://brd.mn/articles/ai-writing-code/stephen-dawson-qwtCeJ5cLYs-unsplash.jpg">
+  
+  <style>:root{--foreground:#564b57;--background:#fff;--background2:#f3f2f4;--code-background:#3b3b3b;--link:#015fb6;--visited:#6c0b77}@media screen and (prefers-color-scheme:dark){:root{--foreground:#888488;--background:#050305;--background2:#160d16;--link:#5282c9;--visited:#8d71a3;--code-background:#030203}img{opacity:.7}}html{font-family:sans-serif;line-height:1.3;color:var(--foreground);background:var(--background)}@media (min-width:600px){html{font-size:1.125rem}}@media (min-width:900px){html{font-size:1.25rem}}body{margin:0 0 3rem;padding:0}main{padding:0 1rem;max-width:36rem;margin:1rem auto}a{color:var(--link)}a:visited{color:var(--visited)}a.logo{display:flex;align-items:center;flex-direction:row;text-decoration:none;color:var(--foreground)}a.logo img{margin-right:.5rem}h1,h2{font-weight:400}article.snippet{display:flex;margin:1rem 0 2rem}.snippet .thumb{margin-left:1rem;flex:1}.snippet .summary{flex:3}.snippet .summary h2{font-size:inherit;font-weight:inherit;margin:0}.snippet .summary p{margin:.5rem 0}footer{font-size:.8rem}footer>p{margin:.5rem 0}@media screen and (max-width:599px){article>img,header>img{margin:0 -1rem;width:calc(100% + 2rem);max-width:calc(100% + 2rem);border-radius:0}.snippet{flex-direction:column-reverse}.snippet .thumb{margin:0 0 .5rem}.snippet .thumb img{width:100%}}blockquote,pre{background:var(--background2);padding:1rem;margin:1rem -1rem;overflow:hidden}blockquote>:first-child{margin-top:0}blockquote>:last-child{margin-bottom:0}code{background:var(--background2)}@media print,(prefers-contrast:more){blockquote,pre{background:var(--background);outline:2px solid var(--background2)}}pre{white-space:pre-wrap;word-break:break-all}img{max-width:100%;height:auto;border-radius:.2rem}hr{height:.1rem;width:90%;background:var(--background2);border:0;margin:2rem auto}nav ul{margin:1rem 0;padding:0;display:flex;flex-wrap:wrap}nav li{list-style:none}nav li a{margin-right:1rem}@media (min-width:600px){blockquote,pre{border-radius:.5rem}pre[class*=language-]{border-radius:.3em}}@media print{:root{--foreground:#000;--background2:#fff}html{font-size:14px}main{max-width:100%}}</style>
+      <link rel="stylesheet" type="text/css" href="/css/code.css">
+  <script src="/js/timeAgo.js" defer></script>
+</head>
+  <body>
+    <main>
+      <h1><a class="logo" href="/" title="brd.mn"><img
+      src="/images/logo@2x.webp"
+      srcset="/images/logo@1x.webp 1x, /images/logo@2x.webp 2x, /images/logo@3x.webp 3x"
+      width="64"
+      height="64" 
+      alt="Philip Boardman"
+    > Philip Boardman</a></h1>
+
+      <article>
+  <header>
+    <h1>Writing Code with AI Examples</h1>
+      <img src="stephen-dawson-qwtCeJ5cLYs-unsplash.jpg" alt="Screen with charts and numbers" title="Screen with charts and numbers" width="800" height="450">
+  </header>
+
+  <footer>
+    Published <time datetime="2023-03-10" title="Published on 2023-03-10">on 2023-03-10</time>
+    in 
+      <a href="/tags/ai/">#ai</a>
+    
+      <a href="/tags/code/">#code</a>
+    
+      <a href="/tags/programming/">#programming</a>
+    
+      <a href="/tags/ruby/">#ruby</a>
+    
+  </footer>
+
+  <hr>
+
+  <p>Having a conversation with ChatGPT can be fun, but it will quite often tell you confidently something you know to be gibberish. This means when it comes to writing software, it could provide something that <em>looks</em> reasonable, but fails horribly.</p>
+<p>In preparation for a task, I decided to see what opportunity AI would provide in assistance by asking &quot;How would I convert a SVB formatted payment file to ACH&quot;.</p>
+<p>To which ChatGPT responded with it's usual confidence and structure</p>
+<blockquote>
+<p>To convert a SVB formatted payment file to ACH, you will need to perform the following steps:</p>
+<ol>
+<li>Obtain the necessary information from the SVB payment file. This may include the company name, account number, routing number, and transaction amount.</li>
+<li>Format the information according to the ACH standard. ACH uses a specific file format, which includes a header record, detail records, and a trailer record. You will need to format the information from the SVB payment file into this structure.</li>
+<li>Convert the routing number. SVB uses a different routing number format than ACH, so you will need to convert the routing number to the ACH format. This typically involves adding a leading zero and removing the check digit.</li>
+<li>Validate the ACH file. Before submitting the ACH file, you will need to validate it to ensure that it meets the ACH standard. This typically involves using a validation tool to check for errors and ensure that the file contains all the required information.</li>
+<li>Submit the ACH file. Once the ACH file has been validated, you can submit it to the appropriate financial institution for processing.
+It is important to note that the specific steps and requirements for converting a SVB formatted payment file to ACH may vary depending on the financial institution and payment system being used. It is recommended that you consult with a financial professional or your bank for guidance on the specific process and requirements for your situation.</li>
+</ol>
+</blockquote>
+<p>But when I asked a follow up question of &quot;Can you give me some example code in Ruby?&quot;, I was able to see some example code which <em>looked</em> like it might help solve the problem.</p>
+<pre class="language-ruby"><code class="language-ruby"><span class="token keyword">require</span> <span class="token string-literal"><span class="token string">'csv'</span></span><br><br><span class="token comment"># Define the path to the SVB payment file</span><br>svb_file_path <span class="token operator">=</span> <span class="token string-literal"><span class="token string">'/path/to/svb/payment/file.csv'</span></span><br><br><span class="token comment"># Define the path to the output ACH file</span><br>ach_file_path <span class="token operator">=</span> <span class="token string-literal"><span class="token string">'/path/to/output/ach/file.txt'</span></span><br><br><span class="token comment"># Define the ACH routing number format</span><br>ach_routing_number_format <span class="token operator">=</span> <span class="token string-literal"><span class="token string">'0%08d'</span></span><br><br><span class="token comment"># Define the ACH file header and trailer records</span><br>ach_header_record <span class="token operator">=</span> <span class="token string-literal"><span class="token string">'101 012345678 012345678 2001010101A094101YourCompany           '</span></span><br>ach_trailer_record <span class="token operator">=</span> <span class="token string-literal"><span class="token string">'901000100000001000000000000000000000000000000000000000000000000000000000000000'</span></span><br><br><span class="token comment"># Open the SVB payment file and read its contents</span><br>svb_file <span class="token operator">=</span> <span class="token constant">CSV</span><span class="token punctuation">.</span>read<span class="token punctuation">(</span>svb_file_path<span class="token punctuation">)</span><br><br><span class="token comment"># Initialize an empty array to store the ACH payment records</span><br>ach_records <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><br><br><span class="token comment"># Loop through each payment record in the SVB file</span><br>svb_file<span class="token punctuation">.</span><span class="token keyword">each</span> <span class="token keyword">do</span> <span class="token operator">|</span>record<span class="token operator">|</span><br>  <span class="token comment"># Extract the necessary information from the SVB payment record</span><br>  account_number <span class="token operator">=</span> record<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><br>  routing_number <span class="token operator">=</span> record<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><br>  transaction_amount <span class="token operator">=</span> record<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><br><br>  <span class="token comment"># Convert the routing number to the ACH format</span><br>  ach_routing_number <span class="token operator">=</span> sprintf<span class="token punctuation">(</span>ach_routing_number_format<span class="token punctuation">,</span> routing_number<span class="token punctuation">)</span><br><br>  <span class="token comment"># Format the payment record according to the ACH standard</span><br>  ach_record <span class="token operator">=</span> <span class="token string-literal"><span class="token string">"5200</span><span class="token interpolation"><span class="token delimiter punctuation">#{</span><span class="token content">ach_routing_number</span><span class="token delimiter punctuation">}</span></span><span class="token interpolation"><span class="token delimiter punctuation">#{</span><span class="token content">account_number</span><span class="token delimiter punctuation">}</span></span><span class="token string">   27              </span><span class="token interpolation"><span class="token delimiter punctuation">#{</span><span class="token content">transaction_amount</span><span class="token delimiter punctuation">}</span></span><span class="token string">0000000000000</span><span class="token interpolation"><span class="token delimiter punctuation">#{</span><span class="token content">transaction_amount</span><span class="token delimiter punctuation">}</span></span><span class="token string">0000000000000YourCompany           0000000000000000000000000"</span></span><br><br>  <span class="token comment"># Add the payment record to the array of ACH payment records</span><br>  ach_records <span class="token operator">&lt;&lt;</span> ach_record<br><span class="token keyword">end</span><br><br><span class="token comment"># Combine the ACH header record, payment records, and trailer record into a single string</span><br>ach_file_contents <span class="token operator">=</span> <span class="token string-literal"><span class="token string">"</span><span class="token interpolation"><span class="token delimiter punctuation">#{</span><span class="token content">ach_header_record</span><span class="token delimiter punctuation">}</span></span><span class="token string">\n</span><span class="token interpolation"><span class="token delimiter punctuation">#{</span><span class="token content">ach_records<span class="token punctuation">.</span>join<span class="token punctuation">(</span><span class="token string-literal"><span class="token string">"\n"</span></span><span class="token punctuation">)</span></span><span class="token delimiter punctuation">}</span></span><span class="token string">\n</span><span class="token interpolation"><span class="token delimiter punctuation">#{</span><span class="token content">ach_trailer_record</span><span class="token delimiter punctuation">}</span></span><span class="token string">"</span></span><br><br><span class="token comment"># Write the ACH file to disk</span><br><span class="token builtin">File</span><span class="token punctuation">.</span>write<span class="token punctuation">(</span>ach_file_path<span class="token punctuation">,</span> ach_file_contents<span class="token punctuation">)</span></code></pre>
+<p>Now hopefully you would simply run this script blindly, just like you wouldn't want to copy and paste from <a href="https://stackoverflow.com">StackOverflow</a>, but it has done the legwork of file structuring and scaffolding to allow us to focus on the details.</p>
+
+</article>
+    </main>
+  </body>
+</html>

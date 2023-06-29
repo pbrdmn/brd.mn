@@ -1,0 +1,24 @@
+{% set css %}
+  {% include "../css/styles.css" %}
+{% endset %}
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{title}} / {{ site.name }}</title>
+  <meta name="description" content="{{ description }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="alternate" type="application/rss+xml" title="RSS"
+      href="{{ site.url }}{{ site.feed }}">
+
+  {%- include 'social.njk' %}
+  
+  <style>{{ css | cssmin | safe }}</style>
+  {%- if tags %}
+    {%- if "code" in tags %}
+      <link rel="stylesheet" type="text/css" href="/css/code.css">
+    {%- endif %}
+  {%- endif %}
+  <script src="/js/timeAgo.js" defer></script>
+</head>
