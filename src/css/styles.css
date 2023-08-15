@@ -3,8 +3,8 @@
   --background: #fff;
   --background2: #f3f2f4;
   --code-background: #3b3b3b;
-  --link: #0081de;
-  --visited: #4905c6;
+  --link: #2b3acf;
+  --visited: #9c18ab;
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -12,8 +12,8 @@
     --foreground: #a8a5a8;
     --background: #050305;
     --background2: #160d16;
-    --link: #2a77e9;
-    --visited: #8e38d1;
+    --link: #4956d4;
+    --visited: #9422a2;
     --code-background: #030203;
   }
 
