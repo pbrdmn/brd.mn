@@ -5,6 +5,7 @@
   --code-background: #3b3b3b;
   --link: #2b3acf;
   --visited: #9c18ab;
+  --logo-size: 32px;
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -64,6 +65,8 @@ a.logo {
 }
 a.logo img {
   margin-right: 0.5rem;
+  width: var(--logo-size);
+  height: var(--logo-size);
 }
 
 h1,
@@ -169,6 +172,7 @@ nav ul {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  line-height: var(--logo-size);
 }
 nav li {
   list-style: none;

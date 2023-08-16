@@ -8,6 +8,8 @@ permalink: /articles/
 
 <p>{{ description}}.<br><a href="{{ site.url }}{{ site.feed }}" title="Subscribe to the RSS feed">Subscribe with RSS</a></p>
 
+<hr />
+
 {%- for article in collections.articles | reverse -%}
   {%- include 'snippet.njk' %}
 {%- else -%}
