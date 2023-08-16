@@ -64,9 +64,9 @@ a.logo {
   color: var(--foreground);
 }
 a.logo img {
-  margin-right: 0.5rem;
   width: var(--logo-size);
   height: var(--logo-size);
+  border-radius: 50%;
 }
 
 h1,
