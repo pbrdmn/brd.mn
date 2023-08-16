@@ -3,8 +3,8 @@
   --background: #fff;
   --background2: #f3f2f4;
   --code-background: #3b3b3b;
-  --link: #2b3acf;
-  --visited: #9c18ab;
+  --link: #1c4dbf;
+  --visited: #692371;
   --logo-size: 32px;
 }
 
@@ -13,8 +13,8 @@
     --foreground: #a8a5a8;
     --background: #050305;
     --background2: #160d16;
-    --link: #4956d4;
-    --visited: #9422a2;
+    --link: #8084b3;
+    --visited: #915a98;
     --code-background: #030203;
   }
 
@@ -177,8 +177,14 @@ nav ul {
 nav li {
   list-style: none;
 }
-nav li a {
+nav li a,
+nav li a:visited {
   margin-right: 1rem;
+  color: var(--foreground);
+  text-decoration: none;
+}
+nav li a:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 600px) {
