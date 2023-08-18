@@ -1,5 +1,5 @@
 ---
-title: Transformational Leadership in Cross-Functional Software Engineering Teams
+title: Transformational Leadership in Software Engineering Teams
 description: Characterised by its focus on inspiring and empowering team members, transformational leadership can be a potent force for driving excellence and innovation within cross-functional software engineering teams.
 image: jason-goodman-Oalh2MojUuk-unsplash.jpg
 imageAlt: Photo by Jason Goodman on Unsplash
