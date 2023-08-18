@@ -22,6 +22,8 @@ Transformational leadership is a leadership style that goes beyond traditional m
 
 4. **Intellectual Stimulation:** These leaders encourage creativity and innovation by challenging their team members to think critically and explore new solutions. They promote an environment where team members feel safe to voice their ideas and take calculated risks.
 
+---
+
 ## Benefits of Transformational Leadership
 
 When applied to cross-functional software engineering teams, transformational leadership offers several notable advantages. Transformational leaders foster a culture of open communication and collaboration. This is essential in cross-functional teams where individuals from different disciplines need to work seamlessly together.
@@ -30,6 +32,7 @@ By encouraging innovative thinking and providing a safe space for experimentatio
 
 In the dynamic realm of software engineering, change is constant. Transformational leaders prepare their teams to adapt by fostering a culture of continuous learning and resilience.
 
+---
 
 ## Challenges and Considerations:
 
