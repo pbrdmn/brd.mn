@@ -11,7 +11,7 @@ permalink: /articles/
 <hr />
 
 {%- for article in collections.articles | reverse -%}
-  {%- include 'snippet.njk' %}
+  {%- include 'snippet_async.njk' %}
 {%- else -%}
 <p>There are no articles available.</p>
 {%- endfor %}
