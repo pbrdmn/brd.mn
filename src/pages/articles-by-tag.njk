@@ -19,7 +19,7 @@ permalink: /tags/{{ tag | slugify }}/
 {% set postslist = collections[ tag ] %}
 
 {%- for article in postslist | reverse -%}
-  {%- include 'snippet.njk' %}
+  {%- include 'snippet_lazy.njk' %}
 {%- else -%}
 <p>There are no articles available.</p>
 {%- endfor %}
