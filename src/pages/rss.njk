@@ -15,6 +15,7 @@
   <title>{{ site.name }}</title>
   <subtitle>{{ site.subtitle }}</subtitle>
   <link href="{{ site.url }}" />
+  <link href="{{ site.url }}/{{ permalink }}" rel="self" type="application/rss+xml" />
   <updated>{{ collections.articles | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ site.url }}/</id>
   <author>
