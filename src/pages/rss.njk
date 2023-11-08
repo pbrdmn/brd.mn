@@ -14,8 +14,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ site.name }}</title>
   <subtitle>{{ site.subtitle }}</subtitle>
-  <link href="{{ site.url }}/{{ permalink }}" rel="self" />
   <link href="{{ site.url }}" />
+  <atom:link href="{{ site.url }}/{{ permalink }}" rel="self" type="application/rss+xml" />
   <updated>{{ collections.articles | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ site.url }}/</id>
   <author>
