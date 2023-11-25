@@ -2,6 +2,9 @@
 title: Phone Use Contract Template
 description: A sample document to outline expectations for a child or teen's use of a mobile phone.
 date: 2023-11-25
+tags:
+  - parenting
+  = technology
 ---
 
 As parents, we are looking for ways to empower our children to use technology in positive ways and understand how to best use the devices, whilst also understanding the cost, responsibilities, and repercussions of misuse.
