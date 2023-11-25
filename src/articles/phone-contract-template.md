@@ -4,14 +4,11 @@ description: A sample document to outline expectations for a child or teen's use
 date: 2023-11-25
 tags:
   - parenting
-  = technology
+  - technology
 ---
 
-As parents, we are looking for ways to empower our children to use technology in positive ways and understand how to best use the devices, whilst also understanding the cost, responsibilities, and repercussions of misuse.
-
-This template is adapted from the sample on [VeryWellFamily.com](https://www.verywellfamily.com/a-sample-cell-phone-contract-for-parents-and-tweens-3288540).
-
----
+> As parents, we are looking for ways to empower our children to use technology in positive ways and understand how to best use the devices, whilst also understanding the cost, responsibilities, and repercussions of misuse.  
+> This template is adapted from the sample on [VeryWellFamily.com](https://www.verywellfamily.com/a-sample-cell-phone-contract-for-parents-and-tweens-3288540).
 
 ## Phone Use Contract
 
