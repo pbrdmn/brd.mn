@@ -9,17 +9,17 @@ tags:
   - mentoring
 ---
 
-> [![Thanks for the feedback](https://m.media-amazon.com/images/I/91cqHew+7BL._SY466_.jpg)](https://www.amazon.com.au/Thanks-Feedback-Science-Receiving-Well/dp/0670922633)
->
-> Thanks for the Feedback is a dynamic guide unraveling the intricacies of feedback, offering tools for growth, understanding, and communication mastery.
-
-## TLDR
+## <abbr title="To long; didn't read">TLDR</abbr>
 
 1. **Feedback Types:** Appreciation, Coaching, Evaluation - understanding their distinct purposes.
 2. **Feedback Fingerprint:** Recognizing and respecting individual preferences in receiving feedback.
 3. **Emotional Triggers:** Managing and depersonalizing emotional responses for more productive conversations.
 4. **Growth Mindset:** Viewing feedback as an opportunity for learning and improvement.
 5. **Practical Tools:** Actionable strategies for giving and receiving feedback effectively.
+
+> [![Thanks for the feedback](https://m.media-amazon.com/images/I/91cqHew+7BL._SY466_.jpg)](https://www.amazon.com.au/Thanks-Feedback-Science-Receiving-Well/dp/0670922633)
+>
+> Thanks for the Feedback is a dynamic guide unraveling the intricacies of feedback, offering tools for growth, understanding, and communication mastery.
 
 In Thanks for the Feedback, authors Douglas Stone and Sheila Heen dive into the often challenging realm of feedback, offering insight on how to receive and make the most of feedback in various aspects of life. The book is a practical guide for individuals seeking to navigate the tricky terrain of constructive criticism and use it as a catalyst for personal and professional development.
 
