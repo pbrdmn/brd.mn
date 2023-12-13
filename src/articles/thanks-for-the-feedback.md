@@ -9,7 +9,7 @@ tags:
   - mentoring
 ---
 
-## <abbr title="To long; didn't read">TLDR</abbr>
+<abbr title="Too long; didn't read">TLDR</abbr>:
 
 1. **Feedback Types:** Appreciation, Coaching, Evaluation - understanding their distinct purposes.
 2. **Feedback Fingerprint:** Recognizing and respecting individual preferences in receiving feedback.
