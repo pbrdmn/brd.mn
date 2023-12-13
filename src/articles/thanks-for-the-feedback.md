@@ -1,6 +1,6 @@
 ---
 title: Thanks for the Feedback
-description: A dynamic guide unraveling the intricacies of feedback, offering tools for growth, understanding, and communication mastery
+description: A dynamic guide unravelling the intricacies of feedback, offering tools for growth, understanding, and communication mastery
 date: 2023-12-14
 tags:
   - books
@@ -19,7 +19,7 @@ tags:
 
 > [![Thanks for the feedback](https://m.media-amazon.com/images/I/91cqHew+7BL._SY466_.jpg)](https://www.amazon.com.au/Thanks-Feedback-Science-Receiving-Well/dp/0670922633)
 >
-> Thanks for the Feedback is a dynamic guide unraveling the intricacies of feedback, offering tools for growth, understanding, and communication mastery.
+> Thanks for the Feedback is a dynamic guide unravelling the intricacies of feedback, offering tools for growth, understanding, and communication mastery.
 
 In Thanks for the Feedback, authors Douglas Stone and Sheila Heen dive into the often challenging realm of feedback, offering insight on how to receive and make the most of feedback in various aspects of life. The book is a practical guide for individuals seeking to navigate the tricky terrain of constructive criticism and use it as a catalyst for personal and professional development.
 
@@ -31,4 +31,4 @@ Thanks for the Feedback also emphasizes the importance of a growth mindset. Read
 
 In the final chapters, the authors provide actionable strategies for both giving and receiving feedback effectively. From the art of asking for feedback to providing it in a way that promotes growth, the book equips readers with the tools needed to navigate the feedback loop with confidence.
 
-I can recommend "Thanks for the Feedback" for anyone looking to enhance their communication skills and cultivate a growth mindset. Whether you're a leader seeking to build a positive feedback culture in your team or an individual striving for personal growth, this book offers a roadmap for navigating the world of feedback with confidence, grace and resilience.
+I can recommend Thanks for the Feedback for anyone looking to enhance their communication skills and cultivate a growth mindset. Whether you're a leader seeking to build a positive feedback culture in your team or an individual striving for personal growth, this book offers a roadmap for navigating the world of feedback with confidence, grace and resilience.
