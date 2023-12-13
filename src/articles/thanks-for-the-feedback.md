@@ -3,15 +3,15 @@ title: Thanks for the Feedback
 description: A short review of the book by Douglas Stone and Sheila Heen
 date: 2023-12-14
 tags:
-  - book review
+  - books
   - people
   - management
   - mentoring
 ---
 
-> [![Thanks for the feedback](https://m.media-amazon.com/images/I/91cqHew+7BL._SY466_.jpg)](https://www.amazon.com.au/Thanks-Feedback-Science-Receiving-Well/dp/0670922633)  
-> Title: Thanks for the Feedback - A Guide to Embracing Criticism and Growth  
-> Authors: Douglas Stone and Sheila Heen
+> [![Thanks for the feedback](https://m.media-amazon.com/images/I/91cqHew+7BL._SY466_.jpg)](https://www.amazon.com.au/Thanks-Feedback-Science-Receiving-Well/dp/0670922633)
+>
+> _Thanks for the Feedback - A Guide to Embracing Criticism and Growth_ by Douglas Stone and Sheila Heen
 
 In "Thanks for the Feedback," authors Douglas Stone and Sheila Heen dive into the often challenging realm of feedback, offering insight on how to receive and make the most of feedback in various aspects of life. The book is a practical guide for individuals seeking to navigate the tricky terrain of constructive criticism and use it as a catalyst for personal and professional development.
 
