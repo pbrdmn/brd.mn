@@ -3,23 +3,22 @@ title: CV
 description: The Curriculum Vitae of Philip Boardman
 permalink: cv/
 ---
+
 ## Resume for Philip Boardman
 
 Engineering Manager leading cross-functional software engineering teams
 
-[Connect with me on LinkedIn](https://linkedin.com/in/philipboardman/)
+![LinkedIn](/images/linkedin.png) [Connect with me on LinkedIn](https://linkedin.com/in/philipboardman/)
 
 > ## Highlights
-> 
+>
 > Aligning team delivery planning with delivering value for company objectives and strategic initiatives
 >
 > Hiring, performance management, and process improvement activities in collaboration with HR and hiring teams
 >
-> Building teams, mentoring, coaching, and professional development
+> Building teams, mentoring, coaching, professional development
 >
-> Implemented agile, lean delivery processes and improvements
-
-
+> Implemented agile, lean delivery processes and improvements, and driving engagement
 
 ## Experience
 
@@ -31,10 +30,10 @@ Redbubble is creating the world's largest marketplace for independent artists, b
 
 Joined the Artist Experience team as Engineering Manager to lead the development of artist-facing features and experiences across the marketplace.
 
-* Team alignment of corporate strategic initiatives
-* Delivery planning for technical solutions with engineering best practices
-* Mentoring, coaching, and development of software engineers
-* Delivering impact to artist marketplace through high value initiatives
+- Team alignment of corporate strategic initiatives
+- Delivery planning for technical solutions with engineering best practices
+- Mentoring, coaching, and development of software engineers
+- Delivering impact to artist marketplace through high value initiatives
 
 ---
 
@@ -54,29 +53,29 @@ Took a Lead Full Stack Developer role in 2020 and formed a new team to create an
 
 Promoted to Engineering Manager in 2021, I trained a replacement lead developer for my team and began overseeing three product teams. I was involved in all aspects of hiring, mentoring, career development, and engineering process improvements. Lead the formation of a new team to tackle a significant strategic software re-architecture of a core business function.
 
-* Building and managing engineering teams across a suite of software products
-* Hiring, mentoring and performance reviews across teams of software engineers
-* Working with product manager to establish and tracking roadmap and OKRs
-* Establish and improve engineering processes, agile methodologies and performance of the software development lifecycle.
+- Building and managing engineering teams across a suite of software products
+- Hiring, mentoring and performance reviews across teams of software engineers
+- Working with product manager to establish and tracking roadmap and OKRs
+- Establish and improve engineering processes, agile methodologies and performance of the software development lifecycle.
 
 ### Lead Full Stack Developer at Compono
 
 <footer>January 2020 - June 2021</footer>
 
-* Lead an agile transform of a cross-functional project team
-* Product planning, scheduling, task breakdown and backlog management
-* Lead engineering team in agile practices, including establishment of best practices across teams
-* Build and maintain a greenfield SAAS ATS to compliment existing job management application
-* Integrated with third-party calendar synchronisation platform to build self-scheduling interview feature
+- Lead an agile transform of a cross-functional project team
+- Product planning, scheduling, task breakdown and backlog management
+- Lead engineering team in agile practices, including establishment of best practices across teams
+- Build and maintain a greenfield SAAS ATS to compliment existing job management application
+- Integrated with third-party calendar synchronisation platform to build self-scheduling interview feature
 
 ### Senior Full Stack Developer at Compono
 
 <footer>November 2018 - January 2020</footer>
 
-* Build and maintain features in React web applications with Kubernetes micro services
-* Launched new ATS product for managing candidates in hiring pipeline
-* Build internal messaging feature with external email notifications
-* Delivered product features including Stripe billing system and internal UI component library
+- Build and maintain features in React web applications with Kubernetes micro services
+- Launched new ATS product for managing candidates in hiring pipeline
+- Build internal messaging feature with external email notifications
+- Delivered product features including Stripe billing system and internal UI component library
 
 ---
 
@@ -86,10 +85,10 @@ Promoted to Engineering Manager in 2021, I trained a replacement lead developer 
 
 AirService combines mobile commerce services to deliver an “out of the box” experience, fully branded as our client’s own.
 
-* Built Angular and React applications backed by Ruby on Rails API server
-* Application state management with Redux, AWS Lambda client/server integration
-* Custom dashboards with D3 charting and React SVG components
-* iOS/Android applications built with React Native
+- Built Angular and React applications backed by Ruby on Rails API server
+- Application state management with Redux, AWS Lambda client/server integration
+- Custom dashboards with D3 charting and React SVG components
+- iOS/Android applications built with React Native
 
 ---
 
@@ -99,10 +98,10 @@ AirService combines mobile commerce services to deliver an “out of the box” 
 
 Wisdom is a marketing, advertising, design and web development studio.
 
-* Worked with client managers to define customer scope and project specifications
-* Delivered custom websites with CMS and ecommerce functionality to design brief
-* Manage mobile application projects for iOS, Android and Windows
-* Developed client branded email templates for EDM software
+- Worked with client managers to define customer scope and project specifications
+- Delivered custom websites with CMS and ecommerce functionality to design brief
+- Manage mobile application projects for iOS, Android and Windows
+- Developed client branded email templates for EDM software
 
 ---
 
@@ -112,11 +111,11 @@ Wisdom is a marketing, advertising, design and web development studio.
 
 Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an online classifieds site.
 
-* Designed and built Drupal CMS, integrated into multiple branded ecommerce applications
-* Implemented Ad platform software to manage online advertising inventory
-* Rebuilt Classifieds site to integrate with CMS and advertising platform
-* Developed and published 11 iOS apps to App Store
-* Custom email newsletter generators for EDM software built as extension to ecommerce stores
+- Designed and built Drupal CMS, integrated into multiple branded ecommerce applications
+- Implemented Ad platform software to manage online advertising inventory
+- Rebuilt Classifieds site to integrate with CMS and advertising platform
+- Developed and published 11 iOS apps to App Store
+- Custom email newsletter generators for EDM software built as extension to ecommerce stores
 
 ---
 

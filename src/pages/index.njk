@@ -10,10 +10,12 @@ permalink: /
 <p>Former software engineer, current engineering manager. {{ description }}.</p>
 <p>Located in Wollongong, Australia.</p>
 
+{%- include 'links.njk' %}
+
 <hr />
 
 {%- for article in collections.articles | reverse | limit(5, 0) -%}
   {%- include 'snippet.njk' %}
 {%- endfor %}
 
-<p><a href="/articles/" title="All articles">More articles...</a></p>
+<p><a href="/articles/" title="All articles">All articles...</a></p>
