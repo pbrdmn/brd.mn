@@ -1,31 +1,22 @@
-document.onload = relativeDates();
+document.onload = rel();
 
-function relativeDates() {
-  const els = document.querySelectorAll("time[datetime]");
-  els.forEach((el) => {
+function rel() {
+  document.querySelectorAll("time[datetime]").forEach((el) => {
     var date = new Date(el.getAttribute("datetime"));
     el.innerHTML = timeAgo(date);
   });
 }
 
-function timeAgo(time, now) {
-  if (!time) return "";
-  if (!now) now = new Date();
+function timeAgo(t, n = new Date()) {
+  if (!t) return "";
+  if (n.toDateString() == t.toDateString()) return "Today";
 
-  if (
-    now.getDate() == time.getDate() &&
-    now.getMonth() == time.getMonth() &&
-    now.getFullYear() == time.getFullYear()
-  ) {
-    return "Today";
-  }
+  const ms = n - t;
+  const d = Math.ceil(ms / 8.64e7);
+  const m = Math.floor(ms / 2.628e9);
+  const y = Math.floor(ms / 3.154e10);
 
-  const ms = now - time;
-  const days = Math.ceil(ms / (86400 * 1000));
-  const months = Math.floor(days / 30);
-  const years = Math.floor(days / 365);
-
-  if (years > 1) return `${years} years ago`;
-  if (months > 1) return `${months} months ago`;
-  return `${days} day${days > 1 ? "s" : ""} ago`;
+  if (y > 1) return `${y} years ago`;
+  if (m > 1) return `${m} months ago`;
+  return `${d} day${d > 1 ? "s" : ""} ago`;
 }
