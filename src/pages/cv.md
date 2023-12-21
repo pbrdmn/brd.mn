@@ -24,7 +24,7 @@ Engineering Manager leading cross-functional software engineering teams
 
 ### Engineering Manager at Redbubble
 
-<footer>October 2022 - Current</footer>
+#### October 2022 - Current
 
 Redbubble is creating the world's largest marketplace for independent artists, bringing more creativity into the world.
 
@@ -43,7 +43,7 @@ Joined the Artist Experience team as Engineering Manager to lead the development
 
 ### Engineering Manager at Compono
 
-<footer>June 2021 - October 2022</footer>
+#### June 2021 - October 2022 (1 year, 5 months)
 
 Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights.
 
@@ -60,7 +60,7 @@ Promoted to Engineering Manager in 2021, I trained a replacement lead developer 
 
 ### Lead Full Stack Developer at Compono
 
-<footer>January 2020 - June 2021</footer>
+#### January 2020 - June 2021 (1 year, 6 months)
 
 - Lead an agile transform of a cross-functional project team
 - Product planning, scheduling, task breakdown and backlog management
@@ -70,7 +70,7 @@ Promoted to Engineering Manager in 2021, I trained a replacement lead developer 
 
 ### Senior Full Stack Developer at Compono
 
-<footer>November 2018 - January 2020</footer>
+#### November 2018 - January 2020 (1 year, 10 months)
 
 - Build and maintain features in React web applications with Kubernetes micro services
 - Launched new ATS product for managing candidates in hiring pipeline
@@ -81,7 +81,7 @@ Promoted to Engineering Manager in 2021, I trained a replacement lead developer 
 
 ### Software Engineer at AirService
 
-<footer>August 2016 - October 2018</footer>
+#### August 2016 - October 2018 (2 years, 2 months)
 
 AirService combines mobile commerce services to deliver an “out of the box” experience, fully branded as our client’s own.
 
@@ -94,7 +94,7 @@ AirService combines mobile commerce services to deliver an “out of the box” 
 
 ### Senior Web Developer at Wisdom Advertising and Design
 
-<footer>September 2012 - April 2016</footer>
+#### September 2012 - April 2016 (3 years, 7 months)
 
 Wisdom is a marketing, advertising, design and web development studio.
 
@@ -107,7 +107,7 @@ Wisdom is a marketing, advertising, design and web development studio.
 
 ### Web Developer at Bicycling Australia
 
-<footer>September 2008 - June 2015</footer>
+#### September 2008 - June 2015 (6 years, 9 months)
 
 Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an online classifieds site.
 
