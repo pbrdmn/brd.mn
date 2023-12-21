@@ -1,6 +1,9 @@
 {% set css %}
   {% include "../css/styles.css" %}
 {% endset %}
+{% set css_code %}
+  {% include "../css/styles.css" %}
+{% endset %}
 
 <head>
   <meta charset="UTF-8">
@@ -17,7 +20,7 @@
   <style>{{ css | cssmin | safe }}</style>
   {%- if tags %}
     {%- if "code" in tags %}
-      <link rel="stylesheet" type="text/css" href="/css/code.css">
+      <style>{{ css_code | cssmin | safe }}</style>
     {%- endif %}
   {%- endif %}
 </head>
