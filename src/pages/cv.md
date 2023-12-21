@@ -37,7 +37,7 @@ Joined the Artist Experience team as Engineering Manager to lead the development
 
 ---
 
-> [![Philip is on stage beside a large slide titled "Finding a mentor"](/articles/mentors/mentors.webp) Presented at Web Directions 2022](https://brd.mn/articles/mentors/)
+> [![Philip is on stage beside a large slide titled "Finding a mentor"](/articles/mentors/mentors.webp) Presenting at Web Directions 2022](https://brd.mn/articles/mentors/)
 
 ---
 
