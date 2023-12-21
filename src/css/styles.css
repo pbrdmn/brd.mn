@@ -6,6 +6,8 @@
   --link: #1c4dbf;
   --visited: #692371;
   --logo-size: 64px;
+  --purple: rgba(184, 28, 197, 1);
+  --orange: rgba(233, 95, 66, 1);
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -62,11 +64,16 @@ a.logo {
   flex-direction: row;
   text-decoration: none;
   color: var(--foreground);
+  background: var(--purple);
+  background: linear-gradient(45deg, var(--orange) 0%, var(--purple) 100%);
+  border-radius: 50%;
+  overflow: hidden;
+  text-indent: -1000px;
 }
 a.logo img {
   width: var(--logo-size);
   height: var(--logo-size);
-  border-radius: 50%;
+  opacity: 1;
 }
 
 h1,
