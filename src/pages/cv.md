@@ -1,5 +1,5 @@
 ---
-title: CV
+title: Work
 description: The Curriculum Vitae of Philip Boardman
 permalink: cv/
 ---
