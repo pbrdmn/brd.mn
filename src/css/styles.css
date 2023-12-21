@@ -5,7 +5,7 @@
   --code-background: #3b3b3b;
   --link: #1c4dbf;
   --visited: #692371;
-  --logo-size: 32px;
+  --logo-size: 64px;
 }
 
 @media screen and (prefers-color-scheme: dark) {

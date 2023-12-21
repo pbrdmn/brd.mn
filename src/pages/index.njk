@@ -1,18 +1,17 @@
 ---
 title: Philip Boardman
 description: Interested in how things work; breaking things and fixing things
-layout: default.njk
 permalink: /
 ---
 
-<h1>Philip Boardman</h1>
-
-<p>Former software engineer, current engineering manager. {{ description }}.</p>
+<p>Former software engineer, current engineering manager.<br />{{ description }}.</p>
 <p>Located in Wollongong, Australia.</p>
 
 {%- include 'links.njk' %}
 
 <hr />
+
+<h2>Recent articles</h2>
 
 {%- for article in collections.articles | reverse | limit(5, 0) -%}
   {%- include 'snippet.njk' %}
