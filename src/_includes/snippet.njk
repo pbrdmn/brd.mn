@@ -18,7 +18,5 @@
 
   {%- if article.data.thumb %}
   <a class="thumb" href="{{article.url}}"><img src="{{article.url}}{{article.data.thumb}}" alt="{{article.data.imageAlt}}" srcset="{{article.url}}{{article.data.thumb}}, {{article.url}}{{article.data.image}} 2x" width="200" height="112"></a>
-  {%- elif article.data.image %}
-  <a class="thumb" href="{{article.url}}"><img src="{{article.url}}{{article.data.image}}" alt="{{article.data.imageAlt}}" width="200" height="112"></a>
   {%- endif %}
 </article>
