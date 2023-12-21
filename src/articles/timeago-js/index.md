@@ -5,12 +5,14 @@ image: age-barros-rBPOfVqROzY-unsplash.jpg
 thumb: thumb.jpg
 imageAlt: Watch face with complications showing the time
 date: 2023-03-09
+updated: 2023-12-21
 tags:
   - javascript
   - time
   - eleventy
   - code
 ---
+
 Recently I was looking to make the article dates a little simpler to see how recently they had been written. Rather than looking at timestamp or date, I wanted to see now many days, months, or years ago an article was. This looked like relatively simple problem to tackle and I could have imported an `npm` package and been done with it, but where is the fun in that?
 
 Instead I began writing a function which calculated the difference between two javascript `Date()` objects, which would then by transformed into some discrete time periods with the power of **math**, then display the largest useful time period in the format of `{X} {periods} ago`.
@@ -20,19 +22,19 @@ Instead I began writing a function which calculated the difference between two j
 Calculating the time difference between the two instances of the `Date()` class by subtraction gives a difference in milliseconds (`ms` below). This is converted to `days` by dividing by the number of milliseconds per day, then transformed to values for `months` and `years` by dividing `days` by `30` and `365` respectively.
 
 ```javascript
-  var now = new Date();
-  const ms = now - dateObj;
-  const days = Math.ceil(ms / 86400000);
-  const months = Math.floor(days / 30);
-  const years = Math.floor(months / 12);
+var now = new Date();
+const ms = now - dateObj;
+const days = Math.ceil(ms / 86400000);
+const months = Math.floor(days / 30);
+const years = Math.floor(months / 12);
 ```
 
 Once we have calculated each of the time periods we are interested in, we can `switch` between which time period to display and return a formatted string showing a human-readable time difference between the two dates given.
 
 ```javascript
-    if (years > 1) return `${years} years ago`;
-    if (months > 1) return `${months} months ago`;
-    return `${days} days ago`;
+if (years > 1) return `${years} years ago`;
+if (months > 1) return `${months} months ago`;
+return `${days} days ago`;
 ```
 
 With this in place, we can now calculate how old a date is in days, months, and years. In our `switch` statement, we are checking that `years` and `months` are greater than `1` which means we do not need to consider pluralisation for these labels. For `days`, we could apply a pluralisation if the `days` has a value greater than `1`.
@@ -40,15 +42,15 @@ With this in place, we can now calculate how old a date is in days, months, and 
 This was all put assembled into a function as a filter in the `.eleventy.js` configuration file.
 
 ```javascript
-  cfg.addFilter("timeAgo", (dateObj) => {
-    var now = new Date();
-    const days = Math.ceil((now - dateObj) / 86400000);
-    const months = Math.floor(days / 30);
-    const years = Math.floor(months / 12);
-    if (years > 1) return `${years} years ago`;
-    if (months > 1) return `${months} months ago`;
-    return `${days} days ago`;
-  });
+cfg.addFilter("timeAgo", (dateObj) => {
+  var now = new Date();
+  const days = Math.ceil((now - dateObj) / 86400000);
+  const months = Math.floor(days / 30);
+  const years = Math.floor(months / 12);
+  if (years > 1) return `${years} years ago`;
+  if (months > 1) return `${months} months ago`;
+  return `${days} days ago`;
+});
 ```
 
 Implementing this function within the `.eleventy.js` file as a filter meant that within an template, we could format the article's date by applying this filter.
@@ -82,13 +84,13 @@ This did not seem to solve my problem as it is often months between writing new 
 We will need to refactor our function and move it to a new file to publish at `/js/timeAgo.js` and add a reference to this file from the `_header` template to include it on each page of the site once it's published.
 
 ```html
-  <script src="/js/timeAgo.js" defer></script>
+<script src="/js/timeAgo.js" defer></script>
 ```
 
 This also needed to be published in the `.eleventy.js` config, here I'm publishing the whole `/js/` directory, even though there's only one file required at the moment.
 
 ```javascript
-  cfg.addPassthroughCopy("src/js/*.*");
+cfg.addPassthroughCopy("src/js/*.*");
 ```
 
 Within the `timeAgo.js` file we have three things to accomplish.
@@ -157,7 +159,7 @@ document.onload = relativeDates();
 With our change to the template including our script
 
 ```html
-  <script src="/js/timeAgo.js" defer></script>
+<script src="/js/timeAgo.js" defer></script>
 ```
 
 And marking up our templates with a structured `time` tag.
@@ -194,16 +196,39 @@ function timeAgo(time, now) {
 }
 ```
 
+---
+
 ## Bonus "Today"
 
 As an added bonus, we can add a quick check to our `timeAgo` function to check if the article date is "Today" and return this
 
 ```javascript
-  if (
-    now.getDate() == time.getDate() &&
-    now.getMonth() == time.getMonth() &&
-    now.getFullYear() == time.getFullYear()
-  ) {
-    return "Today";
-  }
+if (
+  now.getDate() == time.getDate() &&
+  now.getMonth() == time.getMonth() &&
+  now.getFullYear() == time.getFullYear()
+) {
+  return "Today";
+}
+```
+
+---
+
+## Updated "Today" check
+
+<time datetime="2023-12-21">Today</time> I was refactoring this `timeAgo.js` and inlining the script to reduce the number of network requests and found a neater "Today" check.
+
+The `.toDateString()` returns just enough of the datetime object to determine if two datetime objects are within the same day.
+
+```javascript
+if (now.toDateString() == today.toDateString()) return "Today";
+```
+
+After inlining the script, the `timeAgo` date formatter can be executed inline rather than waiting for a callback.
+
+```javascript
+document.querySelectorAll("time[datetime]").forEach((el) => {
+  var date = new Date(el.getAttribute("datetime"));
+  el.innerHTML = timeAgo(date);
+});
 ```
