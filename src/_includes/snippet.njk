@@ -9,10 +9,10 @@
       {%- else %}
         <time datetime="{{ article.data.date | postDate }}" title="Published on {{ article.data.date | postDate }}">{{ article.data.date | postDate }}</time>
       {%- endif %}
-      in
+      {# in
       {% for tag in article.data.tags | filterTagList %}
         <a href="/tags/{{ tag }}/">#{{ tag }}</a>
-      {% endfor %}
+      {% endfor %} #}
     </footer>
   </div>
 
