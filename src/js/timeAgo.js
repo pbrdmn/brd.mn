@@ -1,11 +1,7 @@
-document.onload = rel();
-
-function rel() {
-  document.querySelectorAll("time[datetime]").forEach((el) => {
-    var date = new Date(el.getAttribute("datetime"));
-    el.innerHTML = timeAgo(date);
-  });
-}
+document.querySelectorAll("time[datetime]").forEach((el) => {
+  var date = new Date(el.getAttribute("datetime"));
+  el.innerHTML = timeAgo(date);
+});
 
 function timeAgo(t, n = new Date()) {
   if (!t) return "";
