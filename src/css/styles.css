@@ -59,16 +59,17 @@ a:visited {
 }
 
 a.logo {
-  display: flex;
+  display: block;
   align-items: center;
   flex-direction: row;
   text-decoration: none;
   color: var(--foreground);
   background: var(--purple);
   background: linear-gradient(45deg, var(--orange) 0%, var(--purple) 100%);
+  width: var(--logo-size);
+  height: var(--logo-size);
   border-radius: 50%;
   overflow: hidden;
-  text-indent: -1000px;
 }
 a.logo img {
   width: var(--logo-size);
