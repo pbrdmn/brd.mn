@@ -1,14 +1,12 @@
 ---
 layout: default.njk
 ---
-<header>
-  <h1>
-    {% if display_title %}
-      {{ display_title }}
-    {% else %}
-      {{ title }}
-    {% endif %}
-  </h1>
-</header>
+<h1>
+  {% if display_title %}
+    {{ display_title }}
+  {% else %}
+    {{ title }}
+  {% endif %}
+</h1>
 
 {{ content | safe }}
