@@ -72,9 +72,15 @@ a.logo {
   overflow: hidden;
 }
 a.logo img {
+  opacity: 1;
+  position: relative;
   width: var(--logo-size);
   height: var(--logo-size);
-  opacity: 1;
+  top: var(--logo-size);
+  transition: 0.3s;
+}
+a.logo:hover img {
+  top: 0;
 }
 
 h1,
