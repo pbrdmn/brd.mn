@@ -59,3 +59,4 @@ Some topics to explore for managers of managers:
 2. [Manager of managers – Leverage is a double-edged sword](https://medium.com/one-to-n/manager-of-managers-leverage-is-a-double-edged-sword-dd6987f118bd)
 3. [Manager of managers – Outcomes over output](https://medium.com/one-to-n/manager-of-managers-outcomes-over-output-09b15331ed59)
 4. [There's no A for Effort](https://henrysward.medium.com/executive-departures-25bc7d935813)
+5. [Path to engineering manager of managers](https://lethain.com/path-to-eng-manager-of-managers/)
