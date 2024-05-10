@@ -31,7 +31,7 @@ tags:
 
 ## Hardware
 
-- I keep an [iPhone 13](https://www.apple.com/au/iphone-13/) in my pocket, upgrading from a 2018 iPhone XR after three years of use.
+- I keep an [iPhone 15](https://www.apple.com/au/iphone-15/) in my pocket, upgrading from an iPhone 13, and a 2018 iPhone XR before that.
 
 - For general computing duties I switch between two devices, a work-issued 2021 M1 Mac Book Pro 14" and my personal [Microsoft Windows 11](https://www.microsoft.com/en-au/windows/windows-11) on my [Lenovo Thinkpad E14 gen 2](https://www.lenovo.com/au/en/laptops/thinkpad/thinkpad-e-series/E14-G2/p/22TPE14E4N2).
 
