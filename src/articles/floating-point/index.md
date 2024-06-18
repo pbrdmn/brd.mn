@@ -40,7 +40,7 @@ In the diff, this showed that the input value of `40.62` had been converted to `
 
 ```js
 0.1 + 0.2 == 0.3 // false
-0.1 + 0.3 // 0.30000000000000004
+0.1 + 0.2 // 0.30000000000000004
 ```
 
 ## Floating point arithmetic
