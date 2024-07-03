@@ -14,7 +14,7 @@ tags:
 
 > Inspired by [Wes Bos's Uses page](https://wesbos.com/uses), here's a list of the tools and software I use regularly. Check out [uses.tech](https://uses.tech/) to see what everyone else */uses*
 
-## Software
+<h3 id="software">Software</h3>
 
 - Whether I'm on a Mac or PC, I use [Visual Studio Code](https://code.visualstudio.com/) almost exclusively, with a little bit of `vim` here and there.
 - I like the [Synthwave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) VS Code Theme.
@@ -29,7 +29,7 @@ tags:
 
 ---
 
-## Hardware
+<h3 id="hardware">Hardware</h3>
 
 - I keep an [iPhone 15](https://www.apple.com/au/iphone-15/) in my pocket, upgrading from an iPhone 13, and a 2018 iPhone XR before that.
 
@@ -42,7 +42,7 @@ tags:
 
 ---
 
-### Audio / Video
+<h3 id="av">Audio / Video</h3>
 
 - [Canon m200](https://www.canon.com.au/cameras/eos-m200) - A compact mirror-less camera sends clean 1080p output via micro HDMI, routed through a cheap HDMI USB capture card to provide webcam input. Powered with a battery replacement kit for always-on power.
 - A 2022 audio upgrade with the [Rode VideoMic Go II](https://rode.com/en/microphones/on-camera/videomic-go-ii) and the [Rode Connect](https://rode.com/en/software/rodeconnect) companion app for more audio routing flexibility with a bit less bulk as this connects directly via USB and doesn't require an additional audio interface.
