@@ -70,6 +70,7 @@ a.logo {
   height: var(--logo-size);
   border-radius: 50%;
   overflow: hidden;
+  text-indent: -1000px;
 }
 a.logo img {
   opacity: 1;
