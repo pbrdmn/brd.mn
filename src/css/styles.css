@@ -76,11 +76,11 @@ a.logo {
   position: relative;
   top: 0;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
-  transition: 0.3s;
+  transition: 0.2s;
 }
 a.logo:hover {
-  top: -2px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  top: -1px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 h1,
