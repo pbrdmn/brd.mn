@@ -86,10 +86,7 @@ For a full open graph implementation, we add each of the above meta tags to our 
   content="{{'{{'}} site.url }}{{'{{'}} page.url }}{{'{{'}} image }}"
 />
 {%- else %}
-<meta
-  property="og:image"
-  content="{{'{{'}} site.url }}/images/logo-large.jpg"
-/>
+<meta property="og:image" content="{{'{{'}} site.url }}/images/logo.png" />
 {%- endif %}
 <meta property="og:site_name" content="{{'{{'}} site.name }}" />
 ```

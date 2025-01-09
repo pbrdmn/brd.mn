@@ -66,21 +66,17 @@ a.logo {
   color: var(--foreground);
   background: var(--purple);
   background: linear-gradient(45deg, var(--orange) 0%, var(--purple) 100%);
-  background-image: url("/images/logo@3x.webp");
+  background-image: url("/images/logo.png");
   background-size: cover;
   width: var(--logo-size);
   height: var(--logo-size);
-  border-radius: 10%;
+  border-radius: 50%;
   overflow: hidden;
   text-indent: -1000px;
   position: relative;
   top: 0;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
   transition: 0.2s;
-}
-a.logo:hover {
-  top: -1px;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 h1,
