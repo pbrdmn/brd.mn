@@ -11,15 +11,11 @@ Engineering Manager leading cross-functional software engineering teams
 
 > ## Highlights
 >
-> Leading distributed cross-functional software engineering teams
+> Building distributed cross-functional software engineering teams. Mentoring, coaching, and development of software engineers for grown in senior development and team lead skills.
 >
-> Building teams, mentoring, coaching, and development of software engineers for grown in senior development and team lead skills, utilising OKRs and company growth framework
+> Delivery planning with Product Managers and Tech Lead to plan roadmaps, project delivery, and technical solutions with engineering best practices.
 >
-> Supporting teams through restructure and aligning teams with business objectives, implementing agile, lean delivery processes and improvements
->
-> Delivery planning with Product Managers and Tech Lead to plan roadmaps, project delivery, and technical solutions with engineering best practices
->
-> Hiring, performance management, and process improvement activities in collaboration with HR and hiring teams
+> Supporting teams through restructure and aligning teams with business objectives, implementing agile delivery processes and improvements.
 
 ## Experience
 
