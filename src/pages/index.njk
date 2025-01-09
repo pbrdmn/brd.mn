@@ -4,15 +4,8 @@ description: Interested in how things work; breaking things and fixing things
 permalink: /
 ---
 
-<p>Former software engineer, current engineering manager.<br />{{ description }}.</p>
+<p>Engineering management of distributed cross-functional software development teams.</p>
+<p>{{ description }}.</p>
 <p>Located in Wollongong, Australia.</p>
 
 {%- include 'links.njk' %}
-
-<hr />
-
-{%- for article in collections.articles | reverse | limit(3, 0) -%}
-  {%- include 'snippet.njk' %}
-{%- endfor %}
-
-<p><a href="/articles/" title="All articles">All articles...</a></p>
