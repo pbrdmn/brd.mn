@@ -29,10 +29,12 @@ Redbubble is creating the world's largest marketplace for independent artists, b
 
 Joined the Artist Experience team as Engineering Manager to lead the development of artist-facing features and experiences across the marketplace.
 
-- Team alignment of corporate strategic initiatives
-- Delivery planning for technical solutions with engineering best practices
-- Mentoring, coaching, and development of software engineers
-- Delivering impact to artist marketplace through high value initiatives
+After restructures in January and May 2023 took Engineering Manager responsibility for Content Health and Search teams leading engineers through several successful major projects including onboarding, account verification, payments, marketplace tiers and fees, and vector search.
+
+- Team alignment and restructure to align with strategic business objectives and initiatives
+- Delivery planning with Product Managers and Tech Lead to plan roadmaps, project delivery, and technical solutions with engineering best practices
+- Mentoring, coaching, and development of software engineers for grown in senior development and team lead skills, utilising OKRs and company growth framework
+- Delivering impact to artist marketplace through successful execution of several high value initiatives with positive business impact of over twelve million dollars of annual revenue.
 
 ---
 
