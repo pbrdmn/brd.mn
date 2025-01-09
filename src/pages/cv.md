@@ -11,13 +11,15 @@ Engineering Manager leading cross-functional software engineering teams
 
 > ## Highlights
 >
-> Aligning team delivery planning with delivering value for company objectives and strategic initiatives
+> Leading distributed cross-functional software engineering teams
+>
+> Building teams, mentoring, coaching, and development of software engineers for grown in senior development and team lead skills, utilising OKRs and company growth framework
+>
+> Supporting teams through restructure and aligning teams with business objectives, implementing agile, lean delivery processes and improvements
+>
+> Delivery planning with Product Managers and Tech Lead to plan roadmaps, project delivery, and technical solutions with engineering best practices
 >
 > Hiring, performance management, and process improvement activities in collaboration with HR and hiring teams
->
-> Building teams, mentoring, coaching, professional development
->
-> Implemented agile, lean delivery processes and improvements, and driving engagement
 
 ## Experience
 
@@ -25,11 +27,9 @@ Engineering Manager leading cross-functional software engineering teams
 
 #### October 2022 - Current
 
-Redbubble is creating the world's largest marketplace for independent artists, bringing more creativity into the world.
+_Redbubble is creating the world's largest marketplace for independent artists, bringing more creativity into the world._
 
-Joined the Artist Experience team as Engineering Manager to lead the development of artist-facing features and experiences across the marketplace.
-
-After restructures in January and May 2023 took Engineering Manager responsibility for Content Health and Search teams leading engineers through several successful major projects including onboarding, account verification, payments, marketplace tiers and fees, and vector search.
+Joined Redbubble's Artist Experience team as Engineering Manager in 2022 to lead the development of artist-facing features and experiences across the marketplace. After restructures in January and May 2023 I took on Engineering Manager responsibility for Content Health and Search teams leading engineers through several successful major projects including onboarding, account verification, payments, marketplace tiers and fees, and vector search. Delivering impact to artist marketplace through successful execution of several high value initiatives with positive business impact of over twelve million dollars of annual revenue.
 
 - Team alignment and restructure to align with strategic business objectives and initiatives
 - Delivery planning with Product Managers and Tech Lead to plan roadmaps, project delivery, and technical solutions with engineering best practices
@@ -46,7 +46,7 @@ After restructures in January and May 2023 took Engineering Manager responsibili
 
 #### June 2021 - October 2022 (1 year, 5 months)
 
-Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights.
+_Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights._
 
 Joined [Compono](https://compono.com) in 2018 as the fourth developer working as a Senior Full Stack Developer, building job posting and candidate hiring web application with React, GraphQL, TypeScript and Node micro-services running in Kubernetes on AWS.
 
@@ -84,7 +84,9 @@ Promoted to Engineering Manager in 2021, I trained a replacement lead developer 
 
 #### August 2016 - October 2018 (2 years, 2 months)
 
-AirService combines mobile commerce services to deliver an “out of the box” experience, fully branded as our client’s own.
+_AirService combines mobile commerce services to deliver an “out of the box” experience, fully branded as our client’s own._
+
+Joined AirService in 2016, with a product focused team on a modern technology stack with CI/CD and launched a React Native mobile application to support an online ordering solution. During this time I also completed a Graduate Certificate of Mobile Application Development with Charles Sturt University.
 
 - Built Angular and React applications backed by Ruby on Rails API server
 - Application state management with Redux, AWS Lambda client/server integration
@@ -93,7 +95,11 @@ AirService combines mobile commerce services to deliver an “out of the box” 
 
 ---
 
-### Senior Web Developer at Wisdom Advertising and Design
+> Between 2008 and 2016, I built CMS and e-commerce web applications at Bicycling Australia and Wisdom Advertising and Design. Working across different industries with a variety of different clients brought new perspectives, technical challenges, and great opportunities to work closely with clients, account managers, and designers to understand requirements, scope, and deliverables.
+
+---
+
+### Web Developer at Wisdom Advertising and Design
 
 #### September 2012 - April 2016 (3 years, 7 months)
 
