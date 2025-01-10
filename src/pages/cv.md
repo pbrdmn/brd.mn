@@ -5,8 +5,6 @@ description: The Curriculum Vitae of Philip Boardman
 permalink: cv/
 ---
 
-Experienced Engineering Manager with a proven track record of building high-performing, distributed, cross-functional teams. Skilled in mentoring and coaching engineers, delivering impactful technical solutions, and aligning teams with business objectives. Adept at implementing agile processes, fostering team growth, and driving initiatives that achieve measurable business outcomes.
-
 ![LinkedIn](/images/linkedin.png) [Connect with me on LinkedIn](https://linkedin.com/in/philipboardman/)
 
 > ## Highlights
@@ -15,15 +13,21 @@ Experienced Engineering Manager with a proven track record of building high-perf
 > - Delivery planning with Product Managers and Tech Leads to create roadmaps, oversee project delivery, and implement technical solutions aligned with engineering best practices.
 > - Supporting teams through restructures, aligning them with business objectives, and implementing agile delivery processes and improvements.
 
+Experienced Engineering Manager with 4 years of direct people management, leading cross-functional teams in fast-paced environments. Skilled in mentoring, coaching, and developing engineers, fostering a culture of growth and high performance. Demonstrated success in building and restructuring teams to align with strategic business objectives, driving measurable outcomes. Proven ability to lead through change and deliver complex projects while empowering team members to excel in senior roles and leadership positions.
+
+Accomplished Senior Software Engineer and Lead Developer with over 10 years of experience in full-stack development, architecture, and technical leadership. Proficient in driving agile practices, optimising development workflows, and delivering scalable, high-performance solutions. Extensive experience with modern tech stacks including React, Node.js, TypeScript, and AWS. Proven track record in leading the design and delivery of key product features that generate significant business value.
+
+---
+
 ## Experience
 
 ### Engineering Manager at Redbubble
 
 #### October 2022 - Current
 
-> Redbubble is creating the world's largest marketplace for independent artists, bringing more creativity into the world.
+Redbubble is creating the world's largest marketplace for independent artists, bringing more creativity into the world.
 
-Led multiple cross-functional teams across Artist Experience, Content Health, and Search, aligning engineering efforts with strategic business objectives. Managed restructures and team realignment to drive productivity and innovation.
+> Led multiple cross-functional teams across Artist Experience, Content Health, and Search, aligning engineering efforts with strategic business objectives. Managed restructures and team realignment to drive productivity and innovation.
 
 - **Delivered impactful business outcomes**, completing initiatives contributing over **$12M in annual revenue growth**.
 - Realigned team structures following organisation restructures, and implemented agile practices to enhance focus on high-priority objectives and improve delivery speed.
@@ -40,9 +44,9 @@ Led multiple cross-functional teams across Artist Experience, Content Health, an
 
 #### June 2021 - October 2022 (1 year, 5 months)
 
-> Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights.
+Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights.
 
-Promoted to Engineering Manager after success as a Lead Developer. Oversaw three product teams, driving engineering process improvements, mentoring engineers, and delivering key projects aligned with strategic goals.
+> Promoted to Engineering Manager after success as a Lead Developer. Oversaw three product teams, driving engineering process improvements, mentoring engineers, and delivering key projects aligned with strategic goals.
 
 - Built and managed engineering teams across multiple software products, improving team productivity.
 - Hired and onboarded engineers, conducted performance reviews, and developed growth plans using OKRs.
@@ -52,7 +56,7 @@ Promoted to Engineering Manager after success as a Lead Developer. Oversaw three
 
 #### January 2020 - June 2021 (1 year, 6 months)
 
-Formed and led a new team to build an Applicant Tracking System (ATS) as part of an intelligent hiring platform. Partnered with product managers to implement agile practices and establish team goals.
+> Formed and led a new team to build an Applicant Tracking System (ATS) as part of an intelligent hiring platform. Partnered with product managers to implement agile practices and establish team goals.
 
 - Designed and delivered a greenfield ATS product, integrating with third-party platforms for seamless scheduling and interviews.
 - Established agile practices and best development processes, improving team alignment and output.
@@ -62,7 +66,7 @@ Formed and led a new team to build an Applicant Tracking System (ATS) as part of
 
 #### November 2018 - January 2020 (1 year, 10 months)
 
-Contributed to the development of job posting and candidate hiring applications using a modern tech stack, including React, TypeScript, and Kubernetes microservices.
+> Contributed to the development of job posting and candidate hiring applications using a modern tech stack, including React, TypeScript, and Kubernetes microservices.
 
 - Delivered Stripe billing integration, enhancing subscription management capabilities.
 - Launched internal messaging features with external email notifications, improving user engagement.
@@ -74,9 +78,9 @@ Contributed to the development of job posting and candidate hiring applications 
 
 #### August 2016 - October 2018 (2 years, 2 months)
 
-> AirService combines mobile commerce services to deliver an “out of the box” experience, fully branded as our client’s own.
+AirService combines mobile commerce services to deliver an “out of the box” experience, fully branded as our client’s own.
 
-Worked in a product-focused team to build and deploy web and mobile applications, utilizing modern frameworks and cloud infrastructure.
+> Worked in a product-focused team to build and deploy web and mobile applications, utilizing modern frameworks and cloud infrastructure.
 
 - Built Angular and React applications backed by Ruby on Rails API server
 - Launched a React Native mobile app for iOS and Android, expanding product reach and usability.
@@ -89,9 +93,9 @@ Worked in a product-focused team to build and deploy web and mobile applications
 
 #### September 2012 - April 2016 (3 years, 7 months)
 
-> Wisdom is a marketing, advertising, design and web development studio.
+Wisdom is a marketing, advertising, design and web development studio.
 
-Collaborated with account managers and designers to deliver custom CMS and e-commerce solutions for various clients.
+> Collaborated with account managers and designers to deliver custom CMS and e-commerce solutions for various clients.
 
 - Designed and developed mobile applications for iOS, Android, and Windows platforms.
 - Delivered tailored CMS and e-commerce websites, aligning with client branding requirements.
@@ -103,9 +107,9 @@ Collaborated with account managers and designers to deliver custom CMS and e-com
 
 #### September 2008 - June 2015 (6 years, 9 months)
 
-> Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an online classifieds site.
+Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an online classifieds site.
 
-Developed and maintained web applications, including CMS and e-commerce platforms, to support the company’s publishing and retail operations.
+> Developed and maintained web applications, including CMS and e-commerce platforms, to support the company’s publishing and retail operations.
 
 - Built a Drupal CMS integrated with e-commerce platforms for seamless content management.
 - Developed and launched 11 iOS apps, expanding the brand’s digital presence.
