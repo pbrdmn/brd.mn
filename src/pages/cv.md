@@ -41,6 +41,7 @@ Led multiple cross-functional teams across Artist Experience, Content Health, an
 #### June 2021 - October 2022 (1 year, 5 months)
 
 _Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights._
+
 Promoted to Engineering Manager after success as a Lead Developer. Oversaw three product teams, driving engineering process improvements, mentoring engineers, and delivering key projects aligned with strategic goals.
 
 - Built and managed engineering teams across multiple software products, improving team productivity.
@@ -102,7 +103,7 @@ Collaborated with account managers and designers to deliver custom CMS and e-com
 
 #### September 2008 - June 2015 (6 years, 9 months)
 
-**Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an online classifieds site.**
+_Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an online classifieds site._
 
 Developed and maintained web applications, including CMS and e-commerce platforms, to support the company’s publishing and retail operations.
 
