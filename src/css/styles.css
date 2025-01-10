@@ -176,6 +176,10 @@ hr {
   margin: 2rem auto;
 }
 
+li {
+  margin-bottom: 0.5rem;
+}
+
 /* Homepage nav block */
 nav ul {
   margin: 1rem 0;

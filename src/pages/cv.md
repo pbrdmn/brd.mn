@@ -11,11 +11,9 @@ Experienced Engineering Manager with a proven track record of building high-perf
 
 > ## Highlights
 >
-> ★ Building distributed cross-functional software engineering teams. Mentoring, coaching, and developing software engineers to grow in senior development and team leadership skills.
->
-> ★ Delivery planning with Product Managers and Tech Leads to create roadmaps, oversee project delivery, and implement technical solutions aligned with engineering best practices.
->
-> ★ Supporting teams through restructures, aligning them with business objectives, and implementing agile delivery processes and improvements.
+> - Building distributed cross-functional software engineering teams. Mentoring, coaching, and developing software engineers to grow in senior development and team leadership skills.
+> - Delivery planning with Product Managers and Tech Leads to create roadmaps, oversee project delivery, and implement technical solutions aligned with engineering best practices.
+> - Supporting teams through restructures, aligning them with business objectives, and implementing agile delivery processes and improvements.
 
 ## Experience
 
@@ -25,12 +23,12 @@ Experienced Engineering Manager with a proven track record of building high-perf
 
 _Redbubble is creating the world's largest marketplace for independent artists, bringing more creativity into the world._
 
-Joined Redbubble's Artist Experience team as Engineering Manager in 2022 to lead the development of artist-facing features and experiences across the marketplace. After restructures in January and May 2023 I took on Engineering Manager responsibility for Content Health and Search teams leading engineers through several successful major projects including onboarding, account verification, payments, marketplace tiers and fees, and vector search. Delivering impact to artist marketplace through successful execution of several high value initiatives with positive business impact of over twelve million dollars of annual revenue.
+Led multiple cross-functional teams across Artist Experience, Content Health, and Search, aligning engineering efforts with strategic business objectives. Managed restructures and team realignment to drive productivity and innovation.
 
-- Team alignment and restructure to align with strategic business objectives and initiatives
-- Delivery planning with Product Managers and Tech Lead to plan roadmaps, project delivery, and technical solutions with engineering best practices
-- Mentoring, coaching, and development of software engineers for grown in senior development and team lead skills, utilising OKRs and company growth framework
-- Delivering impact to artist marketplace through successful execution of several high value initiatives with positive business impact of over twelve million dollars of annual revenue.
+- **Delivered impactful business outcomes**, completing initiatives contributing over **$12M in annual revenue growth**.
+- Realigned team structures following organisation restructures, and implemented agile practices to enhance focus on high-priority objectives and improve delivery speed.
+- Coached and mentored team members, resulting in **5 internal promotions** to senior or leadership roles.
+- Partnered with product management to define roadmaps, ensuring alignment with technical best practices and business goals.
 
 ---
 
@@ -43,17 +41,11 @@ Joined Redbubble's Artist Experience team as Engineering Manager in 2022 to lead
 #### June 2021 - October 2022 (1 year, 5 months)
 
 _Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights._
+Promoted to Engineering Manager after success as a Lead Developer. Oversaw three product teams, driving engineering process improvements, mentoring engineers, and delivering key projects aligned with strategic goals.
 
-Joined [Compono](https://compono.com) in 2018 as the fourth developer working as a Senior Full Stack Developer, building job posting and candidate hiring web application with React, GraphQL, TypeScript and Node micro-services running in Kubernetes on AWS.
-
-Took a Lead Full Stack Developer role in 2020 and formed a new team to create an Applicant Tracking System (ATS) to extend the feature set of the intelligent hiring product. Introduced agile methodologies to the product team and implement a shift-left approach to quality.
-
-Promoted to Engineering Manager in 2021, I trained a replacement lead developer for my team and began overseeing three product teams. I was involved in all aspects of hiring, mentoring, career development, and engineering process improvements. Lead the formation of a new team to tackle a significant strategic software re-architecture of a core business function.
-
-- Building and managing engineering teams across a suite of software products
-- Hiring, mentoring and performance reviews across teams of software engineers
-- Working with product manager to establish and tracking roadmap and OKRs
-- Establish and improve engineering processes, agile methodologies and performance of the software development lifecycle.
+- Built and managed engineering teams across multiple software products, improving team productivity.
+  Hired and onboarded engineers, conducted performance reviews, and developed growth plans using OKRs.
+  Introduced agile methodologies and a shift-left approach to quality, reducing delivery cycle time by **25%**.
 
 ### Lead Full Stack Developer at Compono
 
@@ -124,8 +116,27 @@ Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an onlin
 
 ## Skills
 
-Leadership, team building, mentoring, career development, hiring, performance management, agile coaching, code review, delivery planning, continuous delivery, technical decision making, process improvement, documentation, software development
+### Leadership and Management
 
-## Technologies
+- Team building, mentoring, and career development
+- Hiring and performance management
+- Delivery planning and OKR tracking
+- Agile coaching and process improvement
 
-Javascript, React, Node, Typescript, GraphQL, Ruby, Rails, MongoDB, SQL, AWS
+### Technical Skills
+
+- Code review and technical decision-making
+- Continuous delivery and CI/CD pipelines
+- Software architecture and scalability
+
+### Software Development
+
+- Full-stack development with React, Node.js, and TypeScript
+- API design with GraphQL and REST
+- Database management (SQL, MongoDB)
+
+### Tools and Platforms
+
+- AWS (Lambda, EC2, S3, etc.)
+- Kubernetes and Docker
+- Version control with Git
