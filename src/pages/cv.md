@@ -44,27 +44,28 @@ _Compono is a SAAS HR talent optimisation software platform. Enabling companies 
 Promoted to Engineering Manager after success as a Lead Developer. Oversaw three product teams, driving engineering process improvements, mentoring engineers, and delivering key projects aligned with strategic goals.
 
 - Built and managed engineering teams across multiple software products, improving team productivity.
-  Hired and onboarded engineers, conducted performance reviews, and developed growth plans using OKRs.
-  Introduced agile methodologies and a shift-left approach to quality, reducing delivery cycle time by **25%**.
+- Hired and onboarded engineers, conducted performance reviews, and developed growth plans using OKRs.
+- Introduced agile methodologies and a shift-left approach to quality testing, reducing delivery cycle time by **25%**.
 
 ### Lead Full Stack Developer at Compono
 
 #### January 2020 - June 2021 (1 year, 6 months)
 
-- Lead an agile transform of a cross-functional project team
-- Product planning, scheduling, task breakdown and backlog management
-- Lead engineering team in agile practices, including establishment of best practices across teams
-- Build and maintain a greenfield SAAS ATS to compliment existing job management application
-- Integrated with third-party calendar synchronisation platform to build self-scheduling interview feature
+Formed and led a new team to build an Applicant Tracking System (ATS) as part of an intelligent hiring platform. Partnered with product managers to implement agile practices and establish team goals.
+
+- Designed and delivered a greenfield ATS product, integrating with third-party platforms for seamless scheduling and interviews.
+- Established agile practices and best development processes, improving team alignment and output.
+- Championed a reusable component library, reducing development time for new features.
 
 ### Senior Full Stack Developer at Compono
 
 #### November 2018 - January 2020 (1 year, 10 months)
 
-- Build and maintain features in React web applications with Kubernetes micro services
-- Launched new ATS product for managing candidates in hiring pipeline
-- Build internal messaging feature with external email notifications
-- Delivered product features including Stripe billing system and internal UI component library
+Contributed to the development of job posting and candidate hiring applications using a modern tech stack, including React, TypeScript, and Kubernetes microservices.
+
+- Delivered Stripe billing integration, enhancing subscription management capabilities.
+- Launched internal messaging features with external email notifications, improving user engagement.
+- Built reusable UI components, standardizing designs across multiple products.
 
 ---
 
@@ -74,16 +75,12 @@ Promoted to Engineering Manager after success as a Lead Developer. Oversaw three
 
 _AirService combines mobile commerce services to deliver an “out of the box” experience, fully branded as our client’s own._
 
-Joined AirService in 2016, with a product focused team on a modern technology stack with CI/CD and launched a React Native mobile application to support an online ordering solution. During this time I also completed a Graduate Certificate of Mobile Application Development with Charles Sturt University.
+Worked in a product-focused team to build and deploy web and mobile applications, utilizing modern frameworks and cloud infrastructure.
 
 - Built Angular and React applications backed by Ruby on Rails API server
-- Application state management with Redux, AWS Lambda client/server integration
-- Custom dashboards with D3 charting and React SVG components
-- iOS/Android applications built with React Native
-
----
-
-> Between 2008 and 2016, I built CMS and e-commerce web applications at Bicycling Australia and Wisdom Advertising and Design. Working across different industries with a variety of different clients brought new perspectives, technical challenges, and great opportunities to work closely with clients, account managers, and designers to understand requirements, scope, and deliverables.
+- Launched a React Native mobile app for iOS and Android, expanding product reach and usability.
+- Developed interactive dashboards with D3 charting and SVG components, improving client reporting.
+- Implemented AWS Lambda integrations, enabling scalable client-server interactions.
 
 ---
 
@@ -91,12 +88,13 @@ Joined AirService in 2016, with a product focused team on a modern technology st
 
 #### September 2012 - April 2016 (3 years, 7 months)
 
-Wisdom is a marketing, advertising, design and web development studio.
+_Wisdom is a marketing, advertising, design and web development studio._
 
-- Worked with client managers to define customer scope and project specifications
-- Delivered custom websites with CMS and ecommerce functionality to design brief
-- Manage mobile application projects for iOS, Android and Windows
-- Developed client branded email templates for EDM software
+Collaborated with account managers and designers to deliver custom CMS and e-commerce solutions for various clients.
+
+- Designed and developed mobile applications for iOS, Android, and Windows platforms.
+- Delivered tailored CMS and e-commerce websites, aligning with client branding requirements.
+- Built branded email templates for EDM software, improving marketing efficiency.
 
 ---
 
@@ -104,13 +102,13 @@ Wisdom is a marketing, advertising, design and web development studio.
 
 #### September 2008 - June 2015 (6 years, 9 months)
 
-Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an online classifieds site.
+**Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an online classifieds site.**
 
-- Designed and built Drupal CMS, integrated into multiple branded ecommerce applications
-- Implemented Ad platform software to manage online advertising inventory
-- Rebuilt Classifieds site to integrate with CMS and advertising platform
-- Developed and published 11 iOS apps to App Store
-- Custom email newsletter generators for EDM software built as extension to ecommerce stores
+Developed and maintained web applications, including CMS and e-commerce platforms, to support the company’s publishing and retail operations.
+
+- Built a Drupal CMS integrated with e-commerce platforms for seamless content management.
+- Developed and launched 11 iOS apps, expanding the brand’s digital presence.
+- Implemented an ad platform, optimizing the management of online advertising inventory.
 
 ---
 
