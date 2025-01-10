@@ -21,7 +21,7 @@ Experienced Engineering Manager with a proven track record of building high-perf
 
 #### October 2022 - Current
 
-_Redbubble is creating the world's largest marketplace for independent artists, bringing more creativity into the world._
+> Redbubble is creating the world's largest marketplace for independent artists, bringing more creativity into the world.
 
 Led multiple cross-functional teams across Artist Experience, Content Health, and Search, aligning engineering efforts with strategic business objectives. Managed restructures and team realignment to drive productivity and innovation.
 
@@ -40,7 +40,7 @@ Led multiple cross-functional teams across Artist Experience, Content Health, an
 
 #### June 2021 - October 2022 (1 year, 5 months)
 
-_Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights._
+> Compono is a SAAS HR talent optimisation software platform. Enabling companies to hire, develop and retain talent with employee centric and data driven insights.
 
 Promoted to Engineering Manager after success as a Lead Developer. Oversaw three product teams, driving engineering process improvements, mentoring engineers, and delivering key projects aligned with strategic goals.
 
@@ -74,7 +74,7 @@ Contributed to the development of job posting and candidate hiring applications 
 
 #### August 2016 - October 2018 (2 years, 2 months)
 
-_AirService combines mobile commerce services to deliver an “out of the box” experience, fully branded as our client’s own._
+> AirService combines mobile commerce services to deliver an “out of the box” experience, fully branded as our client’s own.
 
 Worked in a product-focused team to build and deploy web and mobile applications, utilizing modern frameworks and cloud infrastructure.
 
@@ -89,7 +89,7 @@ Worked in a product-focused team to build and deploy web and mobile applications
 
 #### September 2012 - April 2016 (3 years, 7 months)
 
-_Wisdom is a marketing, advertising, design and web development studio._
+> Wisdom is a marketing, advertising, design and web development studio.
 
 Collaborated with account managers and designers to deliver custom CMS and e-commerce solutions for various clients.
 
@@ -103,7 +103,7 @@ Collaborated with account managers and designers to deliver custom CMS and e-com
 
 #### September 2008 - June 2015 (6 years, 9 months)
 
-_Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an online classifieds site._
+> Bicycling Australia operated 3 magazine titles, 3 e-commerce stores and an online classifieds site.
 
 Developed and maintained web applications, including CMS and e-commerce platforms, to support the company’s publishing and retail operations.
 
