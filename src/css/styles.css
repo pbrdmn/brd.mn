@@ -65,7 +65,7 @@ a.logo {
   background-size: var(--logo-size) var(--logo-size);
   width: var(--logo-size);
   height: var(--logo-size);
-  border-radius: 50%;
+  border-radius: 20%;
   overflow: hidden;
   text-indent: -1000px;
   position: relative;
