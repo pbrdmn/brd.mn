@@ -1,6 +1,6 @@
 ---
 title: Thanks for the Feedback
-description: A dynamic guide unravelling the intricacies of feedback, offering tools for growth, understanding, and communication mastery
+description: A book review of this dynamic guide unravelling the intricacies of feedback, offering tools for growth, understanding, and communication mastery
 date: 2023-12-14
 tags:
   - books
