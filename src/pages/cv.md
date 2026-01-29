@@ -9,8 +9,8 @@ permalink: cv/
 
 > Experienced Software Engineer with over 15 years of experience in full-stack development, software architecture, and technical leadership and 5 years of direct people management in cross-functional teams.
 
-Extensive experience with modern tech stacks including React, Node.js, TypeScript, and AWS. Proven track record in leading the design and delivery of key product features that generate signiﬁcant business value.
-Collaborating on delivery planning: Working alongside Product Managers and Tech Leads to craft roadmaps, lead project delivery, and execute technical solutions that adhere to engineering best practices.
+Extensive experience with modern tech stacks including React, Node.js, TypeScript, and AWS. Proven track record in leading the design and delivery of key product features that generate signiﬁcant business value.  
+Collaborating on delivery planning: Working alongside Product Managers and Tech Leads to craft roadmaps, lead project delivery, and execute technical solutions that adhere to engineering best practices.  
 Experience managing distributed, cross-functional software engineering teams. Providing mentorship, coaching, and development opportunities for software engineers to enhance their senior development and team leadership skills.
 
 ---
