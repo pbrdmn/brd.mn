@@ -7,23 +7,25 @@ permalink: cv/
 
 ![LinkedIn](/images/linkedin.png) [Connect with me on LinkedIn](https://linkedin.com/in/philipboardman/)
 
-> ## Highlights
->
-> - Building distributed cross-functional software engineering teams. Mentoring, coaching, and developing software engineers to grow in senior development and team leadership skills.
-> - Delivery planning with Product Managers and Tech Leads to create roadmaps, oversee project delivery, and implement technical solutions aligned with engineering best practices.
-> - Supporting teams through restructures, aligning them with business objectives, and implementing agile delivery processes and improvements.
+> Experienced Software Engineer with over 15 years of experience in full-stack development, software architecture, and technical leadership and 5 years of direct people management in cross-functional teams.
 
-Experienced Engineering Manager with 4 years of direct people management, leading cross-functional teams in fast-paced environments. Skilled in mentoring, coaching, and developing engineers, fostering a culture of growth and high performance. Demonstrated success in building and restructuring teams to align with strategic business objectives, driving measurable outcomes. Proven ability to lead through change and deliver complex projects while empowering team members to excel in senior roles and leadership positions.
-
-Accomplished Senior Software Engineer and Lead Developer with over 10 years of experience in full-stack development, architecture, and technical leadership. Proficient in driving agile practices, optimising development workflows, and delivering scalable, high-performance solutions. Extensive experience with modern tech stacks including React, Node.js, TypeScript, and AWS. Proven track record in leading the design and delivery of key product features that generate significant business value.
+Extensive experience with modern tech stacks including React, Node.js, TypeScript, and AWS. Proven track record in leading the design and delivery of key product features that generate signiﬁcant business value.
+Collaborating on delivery planning: Working alongside Product Managers and Tech Leads to craft roadmaps, lead project delivery, and execute technical solutions that adhere to engineering best practices.
+Experience managing distributed, cross-functional software engineering teams. Providing mentorship, coaching, and development opportunities for software engineers to enhance their senior development and team leadership skills.
 
 ---
 
 ## Experience
 
+## Engineering Manager at Canva
+
+#### July 2025 - Current
+
+Lead the Internal Apps team through multiple successful launches, balancing stakeholder management, people leadership, project scope and technical delivery. Identified and managed team performance issues, reallocated resources in response to changing requirements to ensure on-time delivery for key functionality.
+
 ### Engineering Manager at Redbubble
 
-#### October 2022 - Current
+#### October 2022 - June 2025 (2 years, 9 months)
 
 Redbubble is creating the world's largest marketplace for independent artists, bringing more creativity into the world.
 
