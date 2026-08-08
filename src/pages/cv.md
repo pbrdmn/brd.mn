@@ -17,9 +17,22 @@ Experience managing distributed, cross-functional software engineering teams. Pr
 
 ## Experience
 
+## Senior Software Engineer at V-DAQ
+
+#### May 2026 - Current
+
+V-DAQ delivers advanced telematics and transport technology solutions, specialising in regulatory compliance and fleet tracking hardware integrations.
+
+- Full-Stack & Mobile Development: Led the end-to-end development of web and mobile applications, shipping high-impact features, functional enhancements, and code quality improvements across the ecosystem.
+- Real-Time Systems: Spearheaded the architecture and release of an updated React Native application, implementing robust, real-time Bluetooth Low Energy (BLE) communication protocols with proprietary hardware devices.
+- Systems Integration: Built new client reporting tools by integrating core platform software with Amazon SQS, EKS (Kubernetes), S3, and other AWS services.
+- Engineering Excellence: Drove delivery engineering changes to optimise and standardise Continuous Integration (CI) workflows and Post-Incident Review (PIR) processes, reducing deployment friction and improving system reliability.
+
 ## Engineering Manager at Canva
 
-#### July 2025 - Current
+#### July 2025 - March 2026 (9 months)
+
+Canva is a global visual communications platform, empowering millions of users worldwide to design and publish anything anywhere.
 
 Lead the Internal Apps team through multiple successful launches, balancing stakeholder management, people leadership, project scope and technical delivery. Identified and managed team performance issues, reallocated resources in response to changing requirements to ensure on-time delivery for key functionality.
 
